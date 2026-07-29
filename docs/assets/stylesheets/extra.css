@@ -82,6 +82,11 @@ body { color: var(--trip-ink); }
 .day-card h3 { margin: 0 0 .15rem; }
 .day-card__meta { margin: 0 0 .6rem; color: var(--trip-olive); font-size: .82rem; }
 .day-card ul { margin-bottom: .35rem; }
+.day-details { margin-top: .7rem; padding-top: .55rem; border-top: 1px solid var(--trip-border); }
+.day-details summary { color: var(--md-primary-fg-color); cursor: pointer; font-weight: 750; }
+.day-details[open] summary { margin-bottom: .65rem; }
+.day-details h4 { margin: .75rem 0 .2rem; font-size: .86rem; }
+.day-details p:last-child { margin-bottom: 0; }
 .route { color: var(--trip-olive); font-weight: 700; }
 .note-strip { padding: .75rem 1rem; background: var(--trip-cream); border-left: .25rem solid var(--trip-olive); border-radius: .2rem .6rem .6rem .2rem; }
 
