@@ -16,13 +16,31 @@
 <div class="day-card">
   <h3>12월 24일 목요일 · 바티칸</h3>
   <p class="day-card__meta">2일차 · 로마 2/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">박물관 운영 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status recheck">대성당 시간 재확인</span>
+  <h4>오전 · 바티칸 박물관과 시스티나 성당</h4>
   <ul>
-    <li>바티칸 박물관과 시스티나 성당</li>
-    <li>성베드로 대성당과 광장</li>
-    <li>오전 시간대 입장 우선 검토</li>
+    <li>2026년 공식 달력상 방문 가능하며 성탄 전야 단축 운영</li>
+    <li>08:00 개관 · 13:00 마지막 입장 · 15:00 폐관</li>
+    <li>08:00 입장을 최우선으로 예약, 차선은 08:30 → 09:00</li>
+    <li>시스티나 성당은 박물관 입장권에 포함</li>
+    <li>가족 온라인 티켓 예상액은 현재 가격 기준 €80, 실제 가격은 예약 시 재확인</li>
   </ul>
-  <p><strong>검증 필요:</strong> 성탄 전후 운영일과 입장 시간을 공식 사이트에서 확인</p>
+  <h4>정오 이후 · 성베드로 대성당과 광장</h4>
+  <ul>
+    <li>박물관 퇴장 후 성베드로 광장으로 이동</li>
+    <li>대성당 일반 입장은 무료이며 별도 보안검색 필수</li>
+    <li>2024년 성탄 전례는 19:00, 2025년은 22:00에 시작</li>
+    <li>정오 전후 방문 가능성이 있으나 2026년 전례·입장 통제 발표 후 최종 확정</li>
+  </ul>
+  <h4>잠정 시간표</h4>
+  <ul>
+    <li>07:30 박물관 입구 도착 → 08:00 입장</li>
+    <li>08:00~11:30 박물관·시스티나 성당</li>
+    <li>11:30~12:00 퇴장·광장 이동 → 12:00 이후 보안검색</li>
+    <li>12:30~14:00 대성당·광장 → 이후 늦은 점심</li>
+  </ul>
+  <blockquote><p>성베드로 대성당 일정은 2026년 성탄 전례와 보안 통제 발표 전까지 잠정안입니다.</p></blockquote>
+  <p><strong>상세 근거:</strong> <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-24.md" target="_blank" rel="noopener">저장소 조사 문서</a> <code>research/vatican-2026-12-24.md</code></p>
 </div>
 
 <div class="day-card">

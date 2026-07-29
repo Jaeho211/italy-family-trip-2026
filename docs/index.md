@@ -32,11 +32,14 @@ hide:
 
 ## 상태 안내
 
-<span class="status confirmed">확정</span> 변경 가능성이 매우 낮은 항공 일정  
-<span class="status tentative">잠정</span> 가족 합의 또는 세부 조정이 남은 일정  
-<span class="status weather">날씨 조건부</span> 기상에 따라 대체안으로 전환할 일정  
-<span class="status booking">예약 필요</span> 사전 구매·예약이 필요한 항목  
-<span class="status review">검토 중</span> 공식 정보 확인이나 비교가 필요한 항목
+<span class="status confirmed">확정</span> 변경 가능성이 매우 낮은 항공 일정<br>
+<span class="status tentative">잠정</span> 가족 합의 또는 세부 조정이 남은 일정<br>
+<span class="status weather">날씨 조건부</span> 기상에 따라 대체안으로 전환할 일정<br>
+<span class="status booking">예약 필요</span> 사전 구매·예약이 필요한 항목<br>
+<span class="status review">검토 중</span> 공식 정보 확인이나 비교가 필요한 항목<br>
+<span class="status verified">운영 확인</span> 해당 날짜의 공식 운영정보를 확인한 항목<br>
+<span class="status waiting">판매 대기</span> 공식 포털의 판매 개시를 기다리는 항목<br>
+<span class="status recheck">공식 발표 대기</span> 향후 발표 후 시간을 다시 확정할 항목
 
 ## 지금 결정할 것
 
@@ -62,10 +65,11 @@ hide:
 ## 다음 예약 작업
 
 1. 취소 가능한 조건으로 세 구간 숙소 후보 비교
-2. 바티칸 박물관과 콜로세움 공식 판매 일정 확인
-3. 로마–나폴리 왕복 고속열차 판매 개시일 확인
-4. 치비타·오르비에토 및 아말피 해안 렌터카 조건 비교
-5. 폼페이 입장과 현지 교통 최신 정보 확인
+2. 2026년 10월 24일부터 바티칸 공식 포털 확인, 콜로세움 공식 판매 일정 확인
+3. 2026년 11월 말부터 성베드로 대성당 전례·입장 통제 확인
+4. 로마–나폴리 왕복 고속열차 판매 개시일 확인
+5. 치비타·오르비에토 및 아말피 해안 렌터카 조건 비교
+6. 폼페이 입장과 현지 교통 최신 정보 확인
 
 [예약 현황 열기](reservations.md){ .md-button .md-button--primary }
 [준비 체크리스트](checklist.md){ .md-button }

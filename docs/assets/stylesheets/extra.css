@@ -74,6 +74,9 @@ body { color: var(--trip-ink); }
 .status.weather { color: #225e78; background: #e1f1f7; border-color: #afd5e3; }
 .status.booking { color: #873e2d; background: #fae9e2; border-color: #ebc3b7; }
 .status.review { color: #5d526d; background: #eee9f5; border-color: #d2c6e1; }
+.status.verified { color: #176051; background: #ddf2ed; border-color: #acd8cc; }
+.status.waiting { color: #79531d; background: #fff0cc; border-color: #e7cd8e; }
+.status.recheck { color: #4c577a; background: #e8ebf7; border-color: #c3cae2; }
 
 .day-card { margin: .8rem 0; border-left: .28rem solid var(--md-primary-fg-color); }
 .day-card h3 { margin: 0 0 .15rem; }

@@ -6,13 +6,20 @@
 
 ### 바티칸 하루
 
-<span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+<span class="status tentative">잠정</span><span class="status verified">박물관 운영 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status recheck">대성당 시간 재확인</span>
 
 [바티칸 박물관](https://www.google.com/maps/search/?api=1&query=Vatican+Museums){ target="_blank" rel="noopener" } → 시스티나 성당 → [성베드로 광장](https://www.google.com/maps/search/?api=1&query=St+Peters+Square+Vatican){ target="_blank" rel="noopener" }
 
-- 오전 입장권 우선 검토
-- 박물관 관람 뒤 점심과 대성당 대기시간을 여유 있게 배치
-- 성탄 전후 운영일·입장 방식은 예약 전에 공식 사이트로 확인
+- 12월 24일은 공식 달력상 08:00 개관, 13:00 마지막 입장, 15:00 폐관인 단축 운영일입니다.
+- 08:00 입장을 목표로 하고, 매진 시 08:30 → 09:00 순서로 확인합니다.
+- 박물관 입장권에는 시스티나 성당 관람이 포함됩니다.
+- 성베드로 대성당은 박물관 티켓과 별개이며, 일반 입장은 무료이고 보안검색이 필수입니다.
+- 박물관 관람 후 정오 전후 대성당과 광장으로 이동하되, 2026년 성탄 전례와 입장 통제가 발표되면 시간을 다시 확정합니다.
+
+!!! warning "공식 포털만 사용"
+    입장권은 [Vatican Museums 공식 티켓 포털](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" }에서 구매합니다. 검색 광고와 유사 도메인의 재판매 사이트를 이용하지 않습니다. 판매가 정확히 60일 전에 시작된다고 공식 확인된 것은 아니므로 2026년 10월 24일부터 판매창을 확인합니다.
+
+상세 조사와 공식 출처: [GitHub 조사 문서](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-24.md){ target="_blank" rel="noopener" } · `research/vatican-2026-12-24.md`
 
 ### 크리스마스 구시가지 산책
 
@@ -45,7 +52,8 @@
 
 ## 아직 확인할 정보
 
-- 바티칸과 콜로세움의 2026–2027 겨울 공식 판매 일정
+- 바티칸 공식 티켓 판매 개시와 콜로세움의 2026–2027 겨울 판매 일정
+- 2026년 12월 24일 성탄 전례 및 성베드로 대성당 일반 입장 통제시간
 - 성탄절·신정의 시설 운영 및 대중교통 변동
 - FCO 공항 이동 수단의 운행 정보
 
