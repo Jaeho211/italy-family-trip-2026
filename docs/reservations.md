@@ -16,6 +16,8 @@
 | 콜로세움 통합권 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 공식 판매 일정과 오전 시간 확인 |
 | 로마 → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 두 회사 시간·운임·취소 조건 비교 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 새해 전야 도착시간 고려 |
+| 나폴리 국립고고학박물관 | <span class="status recheck">운영 재확인</span> | 고속열차 예약 전 | 높음 | 12/27 오후 운영·마지막 입장·티켓 방식 확인 |
+| 나폴리 지하도시 체험 | <span class="status booking">예약 필요</span> | 체험 후보 선정 후 | 높음 | 12/29 오전, 시간·연령 조건·공식 예약 확인 |
 | 12/26 로마 렌터카 | <span class="status booking">예약 필요</span> | 운영 확인 후 | 높음 | 공휴일 영업·자동변속·무료취소 확인 |
 | 폼페이 입장 | <span class="status booking">예약 필요</span> | 일정 확정 후 | 보통 | 운영시간·공식 구매 방법 확인 |
 | 12/30 나폴리 렌터카 | <span class="status weather">날씨 조건부</span> | 날씨 판단 전 | 보통 | 무료취소 차량과 대체안 확보 |

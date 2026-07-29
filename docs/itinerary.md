@@ -70,15 +70,16 @@
 </div>
 
 <div class="day-card">
-  <h3>12월 27일 일요일 · 나폴리 이동</h3>
+  <h3>12월 27일 일요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">5일차 · 나폴리 1/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span><span class="status recheck">박물관 운영 재확인</span>
   <ul>
     <li>Roma Termini → Napoli Centrale 고속열차</li>
     <li>Frecciarossa와 Italo의 시간·운임·취소 조건 비교</li>
-    <li>숙소 체크인 후 시내 산책</li>
-    <li>도착시간에 따라 국립고고학박물관 검토</li>
+    <li>숙소 체크인과 짐 정리</li>
+    <li>오후 나폴리 국립고고학박물관 관람</li>
   </ul>
+  <p><strong>검증 필요:</strong> 박물관 운영·마지막 입장시간에 맞춰 로마 출발 열차를 선택</p>
 </div>
 
 <div class="day-card">
@@ -94,15 +95,16 @@
 </div>
 
 <div class="day-card">
-  <h3>12월 29일 화요일 · 나폴리</h3>
+  <h3>12월 29일 화요일 · 나폴리 지하도시와 구시가지</h3>
   <p class="day-card__meta">7일차 · 나폴리 3/4박</p>
-  <span class="status tentative">잠정</span><span class="status review">검토 중</span>
+  <span class="status tentative">잠정</span><span class="status booking">지하도시 예약 필요</span>
   <ul>
-    <li>Spaccanapoli와 구시가지</li>
-    <li>Via Toledo → Quartieri Spagnoli → Galleria Umberto I</li>
-    <li>Piazza del Plebiscito와 해안 산책</li>
+    <li>오전 나폴리 지하도시 체험</li>
+    <li>Spaccanapoli와 나폴리 구시가지 산책</li>
+    <li>Via Toledo → Galleria Umberto I → Piazza del Plebiscito</li>
+    <li>오후 늦게 해안 산책</li>
   </ul>
-  <p><strong>검증 필요:</strong> 국립고고학박물관의 해당 날짜 운영 여부. 운영하지 않으면 12월 27일 또는 30일 대체안에 배치</p>
+  <p><strong>검증 필요:</strong> 지하도시 체험 장소·시간·연령 조건·공식 예약 방법</p>
 </div>
 
 <div class="day-card">
@@ -164,6 +166,6 @@
 ## 일정 변경 원칙
 
 - 날씨가 나쁘면 12월 30일 아말피 해안을 나폴리 시내 또는 카세르타 일정으로 바꿉니다.
-- 박물관 운영일 확인 결과에 따라 나폴리 국립고고학박물관을 12월 27일 또는 다른 가능한 날짜로 옮깁니다.
+- 12월 27일 박물관 운영시간에 맞춰 로마–나폴리 열차 시간을 조정합니다.
 - 항공 출발일에는 마지막 관광보다 공항 이동 여유를 우선합니다.
 - 확정된 제외·이동 원칙은 [결정 기록](decisions.md)을 따릅니다.
