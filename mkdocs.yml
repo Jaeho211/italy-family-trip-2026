@@ -1,0 +1,64 @@
+site_name: 이탈리아 가족여행 2026–2027
+site_description: 가족 4명의 로마·나폴리 중심 겨울 이탈리아 여행 계획
+site_author: Family trip planning team
+repo_name: italy-family-trip-2026
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: italy-light
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: 어두운 화면으로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: 밝은 화면으로 전환
+  font: false
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - toc.follow
+
+nav:
+  - 여행 홈: index.md
+  - 전체 일정: itinerary.md
+  - 숙소 지역: accommodation.md
+  - 도시별 계획:
+      - 로마: rome.md
+      - 나폴리·폼페이: naples.md
+      - 근교 당일치기: day-trips.md
+  - 준비:
+      - 예약 현황: reservations.md
+      - 결정 기록: decisions.md
+      - 체크리스트: checklist.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+  social: []
+
+copyright: 일정은 잠정안입니다 · 개인정보와 예약번호는 별도로 안전하게 관리하세요
