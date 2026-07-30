@@ -2,7 +2,7 @@
 
 ## 숙소
 
-- [ ] FCO 공항 1박의 터미널 연결 또는 셔틀 운행 확인
+- [ ] 테르미니 1박의 가족 4명 객실·늦은 체크인·역 접근성 확인
 - [ ] 나폴리 4박 후보 지역과 현대적 에어비앤비 조건 비교
 - [ ] 로마 5박 후보 지역 합의
 - [ ] 실제 침실 2개, 난방, 세탁기, 엘리베이터, Wi-Fi 확인
@@ -11,8 +11,8 @@
 
 ## 열차
 
-- [ ] 12/24 FCO–나폴리 직통 겨울 편성 확인
-- [ ] 직통편이 없을 때 FCO–Termini–Napoli 환승시간 확보
+- [ ] 12/23 FCO–Roma Termini Leonardo Express 겨울 막차 확인
+- [ ] 12/24 Roma Termini–Napoli Centrale 오전 고속열차 예약
 - [ ] 12/28 Napoli Centrale–Roma Termini 오전편 예약
 - [ ] Frecciarossa와 Italo의 좌석·수하물·변경 조건 비교
 - [ ] 12/26 폼페이행 EAV 공휴일 시간표 확인

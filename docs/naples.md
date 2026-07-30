@@ -6,7 +6,7 @@
 
 <span class="status tentative">잠정</span><span class="status verified">운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
 
-FCO 공항 숙소에서 나폴리로 이동해 짐을 맡긴 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
+테르미니 숙소에서 나폴리행 고속열차를 타고 이동해 짐을 맡긴 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
 
 - 14:30 전후 입장을 목표로 합니다.
 - 일반 운영은 09:00~19:30, 마지막 입장 18:30, 화요일 휴관입니다.
@@ -52,6 +52,6 @@ FCO 공항 숙소에서 나폴리로 이동해 짐을 맡긴 뒤 [나폴리 국�
 
 ## 이동 원칙
 
-- FCO–나폴리는 직통 겨울 편성을 확인하되 Termini 환승을 기본 대안으로 유지합니다.
+- 12월 24일 아침 Roma Termini–Napoli Centrale 고속열차를 이용합니다.
 - 나폴리–로마는 12월 28일 오전 고속열차를 사용합니다.
 - 나폴리 시내에서는 도보·택시·대중교통을 조합해 아이들의 장거리 도보를 줄입니다.

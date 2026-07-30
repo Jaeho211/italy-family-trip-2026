@@ -6,10 +6,11 @@
 
 | 항목 | 상태 | 목표 시기 | 우선순위 | 비고 |
 |---|---|---|---|---|
-| FCO 공항 1박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 터미널 도보 연결 또는 늦은 시간 셔틀 확정 |
+| 테르미니 1박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/23 늦은 체크인, 가족 4명, 역에서 짐 이동이 쉬운 위치 |
 | 나폴리 4박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/24 체크인, 현대적 에어비앤비·침실 2개·세탁기 |
 | 로마 5박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/28 체크인, Termini·관광·FCO 접근성과 짐 보관 |
-| FCO → 나폴리 열차 | <span class="status booking">예약 필요</span> | 겨울 시간표 판매 후 | 높음 | 직통편 확인, 없으면 FCO–Termini–Napoli 환승 |
+| FCO → Roma Termini 열차 | <span class="status recheck">겨울 시간 재확인</span> | 12월 13일 이후 시간표 발표 후 | 높음 | 12/23 Leonardo Express 막차와 공사·파업 공지 확인 |
+| Roma Termini → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/24 오전 고속열차, MANN 14:30 전후 입장 가능 시간 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/28 판테온 오후 입장이 가능한 오전편 |
 | [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 14:30 전후 목표, 2025년 같은 날 개관 사례 확인 |
 | 12/25 나폴리 렌터카 | <span class="status booking">예약 필요</span><br><span class="status weather">날씨 조건부</span> | 우선 | 최우선 | 중앙역 08:00 수령+무인 반납 승인 또는 공항점 09:00 수령+24시간 반납 |

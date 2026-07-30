@@ -12,7 +12,7 @@ hide:
 <div class="stat-grid">
   <div class="stat"><span class="stat__label">여행 기간</span><span class="stat__value">2026. 12. 23. – 2027. 1. 3.</span></div>
   <div class="stat"><span class="stat__label">여행 인원</span><span class="stat__value">가족 4명</span></div>
-  <div class="stat"><span class="stat__label">숙박 배치</span><span class="stat__value">FCO 1박 → 나폴리 4박 → 로마 5박</span></div>
+  <div class="stat"><span class="stat__label">숙박 배치</span><span class="stat__value">테르미니 1박 → 나폴리 4박 → 로마 5박</span></div>
   <div class="stat"><span class="stat__label">현재 단계</span><span class="stat__value">항공 확정 · 숙소와 주요 예약 준비</span></div>
 </div>
 
@@ -23,7 +23,7 @@ hide:
 
 | 구간 | 숙박 | 핵심 계획 |
 |---|---:|---|
-| 12/23–12/24 FCO 공항 | 1박 | 도착일 회복, 다음 날 나폴리 이동 |
+| 12/23–12/24 테르미니 | 1박 | 공항철도로 이동·숙박, 다음 날 나폴리 고속열차 |
 | 12/24–12/28 나폴리 | 4박 | 고고학박물관, 아말피, 폼페이, 지하도시 |
 | 12/28–1/2 로마 | 5박 | 판테온, 치비타·오르비에토, 바티칸, 연말·신년, 콜로세움 |
 
@@ -44,7 +44,7 @@ hide:
 <div class="action-grid">
   <div class="action-card">
     <h3>세 구간 숙소</h3>
-    <p>FCO 공항 1박, 나폴리 4박, 로마 5박의 후보 지역과 체크인·짐 보관 조건을 비교합니다.</p>
+    <p>테르미니 1박, 나폴리 4박, 로마 5박의 후보 지역과 체크인·짐 보관 조건을 비교합니다.</p>
   </div>
   <div class="action-card">
     <h3>12월 25일 렌터카</h3>
@@ -56,15 +56,15 @@ hide:
   </div>
   <div class="action-card">
     <h3>겨울 교통</h3>
-    <p>FCO–나폴리와 나폴리–로마 열차, 폼페이행 열차의 연말 운행을 공식 시간표에서 재확인합니다.</p>
+    <p>FCO–테르미니 막차와 테르미니–나폴리·나폴리–로마·폼페이행 열차의 연말 운행을 공식 시간표에서 재확인합니다.</p>
   </div>
 </div>
 
 ## 다음 예약 작업
 
-1. 취소 가능한 조건으로 FCO 1박·나폴리 4박·로마 5박 숙소 비교
+1. 취소 가능한 조건으로 테르미니 1박·나폴리 4박·로마 5박 숙소 비교
 2. 12월 25일 나폴리 렌터카와 아말피 크리스마스 점심 예약
-3. FCO–나폴리 및 나폴리–로마 고속열차 판매 개시 확인
+3. FCO–테르미니 겨울 막차와 테르미니–나폴리·나폴리–로마 고속열차 판매 확인
 4. 바티칸, 판테온, 폼페이, Napoli Sotterranea, 콜로세움 판매 일정 확인
 5. 12월 29일 치비타·오르비에토 렌터카 조건 비교
 

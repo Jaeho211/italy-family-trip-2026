@@ -5,14 +5,14 @@
 [주요 관광지를 지도에서 보기](map.md){ .md-button }
 
 <div class="day-card">
-  <h3>12월 23일 수요일 · FCO 도착</h3>
-  <p class="day-card__meta">1일차 · 공항 1/1박</p>
+  <h3>12월 23일 수요일 · FCO 도착 후 테르미니 이동</h3>
+  <p class="day-card__meta">1일차 · 테르미니 1/1박</p>
   <span class="status confirmed">항공 확정</span><span class="status booking">숙소 예약 필요</span>
   <ul>
     <li>인천 14:05 출발 → 로마 FCO 19:35 도착</li>
-    <li>입국·수하물 수령 후 공항 인근 숙소로 이동</li>
-    <li>도착일에는 로마 시내로 들어가지 않고 수면과 회복을 우선</li>
-    <li>터미널 도보 연결 또는 운행이 확실한 셔틀 숙소 선택</li>
+    <li>입국·수하물 수령 후 Leonardo Express로 Roma Termini 이동</li>
+    <li>테르미니 인근 숙소에 체크인하고 수면과 회복을 우선</li>
+    <li>2026년 12월 13일 이후 겨울 시간표가 발표되면 12월 23일 막차 재확인</li>
   </ul>
 </div>
 
@@ -21,8 +21,7 @@
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">특별시간 재확인</span>
   <ul>
-    <li>아침 FCO 출발 → Napoli Centrale 이동</li>
-    <li>직통열차가 없으면 Leonardo Express로 Termini 이동 후 고속열차 환승</li>
+    <li>아침 Roma Termini 출발 → Napoli Centrale 고속열차 이동</li>
     <li>숙소에 짐을 맡기고 점심·체크인</li>
     <li>14:30 전후 나폴리 국립고고학박물관 입장 목표</li>
   </ul>
@@ -33,7 +32,7 @@
       <li>12월 25일과 1월 1일을 제외한 공휴일은 현재 규정상 개관</li>
       <li>2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있음</li>
       <li>2026년 12월 24일은 목요일이므로 현재 기준 방문 가능성이 높음</li>
-      <li>FCO–나폴리 직통 편성은 겨울 시간표 발표 후 확인하고 환승안을 기본 대안으로 유지</li>
+      <li>테르미니 숙박으로 FCO 환승을 없애고 나폴리행 고속열차를 바로 이용</li>
     </ul>
     <p><strong>재확인:</strong> 2026년 11월 말~12월 초 MANN 특별 운영과 겨울 열차 시간표</p>
     <p><a href="https://www.museoarcheologiconapoli.it/en/timetables-and-fares/" target="_blank" rel="noopener">MANN 공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
