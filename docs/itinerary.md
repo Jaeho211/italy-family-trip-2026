@@ -93,14 +93,24 @@
 <div class="day-card">
   <h3>12월 27일 일요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">5일차 · 나폴리 1/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span><span class="status recheck">박물관 운영 재확인</span>
+  <span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status booking">예약 필요</span><span class="status recheck">연말 특별시간 재확인</span>
   <ul>
     <li>Roma Termini → Napoli Centrale 고속열차</li>
     <li>Frecciarossa와 Italo의 시간·운임·취소 조건 비교</li>
     <li>숙소 체크인과 짐 정리</li>
-    <li>오후 나폴리 국립고고학박물관 관람</li>
+    <li>16:30 이전 도착 목표 · 오후 나폴리 국립고고학박물관 관람</li>
   </ul>
-  <p><strong>검증 필요:</strong> 박물관 운영·마지막 입장시간에 맞춰 로마 출발 열차를 선택</p>
+  <details class="day-details">
+    <summary>운영 확인 더보기</summary>
+    <ul>
+      <li>일반 운영 09:00~19:30 · 마지막 입장 18:30</li>
+      <li>19:00부터 전시실 퇴장 안내 시작 · 매주 화요일 휴관</li>
+      <li>2026년 12월 27일은 일요일이므로 현재 규정상 정상 운영 예상</li>
+      <li>17:00 이후 입장은 가족 관람시간이 빠듯하므로 16:30 이전 도착을 목표로 함</li>
+    </ul>
+    <p><strong>확인일:</strong> 2026-07-30 · <strong>재확인:</strong> 2026년 연말 특별 운영 공지가 발표되는 11월 말~12월 초</p>
+    <p><a href="https://www.museoarcheologiconapoli.it/en/timetables-and-fares/" target="_blank" rel="noopener">MANN 공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-27.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
