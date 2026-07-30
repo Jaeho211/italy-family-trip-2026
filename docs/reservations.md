@@ -15,7 +15,8 @@
 | 어린이 할인 증빙 | <span class="status booking">준비 필요</span> | 출발 전 | 높음 | 여권 등 연령 증빙, 공개 저장소에는 세부정보 미기록 |
 | [콜로세움 24h 통합권](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } | <span class="status waiting">30일 전 판매 대기</span><br><span class="status booking">시간대 예약 필요</span> | 2026-12-03경부터 확인 | 높음 | 2027-01-02 09:00 목표, 기본 통합권, 어린이 무료표 포함 4인 동시 확보 |
 | 로마 → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 두 회사 시간·운임·취소 조건 비교 |
-| 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 새해 전야 도착시간 고려 |
+| 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12월 31일 판테온 14:00 관람이 가능하도록 오전편 우선 |
+| [판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">종교행사 재확인</span> | 2026년 11월 중순부터 확인 | 높음 | 12월 31일 14:00 목표, 기명식 가족 4인 같은 시간대, 어린이 무료표·연령 증빙 포함 |
 | [나폴리 국립고고학박물관](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">연말 특별시간 재확인</span> | 열차 예약 전·11월 말~12월 초 | 높음 | 일반 09:00~19:30·마지막 입장 18:30, 16:30 이전 도착 목표 |
 | [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 일정 확정 후·출발 1~2주 전 | 높음 | 4인은 예약 불필요, Piazza San Gaetano 68 공식 코스, 10:00 목표, 변경·환불 불가 |
 | 12/26 로마 렌터카 | <span class="status booking">예약 필요</span> | 공휴일 지점 확인 후 | 높음 | 07:30 수령 가능 여부·자동변속·무료취소 확인 |
