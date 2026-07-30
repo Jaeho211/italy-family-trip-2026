@@ -106,3 +106,22 @@ body { color: var(--trip-ink); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+
+
+.trip-map-frame {
+  display: block;
+  width: 100%;
+  height: clamp(36rem, 78vh, 54rem);
+  margin: 1rem 0;
+  background: var(--trip-cream);
+  border: 1px solid var(--trip-border);
+  border-radius: .9rem;
+}
+
+@media (max-width: 640px) {
+  .trip-map-frame {
+    height: 78vh;
+    min-height: 34rem;
+    border-radius: .65rem;
+  }
+}
