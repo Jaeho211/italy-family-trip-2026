@@ -32,6 +32,7 @@ theme:
 nav:
   - 여행 홈: index.md
   - 전체 일정: itinerary.md
+  - 여행 지도: map.md
   - 숙소 지역: accommodation.md
   - 도시별 계획:
       - 로마: rome.md
