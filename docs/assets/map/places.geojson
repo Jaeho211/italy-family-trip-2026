@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "바티칸 박물관",
+        "group": "rome-first",
+        "groups": ["rome-first"],
+        "dates": ["12/24 08:00 목표"],
+        "note": "바티칸 박물관과 시스티나 성당 관람",
+        "googleQuery": "Vatican Museums",
+        "sort": 10
+      },
+      "geometry": { "type": "Point", "coordinates": [12.45364, 41.90649] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "성베드로 대성당·광장",
+        "group": "rome-first",
+        "groups": ["rome-first"],
+        "dates": ["12/24 정오 이후"],
+        "note": "성탄 전례와 보안 통제시간 재확인",
+        "googleQuery": "St Peter's Basilica Vatican City",
+        "sort": 20
+      },
+      "geometry": { "type": "Point", "coordinates": [12.45394, 41.90217] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "판테온",
+        "group": "rome-last",
+        "groups": ["rome-first", "rome-last"],
+        "dates": ["12/25 외관", "12/31 14:00 내부"],
+        "note": "크리스마스에는 외관만 보고 12월 31일 내부 관람",
+        "googleQuery": "Pantheon Rome",
+        "sort": 30
+      },
+      "geometry": { "type": "Point", "coordinates": [12.47687, 41.89861] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "나보나 광장",
+        "group": "rome-first",
+        "groups": ["rome-first", "rome-last"],
+        "dates": ["12/25", "12/31 선택"],
+        "note": "판테온과 묶는 구시가지 산책",
+        "googleQuery": "Piazza Navona Rome",
+        "sort": 40
+      },
+      "geometry": { "type": "Point", "coordinates": [12.47307, 41.89916] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "트레비 분수",
+        "group": "rome-first",
+        "groups": ["rome-first"],
+        "dates": ["12/25"],
+        "note": "크리스마스 야외 구시가지 동선",
+        "googleQuery": "Trevi Fountain Rome",
+        "sort": 50
+      },
+      "geometry": { "type": "Point", "coordinates": [12.48331, 41.90093] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "스페인 계단",
+        "group": "rome-first",
+        "groups": ["rome-first"],
+        "dates": ["12/25"],
+        "note": "가족 체력에 따라 구시가지 동선에서 생략 가능",
+        "googleQuery": "Spanish Steps Rome",
+        "sort": 60
+      },
+      "geometry": { "type": "Point", "coordinates": [12.48278, 41.90599] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "치비타 디 바뇨레조",
+        "group": "day-trip",
+        "groups": ["day-trip"],
+        "dates": ["12/26 09:45–11:15"],
+        "note": "가족 핵심 희망 일정",
+        "googleQuery": "Civita di Bagnoregio Italy",
+        "sort": 70
+      },
+      "geometry": { "type": "Point", "coordinates": [12.11310, 42.62739] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "오르비에토 두오모",
+        "group": "day-trip",
+        "groups": ["day-trip"],
+        "dates": ["12/26 12:15 목표"],
+        "note": "오르비에토 도착 후 우선 관람",
+        "googleQuery": "Duomo di Orvieto",
+        "sort": 80
+      },
+      "geometry": { "type": "Point", "coordinates": [12.11369, 42.71745] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "성 패트릭 우물",
+        "group": "day-trip",
+        "groups": ["day-trip"],
+        "dates": ["12/26 15:20 선택"],
+        "note": "가족 체력과 대기시간에 따라 선택",
+        "googleQuery": "Pozzo di San Patrizio Orvieto",
+        "sort": 90
+      },
+      "geometry": { "type": "Point", "coordinates": [12.12113, 42.72175] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "나폴리 국립고고학박물관",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 16:30 이전 도착"],
+        "note": "나폴리 이동일 오후 관람",
+        "googleQuery": "Museo Archeologico Nazionale di Napoli",
+        "sort": 100
+      },
+      "geometry": { "type": "Point", "coordinates": [14.25053, 40.85359] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "폼페이 고고학공원",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/28 09:00–09:30 목표"],
+        "note": "기차 당일치기, Porta Marina 방면 입장",
+        "googleQuery": "Pompeii Archaeological Park Porta Marina",
+        "sort": 110
+      },
+      "geometry": { "type": "Point", "coordinates": [14.48484, 40.74895] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Napoli Sotterranea",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 10:00 목표"],
+        "note": "공식 입구 Piazza San Gaetano 68",
+        "googleQuery": "Napoli Sotterranea Piazza San Gaetano 68",
+        "sort": 120
+      },
+      "geometry": { "type": "Point", "coordinates": [14.25731, 40.85116] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "스파카나폴리·구시가지",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 점심 이후"],
+        "note": "지하도시 관람 후 가족 속도에 맞춰 산책",
+        "googleQuery": "Spaccanapoli Naples",
+        "sort": 130
+      },
+      "geometry": { "type": "Point", "coordinates": [14.25455, 40.84883] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "비아 톨레도",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 선택"],
+        "note": "오후 동선은 가족 체력에 따라 축소",
+        "googleQuery": "Via Toledo Naples",
+        "sort": 140
+      },
+      "geometry": { "type": "Point", "coordinates": [14.24867, 40.84294] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "움베르토 1세 갤러리",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 선택"],
+        "note": "비아 톨레도와 플레비시토 광장 사이",
+        "googleQuery": "Galleria Umberto I Naples",
+        "sort": 150
+      },
+      "geometry": { "type": "Point", "coordinates": [14.24939, 40.83866] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "플레비시토 광장",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 선택"],
+        "note": "오후 도보 일정의 우선 후보",
+        "googleQuery": "Piazza del Plebiscito Naples",
+        "sort": 160
+      },
+      "geometry": { "type": "Point", "coordinates": [14.24899, 40.83578] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "나폴리 해안·카스텔 델로보",
+        "group": "naples",
+        "groups": ["naples"],
+        "dates": ["12/29 늦은 오후 선택"],
+        "note": "누적 피로에 따라 생략 가능",
+        "googleQuery": "Castel dell'Ovo Naples",
+        "sort": 170
+      },
+      "geometry": { "type": "Point", "coordinates": [14.24744, 40.82831] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "포지타노",
+        "group": "amalfi",
+        "groups": ["amalfi"],
+        "dates": ["12/30 핵심"],
+        "note": "아말피 해안 드라이브의 우선 목적지",
+        "googleQuery": "Positano Italy",
+        "sort": 180
+      },
+      "geometry": { "type": "Point", "coordinates": [14.48490, 40.62805] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "아말피 두오모",
+        "group": "amalfi",
+        "groups": ["amalfi"],
+        "dates": ["12/30 점심 전후"],
+        "note": "아말피는 점심과 두오모 중심",
+        "googleQuery": "Duomo di Amalfi",
+        "sort": 190
+      },
+      "geometry": { "type": "Point", "coordinates": [14.60264, 40.63400] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "라벨로·빌라 루폴로",
+        "group": "amalfi",
+        "groups": ["amalfi"],
+        "dates": ["12/30 조건부"],
+        "note": "날씨·주차·남은 시간이 모두 충분할 때만 추가",
+        "googleQuery": "Villa Rufolo Ravello",
+        "sort": 200
+      },
+      "geometry": { "type": "Point", "coordinates": [14.61153, 40.64912] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "콜로세움",
+        "group": "rome-last",
+        "groups": ["rome-last"],
+        "dates": ["1/2 09:00 목표"],
+        "note": "기본 24시간 통합권, 가족 4인 같은 시간대",
+        "googleQuery": "Colosseum Rome",
+        "sort": 210
+      },
+      "geometry": { "type": "Point", "coordinates": [12.49223, 41.89021] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "포로 로마노",
+        "group": "rome-last",
+        "groups": ["rome-last"],
+        "dates": ["1/2 10:20 이후"],
+        "note": "귀국일 일정에 맞춰 핵심 구역 중심",
+        "googleQuery": "Roman Forum Rome",
+        "sort": 220
+      },
+      "geometry": { "type": "Point", "coordinates": [12.48533, 41.89246] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "팔라티노 언덕",
+        "group": "rome-last",
+        "groups": ["rome-last"],
+        "dates": ["1/2 선택"],
+        "note": "가족 체력과 공항 이동시간에 따라 관람 범위 축소",
+        "googleQuery": "Palatine Hill Rome",
+        "sort": 230
+      },
+      "geometry": { "type": "Point", "coordinates": [12.48750, 41.88931] }
+    }
+  ]
+}
+
