@@ -5,16 +5,26 @@
 ## 치비타 디 바뇨레조 + 오르비에토
 
 **예정일:** 2026년 12월 26일 토요일  
-<span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+<span class="status tentative">잠정</span><span class="status verified">관광 운영 확인</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">특별시간 재확인</span>
 
 <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
 
 ### 동선
 
-1. 로마에서 렌터카 수령
-2. [치비타 디 바뇨레조](https://www.google.com/maps/search/?api=1&query=Civita+di+Bagnoregio){ target="_blank" rel="noopener" } 주차 후 보행자 다리로 입장
-3. [오르비에토](https://www.google.com/maps/search/?api=1&query=Orvieto+Italy){ target="_blank" rel="noopener" } 구시가지와 두오모
-4. 어두워지기 전 주요 도로로 복귀 시작
+1. 07:30 렌터카 수령 · 08:00 로마 출발
+2. 09:45~11:15 [치비타 디 바뇨레조](https://www.google.com/maps/search/?api=1&query=Civita+di+Bagnoregio){ target="_blank" rel="noopener" } 주차 후 보행자 다리로 입장
+3. 12:15~13:15 [오르비에토 두오모](https://www.google.com/maps/search/?api=1&query=Duomo+di+Orvieto){ target="_blank" rel="noopener" } 우선 관람
+4. 13:15 예약 점심 후 구시가지 산책
+5. 15:20 성 패트릭 우물 또는 휴식
+6. 16:30 로마로 복귀 시작
+
+### 운영 판단
+
+- 치비타는 2023~2025년 모두 12월 26일 성탄행사를 열어 공휴일 관광 운영 사례가 반복 확인됐다.
+- 오르비에토는 2026년 성탄 관광기간을 11월 27일~1월 6일로 공식 발표했다.
+- 두오모는 현재 겨울 일반시간 09:30~17:00, 성 패트릭 우물은 10:00~16:30 입장이다.
+- 포초 델라 카바는 2026년 12월 26일 10:00~20:00 운영이 확정됐지만 야간운전을 늘리지 않기 위해 기본 일정에는 넣지 않는다.
+- 세부 근거와 과거 사례는 [상세 조사 문서](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-26.md){ target="_blank" rel="noopener" }에서 확인한다.
 
 ### 예약 전 확인
 
@@ -23,6 +33,8 @@
 - [ ] 자동변속 보장 여부와 겨울 장비 조건
 - [ ] ZTL을 피하는 출발·복귀 경로
 - [ ] 각 도시 주차장과 셔틀·보행 접근 정보
+- [ ] 치비타 특별 매표시간과 두오모 전례 통제 재확인
+- [ ] 12월 26일 오르비에토 점심 식당 영업·예약
 - [ ] 무료취소 마감 시각
 
 ## 포지타노 + 아말피 + 라벨로

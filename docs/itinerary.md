@@ -58,15 +58,36 @@
 <div class="day-card">
   <h3>12월 26일 토요일 · 치비타와 오르비에토</h3>
   <p class="day-card__meta">4일차 · 로마 4/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">관광 운영 확인</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">특별시간 재확인</span>
   <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
   <ul>
-    <li>하루 렌터카, 소형 자동변속 차량 우선</li>
-    <li>치비타 주차 후 보행자 다리를 통해 입장</li>
-    <li>오르비에토 구시가지와 두오모</li>
-    <li>무료취소 조건으로 예약</li>
+    <li>07:30 렌터카 수령 · 08:00 로마 출발 목표</li>
+    <li>오전 치비타 방문으로 성탄행사 혼잡 가능성 회피</li>
+    <li>정오 전후 오르비에토 도착 · 두오모 우선 관람</li>
+    <li>16:30 로마로 출발해 초행길 야간운전 최소화</li>
   </ul>
-  <p><strong>검증 필요:</strong> 12월 26일 공휴일의 영업·운영 여부</p>
+  <details class="day-details">
+    <summary>시간표·운영 확인 더보기</summary>
+    <h4>안전 우선 시간표</h4>
+    <ul>
+      <li>07:30 렌터카 수령 → 08:00 로마 출발</li>
+      <li>09:45~11:15 치비타 입장·산책</li>
+      <li>11:15~12:15 오르비에토 이동·주차</li>
+      <li>12:15~13:15 두오모 → 13:15~14:15 예약 점심</li>
+      <li>14:15~15:20 구시가지 → 15:20~16:15 성 패트릭 우물 또는 휴식</li>
+      <li>16:30 로마로 출발</li>
+    </ul>
+    <h4>확인한 내용</h4>
+    <ul>
+      <li>치비타는 2023~2025년 3년 연속 12월 26일 성탄행사를 운영</li>
+      <li>오르비에토는 2026년 11월 27일~2027년 1월 6일 성탄 관광기간 공식 발표</li>
+      <li>두오모 겨울 일반시간 09:30~17:00</li>
+      <li>성 패트릭 우물 겨울 입장 10:00~16:30 · 17:00 폐관</li>
+      <li>포초 델라 카바는 2026년 12월 26일 10:00~20:00 운영 확정</li>
+    </ul>
+    <p><strong>재확인:</strong> 치비타 특별 매표시간, 두오모 전례 통제, 식당과 렌터카 지점의 공휴일 영업은 2026년 11월 말~12월 초에 확인합니다.</p>
+    <p><a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-26.md" target="_blank" rel="noopener">상세 조사와 공식 출처 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
