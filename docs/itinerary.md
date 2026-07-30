@@ -213,13 +213,25 @@
 <div class="day-card">
   <h3>1월 2일 토요일 · 로마와 귀국</h3>
   <p class="day-card__meta">11일차 · 기내</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status booking">시간대 예약 필요</span>
   <ul>
-    <li>오전 콜로세움, 포로 로마노와 팔라티노 언덕</li>
-    <li>숙소 또는 보관소에서 짐 수령</li>
-    <li>충분한 여유를 두고 FCO 공항 이동</li>
-    <li>로마 22:00 출발</li>
+    <li>09:00 콜로세움 입장 목표 · 24h 기본 통합권</li>
+    <li>10:20~12:30 포로 로마노와 팔라티노 언덕</li>
+    <li>점심 후 숙소 또는 보관소에서 짐 수령</li>
+    <li>충분한 여유를 두고 FCO 이동 · 로마 22:00 출발</li>
   </ul>
+  <details class="day-details">
+    <summary>운영·예약 확인 더보기</summary>
+    <ul>
+      <li>겨울 운영: 콜로세움 08:30 개장 · 포로·팔라티노 09:00 개장 · 16:30 폐장</li>
+      <li>콜로세움 입장 시간대 예약은 의무이며 방문 30일 전 판매 시작</li>
+      <li>2027년 1월 2일 표는 2026년 12월 3일경부터 공식 판매창 확인</li>
+      <li>기본 24h 통합권은 콜로세움 1·2층, 박물관, 포로 로마노와 팔라티노 포함</li>
+      <li>어린이 무료 대상도 입장권과 연령 증빙이 필요하며 발급 절차는 판매 시 재확인</li>
+      <li>기명식 티켓이므로 가족 4명의 같은 시간대와 이름을 확인</li>
+    </ul>
+    <p><a href="https://colosseo.it/en/opening-times-and-tickets/" target="_blank" rel="noopener">콜로세움 공식 운영·티켓 안내</a> · <a href="https://ticketing.colosseo.it/en" target="_blank" rel="noopener">공식 예매처</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/colosseum-2027-01-02.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
