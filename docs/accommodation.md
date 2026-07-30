@@ -1,22 +1,21 @@
 # 숙소 지역
 
-아직 실제 숙소는 정하지 않았습니다. 공개 사이트에는 후보 **지역과 조건만** 기록하며 숙소명·상세주소·예약번호는 남기지 않습니다.
+공개 사이트에는 후보 **지역과 조건만** 기록하며 실제 숙소명·상세주소·예약번호는 남기지 않습니다.
 
-## 로마 첫 4박 · 12월 23–27일
+## FCO 공항 1박 · 12월 23–24일
 
-<span class="status tentative">잠정</span>
+<span class="status booking">예약 필요</span>
 
-### 우선 검색 지역
+도착 예정이 19:35이므로 가격보다 **도착 과정의 확실성**을 우선합니다.
 
-- [Pantheon 주변](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome){ target="_blank" rel="noopener" }
-- [Piazza Navona 주변](https://www.google.com/maps/search/?api=1&query=Piazza+Navona+Rome){ target="_blank" rel="noopener" }
-- [Campo de' Fiori 주변](https://www.google.com/maps/search/?api=1&query=Campo+de+Fiori+Rome){ target="_blank" rel="noopener" }
+- 터미널에서 실내 통로로 걸어갈 수 있는 숙소 우선
+- 셔틀형이라면 22시 이후 운행시간·탑승 위치·사전예약 여부 확인
+- 조식보다 다음 날 FCO 기차역 접근성을 우선
+- 12월 24일 아침 빠른 체크아웃과 짐 이동이 쉬운지 확인
 
-관광지 도보 접근성과 12월 25일 구시가지 산책 동선을 우선합니다. 도착일이 늦으므로 **늦은 체크인 방식**과 **엘리베이터**를 반드시 확인합니다.
+## 나폴리 4박 · 12월 24–28일
 
-## 나폴리 4박 · 12월 27–31일
-
-<span class="status tentative">잠정</span>
+<span class="status booking">예약 필요</span>
 
 ### 우선 검색 지역
 
@@ -25,11 +24,11 @@
 - [Via Toledo 남쪽](https://www.google.com/maps/search/?api=1&query=Via+Toledo+Naples){ target="_blank" rel="noopener" }
 - [Chiaia 동쪽](https://www.google.com/maps/search/?api=1&query=Chiaia+Naples){ target="_blank" rel="noopener" }
 
-Napoli Centrale 바로 앞은 교통이 편하지만 가족의 4박 베이스로는 우선순위를 낮춥니다. 중앙역과 폼페이 이동은 택시·대중교통 접근성을 함께 비교합니다.
+현대적인 에어비앤비와 가족 체류 환경을 우선합니다. 중앙역 바로 앞은 열차와 렌터카에는 편리하지만 4박 베이스의 분위기·야간 보행 면에서 우선순위를 낮춥니다. 12월 25일 아침 렌터카 지점까지 택시로 이동하는 안을 포함해 비교합니다.
 
-## 로마 마지막 2박 · 12월 31일–1월 2일
+## 로마 5박 · 12월 28일–1월 2일
 
-<span class="status tentative">잠정</span>
+<span class="status booking">예약 필요</span>
 
 ### 우선 검색 지역
 
@@ -37,28 +36,18 @@ Napoli Centrale 바로 앞은 교통이 편하지만 가족의 4박 베이스로
 - [Repubblica](https://www.google.com/maps/search/?api=1&query=Repubblica+Rome){ target="_blank" rel="noopener" }
 - [Santa Maria Maggiore 주변](https://www.google.com/maps/search/?api=1&query=Santa+Maria+Maggiore+Rome){ target="_blank" rel="noopener" }
 
-Roma Termini, 콜로세움, FCO 공항 이동 접근성을 중시합니다. 귀국일 오전 관광 후 짐을 찾기 쉬운지 확인합니다.
+로마는 더 이상 전·후반으로 나누지 않습니다. Termini 고속열차, 판테온·바티칸 이동, 콜로세움, 귀국일 FCO 접근성을 함께 고려합니다. 바티칸까지 걸어갈 수 있는 위치일 필요는 없고, 택시·버스·지하철을 조합해 장거리 도보를 줄이는 편이 좋습니다.
 
 ## 공통 검색 조건
 
 - [ ] 가족 4명 수용
-- [ ] 소파베드가 아닌 **실제 침실 2개** 우선
-- [ ] 아파트호텔 또는 전문 운영 아파트 포함
+- [ ] 소파베드가 아닌 실제 침실 2개 우선
+- [ ] 현대적 인테리어와 최근 리모델링 후기
 - [ ] 세탁기·난방·Wi-Fi
 - [ ] 엘리베이터 또는 계단 부담이 적은 층
-- [ ] 늦은 체크인 가능
-- [ ] 체크아웃 후 짐 보관 가능 여부
+- [ ] 체크인 전·체크아웃 후 짐 보관 가능
 - [ ] 무료취소 또는 유연한 취소
 - [ ] 최근 후기가 충분하고 가족 여행 후기가 있는 곳
 
 !!! tip "후보 비교 방법"
     공개 문서에는 `지역 / 침실 수 / 취소 기한 / 핵심 장단점`만 적습니다. 실제 숙소 링크, 가격, 주소, 예약정보는 가족만 접근 가능한 별도 문서에서 관리합니다.
-
-## 예약 전 질문
-
-1. 침실 두 개에 각각 문과 일반 침대가 있는가?
-2. 난방 방식과 겨울철 이용 후기는 충분한가?
-3. 엘리베이터가 모든 층에 정차하며 계단 구간은 없는가?
-4. 도착 예정 시간 이후 비대면 또는 직원 체크인이 가능한가?
-5. 취소 마감 시각과 환불 조건은 무엇인가?
-6. 짐 보관 장소와 운영시간을 확인했는가?

@@ -1,76 +1,57 @@
 # 나폴리와 폼페이
 
-나폴리 4박을 유지해 짐 이동을 줄이고, 폼페이는 기차 당일치기로 다녀오는 계획입니다.
+12월 24일부터 28일까지 나폴리 4박을 유지하며, 매일 핵심 일정 하나만 배치합니다.
 
-## 12월 27일 · 국립고고학박물관
+## 12월 24일 · 이동과 국립고고학박물관
 
-<span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status recheck">연말 특별시간 재확인</span>
+<span class="status tentative">잠정</span><span class="status verified">운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
 
-로마에서 나폴리로 이동해 숙소 체크인과 짐 정리를 마친 뒤 오후에 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
+FCO 공항 숙소에서 나폴리로 이동해 짐을 맡긴 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
 
-- 공식 일반 운영시간은 09:00~19:30이며 마지막 입장은 18:30입니다.
-- 19:00부터 전시실 퇴장 안내를 시작하고 매주 화요일 휴관합니다.
-- 2026년 12월 27일은 일요일이므로 현재 규정상 정상 운영이 예상됩니다.
-- 가족 관람시간을 확보하도록 16:30 이전 도착을 목표로 고속열차를 선택합니다.
-- 도착이 17:00 이후로 밀리면 관람시간을 무리하게 압축하지 않고 당일 상황을 다시 판단합니다.
-- 확인일은 2026-07-30이며, 2026년 연말 특별 운영 공지는 11월 말~12월 초에 다시 확인합니다.
+- 14:30 전후 입장을 목표로 합니다.
+- 일반 운영은 09:00~19:30, 마지막 입장 18:30, 화요일 휴관입니다.
+- 12월 25일과 1월 1일 외 공휴일은 현재 규정상 개관합니다.
+- 2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있습니다.
+- 2026년 특별 운영은 11월 말~12월 초에 다시 확인합니다.
 
-[MANN 공식 운영시간](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-27.md){ target="_blank" rel="noopener" }
+[MANN 공식 운영시간](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md){ target="_blank" rel="noopener" }
 
-## 12월 29일 · 지하도시와 도보 여행
+## 12월 25일 · 아말피 해안
 
-<span class="status tentative">잠정</span><span class="status verified">Napoli Sotterranea 선정</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
+성탄절의 낮은 관광지 운영률을 해안 드라이브에 활용합니다. 포지타노·아말피를 기본으로 하고 라벨로는 조건부입니다. 차량 수령·무인 반납, 성탄절 점심과 날씨 판단은 [근교 당일치기](day-trips.md)에서 관리합니다.
 
-<p class="route">Napoli Sotterranea 10:00 → Spaccanapoli·구시가지 → Via Toledo → Piazza del Plebiscito → 해안</p>
+## 12월 26일 · 폼페이
 
-### 오전 · Napoli Sotterranea
+<span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span>
 
-[Piazza San Gaetano 68의 공식 Napoli Sotterranea 코스](https://www.napolisotterranea.org/en/){ target="_blank" rel="noopener" }를 선택합니다. 입구의 흰색·파란색 Napoli Sotterranea 깃발을 확인합니다.
+1. 나폴리에서 Pompei Scavi–Villa dei Misteri 역으로 이동
+2. 09:00~09:30 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park){ target="_blank" rel="noopener" } 입장
+3. 겨울 폐장 17:00 전에 핵심 구역 관람
+4. 기차로 나폴리 복귀
 
-- 영어·이탈리아어 일반 투어는 현재 10:00~18:00 사이에 운영됩니다.
-- 가족 4명은 예약이 필수가 아니며 현장에서 대기해 입장할 수 있습니다.
-- 공식 안내상 현장 대기는 혼잡기에 최대 90분까지 길어질 수 있어 10:00 줄서기 면제 티켓을 권장합니다.
-- 온라인 티켓은 환불되지 않고 날짜·시간·이름·종류를 변경할 수 없습니다. 일정 확정 후 출발 1~2주 전에 구매합니다.
-- 지하 약 40m까지 계단으로 내려가며 엘리베이터와 유모차 이용은 불가능합니다.
-- 대부분 공간은 넓고 조명이 있으며 좁고 어두운 촛불 통로는 선택 구간이라 건너뛸 수 있습니다.
-- 지하 코스와 로마 극장 구간을 합쳐 약 1시간 20분을 예상합니다.
-- 2026년 연말 운영시간은 출발 전에 다시 확인합니다.
+- 공식 휴관일은 12월 25일과 1월 1일이므로 26일은 현재 규정상 개관합니다.
+- 사전예약은 필수가 아니지만 가족 대기시간을 줄이기 위해 공식표 사전구매를 권장합니다.
+- 렌터카를 사용하지 않고 에르콜라노는 제외합니다.
+- EAV 공휴일 시간표는 출발 전에 확인합니다.
 
-[공식 운영시간](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } · [공식 줄서기 면제 티켓](https://booking.napolisotterranea.org/?action=changelang&lang=english){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-29.md){ target="_blank" rel="noopener" }
+[폼페이 공식 안내](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-26.md){ target="_blank" rel="noopener" }
 
-### 오후 · 구시가지 축
+## 12월 27일 · 지하도시와 구시가지
 
-[Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Spaccanapoli+Naples){ target="_blank" rel="noopener" }와 나폴리 구시가지를 천천히 걷습니다. 골목이 복잡하므로 목적지를 과도하게 늘리지 않고 식사·휴식 시간을 둡니다.
+<span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span>
 
-### 오후 늦게 · 톨레도에서 해안까지
+<p class="route">Napoli Sotterranea 10:00 → Spaccanapoli → Via Toledo → Piazza del Plebiscito → 해안 선택</p>
 
-[Via Toledo](https://www.google.com/maps/search/?api=1&query=Via+Toledo+Naples){ target="_blank" rel="noopener" } → [Quartieri Spagnoli](https://www.google.com/maps/search/?api=1&query=Quartieri+Spagnoli+Naples){ target="_blank" rel="noopener" } → [Galleria Umberto I](https://www.google.com/maps/search/?api=1&query=Galleria+Umberto+I+Naples){ target="_blank" rel="noopener" } → [Piazza del Plebiscito](https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito+Naples){ target="_blank" rel="noopener" } → 해안
+- Piazza San Gaetano 68의 공식 Napoli Sotterranea 코스를 이용합니다.
+- 4인 가족 예약은 필수가 아니지만 연말 대기를 줄이기 위해 10:00 줄서기 면제권을 권장합니다.
+- 지하 약 40m까지 계단으로 내려가며 엘리베이터는 없습니다.
+- 좁고 어두운 촛불 통로는 선택 구간이라 건너뛸 수 있습니다.
+- 오후 동선은 가족 피로도에 따라 플레비시토 광장까지만 진행해도 됩니다.
 
-날씨와 피로도에 따라 해안 구간을 줄일 수 있습니다.
-
-## 폼페이 당일치기 · 12월 28일
-
-<span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">연말 운영 재확인</span>
-
-1. 나폴리 숙소에서 출발역으로 이동
-2. 기차로 Pompei Scavi–Villa dei Misteri 역 이동 검토
-3. 09:00~09:30에 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park){ target="_blank" rel="noopener" } 입장 목표
-4. 겨울 폐장 17:00 전에 여유 있게 관람하고 나폴리로 복귀
-
-- 겨울 일반 운영은 09:00~17:00이며 마지막 입장은 15:30입니다.
-- 사전예약은 필수가 아니며 공식 현장 매표소에서도 신분증을 제시하고 구매할 수 있습니다.
-- 티켓은 기명식이고 입장 날짜·시간대를 지정하며 하루 입장 상한은 20,000명입니다.
-- 온라인 구매 시 바로 입장할 수 있지만 이름·날짜 변경과 원칙적 환불이 불가능합니다.
-- 열차와 일정 확정 후 출발 1~2주 전에 [공식 Vivaticket](https://pompeii.vivaticket.it/){ target="_blank" rel="noopener" } 사전구매를 권장합니다.
-- 렌터카를 사용하지 않고 에르콜라노는 이번 일정에서 제외합니다.
-- 겨울 날씨에 대비해 방수 신발과 겹쳐 입을 옷을 준비합니다.
-- 2026년 연말 특별 운영과 판매 조건은 출발 전에 다시 확인합니다.
-
-[폼페이 공식 운영·티켓 안내](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-28.md){ target="_blank" rel="noopener" }
+[공식 운영시간](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md){ target="_blank" rel="noopener" }
 
 ## 이동 원칙
 
-- 로마–나폴리는 고속열차를 사용하고 Frecciarossa·Italo를 비교합니다.
-- 가족 4명의 좌석 배치, 수하물, 변경·취소 조건을 가격과 함께 봅니다.
-- 나폴리 시내에서는 도보와 대중교통을 기본으로 합니다.
-- 아말피 해안 렌터카는 [근교 당일치기](day-trips.md)에서 별도 관리합니다.
+- FCO–나폴리는 직통 겨울 편성을 확인하되 Termini 환승을 기본 대안으로 유지합니다.
+- 나폴리–로마는 12월 28일 오전 고속열차를 사용합니다.
+- 나폴리 시내에서는 도보·택시·대중교통을 조합해 아이들의 장거리 도보를 줄입니다.

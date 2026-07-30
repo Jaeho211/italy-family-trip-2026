@@ -2,11 +2,10 @@
   "use strict";
 
   const GROUPS = {
-    "rome-first": { label: "로마 전반부", color: "#8f3f35" },
+    "rome": { label: "로마", color: "#8f3f35" },
     "day-trip": { label: "치비타·오르비에토", color: "#69704c" },
     "naples": { label: "나폴리·폼페이", color: "#225e78" },
-    "amalfi": { label: "아말피 해안", color: "#b56a3a" },
-    "rome-last": { label: "로마 후반부", color: "#5d526d" }
+    "amalfi": { label: "아말피 해안", color: "#b56a3a" }
   };
 
   const mapElement = document.getElementById("map");
@@ -179,11 +178,10 @@
           "circle-color": [
             "match",
             ["get", "group"],
-            "rome-first", GROUPS["rome-first"].color,
+            "rome", GROUPS.rome.color,
             "day-trip", GROUPS["day-trip"].color,
             "naples", GROUPS.naples.color,
             "amalfi", GROUPS.amalfi.color,
-            "rome-last", GROUPS["rome-last"].color,
             "#8f3f35"
           ],
           "circle-radius": ["interpolate", ["linear"], ["zoom"], 6, 6, 12, 10],

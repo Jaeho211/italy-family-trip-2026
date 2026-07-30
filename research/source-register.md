@@ -20,3 +20,12 @@
 | VAT-014 | 2024년 12월 24일 행사 | Calendar of Activities — 24 December 2024 | Vatican | 공식 행사 페이지 | 과거 공식 사례 | 2026-07-29 | — | [원문](https://press.vatican.va/content/francesco/en/events/day.dir.html/2024/12/24.html) |
 | VAT-015 | 2025년 성탄 일정 | Christmas 2025 | Vatican | 공식 일정 | 과거 공식 사례 | 2026-07-29 | — | [원문](https://www.vatican.va/content/vatican/en/special/2025/natale2025.html) |
 | VAT-016 | 공식 티켓 포털 경고 | Vatican Museums official website | Vatican Museums | 공식 안내 | 공식 확인 | 2026-07-29 | 2026-10-24 | [원문](https://www.museivaticani.va/content/museivaticani/en.html) |
+| MANN-001 | MANN 운영시간 | Timetables and fares | MANN | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/) |
+| MANN-002 | MANN 연말 운영 | Festività al MANN 2025–2026 | MANN | 과거 공식 사례 | 과거 사례 | 2026-07-30 | — | [원문](https://www.museoarcheologiconapoli.it/event/festivita-al-mann-aperture-dal-24-dicembre-2025-al-6-gennaio-2026/) |
+| CAR-001 | 나폴리 렌터카 | Naples locations and holiday hours | Avis | 공식 지점 안내 | 공식 확인 | 2026-07-30 | 예약 시 | [원문](https://www.avis.com/en/locations/eur/it/naples) |
+| AMA-001 | 아말피 성탄절 운영 사례 | Events December 2025 | Visit Amalfi | 공식 관광 일정 | 과거 사례 | 2026-07-30 | 2026-12-01 | [원문](https://www.visitamalfi.info/en/eventi/month/2025-12/) |
+| POM-001 | 폼페이 운영·티켓 | Timetables and tickets | Pompeii Archaeological Park | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/) |
+| NAP-001 | Napoli Sotterranea 운영 | Visiting hours | Napoli Sotterranea | 운영처 공식 안내 | 일반시간 확인 | 2026-07-30 | 2026-12-01 | [원문](https://www.napolisotterranea.org/en/visiting-hours/) |
+| PAN-001 | 판테온 운영·티켓 | Pantheon | Direzione Musei Nazionali Roma | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) |
+| CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
+| ORV-001 | 오르비에토 두오모 | Organizza la visita | Opera del Duomo di Orvieto | 공식 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://www.duomodiorvieto.it/visita/organizza-la-visita) |
