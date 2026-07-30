@@ -4,13 +4,18 @@
 
 ## 12월 27일 · 국립고고학박물관
 
-<span class="status tentative">잠정</span><span class="status recheck">운영 재확인</span>
+<span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status recheck">연말 특별시간 재확인</span>
 
 로마에서 나폴리로 이동해 숙소 체크인과 짐 정리를 마친 뒤 오후에 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
 
-- 박물관 운영시간과 마지막 입장시간을 먼저 확인합니다.
-- 관람시간을 확보할 수 있도록 로마 출발 고속열차 시간을 선택합니다.
-- 도착이 지연되면 관람시간을 무리하게 압축하지 않고 당일 상황을 다시 판단합니다.
+- 공식 일반 운영시간은 09:00~19:30이며 마지막 입장은 18:30입니다.
+- 19:00부터 전시실 퇴장 안내를 시작하고 매주 화요일 휴관합니다.
+- 2026년 12월 27일은 일요일이므로 현재 규정상 정상 운영이 예상됩니다.
+- 가족 관람시간을 확보하도록 16:30 이전 도착을 목표로 고속열차를 선택합니다.
+- 도착이 17:00 이후로 밀리면 관람시간을 무리하게 압축하지 않고 당일 상황을 다시 판단합니다.
+- 확인일은 2026-07-30이며, 2026년 연말 특별 운영 공지는 11월 말~12월 초에 다시 확인합니다.
+
+[MANN 공식 운영시간](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-27.md){ target="_blank" rel="noopener" }
 
 ## 12월 29일 · 지하도시와 도보 여행
 
