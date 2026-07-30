@@ -21,7 +21,7 @@
 | 12/26 로마 렌터카 | <span class="status booking">예약 필요</span> | 공휴일 지점 확인 후 | 높음 | 07:30 수령 가능 여부·자동변속·무료취소 확인 |
 | 12/26 오르비에토 점심 | <span class="status booking">예약 필요</span> | 2026년 11월 말 | 보통 | 13:15 전후 영업·가족 좌석·취소 조건 확인 |
 | [폼페이 입장](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">연말 운영 재확인</span> | 열차 확정 후·출발 1~2주 전 | 보통 | 현장 구매 가능, 기명식·변경 및 원칙적 환불 불가, 09:00~09:30 입장 목표 |
-| 12/30 나폴리 렌터카 | <span class="status weather">날씨 조건부</span> | 날씨 판단 전 | 보통 | 무료취소 차량과 대체안 확보 |
+| 12/30 나폴리 렌터카 | <span class="status review">일정 성립 검증 필요</span><br><span class="status weather">날씨 조건부</span> | 일조·도로·주차 검증 후 | 보통 | 포지타노·아말피 기본, 라벨로 조건부, 자동변속·무료취소 차량과 대체안 확보 |
 | 12/25 식사 | <span class="status booking">예약 필요</span> | 일정 확정 후 | 보통 | 영업 여부와 가족 좌석 확인 |
 | 12/31 저녁 식사 | <span class="status booking">예약 필요</span> | 일정 확정 후 | 높음 | 고정 메뉴·취소 조건 확인 |
 
