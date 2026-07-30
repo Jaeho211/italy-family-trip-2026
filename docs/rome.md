@@ -25,13 +25,29 @@
 
 <span class="status tentative">잠정</span>
 
-[Pantheon](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome){ target="_blank" rel="noopener" } → [Piazza Navona](https://www.google.com/maps/search/?api=1&query=Piazza+Navona+Rome){ target="_blank" rel="noopener" } → [Trevi Fountain](https://www.google.com/maps/search/?api=1&query=Trevi+Fountain+Rome){ target="_blank" rel="noopener" } → [Spanish Steps](https://www.google.com/maps/search/?api=1&query=Spanish+Steps+Rome){ target="_blank" rel="noopener" }
+[Pantheon](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome){ target="_blank" rel="noopener" } 외관 → [Piazza Navona](https://www.google.com/maps/search/?api=1&query=Piazza+Navona+Rome){ target="_blank" rel="noopener" } → [Trevi Fountain](https://www.google.com/maps/search/?api=1&query=Trevi+Fountain+Rome){ target="_blank" rel="noopener" } → [Spanish Steps](https://www.google.com/maps/search/?api=1&query=Spanish+Steps+Rome){ target="_blank" rel="noopener" }
 
 - 휴관 영향을 덜 받는 야외 동선
 - 가족의 속도와 식사 예약 위치에 따라 중간 구간 생략 가능
-- 판테온 입장 가능 여부는 해당 날짜에 별도 확인
+- 판테온은 12월 25일 휴관이므로 이날은 외관만 보고 내부 관람은 12월 31일로 이동
 
 ## 마지막 로마 · 12월 31일–1월 2일
+
+### 12월 31일 판테온
+
+<span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">종교행사 재확인</span>
+
+오전 나폴리 출발 → 로마 도착·짐 보관 → 점심 → [Pantheon](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome){ target="_blank" rel="noopener" }
+
+- 14:00~14:45 내부 관람을 목표로 합니다.
+- 일반 운영은 09:00~19:00이고 개인 마지막 입장은 18:30입니다.
+- 12월 25일과 1월 1일은 휴관이므로 12월 31일을 내부 관람일로 고정합니다.
+- 월별 티켓은 전월 중순 판매가 시작되는 현재 규정에 따라 2026년 11월 중순부터 12월 31일 판매창을 확인합니다.
+- 공식 Musei Italiani에서 가족 4명의 같은 시간대를 선택합니다. 어린이 무료 입장권도 발급하고 연령 증빙을 준비합니다.
+- 종교행사에 따라 시간이 바뀔 수 있으므로 2026년 12월 특별 운영을 재확인합니다.
+- 열차 지연이나 특별 통제로 관람하지 못한 경우에만 1월 2일 콜로세움 후를 예비안으로 사용합니다.
+
+[판테온 공식 운영·티켓 안내](https://direzionemuseiroma.cultura.gov.it/en/pantheon/){ target="_blank" rel="noopener" } · [공식 예매처](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pantheon-2026-12-31.md){ target="_blank" rel="noopener" }
 
 ### 새해 완충일
 
