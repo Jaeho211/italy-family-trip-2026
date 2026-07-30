@@ -19,13 +19,24 @@
 
 ## 12월 29일 · 지하도시와 도보 여행
 
-<span class="status tentative">잠정</span><span class="status booking">지하도시 예약 필요</span>
+<span class="status tentative">잠정</span><span class="status verified">Napoli Sotterranea 선정</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
 
-<p class="route">지하도시 체험 → Spaccanapoli·구시가지 → Via Toledo → Piazza del Plebiscito → 해안</p>
+<p class="route">Napoli Sotterranea 10:00 → Spaccanapoli·구시가지 → Via Toledo → Piazza del Plebiscito → 해안</p>
 
-### 오전 · 지하도시 체험
+### 오전 · Napoli Sotterranea
 
-체험 장소와 운영 주체는 아직 정하지 않았습니다. 공식 운영시간, 예약 방법, 소요시간, 가족의 연령 조건을 확인한 뒤 오전 시간대로 예약합니다.
+[Piazza San Gaetano 68의 공식 Napoli Sotterranea 코스](https://www.napolisotterranea.org/en/){ target="_blank" rel="noopener" }를 선택합니다. 입구의 흰색·파란색 Napoli Sotterranea 깃발을 확인합니다.
+
+- 영어·이탈리아어 일반 투어는 현재 10:00~18:00 사이에 운영됩니다.
+- 가족 4명은 예약이 필수가 아니며 현장에서 대기해 입장할 수 있습니다.
+- 공식 안내상 현장 대기는 혼잡기에 최대 90분까지 길어질 수 있어 10:00 줄서기 면제 티켓을 권장합니다.
+- 온라인 티켓은 환불되지 않고 날짜·시간·이름·종류를 변경할 수 없습니다. 일정 확정 후 출발 1~2주 전에 구매합니다.
+- 지하 약 40m까지 계단으로 내려가며 엘리베이터와 유모차 이용은 불가능합니다.
+- 대부분 공간은 넓고 조명이 있으며 좁고 어두운 촛불 통로는 선택 구간이라 건너뛸 수 있습니다.
+- 지하 코스와 로마 극장 구간을 합쳐 약 1시간 20분을 예상합니다.
+- 2026년 연말 운영시간은 출발 전에 다시 확인합니다.
+
+[공식 운영시간](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } · [공식 줄서기 면제 티켓](https://booking.napolisotterranea.org/?action=changelang&lang=english){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-29.md){ target="_blank" rel="noopener" }
 
 ### 오후 · 구시가지 축
 
