@@ -116,13 +116,25 @@
 <div class="day-card">
   <h3>12월 28일 월요일 · 폼페이 당일치기</h3>
   <p class="day-card__meta">6일차 · 나폴리 2/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">연말 운영 재확인</span>
   <ul>
     <li>나폴리를 숙박 베이스로 유지하고 기차로 왕복</li>
     <li>Pompei Scavi–Villa dei Misteri 역 이용 검토</li>
-    <li>폼페이를 여유 있게 관람하고 나폴리로 복귀</li>
+    <li>09:00~09:30 입장 목표 · 폼페이를 여유 있게 관람</li>
     <li>렌터카 미사용, 에르콜라노 제외</li>
   </ul>
+  <details class="day-details">
+    <summary>운영·티켓 확인 더보기</summary>
+    <ul>
+      <li>겨울 일반 운영 09:00~17:00 · 마지막 입장 15:30</li>
+      <li>사전예약은 필수가 아니며 공식 현장 매표소에서도 구매 가능</li>
+      <li>기명식·날짜·시간대 지정 티켓, 하루 입장 상한 20,000명</li>
+      <li>온라인 티켓은 입장이 빠르지만 이름·날짜 변경 및 원칙적 환불 불가</li>
+      <li>열차와 일정 확정 후 출발 1~2주 전에 공식 Vivaticket 사전구매 권장</li>
+    </ul>
+    <p><strong>확인일:</strong> 2026-07-30 · <strong>재확인:</strong> 2026년 연말 특별 운영과 판매 조건 발표 시</p>
+    <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-28.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
