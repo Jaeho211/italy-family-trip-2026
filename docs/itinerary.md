@@ -140,14 +140,26 @@
 <div class="day-card">
   <h3>12월 29일 화요일 · 나폴리 지하도시와 구시가지</h3>
   <p class="day-card__meta">7일차 · 나폴리 3/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">지하도시 예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">운영처·일반시간 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
   <ul>
-    <li>오전 나폴리 지하도시 체험</li>
-    <li>Spaccanapoli와 나폴리 구시가지 산책</li>
+    <li>10:00 Napoli Sotterranea 공식 코스 목표</li>
+    <li>점심 후 Spaccanapoli와 나폴리 구시가지 산책</li>
     <li>Via Toledo → Galleria Umberto I → Piazza del Plebiscito</li>
     <li>오후 늦게 해안 산책</li>
   </ul>
-  <p><strong>검증 필요:</strong> 지하도시 체험 장소·시간·연령 조건·공식 예약 방법</p>
+  <details class="day-details">
+    <summary>운영·예약 확인 더보기</summary>
+    <ul>
+      <li>공식 입구: Piazza San Gaetano 68 · 흰색·파란색 깃발 확인</li>
+      <li>영어·이탈리아어 일반 투어는 10:00~18:00 사이 운영</li>
+      <li>4인 가족은 예약 필수 아님 · 현장 대기 후 입장 가능</li>
+      <li>연말 대기는 최대 90분까지 길어질 수 있어 10:00 줄서기 면제 티켓 권장</li>
+      <li>온라인 티켓은 환불·날짜·시간·이름·종류 변경 불가</li>
+      <li>지하 계단이 많고 엘리베이터 없음 · 좁은 촛불 통로는 선택 구간</li>
+    </ul>
+    <p><strong>확인일:</strong> 2026-07-30 · <strong>구매:</strong> 일정 확정 후 출발 1~2주 전 · <strong>재확인:</strong> 2026년 연말 운영시간</p>
+    <p><a href="https://www.napolisotterranea.org/en/visiting-hours/" target="_blank" rel="noopener">공식 운영시간</a> · <a href="https://booking.napolisotterranea.org/?action=changelang&amp;lang=english" target="_blank" rel="noopener">공식 줄서기 면제 티켓</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-29.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
