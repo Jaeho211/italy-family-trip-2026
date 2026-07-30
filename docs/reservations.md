@@ -13,7 +13,7 @@
 | 성베드로 대성당 | <span class="status recheck">공식 발표 대기</span> | 2026년 11월 말~12월 초 | 높음 | 전례와 일반 입장·보안 통제 확인 |
 | 12월 24일 점심 | <span class="status review">보류</span> | 대성당 시간 확정 후 | 보통 | 늦은 점심 가능성 |
 | 어린이 할인 증빙 | <span class="status booking">준비 필요</span> | 출발 전 | 높음 | 여권 등 연령 증빙, 공개 저장소에는 세부정보 미기록 |
-| 콜로세움 통합권 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 공식 판매 일정과 오전 시간 확인 |
+| [콜로세움 24h 통합권](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } | <span class="status waiting">30일 전 판매 대기</span><br><span class="status booking">시간대 예약 필요</span> | 2026-12-03경부터 확인 | 높음 | 2027-01-02 09:00 목표, 기본 통합권, 어린이 무료표 포함 4인 동시 확보 |
 | 로마 → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 두 회사 시간·운임·취소 조건 비교 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 새해 전야 도착시간 고려 |
 | [나폴리 국립고고학박물관](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">연말 특별시간 재확인</span> | 열차 예약 전·11월 말~12월 초 | 높음 | 일반 09:00~19:30·마지막 입장 18:30, 16:30 이전 도착 목표 |
