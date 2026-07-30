@@ -39,20 +39,28 @@
 
 ### 고대 로마와 귀국
 
-<span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+<span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status booking">콜로세움 시간대 예약 필요</span>
 
 [Colosseum](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome){ target="_blank" rel="noopener" } → [Roman Forum](https://www.google.com/maps/search/?api=1&query=Roman+Forum+Rome){ target="_blank" rel="noopener" } → Palatine Hill
 
-- 이른 입장 시간대를 우선 검토
-- 이동·보안검색·관람 시간을 제한하고 공항 이동 여유를 보호
-- 짐 수령 지점에서 FCO까지의 실제 이동시간을 전날 재확인
+- 기본형 24h Colosseum·Roman Forum·Palatine 통합권을 선택합니다.
+- 콜로세움 09:00 입장을 목표로 가족 4명의 같은 시간대를 예약합니다.
+- 통합권에는 콜로세움 1·2층과 박물관, 포로 로마노, 팔라티노가 포함됩니다. 지하층·아레나 Full Experience는 기본안에서 제외합니다.
+- 겨울에는 콜로세움이 08:30, 포로·팔라티노가 09:00에 열고 16:30에 폐장합니다.
+- 시간대 예약은 의무이며 판매는 방문 30일 전에 시작하므로 2026년 12월 3일경부터 공식 판매창을 확인합니다.
+- 어린이는 무료 대상이지만 무료 입장권과 연령 증빙이 필요합니다. 공식 페이지의 온라인 발급·현장 수령 안내가 일부 엇갈리므로 판매 시 절차를 재확인합니다.
+- 기명식 티켓이므로 가족 이름과 예약시간을 확인하고 신분증을 준비합니다.
+- 09:00~10:15 콜로세움, 10:20~12:30 포로·팔라티노를 기준으로 이동·보안검색·관람 시간을 제한합니다.
+- 짐 수령 지점에서 FCO까지의 실제 이동시간을 전날 재확인합니다.
+
+[공식 운영·티켓 안내](https://colosseo.it/en/opening-times-and-tickets/){ target="_blank" rel="noopener" } · [공식 예매처](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/colosseum-2027-01-02.md){ target="_blank" rel="noopener" }
 
 !!! warning "귀국일 우선순위"
     콜로세움 일정이 지연되면 포로 로마노·팔라티노 일부를 줄입니다. 22:00 항공편 탑승을 위한 공항 이동이 최우선입니다.
 
 ## 아직 확인할 정보
 
-- 바티칸 공식 티켓 판매 개시와 콜로세움의 2026–2027 겨울 판매 일정
+- 바티칸 공식 티켓 판매 개시와 콜로세움 어린이 무료표 발급 절차
 - 2026년 12월 24일 성탄 전례 및 성베드로 대성당 일반 입장 통제시간
 - 성탄절·신정의 시설 운영 및 대중교통 변동
 - FCO 공항 이동 수단의 운행 정보
