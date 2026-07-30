@@ -17,7 +17,7 @@
 | 로마 → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 두 회사 시간·운임·취소 조건 비교 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 새해 전야 도착시간 고려 |
 | [나폴리 국립고고학박물관](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">연말 특별시간 재확인</span> | 열차 예약 전·11월 말~12월 초 | 높음 | 일반 09:00~19:30·마지막 입장 18:30, 16:30 이전 도착 목표 |
-| 나폴리 지하도시 체험 | <span class="status booking">예약 필요</span> | 체험 후보 선정 후 | 높음 | 12/29 오전, 시간·연령 조건·공식 예약 확인 |
+| [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 일정 확정 후·출발 1~2주 전 | 높음 | 4인은 예약 불필요, Piazza San Gaetano 68 공식 코스, 10:00 목표, 변경·환불 불가 |
 | 12/26 로마 렌터카 | <span class="status booking">예약 필요</span> | 공휴일 지점 확인 후 | 높음 | 07:30 수령 가능 여부·자동변속·무료취소 확인 |
 | 12/26 오르비에토 점심 | <span class="status booking">예약 필요</span> | 2026년 11월 말 | 보통 | 13:15 전후 영업·가족 좌석·취소 조건 확인 |
 | [폼페이 입장](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">연말 운영 재확인</span> | 열차 확정 후·출발 1~2주 전 | 보통 | 현장 구매 가능, 기명식·변경 및 원칙적 환불 불가, 09:00~09:30 입장 목표 |
