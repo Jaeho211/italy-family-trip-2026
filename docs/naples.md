@@ -39,17 +39,23 @@
 
 ## 폼페이 당일치기 · 12월 28일
 
-<span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+<span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">연말 운영 재확인</span>
 
 1. 나폴리 숙소에서 출발역으로 이동
 2. 기차로 Pompei Scavi–Villa dei Misteri 역 이동 검토
-3. [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park){ target="_blank" rel="noopener" }을 여유 있게 관람
-4. 해가 지기 전 또는 계획한 열차로 나폴리 복귀
+3. 09:00~09:30에 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park){ target="_blank" rel="noopener" } 입장 목표
+4. 겨울 폐장 17:00 전에 여유 있게 관람하고 나폴리로 복귀
 
-- 렌터카를 사용하지 않습니다.
-- 에르콜라노는 이번 일정에서 제외합니다.
-- 실제 열차 노선·시간표·파업 정보와 유적 운영시간은 여행 전 확인합니다.
+- 겨울 일반 운영은 09:00~17:00이며 마지막 입장은 15:30입니다.
+- 사전예약은 필수가 아니며 공식 현장 매표소에서도 신분증을 제시하고 구매할 수 있습니다.
+- 티켓은 기명식이고 입장 날짜·시간대를 지정하며 하루 입장 상한은 20,000명입니다.
+- 온라인 구매 시 바로 입장할 수 있지만 이름·날짜 변경과 원칙적 환불이 불가능합니다.
+- 열차와 일정 확정 후 출발 1~2주 전에 [공식 Vivaticket](https://pompeii.vivaticket.it/){ target="_blank" rel="noopener" } 사전구매를 권장합니다.
+- 렌터카를 사용하지 않고 에르콜라노는 이번 일정에서 제외합니다.
 - 겨울 날씨에 대비해 방수 신발과 겹쳐 입을 옷을 준비합니다.
+- 2026년 연말 특별 운영과 판매 조건은 출발 전에 다시 확인합니다.
+
+[폼페이 공식 운영·티켓 안내](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } · [상세 조사와 판단 근거](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-28.md){ target="_blank" rel="noopener" }
 
 ## 이동 원칙
 
