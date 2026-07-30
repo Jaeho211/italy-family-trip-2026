@@ -47,9 +47,10 @@
 <div class="day-card">
   <h3>12월 25일 금요일 · 크리스마스 로마</h3>
   <p class="day-card__meta">3일차 · 로마 3/4박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">판테온 휴관 확인</span><span class="status booking">식당 예약 필요</span>
   <ul>
-    <li>판테온 → 나보나 광장 → 트레비 분수 → 스페인 계단</li>
+    <li>판테온 외관 → 나보나 광장 → 트레비 분수 → 스페인 계단</li>
+    <li>판테온은 12월 25일 휴관이므로 외관만 보고, 내부 관람은 12월 31일로 이동</li>
     <li>휴관 영향을 덜 받는 야외·구시가지 산책 중심</li>
     <li>점심 또는 저녁 식당 사전 예약</li>
   </ul>
@@ -190,12 +191,27 @@
 <div class="day-card">
   <h3>12월 31일 목요일 · 로마 이동</h3>
   <p class="day-card__meta">9일차 · 로마 1/2박</p>
-  <span class="status tentative">잠정</span><span class="status booking">예약 필요</span>
+  <span class="status tentative">잠정</span><span class="status verified">판테온 일반 운영 확인</span><span class="status booking">열차·판테온 예매 필요</span><span class="status recheck">종교행사 재확인</span>
   <ul>
-    <li>Napoli Centrale → Roma Termini 고속열차</li>
-    <li>숙소 체크인 후 오후 산책</li>
+    <li>오전 Napoli Centrale → Roma Termini 고속열차</li>
+    <li>숙소에 짐을 맡기고 점심 후 판테온으로 이동</li>
+    <li>14:00~14:45 판테온 내부 관람 목표</li>
+    <li>관람 후 나보나 광장 주변 휴식 또는 숙소 체크인</li>
     <li>새해 전야 저녁 식사 사전 예약</li>
   </ul>
+  <details class="day-details">
+    <summary>운영·티켓 확인 더보기</summary>
+    <ul>
+      <li>일반 운영 09:00~19:00 · 개인 마지막 입장 18:30</li>
+      <li>12월 25일과 1월 1일은 휴관이며, 12월 31일은 현재 일반 규정상 운영 예상</li>
+      <li>종교행사에 따라 입장시간이 바뀔 수 있으므로 2026년 12월 일정 재확인</li>
+      <li>공식 Musei Italiani에서 날짜·시간대 지정 기명식 티켓 구매</li>
+      <li>어린이는 무료 대상이지만 무료 입장권과 연령 증빙 필요</li>
+      <li>12월 31일 관람이 불가능해지면 1월 2일 콜로세움 후를 예비안으로 사용</li>
+    </ul>
+    <p><strong>확인일:</strong> 2026-07-30 · <strong>판매 확인:</strong> 월별 티켓이 전월 중순에 열리는 현재 규정에 따라 2026년 11월 중순부터</p>
+    <p><a href="https://direzionemuseiroma.cultura.gov.it/en/pantheon/" target="_blank" rel="noopener">판테온 공식 운영·티켓 안내</a> · <a href="https://portale.museiitaliani.it/" target="_blank" rel="noopener">공식 예매처</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pantheon-2026-12-31.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+  </details>
 </div>
 
 <div class="day-card">
