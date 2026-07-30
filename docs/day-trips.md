@@ -37,26 +37,45 @@
 - [ ] 12월 26일 오르비에토 점심 식당 영업·예약
 - [ ] 무료취소 마감 시각
 
-## 포지타노 + 아말피 + 라벨로
+## 포지타노 + 아말피 · 라벨로 조건부
 
 **예정일:** 2026년 12월 30일 수요일  
-<span class="status weather">날씨 조건부</span><span class="status booking">예약 필요</span>
+<span class="status weather">날씨 조건부</span><span class="status booking">렌터카 예약 필요</span><span class="status review">일정 성립 검증 필요</span>
 
-<p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 → 나폴리</p>
+<p class="route">기본안: 나폴리 → 포지타노 → 아말피 → 나폴리 · 조건부: 라벨로 추가</p>
 
 ### 우선순위
 
 1. [포지타노](https://www.google.com/maps/search/?api=1&query=Positano+Italy){ target="_blank" rel="noopener" }: 핵심 목적지
 2. [아말피](https://www.google.com/maps/search/?api=1&query=Amalfi+Italy){ target="_blank" rel="noopener" }: 점심과 두오모 중심
-3. [라벨로](https://www.google.com/maps/search/?api=1&query=Ravello+Italy){ target="_blank" rel="noopener" }: 시간·날씨가 허용하면 전망 또는 Villa Rufolo
+3. [라벨로](https://www.google.com/maps/search/?api=1&query=Ravello+Italy){ target="_blank" rel="noopener" }: 날씨·주차·남은 시간이 모두 충분할 때만 추가
 
-### 운전 판단 기준
+### 핵심 검증 질문
 
-- 출발 전날과 당일 아침 강수·안개·바람 예보 확인
-- 일몰 전에 어려운 해안도로 구간을 마치도록 역산
-- 운전 피로가 커지면 라벨로를 생략
-- 주차 가능 여부와 겨울철 도로 상황 확인
-- 무료취소 가능한 차량을 선택
+**겨울 일몰 전에 포지타노와 아말피를 보고 어려운 해안도로 구간을 안전하게 마칠 수 있는가?**
+
+세 도시 완주를 목표로 삼지 않습니다. 기본안은 포지타노와 아말피이며, 라벨로는 현장에서 추가 여부를 판단합니다.
+
+### 예약 전 검증
+
+- [ ] 나폴리 출발부터 복귀까지 겨울 일조시간 기준 시간표 계산
+- [ ] 일몰 전까지 마쳐야 할 SS163 해안도로 구간과 회차 시각 설정
+- [ ] 12월 30일 렌터카 지점의 수령·반납시간과 접근 방법 확인
+- [ ] 소형 자동변속 보장, 보험·보증금·무료취소 마감 확인
+- [ ] 나폴리 ZTL을 피하는 출발·반납 경로 확인
+- [ ] SS163 도로 통제·공사·낙석 공지 확인
+- [ ] 포지타노·아말피·라벨로 겨울 주차장 운영·예약·요금 확인
+- [ ] 주차장에서 중심지까지의 경사와 가족 도보거리 확인
+- [ ] 아말피 두오모와 Villa Rufolo 겨울 운영·마지막 입장 확인
+- [ ] 강수·안개·바람에 따른 취소 기준과 대체안 확정
+
+### 당일 판단 기준
+
+- 출발 48시간 전 예보로 1차 판단하고 전날 저녁 최종 결정
+- 강한 비·짙은 안개·강풍 또는 도로 통제가 있으면 렌터카 취소
+- 주차 지연이나 운전 피로가 커지면 라벨로 생략
+- 일몰 전 안전한 해안도로 이동을 세 도시 방문보다 우선
+- 무료취소 가능한 차량만 예약
 
 ## 날씨 대체안
 
