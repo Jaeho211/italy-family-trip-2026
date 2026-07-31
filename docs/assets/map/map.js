@@ -8,13 +8,16 @@
     "amalfi": { color: "#b56a3a" }
   };
   const REGIONS = {
-    "naples": { label: "나폴리·폼페이", groups: ["naples"] },
-    "amalfi": { label: "아말피 해안", groups: ["amalfi"] },
-    "rome-lazio": { label: "로마·근교", groups: ["rome", "day-trip"] }
+    "naples": { label: "나폴리" },
+    "pompeii": { label: "폼페이" },
+    "amalfi": { label: "아말피" },
+    "rome": { label: "로마" },
+    "civita": { label: "치비타·오르비에토" }
   };
 
   const requestedRegion = new URLSearchParams(window.location.search).get("region");
-  const region = REGIONS[requestedRegion] || REGIONS["rome-lazio"];
+  const regionId = Object.hasOwn(REGIONS, requestedRegion) ? requestedRegion : "rome";
+  const region = REGIONS[regionId];
   const mapElement = document.getElementById("map");
   const messageElement = document.getElementById("map-message");
   const listElement = document.getElementById("place-list");
@@ -55,13 +58,8 @@
   }
 
   function visibleFeatures() {
-    const selectedGroups = new Set(region.groups);
     return collection.features
-      .filter((feature) => {
-        const groups = arrayValue(feature.properties.groups);
-        if (!groups.length) groups.push(feature.properties.group);
-        return groups.some((group) => selectedGroups.has(group));
-      })
+      .filter((feature) => feature.properties.region === regionId)
       .sort((a, b) => a.properties.sort - b.properties.sort);
   }
 

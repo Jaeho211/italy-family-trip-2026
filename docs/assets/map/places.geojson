@@ -6,6 +6,7 @@
       "properties": {
         "name": "바티칸 박물관",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/30 08:00 목표"],
         "note": "바티칸 박물관과 시스티나 성당 관람",
@@ -19,6 +20,7 @@
       "properties": {
         "name": "성베드로 대성당·광장",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/30 정오 이후"],
         "note": "송년 전례 전날의 보안 통제시간 재확인",
@@ -32,6 +34,7 @@
       "properties": {
         "name": "판테온",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/28 14:30 전후"],
         "note": "나폴리에서 로마로 이동한 오후 내부 관람",
@@ -45,6 +48,7 @@
       "properties": {
         "name": "나보나 광장",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/28 판테온 이후"],
         "note": "판테온과 묶는 구시가지 산책",
@@ -58,6 +62,7 @@
       "properties": {
         "name": "트레비 분수",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/31"],
         "note": "새해 전야 늦은 오전 야외 동선",
@@ -71,6 +76,7 @@
       "properties": {
         "name": "스페인 계단",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["12/31"],
         "note": "가족 체력에 따라 구시가지 동선에서 생략 가능",
@@ -84,6 +90,7 @@
       "properties": {
         "name": "치비타 디 바뇨레조",
         "group": "day-trip",
+        "region": "civita",
         "groups": ["day-trip"],
         "dates": ["12/29 09:45–11:15"],
         "note": "가족 핵심 희망 일정",
@@ -97,6 +104,7 @@
       "properties": {
         "name": "오르비에토 두오모",
         "group": "day-trip",
+        "region": "civita",
         "groups": ["day-trip"],
         "dates": ["12/29 12:15 목표"],
         "note": "오르비에토 도착 후 우선 관람",
@@ -110,6 +118,7 @@
       "properties": {
         "name": "성 패트릭 우물",
         "group": "day-trip",
+        "region": "civita",
         "groups": ["day-trip"],
         "dates": ["12/29 15:20 선택"],
         "note": "가족 체력과 대기시간에 따라 선택",
@@ -123,6 +132,7 @@
       "properties": {
         "name": "나폴리 국립고고학박물관",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/24 14:30 전후"],
         "note": "FCO에서 나폴리로 이동한 오후 관람",
@@ -136,6 +146,7 @@
       "properties": {
         "name": "폼페이 고고학공원",
         "group": "naples",
+        "region": "pompeii",
         "groups": ["naples"],
         "dates": ["12/26 09:00–09:30 목표"],
         "note": "기차 당일치기, Porta Marina 방면 입장",
@@ -149,6 +160,7 @@
       "properties": {
         "name": "Napoli Sotterranea",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 10:00 목표"],
         "note": "공식 입구 Piazza San Gaetano 68",
@@ -162,6 +174,7 @@
       "properties": {
         "name": "스파카나폴리·구시가지",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 점심 이후"],
         "note": "지하도시 관람 후 가족 속도에 맞춰 산책",
@@ -175,6 +188,7 @@
       "properties": {
         "name": "비아 톨레도",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 선택"],
         "note": "오후 동선은 가족 체력에 따라 축소",
@@ -188,6 +202,7 @@
       "properties": {
         "name": "움베르토 1세 갤러리",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 선택"],
         "note": "비아 톨레도와 플레비시토 광장 사이",
@@ -201,6 +216,7 @@
       "properties": {
         "name": "플레비시토 광장",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 선택"],
         "note": "오후 도보 일정의 우선 후보",
@@ -214,6 +230,7 @@
       "properties": {
         "name": "나폴리 해안·카스텔 델로보",
         "group": "naples",
+        "region": "naples",
         "groups": ["naples"],
         "dates": ["12/27 늦은 오후 선택"],
         "note": "누적 피로에 따라 생략 가능",
@@ -227,6 +244,7 @@
       "properties": {
         "name": "포지타노",
         "group": "amalfi",
+        "region": "amalfi",
         "groups": ["amalfi"],
         "dates": ["12/25 핵심"],
         "note": "아말피 해안 드라이브의 우선 목적지",
@@ -240,6 +258,7 @@
       "properties": {
         "name": "아말피 두오모",
         "group": "amalfi",
+        "region": "amalfi",
         "groups": ["amalfi"],
         "dates": ["12/25 예약 점심 전후"],
         "note": "아말피는 점심과 두오모 중심",
@@ -253,6 +272,7 @@
       "properties": {
         "name": "라벨로·빌라 루폴로",
         "group": "amalfi",
+        "region": "amalfi",
         "groups": ["amalfi"],
         "dates": ["12/25 조건부"],
         "note": "날씨·주차·남은 시간이 모두 충분할 때만 추가",
@@ -266,6 +286,7 @@
       "properties": {
         "name": "콜로세움",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["1/2 09:00 목표"],
         "note": "기본 24시간 통합권, 가족 4인 같은 시간대",
@@ -279,6 +300,7 @@
       "properties": {
         "name": "포로 로마노",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["1/2 10:20 이후"],
         "note": "귀국일 일정에 맞춰 핵심 구역 중심",
@@ -292,6 +314,7 @@
       "properties": {
         "name": "팔라티노 언덕",
         "group": "rome",
+        "region": "rome",
         "groups": ["rome"],
         "dates": ["1/2 선택"],
         "note": "가족 체력과 공항 이동시간에 따라 관람 범위 축소",
