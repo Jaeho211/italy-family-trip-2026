@@ -2,21 +2,31 @@
   "use strict";
 
   const GROUPS = {
-    "rome": { label: "로마", color: "#8f3f35" },
-    "day-trip": { label: "치비타·오르비에토", color: "#69704c" },
-    "naples": { label: "나폴리·폼페이", color: "#225e78" },
-    "amalfi": { label: "아말피 해안", color: "#b56a3a" }
+    "rome": { color: "#8f3f35" },
+    "day-trip": { color: "#69704c" },
+    "naples": { color: "#225e78" },
+    "amalfi": { color: "#b56a3a" }
+  };
+  const REGIONS = {
+    "naples": { label: "나폴리·폼페이", groups: ["naples"] },
+    "amalfi": { label: "아말피 해안", groups: ["amalfi"] },
+    "rome-lazio": { label: "로마·근교", groups: ["rome", "day-trip"] }
   };
 
+  const requestedRegion = new URLSearchParams(window.location.search).get("region");
+  const region = REGIONS[requestedRegion] || REGIONS["rome-lazio"];
   const mapElement = document.getElementById("map");
   const messageElement = document.getElementById("map-message");
   const listElement = document.getElementById("place-list");
-  const checkboxes = [...document.querySelectorAll('input[name="group"]')];
+  const titleElement = document.getElementById("region-title");
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   let collection = { type: "FeatureCollection", features: [] };
   let map = null;
   let mapReady = false;
+
+  titleElement.textContent = `${region.label} 관광지 지도`;
+  document.title = `${region.label} | 이탈리아 가족여행 지도`;
 
   function setMessage(text, state = "ready") {
     messageElement.textContent = text;
@@ -33,10 +43,6 @@
     }
   }
 
-  function selectedGroups() {
-    return new Set(checkboxes.filter((item) => item.checked).map((item) => item.value));
-  }
-
   function arrayValue(value) {
     if (Array.isArray(value)) return value;
     if (typeof value !== "string") return [];
@@ -49,12 +55,12 @@
   }
 
   function visibleFeatures() {
-    const selected = selectedGroups();
+    const selectedGroups = new Set(region.groups);
     return collection.features
       .filter((feature) => {
         const groups = arrayValue(feature.properties.groups);
         if (!groups.length) groups.push(feature.properties.group);
-        return groups.some((group) => selected.has(group));
+        return groups.some((group) => selectedGroups.has(group));
       })
       .sort((a, b) => a.properties.sort - b.properties.sort);
   }
@@ -84,7 +90,7 @@
   function renderList(features) {
     listElement.replaceChildren();
     if (!features.length) {
-      listElement.append(makeText("p", "empty", "선택한 일정이 없습니다."));
+      listElement.append(makeText("p", "empty", "이 지역에 표시할 장소가 없습니다."));
       return;
     }
 
@@ -127,15 +133,12 @@
     renderList(features);
 
     if (mapReady) {
-      map.getSource("places").setData({
-        type: "FeatureCollection",
-        features
-      });
+      map.getSource("places").setData({ type: "FeatureCollection", features });
       fitToFeatures(features);
     }
 
     setMessage(
-      features.length ? `관광지 ${features.length}곳을 표시했습니다.` : "표시할 일정을 하나 이상 선택하세요.",
+      features.length ? `${region.label} 관광지 ${features.length}곳을 표시합니다.` : "표시할 장소가 없습니다.",
       features.length ? "ready" : "empty"
     );
   }
@@ -226,6 +229,5 @@
     }
   }
 
-  checkboxes.forEach((checkbox) => checkbox.addEventListener("change", updateView));
   start();
 })();

@@ -12,35 +12,14 @@
 </head>
 <body>
   <main class="map-app">
-    <form class="map-toolbar" aria-label="지도 표시 지역 선택">
-      <fieldset>
-        <legend>표시할 일정</legend>
-        <label class="filter-chip" style="--chip:#8f3f35">
-          <input type="checkbox" name="group" value="rome" checked>
-          로마
-        </label>
-        <label class="filter-chip" style="--chip:#69704c">
-          <input type="checkbox" name="group" value="day-trip" checked>
-          치비타·오르비에토
-        </label>
-        <label class="filter-chip" style="--chip:#225e78">
-          <input type="checkbox" name="group" value="naples" checked>
-          나폴리·폼페이
-        </label>
-        <label class="filter-chip" style="--chip:#b56a3a">
-          <input type="checkbox" name="group" value="amalfi" checked>
-          아말피 해안
-        </label>
-      </fieldset>
-    </form>
-
-    <section class="map-shell" aria-label="관광지 위치 지도">
+    <section class="map-shell" aria-labelledby="region-title">
+      <h1 id="region-title" class="region-title">관광지 지도</h1>
       <div id="map"></div>
       <p id="map-message" class="map-message" role="status" aria-live="polite">지도와 장소 정보를 불러오는 중입니다.</p>
     </section>
 
     <section class="place-panel" aria-labelledby="place-list-title">
-      <h2 id="place-list-title">표시된 장소</h2>
+      <h2 id="place-list-title">이 지역의 장소</h2>
       <p class="place-help">지도 사용이 어렵거나 로딩되지 않으면 아래 링크로 Google Maps를 열 수 있습니다.</p>
       <div id="place-list" class="place-list"></div>
     </section>

@@ -111,7 +111,7 @@ body { color: var(--trip-ink); }
 .trip-map-frame {
   display: block;
   width: 100%;
-  height: clamp(36rem, 78vh, 54rem);
+  height: clamp(42rem, 82vh, 58rem);
   margin: 1rem 0;
   background: var(--trip-cream);
   border: 1px solid var(--trip-border);
@@ -120,8 +120,8 @@ body { color: var(--trip-ink); }
 
 @media (max-width: 640px) {
   .trip-map-frame {
-    height: 78vh;
-    min-height: 34rem;
+    height: 82vh;
+    min-height: 42rem;
     border-radius: .65rem;
   }
 }
