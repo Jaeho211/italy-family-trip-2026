@@ -10,6 +10,10 @@ venv/
 site/
 .cache/
 
+# Local reference material and browser sessions
+.local-sources/
+.naver-browser-profile/
+
 # Editors
 .idea/
 .vscode/
