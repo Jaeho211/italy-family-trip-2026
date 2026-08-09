@@ -42,10 +42,10 @@
 <div class="day-card">
   <h3>12월 25일 금요일 · 아말피 해안 드라이브</h3>
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
-  <span class="status weather">날씨 조건부</span><span class="status verified">렌터카 수령 영업 확인</span><span class="status booking">차량·점심 예약 필요</span><span class="status recheck">무인 반납 승인 필요</span>
+  <span class="status weather">날씨 조건부</span><span class="status tentative">Locauto 중앙역점 계획</span><span class="status booking">차량·점심 예약 필요</span><span class="status recheck">성탄절 영업 재확인</span>
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
   <ul>
-    <li>08:00 중앙역점 수령 목표 · 무인 반납이 승인되지 않으면 공항점 이용</li>
+    <li>08:00 Locauto 나폴리 중앙역점 수령 목표 · 같은 날 같은 지점 반납</li>
     <li>포지타노 전망과 짧은 산책을 우선</li>
     <li>아말피에서 예약한 크리스마스 점심과 중심부 산책</li>
     <li>라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
@@ -54,14 +54,14 @@
   <details class="day-details">
     <summary>렌터카·성탄절 운영 확인 더보기</summary>
     <ul>
-      <li>Avis가 게시한 2026년 12월 25일 영업: 나폴리 중앙역점 08:00~13:00, 공항점 09:00~20:00</li>
-      <li>공항점은 공식 지점 목록에 24시간 반납이 명시됨</li>
-      <li>중앙역점은 예약 단계에서 영업 종료 후 주차장 진입과 열쇠 반납함 사용 승인을 받아야 함</li>
+      <li>Locauto 중앙역점은 Napoli Centrale 역사 내부에 있으며 일반 영업시간은 매일 07:00~21:00</li>
+      <li>일반시간의 12월 25일 적용 여부는 예약 화면과 지점에서 재확인</li>
+      <li>영업시간 이후 반납이라면 시간 외 반납 활성화와 주차장·열쇠 절차를 서면 확인</li>
       <li>무인 반납 시 차량 외관·휠·실내·연료·주차면·열쇠 투입을 사진과 영상으로 기록</li>
       <li>성탄절에는 많은 식당과 상점이 쉬므로 아말피 점심을 사전 예약</li>
     </ul>
     <p><strong>날씨 판단:</strong> 출발 48시간 전 1차, 전날 저녁 최종 결정. 강한 비·짙은 안개·강풍·도로 통제가 있으면 취소합니다.</p>
-    <p><a href="https://www.avis.com/en/locations/eur/it/naples" target="_blank" rel="noopener">Avis 나폴리 지점 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://www.locautorent.com/en/car-rental/locations/campania/naples/station/" target="_blank" rel="noopener">Locauto 나폴리 중앙역점</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
 
