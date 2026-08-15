@@ -13,7 +13,7 @@
 
 - 숙소 후보는 `Toledo역 주변`, `Municipio역 주변`, `Chiaia역 주변`처럼 역 기준으로 표시하되, 대표 관광지인 `Piazza del Plebiscito 주변`은 찾기 쉬운 지역명으로 함께 유지한다.
 - 중앙역 접근성을 우선하면 1호선을 바로 이용하는 Toledo역·Municipio역 주변을 먼저 비교한다.
-- Piazza del Plebiscito와 Via Chiaia 동쪽의 숙소는 Municipio역 또는 Toledo역까지의 실제 도보 경로를 개별 숙소별로 확인한다.
+- Piazza del Plebiscito 주변 숙소는 Municipio역 또는 Toledo역까지의 실제 도보 경로를 개별 숙소별로 확인한다.
 - Chiaia역 주변 숙소는 6호선으로 Municipio역까지 이동한 뒤 1호선으로 환승하는 동선으로 구분한다.
 
 ### 변동 가능 정보

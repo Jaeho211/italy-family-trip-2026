@@ -1,25 +1,30 @@
 # 숙소 지역
 
-공개 사이트에는 후보 **지역과 조건만** 기록하며 실제 숙소명·상세주소·예약번호는 남기지 않습니다.
+공개 사이트에는 확정 숙소의 공식 명칭과 공개 위치를 기록할 수 있지만 **예약번호·객실정보·가격·결제정보·출입정보**는 남기지 않습니다.
 
 ## 테르미니 1박 · 12월 23–24일
 
-<span class="status booking">예약 필요</span>
-<span class="status verified">후보 모음 준비</span>
+<span class="status confirmed">예약 완료</span>
+
+**확정 숙소:** The RomeHello(더 로마헬로)
 
 FCO 도착 예정이 19:35이므로 Leonardo Express로 테르미니에 이동해 숙박합니다. 가족 검색에서 공항 도보권 4인실 선택지가 제한적이었고, 다음 날 나폴리행 고속열차를 바로 탈 수 있는 동선을 우선했습니다.
 
-Airbnb와 Expedia에 1박 후보를 모아 두었습니다. 두 목록은 초대형 링크이므로 공개 사이트에는 URL을 싣지 않고 가족만 접근 가능한 곳에서 관리합니다.
+숙소 예약을 완료했습니다. 상세주소·예약번호·가격·결제정보·출입정보는 가족만 접근 가능한 별도 공간에서 관리합니다.
 
 - Roma Termini에서 짐을 끌고 이동하기 쉬운 거리 우선
 - 가족 4명이 함께 투숙할 수 있는 객실 또는 연결 객실 확인
-- 22시 이후 체크인 가능 여부와 프런트 운영시간 확인
+- 22시 이후 체크인 방법과 프런트 운영시간 재확인
 - 조식보다 다음 날 나폴리행 고속열차 접근성을 우선
 - 12월 23일 Leonardo Express 겨울 막차는 시간표 발표 후 재확인
 
 ## 나폴리 4박 · 12월 24–28일
 
 <span class="status booking">예약 필요</span>
+
+[Airbnb 나폴리 후보 목록 · 보기 전용](https://www.airbnb.co.kr/wishlists/viewonly/fab30b9b-c165-4e2c-b12c-45111d15eb02?s=67&unique_share_id=17e874e6-59f9-4a86-b09f-76f9785830cd){ .md-button target="_blank" rel="noopener" }
+
+후보 목록은 조회만 가능하며 예약·수정 권한은 제공하지 않습니다. 예약번호, 결제정보, 상세주소와 출입정보는 공개하지 않습니다.
 
 ### 우선 검색 지역
 
@@ -47,6 +52,10 @@ Piazza del Plebiscito는 대표 관광지 이름으로 유지하되 지하철역
 ## 로마 5박 · 12월 28일–1월 2일
 
 <span class="status booking">예약 필요</span>
+
+[Airbnb 로마 후보 목록 · 보기 전용](https://www.airbnb.co.kr/wishlists/viewonly/98de3fbe-ad0e-455d-b3a3-20e05d6757f7?s=67&unique_share_id=f135dd90-39a4-4fe6-a3eb-4660c36625ee){ .md-button target="_blank" rel="noopener" }
+
+후보 목록은 조회만 가능하며 예약·수정 권한은 제공하지 않습니다. 예약번호, 결제정보, 상세주소와 출입정보는 공개하지 않습니다.
 
 ### 우선 검색 지역
 

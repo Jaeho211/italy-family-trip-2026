@@ -31,3 +31,4 @@
 | PAN-001 | 판테온 운영·티켓 | Pantheon | Direzione Musei Nazionali Roma | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) |
 | CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
 | ORV-001 | 오르비에토 두오모 | Organizza la visita | Opera del Duomo di Orvieto | 공식 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://www.duomodiorvieto.it/visita/organizza-la-visita) |
+| ACC-001 | 테르미니 확정 숙소 위치 | Location | The RomeHello | 숙소 공식 안내 | 공식 위치 확인 | 2026-08-15 | 숙소 변경 시 | [원문](https://www.theromehello.com/hostel-rome-center-esquilino) |

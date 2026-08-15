@@ -4,6 +4,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "The RomeHello(더 로마헬로)",
+        "group": "lodging",
+        "region": "rome",
+        "groups": ["lodging", "rome"],
+        "dates": ["12/23–24 확정 숙소"],
+        "note": "도착일 테르미니 1박 · 동선 계획용 공식 공개 위치",
+        "googleQuery": "The RomeHello Rome",
+        "sort": 5
+      },
+      "geometry": { "type": "Point", "coordinates": [12.4942247, 41.9034059] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "바티칸 박물관",
         "group": "rome",
         "region": "rome",

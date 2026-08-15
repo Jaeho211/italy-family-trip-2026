@@ -1,12 +1,12 @@
 # 예약 현황
 
-이 표에는 예약 여부만 기록합니다. **예약번호, 실제 숙소명·주소, 결제정보, 개인 연락처는 입력하지 않습니다.**
+이 표에는 숙소명과 예약 여부만 기록합니다. **상세주소, 예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.**
 
 <div class="table-scroll" markdown>
 
 | 항목 | 상태 | 목표 시기 | 우선순위 | 비고 |
 |---|---|---|---|---|
-| 테르미니 1박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/23 늦은 체크인, 가족 4명, 역에서 짐 이동이 쉬운 위치 |
+| The RomeHello(더 로마헬로) · 테르미니 1박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/23 체크인·12/24 체크아웃, 상세 예약정보는 비공개로 관리 |
 | 나폴리 4박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/24 체크인, 현대적 에어비앤비·침실 2개·세탁기 |
 | 로마 5박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/28 체크인, Termini·관광·FCO 접근성과 짐 보관 |
 | FCO → Roma Termini 열차 | <span class="status recheck">겨울 시간 재확인</span> | 12월 13일 이후 시간표 발표 후 | 높음 | 12/23 Leonardo Express 막차와 공사·파업 공지 확인 |

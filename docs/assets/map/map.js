@@ -2,6 +2,7 @@
   "use strict";
 
   const GROUPS = {
+    "lodging": { color: "#6f4a8e" },
     "rome": { color: "#8f3f35" },
     "day-trip": { color: "#69704c" },
     "naples": { color: "#225e78" },
@@ -28,7 +29,7 @@
   let map = null;
   let mapReady = false;
 
-  titleElement.textContent = `${region.label} 관광지 지도`;
+  titleElement.textContent = `${region.label} 여행 장소 지도`;
   document.title = `${region.label} | 이탈리아 가족여행 지도`;
 
   function setMessage(text, state = "ready") {
@@ -136,7 +137,7 @@
     }
 
     setMessage(
-      features.length ? `${region.label} 관광지 ${features.length}곳을 표시합니다.` : "표시할 장소가 없습니다.",
+      features.length ? `${region.label} 여행 장소 ${features.length}곳을 표시합니다.` : "표시할 장소가 없습니다.",
       features.length ? "ready" : "empty"
     );
   }
@@ -179,6 +180,7 @@
           "circle-color": [
             "match",
             ["get", "group"],
+            "lodging", GROUPS.lodging.color,
             "rome", GROUPS.rome.color,
             "day-trip", GROUPS["day-trip"].color,
             "naples", GROUPS.naples.color,

@@ -7,11 +7,11 @@
 <div class="day-card">
   <h3>12월 23일 수요일 · FCO 도착 후 테르미니 이동</h3>
   <p class="day-card__meta">1일차 · 테르미니 1/1박</p>
-  <span class="status confirmed">항공 확정</span><span class="status booking">숙소 예약 필요</span>
+  <span class="status confirmed">항공·숙소 확정</span><span class="status recheck">늦은 체크인 재확인</span>
   <ul>
     <li>인천 14:05 출발 → 로마 FCO 19:35 도착</li>
     <li>입국·수하물 수령 후 Leonardo Express로 Roma Termini 이동</li>
-    <li>테르미니 인근 숙소에 체크인하고 수면과 회복을 우선</li>
+    <li>The RomeHello(더 로마헬로)에 체크인하고 수면과 회복을 우선</li>
     <li>2026년 12월 13일 이후 겨울 시간표가 발표되면 12월 23일 막차 재확인</li>
   </ul>
 </div>

@@ -28,6 +28,8 @@
 | [`pantheon-2026-12-28.md`](pantheon-2026-12-28.md) | 12월 28일 판테온 | 일반 운영 확인 / 종교행사 재확인 |
 | [`civita-orvieto-2026-12-29.md`](civita-orvieto-2026-12-29.md) | 12월 29일 치비타·오르비에토 | 화요일 세부 운영 재확인 |
 | [`vatican-2026-12-30.md`](vatican-2026-12-30.md) | 12월 30일 바티칸 | 박물관 운영 확인 / 대성당 시간 재확인 |
+| [`place-candidates.md`](place-candidates.md) | 외부 지도·여행 글에서 발견한 장소 후보 대기 목록 | 후보 입력·검증 후 일정 반영 |
+| [`rome-mymaps-places.md`](rome-mymaps-places.md) | 사용자 제작 로마 My Maps에서 추출한 장소 후보 | 쇼핑·숙소 제외 / 166곳 미검증 |
 | [`source-register.md`](source-register.md) | 조사에 사용한 공식 출처 대장 | 계속 갱신 |
 
 날짜가 바뀐 기존 조사 문서는 삭제하지 않고 첫머리에 `이전 일정 조사`로 표시해 결정 이력을 보존한다.
