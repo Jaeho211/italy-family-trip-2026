@@ -70,9 +70,10 @@
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
   <ul>
-    <li>나폴리에서 기차로 Pompei Scavi–Villa dei Misteri 역 이동</li>
-    <li>09:00~09:30 입장 목표</li>
-    <li>겨울 폐장시간을 고려해 핵심 구역 중심으로 관람</li>
+    <li>07:40 Napoli Porta Nolana 도착 목표</li>
+    <li>08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정</li>
+    <li>09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>
+    <li>14:53 출발 → 15:26 Porta Nolana 복귀, 지연 시 15:29 예비편</li>
     <li>렌터카 미사용, 에르콜라노 제외</li>
   </ul>
   <details class="day-details">
@@ -80,9 +81,11 @@
     <ul>
       <li>겨울 일반 운영 09:00~17:00, 마지막 입장 15:30</li>
       <li>공식 휴관일은 12월 25일과 1월 1일이므로 12월 26일은 현재 규정상 개관</li>
-      <li>사전예약은 필수가 아니지만 가족 대기시간을 줄이기 위해 출발 1~2주 전 공식표 구매 권장</li>
+      <li>Pompeii Express €20을 기본으로 하고 Villa dei Misteri 관람을 원할 때만 Pompeii+ €25 검토</li>
       <li>기명식·날짜·시간 지정 티켓이며 변경·환불 조건을 구매 전에 확인</li>
-      <li>공휴일 Circumvesuviana/EAV 시간표는 출발 전에 다시 확인</li>
+      <li>30×30×15cm 초과 가방은 반입 금지, 작은 가방·운동화·물과 간식 준비</li>
+      <li>열차 시각은 2026년 3월 28일부터 적용된 현행표 기준 잠정안이며 12월 중순 성탄 특별 시간표 재확인</li>
+      <li>2025년 12월 26일 약 08:00부터 종일 운행한 EAV 공식 사례가 있으나 2026년을 보장하지 않음</li>
     </ul>
     <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-26.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>

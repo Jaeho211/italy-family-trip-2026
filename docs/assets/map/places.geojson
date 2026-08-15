@@ -162,8 +162,8 @@
         "group": "naples",
         "region": "pompeii",
         "groups": ["naples"],
-        "dates": ["12/26 09:00–09:30 목표"],
-        "note": "기차 당일치기, Porta Marina 방면 입장",
+        "dates": ["12/26 09:00 입장 목표"],
+        "note": "Porta Nolana에서 기차 당일치기, Porta Marina 입장",
         "googleQuery": "Pompeii Archaeological Park Porta Marina",
         "sort": 110
       },

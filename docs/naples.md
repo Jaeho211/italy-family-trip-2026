@@ -24,15 +24,16 @@
 
 <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span>
 
-1. 나폴리에서 Pompei Scavi–Villa dei Misteri 역으로 이동
-2. 09:00~09:30 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park){ target="_blank" rel="noopener" } 입장
-3. 겨울 폐장 17:00 전에 핵심 구역 관람
-4. 기차로 나폴리 복귀
+1. 07:40 Napoli Porta Nolana 도착
+2. 08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정
+3. 09:00 Porta Marina에서 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park+Porta+Marina){ target="_blank" rel="noopener" } 입장
+4. Forum·목욕탕·극장 지구를 중심으로 14:15까지 관람
+5. 14:53 출발 → 15:26 Porta Nolana 복귀, 늦어지면 15:29 예비편
 
 - 공식 휴관일은 12월 25일과 1월 1일이므로 26일은 현재 규정상 개관합니다.
-- 사전예약은 필수가 아니지만 가족 대기시간을 줄이기 위해 공식표 사전구매를 권장합니다.
+- Pompeii Express €20을 기본으로 하고, Villa dei Misteri 관람을 원할 때만 Pompeii+ €25를 검토합니다.
 - 렌터카를 사용하지 않고 에르콜라노는 제외합니다.
-- EAV 공휴일 시간표는 출발 전에 확인합니다.
+- 열차 시각은 현행 EAV 시간표 기준 잠정안이며 2026년 성탄 특별 시간표를 12월 중순에 확인합니다.
 
 [폼페이 공식 안내](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-26.md){ target="_blank" rel="noopener" }
 

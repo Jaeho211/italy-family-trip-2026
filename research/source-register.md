@@ -27,6 +27,11 @@
 | CAR-003 | 나폴리 렌터카 | FAQ Car and Van Rental | Locauto | 공식 FAQ | 시간 외 반납 조건 확인 | 2026-08-09 | 예약 시 | [원문](https://www.locautorent.com/en/faq-car-and-van-rental/) |
 | AMA-001 | 아말피 성탄절 운영 사례 | Events December 2025 | Visit Amalfi | 공식 관광 일정 | 과거 사례 | 2026-07-30 | 2026-12-01 | [원문](https://www.visitamalfi.info/en/eventi/month/2025-12/) |
 | POM-001 | 폼페이 운영·티켓 | Timetables and tickets | Pompeii Archaeological Park | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/) |
+| POM-002 | 폼페이 철도·입구 | How to get there | Pompeii Archaeological Park | 공식 교통 안내 | 공식 확인 | 2026-08-15 | 2026-12-15 | [원문](https://pompeiisites.org/en/visiting-info/how-to-get-there/) |
+| POM-003 | 폼페이 반입·기명표 규정 | Regulations for visitors | Pompeii Archaeological Park | 공식 방문 규정 | 공식 확인 | 2026-08-15 | 2026-12-15 | [원문](https://pompeiisites.org/en/visiting-info/regulations-for-visitors/) |
+| POM-004 | 폼페이 식당·화장실·물품보관 | Visitor services | Pompeii Archaeological Park | 공식 편의시설 안내 | 공식 확인 | 2026-08-15 | 2026-12-15 | [원문](https://pompeiisites.org/en/visiting-info/visitor-services/) |
+| EAV-001 | Napoli–Pompei–Sorrento 열차 | Linea Napoli–Pompei–Sorrento dal 28 marzo 2026 | EAV | 공식 시간표 | 현행 시각 확인 | 2026-08-15 | 2026년 성탄 특별공지 시 | [원문](https://www.eavsrl.it/orari-linee-ferroviarie/) |
+| EAV-002 | 성 스테파노 철도 운영 사례 | Festività Natale 2025 | EAV | 과거 공식 특별운행 | 과거 사례 | 2026-08-15 | 2026년 성탄 특별공지 시 | [원문](https://www.eavsrl.it/festivita-natale-2025/) |
 | NAP-001 | Napoli Sotterranea 운영 | Visiting hours | Napoli Sotterranea | 운영처 공식 안내 | 일반시간 확인 | 2026-07-30 | 2026-12-01 | [원문](https://www.napolisotterranea.org/en/visiting-hours/) |
 | PAN-001 | 판테온 운영·티켓 | Pantheon | Direzione Musei Nazionali Roma | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) |
 | CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
