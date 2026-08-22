@@ -37,3 +37,5 @@
 | CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
 | ORV-001 | 오르비에토 두오모 | Organizza la visita | Opera del Duomo di Orvieto | 공식 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://www.duomodiorvieto.it/visita/organizza-la-visita) |
 | ACC-001 | 테르미니 확정 숙소 위치 | Location | The RomeHello | 숙소 공식 안내 | 공식 위치 확인 | 2026-08-15 | 숙소 변경 시 | [원문](https://www.theromehello.com/hostel-rome-center-esquilino) |
+| ACC-002 | 나폴리 확정 숙소 공개 정보 | Una terrazza a Chiaia | Airbnb | 숙소 공개 리스팅 | 예약 상태·공개 권역·편의시설 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.airbnb.co.kr/rooms/52820126) |
+| ACC-003 | 나폴리 확정 숙소 주소 | Strutture Aperte al 30 Settembre 2025 | Regione Campania | 공개 숙박시설 등록부 | 숙소명·주소 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.regione.campania.it/assets/documents/elenco-delle-strutture-ricettive-della-campania-terzo-trimestre-2025.pdf) |

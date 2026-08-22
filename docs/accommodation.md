@@ -20,34 +20,22 @@ FCO 도착 예정이 19:35이므로 Leonardo Express로 테르미니에 이동�
 
 ## 나폴리 4박 · 12월 24–28일
 
-<span class="status booking">예약 필요</span>
+<span class="status confirmed">예약 완료</span>
 
-[Airbnb 나폴리 후보 목록 · 보기 전용](https://www.airbnb.co.kr/wishlists/viewonly/fab30b9b-c165-4e2c-b12c-45111d15eb02?s=67&unique_share_id=17e874e6-59f9-4a86-b09f-76f9785830cd){ .md-button target="_blank" rel="noopener" }
+**확정 숙소:** [Una terrazza a Chiaia(키아이아의 테라스)](https://www.airbnb.co.kr/rooms/52820126){ target="_blank" rel="noopener" }
 
-후보 목록은 조회만 가능하며 예약·수정 권한은 제공하지 않습니다. 예약번호, 결제정보, 상세주소와 출입정보는 공개하지 않습니다.
+**주소:** [Via Santa Teresa a Chiaia, 39, 80121 Napoli NA, Italy](https://www.google.com/maps/search/?api=1&query=Via+Santa+Teresa+a+Chiaia+39+Napoli){ target="_blank" rel="noopener" }
 
-### 우선 검색 지역
+Piazza dei Martiri·Via Chiaia·해안 산책로와 가까운 키아이아 숙소입니다. 공개 리스팅 기준 엘리베이터, 복사열 난방, 세탁기·건조기와 주방이 있으며 침실 1개와 거실의 추가 취침 공간을 사용합니다. 사용자의 명시적 요청에 따라 공개 등록부에서도 확인되는 주소를 일정용으로 표시합니다. 예약번호·가격·결제정보·객실정보·출입정보는 가족 전용 공간에서만 관리합니다.
 
-- [Piazza del Plebiscito 주변 · Municipio역 서쪽 도보권](https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito+Naples){ target="_blank" rel="noopener" }
-- [Toledo역 주변 · 지하철 1호선](https://www.google.com/maps/search/?api=1&query=Toledo+Metro+Station+Naples){ target="_blank" rel="noopener" }
-- [Municipio역 주변 · 지하철 1·6호선](https://www.google.com/maps/search/?api=1&query=Municipio+Metro+Station+Naples){ target="_blank" rel="noopener" }
-- [Chiaia역 주변 · 지하철 6호선](https://www.google.com/maps/search/?api=1&query=Chiaia+Metro+Station+Naples){ target="_blank" rel="noopener" }
+### 실행 동선
 
-Piazza del Plebiscito는 대표 관광지 이름으로 유지하되 지하철역은 아닙니다. 이 광장 주변 숙소는 **Municipio역 또는 Toledo역까지 실제 도보 동선**을 확인해 비교합니다. Chiaia역 주변은 6호선 생활권이므로 중앙역으로 갈 때 Municipio역에서 1호선으로 환승합니다.
-
-현대적인 에어비앤비와 가족 체류 환경을 우선합니다. 중앙역 바로 앞은 열차와 렌터카에는 편리하지만 4박 베이스의 분위기·야간 보행 면에서 우선순위를 낮춥니다. 12월 25일 아침 렌터카 지점까지 택시로 이동하는 안을 포함해 비교합니다.
-
-여행자 가이드에서도 Piazza del Plebiscito·Galleria Umberto I 주변은 관광과 체류 편의, 중앙역 주변은 열차·근교 이동 편의를 장점으로 구분합니다. 이는 공식 치안 평가가 아닌 숙소 선택 경험담이므로, 실제 후보는 **큰길에서의 접근성·야간 택시 하차·최근 가족 후기**를 개별 확인합니다.
-
-### 렌터카 동선을 반영한 숙소 기준
-
-12월 25일에는 Locauto 나폴리 중앙역점에서 차량을 수령하고 같은 지점에 반납할 계획입니다. 따라서 중앙역 바로 앞에 숙박할 필요는 없지만, 성탄절에도 중앙역까지 이동이 단순한 숙소를 우선합니다.
-
-- Municipio·Toledo 등 지하철 1호선 접근 또는 택시 승차가 쉬운 위치
-- 성탄절 아침 택시 사전 호출 가능 여부 확인
-- 렌터카 수령 시각까지 여유 있게 도착할 수 있는 동선
-- 늦은 복귀를 고려해 중앙역에서 숙소까지 택시로 돌아오기 쉬운 위치
-- 2026년 12월 25일 Locauto 특별 영업시간과 시간 외 반납 가능 여부는 예약 전에 재확인
+- 12월 24일 Napoli Centrale 도착 후 짐이 있으므로 숙소까지 택시를 우선합니다.
+- 체크인은 15:00 이후이므로 오전 짐 보관 가능 여부를 호스트에게 확인합니다.
+- 12월 25일 08:00 Locauto 중앙역점 수령에는 성탄절 택시를 사전 준비합니다.
+- 12월 26일 07:40 Napoli Porta Nolana 도착에도 이른 아침 택시를 우선합니다.
+- 12월 27일 구시가지 일정 후 Via Toledo·Piazza del Plebiscito·해안으로 이어지는 도보 복귀 동선과 잘 맞습니다.
+- 12월 28일 Napoli Centrale 이동은 짐을 고려해 택시를 우선합니다.
 
 ## 로마 5박 · 12월 28일–1월 2일
 

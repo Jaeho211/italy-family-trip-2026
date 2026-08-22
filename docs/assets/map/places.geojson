@@ -18,6 +18,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Una terrazza a Chiaia",
+        "group": "lodging",
+        "region": "naples",
+        "groups": ["lodging", "naples"],
+        "dates": ["12/24–28 확정 숙소"],
+        "note": "키아이아 4박 · 주소 기반 표시용 좌표이며 건물 입구는 도착 전에 재확인",
+        "googleQuery": "Via Santa Teresa a Chiaia 39 Napoli",
+        "sort": 6
+      },
+      "geometry": { "type": "Point", "coordinates": [14.234971, 40.8360233] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "바티칸 박물관",
         "group": "rome",
         "region": "rome",

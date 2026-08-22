@@ -19,10 +19,10 @@
 <div class="day-card">
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
-  <span class="status tentative">잠정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">특별시간 재확인</span>
+  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">특별시간 재확인</span>
   <ul>
     <li>아침 Roma Termini 출발 → Napoli Centrale 고속열차 이동</li>
-    <li>숙소에 짐을 맡기고 점심·체크인</li>
+    <li>오전 짐 보관을 호스트에게 사전 확인하고, Napoli Centrale에서 택시로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동</li>
     <li>14:30 전후 나폴리 국립고고학박물관 입장 목표</li>
   </ul>
   <details class="day-details">
@@ -46,6 +46,7 @@
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
   <ul>
     <li>08:00 Locauto 나폴리 중앙역점 수령 목표 · 같은 날 같은 지점 반납</li>
+    <li>키아이아 숙소에서 성탄절 사전 호출 택시로 중앙역 이동</li>
     <li>포지타노 전망과 짧은 산책을 우선</li>
     <li>아말피에서 예약한 크리스마스 점심과 중심부 산책</li>
     <li>라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
@@ -70,6 +71,7 @@
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
   <ul>
+    <li>키아이아 숙소에서 이른 아침 택시로 이동</li>
     <li>07:40 Napoli Porta Nolana 도착 목표</li>
     <li>08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정</li>
     <li>09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>

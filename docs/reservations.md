@@ -1,13 +1,13 @@
 # 예약 현황
 
-이 표에는 숙소명과 예약 여부만 기록합니다. **상세주소, 예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.**
+이 표에는 숙소명과 예약 여부만 기록합니다. **예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.** 나폴리 확정 숙소 주소는 사용자의 명시적 요청과 공개 등록부 확인에 따라 [숙소 페이지](accommodation.md)에만 표시합니다.
 
 <div class="table-scroll" markdown>
 
 | 항목 | 상태 | 목표 시기 | 우선순위 | 비고 |
 |---|---|---|---|---|
 | The RomeHello(더 로마헬로) · 테르미니 1박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/23 체크인·12/24 체크아웃, 상세 예약정보는 비공개로 관리 |
-| 나폴리 4박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/24 체크인, 현대적 에어비앤비·침실 2개·세탁기 |
+| Una terrazza a Chiaia · 나폴리 4박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/24 체크인·12/28 체크아웃, 키아이아·Piazza dei Martiri 인근 |
 | 로마 5박 숙소 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 12/28 체크인, Termini·관광·FCO 접근성과 짐 보관 |
 | FCO → Roma Termini 열차 | <span class="status recheck">겨울 시간 재확인</span> | 12월 13일 이후 시간표 발표 후 | 높음 | 12/23 Leonardo Express 막차와 공사·파업 공지 확인 |
 | Roma Termini → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/24 오전 고속열차, MANN 14:30 전후 입장 가능 시간 |
@@ -37,4 +37,4 @@
 - 예약을 취소하면 이 표, [전체 일정](itinerary.md), [지도 데이터](assets/map/places.geojson)를 함께 수정
 
 !!! danger "공개 금지"
-    예약번호, QR 코드, 티켓 이미지, 승객 이름, 숙소 상세주소, 출입 방법, 결제 영수증은 이 저장소에 커밋하지 않습니다.
+    예약번호, QR 코드, 티켓 이미지, 승객 이름, 출입 방법, 결제 영수증은 이 저장소에 커밋하지 않습니다. 나폴리 확정 숙소 주소는 2026-08-23의 명시적 공개 합의에 따른 예외입니다.
