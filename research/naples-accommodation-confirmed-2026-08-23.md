@@ -24,14 +24,21 @@
 ## 일정 반영
 
 - 12월 24일 Napoli Centrale 도착 후 짐을 들고 숙소까지 이동할 때는 택시를 우선한다.
-- 체크인 전 도착하므로 오전 짐 보관 가능 여부는 호스트에게 별도로 확인한다.
-- 12월 25일 Locauto 중앙역점 08:00 수령과 12월 26일 Porta Nolana 07:40 도착에는 사전 호출 택시를 우선한다.
+- 공개 리스팅의 일반 체크인은 15:00 이후지만 현재 일정은 13:00 이른 체크인이 가능하다고 가정한다. 호스트에게 아직 확인하지 않았으므로 불가할 때의 짐 보관 방법도 함께 문의한다.
+- 12월 25일 Locauto 중앙역점 08:00 수령에는 07:05~07:10 Uber Taxi를 호출하고, 07:15까지 미배차면 Piazza Amedeo역에서 Linea 2로 Piazza Garibaldi까지 이동한다.
+- 12월 26일 Porta Nolana 07:40 도착에는 택시를 우선한다.
 - 12월 28일 Napoli Centrale 이동도 짐을 고려해 택시를 우선한다.
+- 12월 27일에는 Piazza Amedeo–Piazza Cavour Linea 2로 구시가지 동쪽에서 시작하고, Plebiscito·해안 방향으로 이동해 숙소 쪽에서 일정을 마친다.
 
 ## 구분
 
 - **예약 사실:** 사용자가 예약 완료를 확인했다.
 - **공개 리스팅 사실:** 숙소명, 공개 권역, 시설과 체크인 일반 조건은 2026년 8월 23일 리스팅에서 확인했다.
 - **공개 등록부 사실:** 캄파니아주 등록부에 `Una terrazza a Chiaia`와 `VIA SANTA TERESA A CHIAIA 39`가 함께 등재되어 있다.
-- **실행 판단:** 중앙역·Porta Nolana 이동에 택시를 우선하는 것은 짐과 이른 출발을 고려한 가족 동선 판단이다.
-- **미확인:** 오전 짐 보관과 성탄절 택시 사전 호출 가능 여부는 호스트·운송사에 재확인한다.
+- **공식 사실:** Uber는 나폴리에서 면허 택시를 앱으로 24시간 호출할 수 있다고 안내한다. Trenitalia는 Linea 2가 Piazza Amedeo와 Napoli Piazza Garibaldi를 연결한다고 안내한다.
+- **실행 판단:** 12월 25일에는 별도 택시 예약 없이 Uber Taxi를 먼저 시도하고, 정해진 시각에 Linea 2로 전환한다. 그 밖의 짐 이동과 Porta Nolana의 이른 출발에는 택시를 우선한다.
+- **미확인:** 13:00 이른 체크인·불가 시 짐 보관과 2026년 12월 25~27일 Linea 2 실제 운행 시각은 각각 호스트와 Trenitalia에서 재확인한다.
+
+확인일: 2026-08-23 · 재확인: 2026년 12월 중순
+
+출처: [Uber Taxi 나폴리 공식 안내](https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/) · [Trenitalia 나폴리 Linea 2 공식 안내](https://www.trenitalia.com/it/regionale/campania/metro-napoli.html)

@@ -6,8 +6,8 @@
 - [ ] The RomeHello의 12월 23일 늦은 체크인 방법 재확인
 - [x] Una terrazza a Chiaia 나폴리 4박 예약
 - [x] 나폴리 숙소의 난방, 세탁기·건조기, 엘리베이터 확인
-- [ ] 나폴리 숙소의 12월 24일 오전 짐 보관 확인
-- [ ] 나폴리 숙소에서 Locauto 중앙역점까지 성탄절 아침 택시 사전 준비
+- [ ] 나폴리 숙소에 12월 24일 13:00 이른 체크인 가능 여부 확인 · 불가하면 짐 보관 방법 확인
+- [ ] 12월 중순 Piazza Amedeo–Piazza Garibaldi Linea 2 성탄절 실제 시각 확인
 - [ ] 로마 5박 후보 지역 합의
 - [ ] 로마 숙소의 실제 침실 2개, 난방, 세탁기, 엘리베이터, Wi-Fi 확인
 - [ ] 체크인 전·체크아웃 후 짐 보관 확인
@@ -16,10 +16,11 @@
 ## 열차
 
 - [ ] 12/23 FCO–Roma Termini Leonardo Express 겨울 막차 확인
-- [ ] 12/24 Roma Termini–Napoli Centrale 오전 고속열차 예약
+- [ ] 12/24 Napoli Centrale 11:30~12:00 도착 기준 Roma Termini 고속열차 예약
 - [ ] 12/28 Napoli Centrale–Roma Termini 오전편 예약
 - [ ] Frecciarossa와 Italo의 좌석·수하물·변경 조건 비교
 - [ ] 12/26 EAV 08:05 Porta Nolana 출발·14:53 Pompei Scavi 복귀편과 15:29 예비편 확인
+- [ ] 12/26 Uber 미배차·복귀 시 Piazza Amedeo–Piazza Garibaldi Linea 2 환승 시각 확인
 - [ ] 여행 직전 운행 변경·파업 공지 확인
 
 ## 나폴리 관광
@@ -34,6 +35,7 @@
 - [ ] 30×30×15cm 이하 가방, 운동화, 물과 간식 준비
 - [x] Napoli Sotterranea 공식 코스와 입구 선정
 - [ ] 12월 27일 10:00 줄서기 면제권 구매 전 변경·환불 조건 확인
+- [ ] 12월 27일 나폴리 대성당·Santa Chiara·Gesù Nuovo 일요일 전례와 내부 관람 가능 시간 확인
 
 ## 아말피 렌터카 · 12월 25일
 

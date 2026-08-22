@@ -416,6 +416,43 @@
 - 중앙역 바로 앞보다 가족 체류 환경을 우선한다는 기존 결정을 유지하면서, 중앙역 이동은 택시로 보완할 수 있다.
 - 정확한 주소가 일정과 지도에 있으면 도착·택시·도보 길찾기를 즉시 실행할 수 있다.
 
+### 2026-08-23 · 성탄절 Locauto 이동에서 택시 사전 예약 제외
+
+<span class="status confirmed">결정</span><span class="status recheck">성탄절 열차 재확인</span>
+
+**결정**
+
+- 12월 25일 아침 택시를 별도로 사전 예약하지 않는다.
+- 07:05~07:10 Uber Taxi를 호출하고, 07:15까지 미배차면 Piazza Amedeo역으로 이동한다.
+- Trenitalia Linea 2로 Napoli Piazza Garibaldi까지 이동한 뒤 Napoli Centrale의 Locauto 지점으로 간다.
+- 2026년 12월 25일 Linea 2 실제 시각은 12월 중순에 재확인한다.
+
+**이유**
+
+- Uber 공식 안내상 나폴리에서 면허 택시를 앱으로 24시간 호출할 수 있다. 다만 실제 배차는 보장되지 않는다.
+- Trenitalia 공식 안내상 Piazza Amedeo와 Napoli Piazza Garibaldi가 Linea 2로 직접 연결된다.
+- 숙소에서 가까운 철도 대안이 있어 택시 사전 예약을 별도 준비할 필요가 없다고 합의했다.
+
+### 2026-08-23 · 확정 숙소 기준으로 나폴리 3일 일정 재구성
+
+<span class="status tentative">일정 합의</span><span class="status recheck">13:00 체크인·연말 운영 재확인</span>
+
+**결정**
+
+- 12월 24일은 Napoli Centrale 11:30~12:00 도착, 13:00 숙소 체크인, 14:30 MANN 입장을 기준으로 계획한다.
+- 13:00 체크인은 호스트에게 아직 확인하지 않은 가정이며, 불가하면 짐 보관 방법과 MANN 출발 시각을 다시 정한다.
+- 12월 26일은 Uber Taxi로 Napoli Porta Nolana에 가서 EAV에 탑승한다. 07:20까지 미배차면 Piazza Amedeo–Piazza Garibaldi Linea 2로 전환하고, 복귀도 Napoli Garibaldi에서 Linea 2로 Piazza Amedeo까지 이동한다.
+- 12월 27일은 Piazza Amedeo–Piazza Cavour Linea 2로 이동해 Napoli Sotterranea에서 시작한다.
+- My Maps의 코스 1-1과 1-3을 참고해 나폴리 대성당–Spaccanapoli–Santa Chiara·Gesù Nuovo–Via Toledo–Castel Nuovo–Galleria Umberto–Plebiscito–해안 순으로 이동하고 숙소 쪽에서 끝낸다.
+- 보메로의 산 엘모성·산 마르티노 박물관은 12월 27일에 합치지 않고 별도 후보로 남긴다.
+
+**이유**
+
+- 확정 숙소 인근 Piazza Amedeo역에서 Linea 2로 Piazza Cavour와 Piazza Garibaldi에 연결할 수 있다.
+- 12월 27일 구시가지 동쪽에서 시작해 키아이아 방향으로 이동하면 같은 길을 되돌아가는 구간을 줄일 수 있다.
+- 도착일과 폼페이 당일은 가족 회복 시간을 확보하고, 나폴리 도보 관광은 한 날짜에 집중한다.
+- 사용자 제작 지도는 장소 후보와 연결 순서만 참고하고 운영정보는 공식 출처에서 별도로 검증한다.
+
 ## 변경 기록
 
 | 기록일 | 변경 | 이유 |
@@ -439,11 +476,14 @@
 | 2026-08-15 | 확정 숙소명·공개 위치 표시 허용 | 일정 식별과 동선 계획에 사용하되 예약·객실·결제·출입정보는 계속 비공개로 유지 |
 | 2026-08-23 | 나폴리 4박 숙소를 Una terrazza a Chiaia로 확정 | 키아이아의 가족 체류 환경과 도보 관광 접근성을 우선하고 중앙역 이동은 택시로 보완 |
 | 2026-08-23 | 나폴리 확정 숙소 주소 공개 예외 합의 | 사용자가 여행 중 길찾기 편의를 위해 명시적으로 요청했고 공개 숙박시설 등록부에서 주소를 확인 |
+| 2026-08-23 | 성탄절 Locauto 이동의 택시 사전 예약 제외 | Uber Taxi를 먼저 호출하고 미배차 시 인근 Piazza Amedeo역의 Linea 2로 전환 가능 |
+| 2026-08-23 | 확정 숙소 기준으로 12월 24·26·27일 재구성 | Piazza Amedeo의 Linea 2와 키아이아로 돌아오는 단방향 도보 동선을 활용 |
 
 ## 향후 결정 대기
 
 - 로마 5박 숙소 예약
 - 12월 23일 Leonardo Express 겨울 막차와 12월 24일 테르미니–나폴리 고속열차
+- 12월 24일 나폴리 숙소 13:00 이른 체크인 또는 짐 보관 가능 여부
 - 12월 25일 Locauto 중앙역점 성탄절 영업·시간 외 반납 확인과 차량·아말피 점심 예약
 - 12월 26일 폼페이 공휴일 열차 시간표
 - 12월 27일 Napoli Sotterranea 연말 시간과 줄서기 면제 티켓

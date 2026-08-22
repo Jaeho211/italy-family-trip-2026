@@ -19,11 +19,13 @@
 <div class="day-card">
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
-  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">특별시간 재확인</span>
+  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">13:00 체크인·특별시간 재확인</span>
   <ul>
-    <li>아침 Roma Termini 출발 → Napoli Centrale 고속열차 이동</li>
-    <li>오전 짐 보관을 호스트에게 사전 확인하고, Napoli Centrale에서 택시로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동</li>
-    <li>14:30 전후 나폴리 국립고고학박물관 입장 목표</li>
+    <li>Napoli Centrale 11:30~12:00 도착편을 기준으로 Roma Termini 고속열차 선택</li>
+    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동</li>
+    <li>13:00 이른 체크인 가정 · 짐을 두고 숙소 인근에서 가벼운 점심</li>
+    <li>13:50 Piazza Amedeo역 이동 → Linea 2 → Napoli Piazza Cavour</li>
+    <li>14:30~17:30 나폴리 국립고고학박물관 핵심 관람 후 Linea 2로 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·이동 확인 더보기</summary>
@@ -33,6 +35,8 @@
       <li>2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있음</li>
       <li>2026년 12월 24일은 목요일이므로 현재 기준 방문 가능성이 높음</li>
       <li>테르미니 숙박으로 FCO 환승을 없애고 나폴리행 고속열차를 바로 이용</li>
+      <li>13:00 체크인은 호스트에게 아직 확인하지 않은 일정 가정이며, 불가하면 짐 보관 방법과 박물관 출발 시각을 다시 조정</li>
+      <li>Trenitalia Linea 2는 Piazza Amedeo와 박물관 인근 Piazza Cavour를 연결</li>
     </ul>
     <p><strong>재확인:</strong> 2026년 11월 말~12월 초 MANN 특별 운영과 겨울 열차 시간표</p>
     <p><a href="https://www.museoarcheologiconapoli.it/en/timetables-and-fares/" target="_blank" rel="noopener">MANN 공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
@@ -46,7 +50,8 @@
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
   <ul>
     <li>08:00 Locauto 나폴리 중앙역점 수령 목표 · 같은 날 같은 지점 반납</li>
-    <li>키아이아 숙소에서 성탄절 사전 호출 택시로 중앙역 이동</li>
+    <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
+    <li>Trenitalia Linea 2로 Napoli Piazza Garibaldi 이동 후 연결 통로를 따라 Napoli Centrale로 이동</li>
     <li>포지타노 전망과 짧은 산책을 우선</li>
     <li>아말피에서 예약한 크리스마스 점심과 중심부 산책</li>
     <li>라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
@@ -56,13 +61,15 @@
     <summary>렌터카·성탄절 운영 확인 더보기</summary>
     <ul>
       <li>Locauto 중앙역점은 Napoli Centrale 역사 내부에 있으며 일반 영업시간은 매일 07:00~21:00</li>
+      <li>Uber 앱에서 나폴리의 면허 택시를 24시간 호출할 수 있지만 실제 배차는 보장되지 않음</li>
+      <li>Linea 2는 Piazza Amedeo와 Napoli Piazza Garibaldi를 연결하며, 성탄절 실제 열차 시각은 12월 중순 재확인</li>
       <li>일반시간의 12월 25일 적용 여부는 예약 화면과 지점에서 재확인</li>
       <li>영업시간 이후 반납이라면 시간 외 반납 활성화와 주차장·열쇠 절차를 서면 확인</li>
       <li>무인 반납 시 차량 외관·휠·실내·연료·주차면·열쇠 투입을 사진과 영상으로 기록</li>
       <li>성탄절에는 많은 식당과 상점이 쉬므로 아말피 점심을 사전 예약</li>
     </ul>
     <p><strong>날씨 판단:</strong> 출발 48시간 전 1차, 전날 저녁 최종 결정. 강한 비·짙은 안개·강풍·도로 통제가 있으면 취소합니다.</p>
-    <p><a href="https://www.locautorent.com/en/car-rental/locations/campania/naples/station/" target="_blank" rel="noopener">Locauto 나폴리 중앙역점</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://www.locautorent.com/en/car-rental/locations/campania/naples/station/" target="_blank" rel="noopener">Locauto 나폴리 중앙역점</a> · <a href="https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/" target="_blank" rel="noopener">Uber Taxi 나폴리</a> · <a href="https://www.trenitalia.com/it/regionale/campania/metro-napoli.html" target="_blank" rel="noopener">Trenitalia Linea 2</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
 
@@ -71,11 +78,12 @@
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
   <ul>
-    <li>키아이아 숙소에서 이른 아침 택시로 이동</li>
+    <li>07:10 키아이아 숙소에서 Uber Taxi 호출 → Napoli Porta Nolana 이동 · 07:20까지 미배차면 Piazza Amedeo역으로 전환</li>
     <li>07:40 Napoli Porta Nolana 도착 목표</li>
     <li>08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정</li>
     <li>09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>
-    <li>14:53 출발 → 15:26 Porta Nolana 복귀, 지연 시 15:29 예비편</li>
+    <li>14:53 출발 → 15:24 Napoli Garibaldi 하차, 지연 시 15:29 예비편</li>
+    <li>Napoli Piazza Garibaldi에서 Linea 2로 Piazza Amedeo 이동 → 16:00 전후 숙소 휴식</li>
     <li>렌터카 미사용, 에르콜라노 제외</li>
   </ul>
   <details class="day-details">
@@ -88,6 +96,8 @@
       <li>30×30×15cm 초과 가방은 반입 금지, 작은 가방·운동화·물과 간식 준비</li>
       <li>열차 시각은 2026년 3월 28일부터 적용된 현행표 기준 잠정안이며 12월 중순 성탄 특별 시간표 재확인</li>
       <li>2025년 12월 26일 약 08:00부터 종일 운행한 EAV 공식 사례가 있으나 2026년을 보장하지 않음</li>
+      <li>택시 미배차 시 Linea 2로 Napoli Piazza Garibaldi까지 이동해 같은 EAV 열차에 중간 승차 · 실제 환승 시각 재확인</li>
+      <li>복귀 Linea 2 운행이 맞지 않으면 EAV를 Porta Nolana까지 계속 타고 Uber Taxi 호출</li>
     </ul>
     <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-26.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
@@ -97,11 +107,15 @@
   <h3>12월 27일 일요일 · 나폴리 지하도시와 구시가지</h3>
   <p class="day-card__meta">5일차 · 나폴리 4/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
+  <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → 해안 선택 → 숙소</p>
   <ul>
-    <li>10:00 Napoli Sotterranea 공식 코스 목표</li>
-    <li>점심 후 Spaccanapoli와 구시가지 산책</li>
-    <li>Via Toledo → Galleria Umberto I → Piazza del Plebiscito</li>
-    <li>해안은 가족 체력과 날씨에 따라 선택</li>
+    <li>09:00 숙소 출발 → Piazza Amedeo역에서 Linea 2 → Napoli Piazza Cavour</li>
+    <li>09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
+    <li>11:40 나폴리 대성당 · 일요일 전례로 내부 관람이 어렵다면 외관만 확인</li>
+    <li>12:15 Via dei Tribunali에서 점심 · Di Matteo와 Sorbillo 등은 당일 대기시간을 보고 선택</li>
+    <li>13:15 Spaccanapoli → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
+    <li>15:15 Via Toledo → Castel Nuovo 외관 → Galleria Umberto I → San Carlo·Plebiscito·왕궁 외관</li>
+    <li>16:30 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가 → 17:30 전후 숙소 도보 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·예약 확인 더보기</summary>
@@ -110,8 +124,11 @@
       <li>영어·이탈리아어 일반 투어는 현재 매일 10:00~18:00 사이 운영</li>
       <li>4인 가족 예약은 필수가 아니지만 연말 대기를 줄이기 위해 10:00 줄서기 면제권 권장</li>
       <li>지하 계단이 많고 엘리베이터 없음, 좁은 촛불 통로는 선택 구간</li>
+      <li>사용자 제작 My Maps의 코스 1-1과 1-3을 숙소 기준의 동→서 단방향 동선으로 재구성</li>
+      <li>산 엘모성·산 마르티노 박물관의 보메로 코스는 같은 날 합치지 않고 별도 후보로 보류</li>
+      <li>성당 내부와 식당은 공식 운영을 검증하지 않은 후보이므로 전례·휴무·대기시간에 따라 생략 가능</li>
     </ul>
-    <p><a href="https://www.napolisotterranea.org/en/visiting-hours/" target="_blank" rel="noopener">공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://www.napolisotterranea.org/en/visiting-hours/" target="_blank" rel="noopener">공식 운영시간</a> · <a href="https://www.google.com/maps/d/u/0/viewer?mid=1gEGfljCgQJs66VO-oX7aHGf-XjN4RGzY" target="_blank" rel="noopener">참고 My Maps</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
 

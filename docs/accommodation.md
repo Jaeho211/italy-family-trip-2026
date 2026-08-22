@@ -31,10 +31,10 @@ Piazza dei Martiri·Via Chiaia·해안 산책로와 가까운 키아이아 숙�
 ### 실행 동선
 
 - 12월 24일 Napoli Centrale 도착 후 짐이 있으므로 숙소까지 택시를 우선합니다.
-- 체크인은 15:00 이후이므로 오전 짐 보관 가능 여부를 호스트에게 확인합니다.
-- 12월 25일 08:00 Locauto 중앙역점 수령에는 성탄절 택시를 사전 준비합니다.
-- 12월 26일 07:40 Napoli Porta Nolana 도착에도 이른 아침 택시를 우선합니다.
-- 12월 27일 구시가지 일정 후 Via Toledo·Piazza del Plebiscito·해안으로 이어지는 도보 복귀 동선과 잘 맞습니다.
+- 공개 리스팅의 일반 체크인은 15:00 이후지만, 현재 일정은 13:00 이른 체크인이 가능하다고 가정합니다. 호스트에게 확인하고 불가하면 짐 보관 방법을 다시 정합니다.
+- 12월 25일 08:00 Locauto 중앙역점 수령에는 07:05~07:10 Uber Taxi를 호출하고, 07:15까지 미배차면 Piazza Amedeo역에서 Linea 2로 Piazza Garibaldi까지 이동합니다.
+- 12월 26일 07:10 Uber Taxi로 Napoli Porta Nolana에 이동하고, 07:20까지 미배차면 Piazza Amedeo–Piazza Garibaldi Linea 2로 전환합니다. 복귀도 Napoli Garibaldi에서 Linea 2로 Piazza Amedeo까지 이동합니다.
+- 12월 27일 Piazza Cavour에서 시작해 구시가지·Via Toledo·Piazza del Plebiscito·해안으로 서쪽 이동하면 숙소 쪽에서 일정이 끝납니다.
 - 12월 28일 Napoli Centrale 이동은 짐을 고려해 택시를 우선합니다.
 
 ## 로마 5박 · 12월 28일–1월 2일

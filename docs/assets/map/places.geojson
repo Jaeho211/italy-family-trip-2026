@@ -163,7 +163,7 @@
         "region": "naples",
         "groups": ["naples"],
         "dates": ["12/24 14:30 전후"],
-        "note": "FCO에서 나폴리로 이동한 오후 관람",
+        "note": "Roma Termini에서 나폴리로 이동하고 13:00 체크인을 가정한 오후 관람",
         "googleQuery": "Museo Archeologico Nazionale di Napoli",
         "sort": 100
       },
@@ -200,6 +200,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "나폴리 대성당",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 11:40 선택"],
+        "note": "일요일 전례를 우선하고 내부 입장이 어렵다면 외관만 확인",
+        "googleQuery": "Duomo di Napoli",
+        "sort": 122
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2598704, 40.8526527] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "스파카나폴리·구시가지",
         "group": "naples",
         "region": "naples",
@@ -210,6 +224,34 @@
         "sort": 130
       },
       "geometry": { "type": "Point", "coordinates": [14.25455, 40.84883] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "산타 키아라 성당",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 오후 선택"],
+        "note": "제수 누오보와 함께 외관을 보고 내부 관람은 한 곳만 선택",
+        "googleQuery": "Complesso Monumentale di Santa Chiara Napoli",
+        "sort": 132
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2529101, 40.8468226] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "제수 누오보 교회",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 오후 선택"],
+        "note": "산타 키아라와 함께 외관을 보고 내부 관람은 한 곳만 선택",
+        "googleQuery": "Chiesa del Gesu Nuovo Napoli",
+        "sort": 134
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2518743, 40.8475578] }
     },
     {
       "type": "Feature",
@@ -228,12 +270,26 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "카스텔 누오보",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 15:30 전후"],
+        "note": "Via Toledo에서 플레비시토 광장으로 이동하며 외관 확인",
+        "googleQuery": "Castel Nuovo Napoli",
+        "sort": 145
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2537307, 40.8383171] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "움베르토 1세 갤러리",
         "group": "naples",
         "region": "naples",
         "groups": ["naples"],
-        "dates": ["12/27 선택"],
-        "note": "비아 톨레도와 플레비시토 광장 사이",
+        "dates": ["12/27 15:45 전후"],
+        "note": "카스텔 누오보와 플레비시토 광장 사이의 실내 통과 동선",
         "googleQuery": "Galleria Umberto I Naples",
         "sort": 150
       },
@@ -242,16 +298,44 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "산카를로 극장",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 오후 외관"],
+        "note": "움베르토 1세 갤러리에서 플레비시토 광장으로 이동하며 외관 확인",
+        "googleQuery": "Teatro di San Carlo Napoli",
+        "sort": 152
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2498127, 40.8373743] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "플레비시토 광장",
         "group": "naples",
         "region": "naples",
         "groups": ["naples"],
-        "dates": ["12/27 선택"],
-        "note": "오후 도보 일정의 우선 후보",
+        "dates": ["12/27 16:00 전후"],
+        "note": "오후 도보 일정의 기본 종료점 · 피로하면 여기서 숙소 복귀",
         "googleQuery": "Piazza del Plebiscito Naples",
         "sort": 160
       },
       "geometry": { "type": "Point", "coordinates": [14.24899, 40.83578] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "나폴리 왕궁",
+        "group": "naples",
+        "region": "naples",
+        "groups": ["naples"],
+        "dates": ["12/27 오후 외관"],
+        "note": "플레비시토 광장에서 외관 중심으로 확인",
+        "googleQuery": "Palazzo Reale di Napoli",
+        "sort": 162
+      },
+      "geometry": { "type": "Point", "coordinates": [14.2501293, 40.8363844] }
     },
     {
       "type": "Feature",
