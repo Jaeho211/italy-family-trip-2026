@@ -22,7 +22,7 @@
 | [`itinerary-restructure-2026-07-30.md`](itinerary-restructure-2026-07-30.md) | FCO 1박 → 나폴리 4박 → 로마 5박 재구성 | 후속 결정으로 도착일 숙박지만 변경 |
 | [`fco-termini-arrival-2026-12-23.md`](fco-termini-arrival-2026-12-23.md) | 도착일 FCO–테르미니 이동 | 겨울 시간표 재확인 필요 |
 | [`mann-2026-12-24.md`](mann-2026-12-24.md) | 12월 24일 MANN | 운영 근거 확인 / 특별시간 재확인 |
-| [`amalfi-christmas-2026-12-25.md`](amalfi-christmas-2026-12-25.md) | 성탄절 아말피 렌터카 | 수령 영업 확인 / 반납 승인·날씨 조건부 |
+| [`amalfi-christmas-2026-12-25.md`](amalfi-christmas-2026-12-25.md) | 성탄절 아말피 렌터카 | Noleggiare 예약 완료 / 성탄절 수령·날씨 재확인 |
 | [`pompeii-2026-12-26.md`](pompeii-2026-12-26.md) | 12월 26일 폼페이 | 공식 개관일 확인 / 열차 재확인 |
 | [`napoli-sotterranea-2026-12-27.md`](napoli-sotterranea-2026-12-27.md) | 12월 27일 Napoli Sotterranea | 일반시간 확인 / 연말시간 재확인 |
 | [`naples-accommodation-confirmed-2026-08-23.md`](naples-accommodation-confirmed-2026-08-23.md) | 나폴리 키아이아 4박 숙소 | 예약 완료 / 세부주소 비공개 |

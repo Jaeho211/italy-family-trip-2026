@@ -46,10 +46,10 @@
 <div class="day-card">
   <h3>12월 25일 금요일 · 아말피 해안 드라이브</h3>
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
-  <span class="status weather">날씨 조건부</span><span class="status tentative">Locauto 중앙역점 계획</span><span class="status booking">차량·점심 예약 필요</span><span class="status recheck">성탄절 영업 재확인</span>
+  <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status booking">점심 예약 필요</span><span class="status recheck">성탄절 수령 재확인</span>
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
   <ul>
-    <li>08:00 Locauto 나폴리 중앙역점 수령 목표 · 같은 날 같은 지점 반납</li>
+    <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 22:00 같은 지점 반납</li>
     <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
     <li>Trenitalia Linea 2로 Napoli Piazza Garibaldi 이동 후 연결 통로를 따라 Napoli Centrale로 이동</li>
     <li>포지타노 전망과 짧은 산책을 우선</li>
@@ -60,16 +60,15 @@
   <details class="day-details">
     <summary>렌터카·성탄절 운영 확인 더보기</summary>
     <ul>
-      <li>Locauto 중앙역점은 Napoli Centrale 역사 내부에 있으며 일반 영업시간은 매일 07:00~21:00</li>
+      <li>Noleggiare 중앙역점의 일반 평일 영업시간은 08:00~20:00이며 성탄절 08:00 수령은 출발 48시간 전 재확인</li>
       <li>Uber 앱에서 나폴리의 면허 택시를 24시간 호출할 수 있지만 실제 배차는 보장되지 않음</li>
       <li>Linea 2는 Piazza Amedeo와 Napoli Piazza Garibaldi를 연결하며, 성탄절 실제 열차 시각은 12월 중순 재확인</li>
-      <li>일반시간의 12월 25일 적용 여부는 예약 화면과 지점에서 재확인</li>
-      <li>영업시간 이후 반납이라면 시간 외 반납 활성화와 주차장·열쇠 절차를 서면 확인</li>
+      <li>22:00 반납은 Corso Meridionale의 Parkinstation 2층 지정 주차면과 Key-box 이용</li>
       <li>무인 반납 시 차량 외관·휠·실내·연료·주차면·열쇠 투입을 사진과 영상으로 기록</li>
       <li>성탄절에는 많은 식당과 상점이 쉬므로 아말피 점심을 사전 예약</li>
     </ul>
     <p><strong>날씨 판단:</strong> 출발 48시간 전 1차, 전날 저녁 최종 결정. 강한 비·짙은 안개·강풍·도로 통제가 있으면 취소합니다.</p>
-    <p><a href="https://www.locautorent.com/en/car-rental/locations/campania/naples/station/" target="_blank" rel="noopener">Locauto 나폴리 중앙역점</a> · <a href="https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/" target="_blank" rel="noopener">Uber Taxi 나폴리</a> · <a href="https://www.trenitalia.com/it/regionale/campania/metro-napoli.html" target="_blank" rel="noopener">Trenitalia Linea 2</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://www.noleggiare.it/en/car-rental-service-at-napoli-centrale-railway-station/" target="_blank" rel="noopener">Noleggiare 나폴리 중앙역점</a> · <a href="https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/" target="_blank" rel="noopener">Uber Taxi 나폴리</a> · <a href="https://www.trenitalia.com/it/regionale/campania/metro-napoli.html" target="_blank" rel="noopener">Trenitalia Linea 2</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
 

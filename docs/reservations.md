@@ -13,7 +13,7 @@
 | Roma Termini → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/24 Napoli Centrale 11:30~12:00 도착편 우선, MANN 14:30 입장 목표 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/28 판테온 오후 입장이 가능한 오전편 |
 | [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 14:30 전후 목표, 2025년 같은 날 개관 사례 확인 |
-| 12/25 나폴리 렌터카 | <span class="status booking">예약 필요</span><br><span class="status weather">날씨 조건부</span> | 우선 | 최우선 | Locauto 중앙역점 당일 수령·반납 계획, 성탄절 실제 시간과 시간 외 반납 절차 확인 |
+| 12/25 나폴리 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status weather">날씨 조건부</span><br><span class="status recheck">성탄절 수령 재확인</span> | 완료 | — | Noleggiare 중앙역점, 08:00 수령·22:00 Key-box 반납, 자동변속 하이브리드 또는 동급 |
 | 12/25 아말피 점심 | <span class="status booking">예약 필요</span> | 일정 확정 후 | 최우선 | 성탄절 실제 영업, 가족 좌석, 주차·취소 조건 확인 |
 | [폼페이](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">공휴일 열차 재확인</span> | 출발 1~2주 전 | 높음 | 12/26 09:00 Porta Marina, EAV 08:05 출발·14:53 복귀 후 Garibaldi–Amedeo Linea 2 잠정 |
 | [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 출발 1~2주 전 | 높음 | 12/27 10:00, 이후 대성당–Spaccanapoli–Plebiscito–숙소 단방향 동선 |

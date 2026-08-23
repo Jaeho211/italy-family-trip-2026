@@ -22,7 +22,7 @@
 
 ## 12월 25일 · 아말피 해안
 
-성탄절의 낮은 관광지 운영률을 해안 드라이브에 활용합니다. 포지타노·아말피를 기본으로 하고 라벨로는 조건부입니다. Locauto 중앙역점 수령·반납, 성탄절 점심과 날씨 판단은 [근교 당일치기](day-trips.md)에서 관리합니다.
+성탄절의 낮은 관광지 운영률을 해안 드라이브에 활용합니다. 포지타노·아말피를 기본으로 하고 라벨로는 조건부입니다. Noleggiare 중앙역점 차량을 예약했으며, 성탄절 점심과 날씨 판단은 [근교 당일치기](day-trips.md)에서 관리합니다.
 
 ## 12월 26일 · 폼페이
 
@@ -65,5 +65,5 @@
 - 12월 24일 아침 Roma Termini–Napoli Centrale 고속열차를 이용합니다.
 - 나폴리–로마는 12월 28일 오전 고속열차를 사용합니다.
 - 짐이 있는 Napoli Centrale 이동과 Porta Nolana의 이른 아침 이동은 택시를 우선합니다.
-- 12월 25일 Locauto 수령일은 Uber Taxi를 먼저 호출하고, 미배차 시 Piazza Amedeo–Piazza Garibaldi Linea 2를 이용합니다.
+- 12월 25일 Noleggiare 수령일은 Uber Taxi를 먼저 호출하고, 미배차 시 Piazza Amedeo–Piazza Garibaldi Linea 2를 이용합니다.
 - 나폴리 시내에서는 도보·택시·대중교통을 조합해 아이들의 장거리 도보를 줄입니다.

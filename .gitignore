@@ -13,6 +13,7 @@ site/
 # Local reference material and browser sessions
 .local-sources/
 .naver-browser-profile/
+tmp/pdfs/
 
 # Editors
 .idea/

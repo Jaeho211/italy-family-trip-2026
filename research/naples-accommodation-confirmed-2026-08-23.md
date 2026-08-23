@@ -25,7 +25,7 @@
 
 - 12월 24일 Napoli Centrale 도착 후 짐을 들고 숙소까지 이동할 때는 택시를 우선한다.
 - 공개 리스팅의 일반 체크인은 15:00 이후지만 현재 일정은 13:00 이른 체크인이 가능하다고 가정한다. 호스트에게 아직 확인하지 않았으므로 불가할 때의 짐 보관 방법도 함께 문의한다.
-- 12월 25일 Locauto 중앙역점 08:00 수령에는 07:05~07:10 Uber Taxi를 호출하고, 07:15까지 미배차면 Piazza Amedeo역에서 Linea 2로 Piazza Garibaldi까지 이동한다.
+- 12월 25일 Noleggiare 중앙역점 08:00 수령에는 07:05~07:10 Uber Taxi를 호출하고, 07:15까지 미배차면 Piazza Amedeo역에서 Linea 2로 Piazza Garibaldi까지 이동한다. 렌터카 업체 변경은 같은 날 확정된 후속 예약 결정에 따른다.
 - 12월 26일 Porta Nolana 07:40 도착에는 택시를 우선한다.
 - 12월 28일 Napoli Centrale 이동도 짐을 고려해 택시를 우선한다.
 - 12월 27일에는 Piazza Amedeo–Piazza Cavour Linea 2로 구시가지 동쪽에서 시작하고, Plebiscito·해안 방향으로 이동해 숙소 쪽에서 일정을 마친다.
