@@ -48,9 +48,9 @@
 
 ## 치비타 디 바뇨레조 + 오르비에토
 
-**예정일:** 2026년 12월 29일 화요일
+**예정일:** 2026년 12월 30일 수요일
 
-<span class="status tentative">잠정</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">화요일 운영 재확인</span>
+<span class="status tentative">일정 합의</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">겨울 특별 운영 재확인</span>
 
 <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
 
@@ -60,12 +60,12 @@
 2. 09:45~11:15 [치비타 디 바뇨레조](https://www.google.com/maps/search/?api=1&query=Civita+di+Bagnoregio){ target="_blank" rel="noopener" }
 3. 12:15~13:15 [오르비에토 두오모](https://www.google.com/maps/search/?api=1&query=Duomo+di+Orvieto){ target="_blank" rel="noopener" }
 4. 13:15 예약 점심 후 구시가지
-5. 15:20 성 패트릭 우물 또는 휴식
+5. 15:20 성 패트릭 우물 또는 휴식 · 전날 공연 후 가족 체력에 따라 선택
 6. 16:30 로마 복귀 시작
 
-12월 26일 공휴일에서 29일 평일로 이동했으므로 렌터카와 식당 영업은 더 단순해졌습니다. 반면 기존에 검증한 26일 성탄 특별행사 근거는 29일 운영을 직접 증명하지 않으므로, 치비타 매표·두오모 전례·성 패트릭 우물의 화요일 운영을 다시 확인합니다.
+12월 26일 공휴일에서 30일 평일로 이동했으므로 렌터카와 식당 영업은 더 단순해졌습니다. 오르비에토 두오모의 현재 11~12월 평일 운영은 09:30~17:00입니다. 기존에 검증한 26일 성탄 특별행사 근거는 30일 운영을 직접 증명하지 않으므로, 치비타 매표·두오모 전례와 특별시간·성 패트릭 우물을 다시 확인합니다.
 
-[상세 조사와 출처](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-29.md){ target="_blank" rel="noopener" }
+[상세 조사와 출처](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-30.md){ target="_blank" rel="noopener" }
 
 ## 아말피 악천후 대체안
 

@@ -4,7 +4,7 @@
 
 | ID | 주제 | 자료명 | 기관 | 자료 유형 | 확인 상태 | 확인일 | 재확인일 | URL |
 |---|---|---|---|---|---|---|---|---|
-| VAT-001 | 바티칸 박물관 운영 | Musei Vaticani e Cappella Sistina — Calendario 2026 | Vatican Museums | 공식 달력 PDF | 공식 확인 | 2026-07-29 | 2026-12-01 | [원문](https://m.museivaticani.va/content/dam/museivaticani/pdf/utilities/calendario_musei.pdf) |
+| VAT-001 | 바티칸 박물관 운영 | Musei Vaticani e Cappella Sistina — Calendario 2026 | Vatican Museums | 공식 달력 PDF | 12월 29일 정규 개관 확인 | 2026-08-29 | 2026-12-01 | [원문](https://www.museivaticani.va/content/dam/museivaticani/pdf/utilities/calendario_musei.pdf) |
 | VAT-002 | 바티칸 박물관 티켓과 가격 | Prices and Tickets | Vatican Museums | 공식 안내 | 공식 확인 | 2026-07-29 | 티켓 구매 시 | [원문](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
 | VAT-003 | 어린이 할인 | Reduced Entry Ticket | Vatican Museums | 공식 안내 | 공식 확인 | 2026-07-29 | 티켓 구매 시 | [원문](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti/biglietto-d-ingresso-ridotto.html) |
 | VAT-004 | 공식 티켓 판매처 | Official Vatican Museums Ticket Portal | Vatican Museums | 공식 예약 포털 | 공식 확인 | 2026-07-29 | 2026-10-24 | [원문](https://tickets.museivaticani.va/) |
@@ -37,8 +37,12 @@
 | EAV-002 | 성 스테파노 철도 운영 사례 | Festività Natale 2025 | EAV | 과거 공식 특별운행 | 과거 사례 | 2026-08-15 | 2026년 성탄 특별공지 시 | [원문](https://www.eavsrl.it/festivita-natale-2025/) |
 | NAP-001 | Napoli Sotterranea 운영 | Visiting hours | Napoli Sotterranea | 운영처 공식 안내 | 일반시간 확인 | 2026-07-30 | 2026-12-01 | [원문](https://www.napolisotterranea.org/en/visiting-hours/) |
 | PAN-001 | 판테온 운영·티켓 | Pantheon | Direzione Musei Nazionali Roma | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) |
-| CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
-| ORV-001 | 오르비에토 두오모 | Organizza la visita | Opera del Duomo di Orvieto | 공식 안내 | 재확인 필요 | 2026-07-30 | 2026-12-01 | [원문](https://www.duomodiorvieto.it/visita/organizza-la-visita) |
+| CIV-001 | 치비타 티켓 | Informazioni sul ticket | Civita di Bagnoregio | 운영처 안내 | 일반 매표 확인·연말 재확인 필요 | 2026-08-29 | 2026-12-01 | [원문](https://civitadibagnoregio.cloud/it/informazioni-sul-ticket) |
+| ORV-001 | 오르비에토 두오모 | Organizza la visita | Opera del Duomo di Orvieto | 공식 안내 | 겨울 평일 09:30~17:00 확인 | 2026-08-29 | 2026-12-01 | [원문](https://www.duomodiorvieto.it/visita/organizza-la-visita) |
+| OPR-001 | 로마 발레 일정·출연진 | Il lago dei cigni | Teatro dell’Opera di Roma | 공식 공연 안내 | 12월 29일 20:00·객원 출연 확인 | 2026-08-29 | 2026-10-08 | [원문](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/) |
+| OPR-002 | 로마 발레 판매일 | La Stagione 2026/2027 del Teatro dell’Opera di Roma | Teatro dell’Opera di Roma | 공식 시즌 발표 | 단일표 10월 8일 판매 시작 확인 | 2026-08-29 | 2026-10-08 | [원문](https://www.operaroma.it/news/il-dolce-suono-mi-colpi-la-stagione-2026-2027-del-teatro-dellopera-di-roma/) |
+| OPR-003 | 로마 발레 가격 | Stagione 2026/27 prezzi e abbonamenti | Teatro dell’Opera di Roma | 공식 가격표 PDF | 일반 재공연 €20~95 확인 | 2026-08-29 | 2026-10-08 | [원문](https://www.operaroma.it/wp-content/uploads/2026/06/TEATRO-DELLOPERA-DI-ROMA-STAGIONE_26-27_LOW.pdf) |
+| OPR-004 | 동일 프로덕션 러닝타임 | Il lago dei cigni 2023/24 | Teatro dell’Opera di Roma | 과거 공식 공연 안내 | 약 2시간 30분·과거 사례 | 2026-08-29 | — | [원문](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-6/) |
 | ACC-001 | 테르미니 확정 숙소 위치 | Location | The RomeHello | 숙소 공식 안내 | 공식 위치 확인 | 2026-08-15 | 숙소 변경 시 | [원문](https://www.theromehello.com/hostel-rome-center-esquilino) |
 | ACC-002 | 나폴리 확정 숙소 공개 정보 | Una terrazza a Chiaia | Airbnb | 숙소 공개 리스팅 | 예약 상태·공개 권역·편의시설 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.airbnb.co.kr/rooms/52820126) |
 | ACC-003 | 나폴리 확정 숙소 주소 | Strutture Aperte al 30 Settembre 2025 | Regione Campania | 공개 숙박시설 등록부 | 숙소명·주소 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.regione.campania.it/assets/documents/elenco-delle-strutture-ricettive-della-campania-terzo-trimestre-2025.pdf) |

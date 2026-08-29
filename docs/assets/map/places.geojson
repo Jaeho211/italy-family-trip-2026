@@ -36,7 +36,7 @@
         "group": "rome",
         "region": "rome",
         "groups": ["rome"],
-        "dates": ["12/30 08:00 목표"],
+        "dates": ["12/29 08:00 목표"],
         "note": "바티칸 박물관과 시스티나 성당 관람",
         "googleQuery": "Vatican Museums",
         "sort": 10
@@ -50,12 +50,26 @@
         "group": "rome",
         "region": "rome",
         "groups": ["rome"],
-        "dates": ["12/30 정오 이후"],
-        "note": "송년 전례 전날의 보안 통제시간 재확인",
+        "dates": ["12/29 정오 이후"],
+        "note": "연말 전례 기간의 보안 통제시간 재확인",
         "googleQuery": "St Peter's Basilica Vatican City",
         "sort": 20
       },
       "geometry": { "type": "Point", "coordinates": [12.45394, 41.90217] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teatro Costanzi · 로마 오페라극장",
+        "group": "rome",
+        "region": "rome",
+        "groups": ["rome"],
+        "dates": ["12/29 20:00 · 아내와 딸"],
+        "note": "《백조의 호수》 관람 · 19:15 도착 목표",
+        "googleQuery": "Teatro dell'Opera di Roma Teatro Costanzi",
+        "sort": 25
+      },
+      "geometry": { "type": "Point", "coordinates": [12.49526, 41.90055] }
     },
     {
       "type": "Feature",
@@ -120,7 +134,7 @@
         "group": "day-trip",
         "region": "civita",
         "groups": ["day-trip"],
-        "dates": ["12/29 09:45–11:15"],
+        "dates": ["12/30 09:45–11:15"],
         "note": "가족 핵심 희망 일정",
         "googleQuery": "Civita di Bagnoregio Italy",
         "sort": 70
@@ -134,7 +148,7 @@
         "group": "day-trip",
         "region": "civita",
         "groups": ["day-trip"],
-        "dates": ["12/29 12:15 목표"],
+        "dates": ["12/30 12:15 목표"],
         "note": "오르비에토 도착 후 우선 관람",
         "googleQuery": "Duomo di Orvieto",
         "sort": 80
@@ -148,7 +162,7 @@
         "group": "day-trip",
         "region": "civita",
         "groups": ["day-trip"],
-        "dates": ["12/29 15:20 선택"],
+        "dates": ["12/30 15:20 선택"],
         "note": "가족 체력과 대기시간에 따라 선택",
         "googleQuery": "Pozzo di San Patrizio Orvieto",
         "sort": 90

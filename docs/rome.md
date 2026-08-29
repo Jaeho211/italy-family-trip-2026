@@ -16,26 +16,29 @@
 
 [판테온 공식 안내](https://direzionemuseiroma.cultura.gov.it/en/pantheon/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pantheon-2026-12-28.md){ target="_blank" rel="noopener" }
 
-## 12월 29일 · 치비타와 오르비에토
+## 12월 29일 · 바티칸과 백조의 호수
 
-아내의 핵심 희망지인 치비타 디 바뇨레조를 오르비에토와 묶어 하루 렌터카로 다녀옵니다. 세부 동선은 [근교 당일치기](day-trips.md)에서 관리합니다.
-
-## 12월 30일 · 바티칸
-
-<span class="status tentative">잠정</span><span class="status verified">박물관 운영 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status recheck">대성당 시간 재확인</span>
+<span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span><span class="status recheck">대성당 시간 재확인</span>
 
 [바티칸 박물관](https://www.google.com/maps/search/?api=1&query=Vatican+Museums){ target="_blank" rel="noopener" } → 시스티나 성당 → [성베드로 광장](https://www.google.com/maps/search/?api=1&query=St+Peters+Square+Vatican){ target="_blank" rel="noopener" }
 
-- 2026년 공식 달력상 12월 30일은 정규 개관일입니다.
+- 2026년 공식 달력상 12월 29일은 정규 개관일입니다.
 - 08:00 입장권을 우선하고 매진 시 08:30 → 09:00 순으로 확인합니다.
 - 박물관 입장권에는 시스티나 성당이 포함됩니다.
 - 성베드로 대성당은 별도 보안검색이 필요합니다.
-- 12월 31일 송년 전례를 앞둔 특별 통제는 2026년 공지 후 다시 확인합니다.
+- 성베드로 대성당의 연말 특별 통제는 2026년 공지 후 다시 확인합니다.
+- 늦은 점심 후 숙소에서 쉬고, 아내와 딸은 이른 저녁 후 Teatro Costanzi로 이동합니다.
+- 20:00 《백조의 호수》는 Fumi Kaneko와 Vadim Muntagirov 출연 회차이며 인접 좌석 2석을 확보합니다.
+- 나머지 가족은 공연 시간에 자유 일정과 휴식을 갖습니다.
 
 !!! warning "공식 포털만 사용"
     [Vatican Museums 공식 티켓 포털](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" }에서만 구매합니다.
 
-[상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-30.md){ target="_blank" rel="noopener" }
+[발레 공식 안내](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } · [바티칸 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md){ target="_blank" rel="noopener" } · [발레 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md){ target="_blank" rel="noopener" }
+
+## 12월 30일 · 치비타와 오르비에토
+
+아내의 핵심 희망지인 치비타 디 바뇨레조를 오르비에토와 묶어 하루 렌터카로 다녀옵니다. 전날 발레는 아내와 딸만 관람하므로 가족 전체의 운전일 부담을 늘리지 않습니다. 성 패트릭 우물은 전날 귀가 시간과 당일 체력에 따라 선택합니다. 세부 동선은 [근교 당일치기](day-trips.md)에서 관리합니다.
 
 ## 12월 31일 · 구시가지와 새해 전야
 

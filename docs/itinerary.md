@@ -154,42 +154,43 @@
 </div>
 
 <div class="day-card">
-  <h3>12월 29일 화요일 · 치비타와 오르비에토</h3>
+  <h3>12월 29일 화요일 · 바티칸과 백조의 호수</h3>
   <p class="day-card__meta">7일차 · 로마 2/5박</p>
-  <span class="status tentative">잠정</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">겨울 운영 재확인</span>
+  <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span>
+  <ul>
+    <li>07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
+    <li>오전 바티칸 박물관과 시스티나 성당</li>
+    <li>정오 전후 성베드로 대성당과 광장 · 늦은 점심 후 숙소 휴식</li>
+    <li>아내와 딸은 이른 저녁 후 19:15까지 Teatro Costanzi 도착</li>
+    <li>20:00 《백조의 호수》 관람 · 나머지 가족은 자유 일정과 휴식</li>
+  </ul>
+  <details class="day-details">
+    <summary>운영·예약 확인 더보기</summary>
+    <ul>
+      <li>2026년 공식 달력상 12월 29일은 바티칸 박물관 정규 개관일</li>
+      <li>08:00 입장권을 우선하고 매진 시 08:30 → 09:00 순으로 확인</li>
+      <li>성베드로 대성당 일반 입장과 보안 통제는 2026년 공식 공지 후 재확인</li>
+      <li>20:00 공연은 Fumi Kaneko와 Vadim Muntagirov 출연 회차</li>
+      <li>아내와 딸의 인접 좌석 2석을 공식 판매처에서 확보</li>
+    </ul>
+    <p><a href="https://tickets.museivaticani.va/" target="_blank" rel="noopener">바티칸 공식 티켓 포털</a> · <a href="https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/" target="_blank" rel="noopener">발레 공식 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md" target="_blank" rel="noopener">바티칸 상세 조사</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md" target="_blank" rel="noopener">발레 상세 조사</a></p>
+  </details>
+</div>
+
+<div class="day-card">
+  <h3>12월 30일 수요일 · 치비타와 오르비에토</h3>
+  <p class="day-card__meta">8일차 · 로마 3/5박</p>
+  <span class="status tentative">일정 합의</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">겨울 특별 운영 재확인</span>
   <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
   <ul>
     <li>07:30 렌터카 수령 · 08:00 출발 목표</li>
     <li>09:45~11:15 치비타 입장과 산책</li>
     <li>12:15 전후 오르비에토 도착 · 두오모와 점심 우선</li>
-    <li>성 패트릭 우물은 가족 체력과 운영시간에 따라 선택</li>
+    <li>성 패트릭 우물은 전날 공연 후 가족 체력과 운영시간에 따라 선택</li>
     <li>16:30 로마로 출발해 야간운전 최소화</li>
   </ul>
-  <p><strong>재확인:</strong> 화요일 운영, 두오모 전례, 치비타 매표, 렌터카와 식당 영업을 2026년 11월 말에 확인합니다.</p>
-  <p><a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-29.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
-</div>
-
-<div class="day-card">
-  <h3>12월 30일 수요일 · 바티칸</h3>
-  <p class="day-card__meta">8일차 · 로마 3/5박</p>
-  <span class="status tentative">잠정</span><span class="status verified">박물관 운영 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status recheck">대성당 시간 재확인</span>
-  <ul>
-    <li>07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
-    <li>오전 바티칸 박물관과 시스티나 성당</li>
-    <li>정오 전후 성베드로 대성당과 광장</li>
-    <li>늦은 점심 후 숙소에서 휴식</li>
-  </ul>
-  <details class="day-details">
-    <summary>운영·예약 확인 더보기</summary>
-    <ul>
-      <li>2026년 공식 달력상 12월 30일은 정규 개관일</li>
-      <li>08:00 입장권을 우선하고 매진 시 08:30 → 09:00 순으로 확인</li>
-      <li>시스티나 성당은 박물관 입장권에 포함</li>
-      <li>대성당 일반 입장은 무료지만 별도 보안검색 필요</li>
-      <li>12월 31일 송년 전례 전날이므로 대성당의 특별 통제는 2026년 공식 공지 후 확정</li>
-    </ul>
-    <p><a href="https://tickets.museivaticani.va/" target="_blank" rel="noopener">바티칸 공식 티켓 포털</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-30.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
-  </details>
+  <p><strong>재확인:</strong> 치비타 매표, 오르비에토 두오모 전례·특별시간, 성 패트릭 우물, 렌터카와 식당 영업을 2026년 11월 말에 확인합니다.</p>
+  <p><a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-30.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
 </div>
 
 <div class="day-card">
@@ -243,6 +244,6 @@
 
 - 12월 25일 아말피는 날씨 조건부입니다. 취소 시 나폴리 실내·식사 중심 회복일로 전환합니다.
 - 12월 24일 MANN 도착이 늦어지면 관람을 무리하게 압축하지 않고, 27일 오후 나폴리 도보 구간과 교환합니다.
-- 12월 29일 비·안개·결빙 우려가 크면 치비타·오르비에토 렌터카 일정을 다시 판단합니다.
+- 12월 30일 비·안개·결빙 우려가 크면 치비타·오르비에토 렌터카 일정을 다시 판단합니다.
 - 12월 31일과 1월 1일은 공식 행사 발표 후 세부 동선을 확정합니다.
 - 1월 2일 일정이 밀리면 포로·팔라티노 범위를 줄이고 공항 이동을 우선합니다.
