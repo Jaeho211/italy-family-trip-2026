@@ -32,6 +32,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "iFlat Luxury Navona Apartment",
+        "group": "lodging",
+        "region": "rome",
+        "groups": ["lodging", "rome"],
+        "dates": ["12/28–1/2 확정 숙소"],
+        "note": "나보나 광장 인근 5박 · 주소 기반 표시용 좌표이며 건물 입구는 도착 전에 재확인",
+        "googleQuery": "Via di Tor Millina 25 Roma",
+        "sort": 7
+      },
+      "geometry": { "type": "Point", "coordinates": [12.4713288, 41.8992209] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "바티칸 박물관",
         "group": "rome",
         "region": "rome",

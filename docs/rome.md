@@ -2,6 +2,10 @@
 
 로마를 12월 28일부터 1월 2일까지 5박 한 구간으로 묶습니다. 관광일 사이에 근교 운전과 연말 휴식을 번갈아 배치합니다.
 
+<span class="status confirmed">나보나 숙소 예약 완료</span><span class="status recheck">짐 보관 확인</span>
+
+5박 거점은 [iFlat Luxury Navona Apartment](https://www.airbnb.co.kr/rooms/1574501038020607251){ target="_blank" rel="noopener" }입니다. 나보나 광장 바로 뒤의 [Via di Tor Millina 25](https://www.google.com/maps/search/?api=1&query=Via+di+Tor+Millina+25+Roma){ target="_blank" rel="noopener" }에서 판테온·캄포 데 피오리와 연말 구시가지 동선을 도보로 연결합니다. 도착일 체크인 전과 귀국일 체크아웃 후 짐 보관은 호스트에게 별도로 확인합니다.
+
 ## 12월 28일 · 판테온과 구시가지
 
 <span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status review">사전구매 권장</span>

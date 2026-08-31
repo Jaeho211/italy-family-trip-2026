@@ -26,6 +26,7 @@
 | [`pompeii-2026-12-26.md`](pompeii-2026-12-26.md) | 12월 26일 폼페이 | 공식 개관일 확인 / 열차 재확인 |
 | [`napoli-sotterranea-2026-12-27.md`](napoli-sotterranea-2026-12-27.md) | 12월 27일 Napoli Sotterranea | 일반시간 확인 / 연말시간 재확인 |
 | [`naples-accommodation-confirmed-2026-08-23.md`](naples-accommodation-confirmed-2026-08-23.md) | 나폴리 키아이아 4박 숙소 | 예약 완료 / 세부주소 비공개 |
+| [`rome-accommodation-confirmed-2026-08-31.md`](rome-accommodation-confirmed-2026-08-31.md) | 로마 나보나 5박 숙소 | 예약 완료 / 공개 주소 확인 |
 | [`pantheon-2026-12-28.md`](pantheon-2026-12-28.md) | 12월 28일 판테온 | 일반 운영 확인 / 종교행사 재확인 |
 | [`vatican-2026-12-29.md`](vatican-2026-12-29.md) | 12월 29일 바티칸 | 박물관 운영 확인 / 대성당 시간 재확인 |
 | [`rome-ballet-2026-12-29.md`](rome-ballet-2026-12-29.md) | 12월 29일 로마 《백조의 호수》 | 공연·객원 출연·판매일 확인 / 2석 예매 필요 |

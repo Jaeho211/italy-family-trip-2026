@@ -46,3 +46,5 @@
 | ACC-001 | 테르미니 확정 숙소 위치 | Location | The RomeHello | 숙소 공식 안내 | 공식 위치 확인 | 2026-08-15 | 숙소 변경 시 | [원문](https://www.theromehello.com/hostel-rome-center-esquilino) |
 | ACC-002 | 나폴리 확정 숙소 공개 정보 | Una terrazza a Chiaia | Airbnb | 숙소 공개 리스팅 | 예약 상태·공개 권역·편의시설 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.airbnb.co.kr/rooms/52820126) |
 | ACC-003 | 나폴리 확정 숙소 주소 | Strutture Aperte al 30 Settembre 2025 | Regione Campania | 공개 숙박시설 등록부 | 숙소명·주소 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.regione.campania.it/assets/documents/elenco-delle-strutture-ricettive-della-campania-terzo-trimestre-2025.pdf) |
+| ACC-004 | 로마 확정 숙소 공개 정보 | 나보나 광장에서 몇 걸음 거리에 있는 드림 | Airbnb | 숙소 공개 리스팅 | 등록번호·수용인원·침실·욕실·편의시설 확인 | 2026-08-31 | 숙소 변경 시 | [원문](https://www.airbnb.co.kr/rooms/1574501038020607251) |
+| ACC-005 | 로마 확정 숙소명·주소 | iFlat Luxury Navona Apartment | iFlat Reservation | 운영사 공개 리스팅 | Airbnb와 동일한 등록번호·공개 주소 확인 | 2026-08-31 | 숙소 변경 시 | [원문](https://iflat.kross.travel/iflat-luxury-navona-apartment) |

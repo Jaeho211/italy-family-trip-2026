@@ -134,10 +134,10 @@
 <div class="day-card">
   <h3>12월 28일 월요일 · 로마 이동과 판테온</h3>
   <p class="day-card__meta">6일차 · 로마 1/5박</p>
-  <span class="status tentative">잠정</span><span class="status verified">일반 운영 확인</span><span class="status booking">열차·판테온 예매 필요</span><span class="status recheck">종교행사 재확인</span>
+  <span class="status confirmed">로마 숙소 확정</span><span class="status verified">일반 운영 확인</span><span class="status booking">열차·판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
   <ul>
     <li>오전 Napoli Centrale → Roma Termini 고속열차</li>
-    <li>숙소에 짐을 맡기고 점심</li>
+    <li>택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전 짐 보관 후 점심</li>
     <li>14:30 전후 판테온 내부 관람 목표</li>
     <li>나보나 광장과 캄포 데 피오리 주변을 짧게 산책</li>
   </ul>
@@ -148,6 +148,7 @@
       <li>12월 25일과 1월 1일 휴관이며 12월 28일은 현재 일반 규정상 운영일</li>
       <li>공식 Musei Italiani에서 가족 4명의 같은 시간대와 어린이 무료표를 함께 확보</li>
       <li>종교행사에 따른 시간 변경은 2026년 12월 공지에서 재확인</li>
+      <li>숙소 체크인은 공개 리스팅 기준 15:00 이후이므로 14:30 판테온 예약 전 짐 보관 가능 여부를 호스트에게 확인</li>
     </ul>
     <p><a href="https://direzionemuseiroma.cultura.gov.it/en/pantheon/" target="_blank" rel="noopener">판테온 공식 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pantheon-2026-12-28.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
