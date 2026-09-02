@@ -21,7 +21,7 @@
 | [바티칸 박물관](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" } | <span class="status waiting">판매 대기</span> | 2026-10-29 전후부터 확인 | 최우선 | 12/29 08:00 → 08:30 → 09:00 |
 | 성베드로 대성당 | <span class="status recheck">공식 발표 대기</span> | 11월 말~12월 초 | 높음 | 12/29 전례와 일반 입장·보안 통제 확인 |
 | [《백조의 호수》](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } | <span class="status waiting">10월 8일 판매 시작</span><br><span class="status booking">2석 예매 필요</span> | 2026-10-08 | 최우선 | 12/29 20:00, 아내·딸 인접 좌석, Fumi Kaneko·Vadim Muntagirov 출연 회차 |
-| 12/30 로마 렌터카 | <span class="status booking">예약 필요</span> | 우선 | 높음 | 나보나 숙소 기준 치비타·오르비에토, 07:30 수령·자동변속·무료취소 |
+| Noleggiare Roma Termini · 12/30 로마 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">차량·보장 조건 재확인</span> | 완료 | — | 08:00 수령·20:00 반납, 치비타·오르비에토 당일치기 |
 | 12/30 오르비에토 점심 | <span class="status booking">예약 필요</span> | 11월 말 | 보통 | 13:15 전후 영업·가족 좌석 확인 |
 | 12/31 저녁 식사 | <span class="status booking">예약 필요</span> | 공식 행사 발표 후 | 높음 | 나보나 숙소 기준 자정 관람 위치, 고정 메뉴·취소 조건 확인 |
 | 로마시 12/31·1/1 행사 | <span class="status recheck">공식 발표 대기</span> | 11월 말~12월 | 보통 | 자정 행사, 교통 통제, Rome Parade·Capodarte 확인 |

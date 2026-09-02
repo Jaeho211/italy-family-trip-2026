@@ -26,6 +26,7 @@
 | CAR-002 | 나폴리 렌터카 | Naples Central Railway Station | Locauto | 공식 지점 안내 | 일반시간 확인 | 2026-08-09 | 예약 시 | [원문](https://www.locautorent.com/en/car-rental/locations/campania/naples/station/) |
 | CAR-003 | 나폴리 렌터카 | FAQ Car and Van Rental | Locauto | 공식 FAQ | 시간 외 반납 조건 확인 | 2026-08-09 | 예약 시 | [원문](https://www.locautorent.com/en/faq-car-and-van-rental/) |
 | CAR-004 | 나폴리 렌터카 | Napoli Centrale Railway Station | Noleggiare | 공식 지점 안내 | Key-box 반납·주차 위치 확인 | 2026-08-23 | 2026-12-23 | [원문](https://www.noleggiare.it/en/car-rental-service-at-napoli-centrale-railway-station/) |
+| CAR-005 | 로마 렌터카 | Roma Termini | Noleggiare | 공식 지점 안내 | 평일 운영시간·수령·반납 위치 확인 | 2026-09-02 | 2026-12-28 | [원문](https://www.noleggiare.it/en/car-rent/locations/car-rental-roma-termini/) |
 | NTR-001 | 나폴리 택시 호출 | Taxi Napoli | Uber | 운영사 공식 안내 | 24시간 호출 가능·배차 미보장 | 2026-08-23 | 출발 전 | [원문](https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/) |
 | NTR-002 | 나폴리 Linea 2 | Metropolitana di Napoli linea 2 | Trenitalia | 운영사 공식 안내 | 역 연결 확인·성탄절 시각 미확인 | 2026-08-23 | 2026-12-15 | [원문](https://www.trenitalia.com/it/regionale/campania/metro-napoli.html) |
 | AMA-001 | 아말피 성탄절 운영 사례 | Events December 2025 | Visit Amalfi | 공식 관광 일정 | 과거 사례 | 2026-07-30 | 2026-12-01 | [원문](https://www.visitamalfi.info/en/eventi/month/2025-12/) |

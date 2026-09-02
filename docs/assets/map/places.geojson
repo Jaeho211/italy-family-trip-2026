@@ -148,7 +148,7 @@
         "group": "day-trip",
         "region": "civita",
         "groups": ["day-trip"],
-        "dates": ["12/30 09:45–11:15"],
+        "dates": ["12/30 10:15–11:30 목표"],
         "note": "가족 핵심 희망 일정",
         "googleQuery": "Civita di Bagnoregio Italy",
         "sort": 70
@@ -162,7 +162,7 @@
         "group": "day-trip",
         "region": "civita",
         "groups": ["day-trip"],
-        "dates": ["12/30 12:15 목표"],
+        "dates": ["12/30 12:30 전후"],
         "note": "오르비에토 도착 후 우선 관람",
         "googleQuery": "Duomo di Orvieto",
         "sort": 80

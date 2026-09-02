@@ -181,16 +181,17 @@
 <div class="day-card">
   <h3>12월 30일 수요일 · 치비타와 오르비에토</h3>
   <p class="day-card__meta">8일차 · 로마 3/5박</p>
-  <span class="status tentative">일정 합의</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">겨울 특별 운영 재확인</span>
+  <span class="status tentative">일정 합의</span><span class="status confirmed">렌터카 예약 완료</span><span class="status recheck">겨울 특별 운영 재확인</span>
   <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
   <ul>
-    <li>07:30 렌터카 수령 · 08:00 출발 목표</li>
-    <li>09:45~11:15 치비타 입장과 산책</li>
-    <li>12:15 전후 오르비에토 도착 · 두오모와 점심 우선</li>
+    <li>07:30 숙소에서 택시 출발 → 08:00 Noleggiare Roma Termini에서 차량 수령</li>
+    <li>차량 확인 후 08:30 출발 → 10:00~10:15 치비타 도착 목표</li>
+    <li>10:15~11:30 치비타 입장과 산책</li>
+    <li>12:30 전후 오르비에토 도착 · 두오모와 점심 우선</li>
     <li>성 패트릭 우물은 전날 공연 후 가족 체력과 운영시간에 따라 선택</li>
-    <li>16:30 로마로 출발해 야간운전 최소화</li>
+    <li>16:30 로마로 출발 → 연료 보충 후 20:00까지 Roma Termini 반납</li>
   </ul>
-  <p><strong>재확인:</strong> 치비타 매표, 오르비에토 두오모 전례·특별시간, 성 패트릭 우물, 렌터카와 식당 영업을 2026년 11월 말에 확인합니다.</p>
+  <p><strong>재확인:</strong> 치비타 매표, 오르비에토 두오모 전례·특별시간, 성 패트릭 우물, 차량 등급·보장·보증금과 식당 영업을 2026년 11월 말에 확인합니다.</p>
   <p><a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-30.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
 </div>
 

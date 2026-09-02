@@ -50,18 +50,21 @@
 
 **예정일:** 2026년 12월 30일 수요일
 
-<span class="status tentative">일정 합의</span><span class="status booking">렌터카 예약 필요</span><span class="status recheck">겨울 특별 운영 재확인</span>
+<span class="status tentative">일정 합의</span><span class="status confirmed">Noleggiare 렌터카 예약 완료</span><span class="status recheck">겨울 특별 운영 재확인</span>
 
 <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
 
 ### 잠정 동선
 
-1. 07:30 렌터카 수령 · 08:00 로마 출발
-2. 09:45~11:15 [치비타 디 바뇨레조](https://www.google.com/maps/search/?api=1&query=Civita+di+Bagnoregio){ target="_blank" rel="noopener" }
-3. 12:15~13:15 [오르비에토 두오모](https://www.google.com/maps/search/?api=1&query=Duomo+di+Orvieto){ target="_blank" rel="noopener" }
-4. 13:15 예약 점심 후 구시가지
-5. 15:20 성 패트릭 우물 또는 휴식 · 전날 공연 후 가족 체력에 따라 선택
-6. 16:30 로마 복귀 시작
+1. 07:30 숙소에서 택시 출발 · 08:00 Noleggiare Roma Termini 차량 수령
+2. 차량 확인 후 08:30 로마 출발 · 교통에 따라 10:00~10:15 도착 목표
+3. 10:15~11:30 [치비타 디 바뇨레조](https://www.google.com/maps/search/?api=1&query=Civita+di+Bagnoregio){ target="_blank" rel="noopener" }
+4. 12:30 전후 [오르비에토 두오모](https://www.google.com/maps/search/?api=1&query=Duomo+di+Orvieto){ target="_blank" rel="noopener" }
+5. 13:30 전후 예약 점심 후 구시가지
+6. 15:20 성 패트릭 우물 또는 휴식 · 전날 공연 후 가족 체력에 따라 선택
+7. 16:30 로마 복귀 시작 · 연료 보충 후 20:00까지 Roma Termini 반납
+
+Noleggiare Roma Termini에서 08:00 수령하고 같은 날 20:00 반납하는 예약을 완료했습니다. 수령 사무실은 Via Giovanni Giolitti 34, 차량 인수는 Via Giovanni Giolitti 48의 1층, 반납은 Via Marsala 53의 Park in Station 1층입니다. 예약번호·가격·결제정보는 공개 문서에 기록하지 않습니다.
 
 12월 26일 공휴일에서 30일 평일로 이동했으므로 렌터카와 식당 영업은 더 단순해졌습니다. 오르비에토 두오모의 현재 11~12월 평일 운영은 09:30~17:00입니다. 기존에 검증한 26일 성탄 특별행사 근거는 30일 운영을 직접 증명하지 않으므로, 치비타 매표·두오모 전례와 특별시간·성 패트릭 우물을 다시 확인합니다.
 
