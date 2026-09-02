@@ -46,17 +46,18 @@
 
 <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span>
 
-<p class="route">Piazza Cavour → Napoli Sotterranea 10:00 → 나폴리 대성당 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → 해안 선택 → 숙소</p>
+<p class="route">Piazza Cavour → Napoli Sotterranea 10:00 → 나폴리 대성당 → Via Duomo 남하 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
 
 - 숙소에서 Piazza Amedeo–Piazza Cavour Linea 2로 이동해 09:40까지 공식 입구에 도착합니다.
 - Piazza San Gaetano 68의 공식 Napoli Sotterranea 코스를 이용합니다.
 - 4인 가족 예약은 필수가 아니지만 연말 대기를 줄이기 위해 10:00 줄서기 면제권을 권장합니다.
 - 지하 약 40m까지 계단으로 내려가며 엘리베이터는 없습니다.
 - 좁고 어두운 촛불 통로는 선택 구간이라 건너뛸 수 있습니다.
-- 대성당은 일요일 전례를 우선하고 Santa Chiara·Gesù Nuovo는 내부 한 곳만 선택합니다.
-- My Maps의 코스 1-1과 1-3을 동쪽에서 서쪽으로 잇고, 숙소 방향에서 끝나도록 재구성했습니다.
-- 오후 동선은 가족 피로도에 따라 플레비시토 광장에서 끝내고 해안을 생략해도 됩니다.
-- 보메로의 산 엘모성·산 마르티노 박물관은 이날 합치지 않습니다.
+- 대성당은 일요일 전례를 우선하고, 관람 후에는 Via Duomo를 남하해 Spaccanapoli에 합류하여 동쪽으로 되돌아가지 않습니다.
+- Santa Chiara·Gesù Nuovo는 내부 한 곳만 선택합니다.
+- My Maps의 코스 1-1과 1-3을 동쪽에서 서쪽으로 잇고, Piazza del Plebiscito에서 Via Chiaia를 따라 숙소 방향으로 끝나도록 재구성했습니다.
+- 해안·Castel dell'Ovo는 기본 동선에 넣지 않고 날씨와 가족 체력이 좋을 때만 Plebiscito 이후 추가합니다.
+- 산 엘모성은 같은 날 추가하지 않습니다. 전망을 우선할 경우 Via Toledo·Castel Nuovo 일부를 빼고 푸니쿨라 보메로 코스로 교체하는 Plan B로만 사용하며, 산 마르티노 박물관은 보류합니다.
 
 [공식 운영시간](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md){ target="_blank" rel="noopener" }
 

@@ -106,15 +106,15 @@
   <h3>12월 27일 일요일 · 나폴리 지하도시와 구시가지</h3>
   <p class="day-card__meta">5일차 · 나폴리 4/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
-  <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → 해안 선택 → 숙소</p>
+  <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Via Duomo 남하 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
   <ul>
     <li>09:00 숙소 출발 → Piazza Amedeo역에서 Linea 2 → Napoli Piazza Cavour</li>
     <li>09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
     <li>11:40 나폴리 대성당 · 일요일 전례로 내부 관람이 어렵다면 외관만 확인</li>
-    <li>12:15 Via dei Tribunali에서 점심 · Di Matteo와 Sorbillo 등은 당일 대기시간을 보고 선택</li>
-    <li>13:15 Spaccanapoli → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
+    <li>12:15 대성당 이후 Via Duomo를 남하하면서 점심 · 동선에서 크게 벗어나지 않는 후보 중 당일 대기시간을 보고 선택</li>
+    <li>13:15 Via Duomo → Spaccanapoli 서쪽 진행 → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
     <li>15:15 Via Toledo → Castel Nuovo 외관 → Galleria Umberto I → San Carlo·Plebiscito·왕궁 외관</li>
-    <li>16:30 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가 → 17:30 전후 숙소 도보 복귀</li>
+    <li>16:30 기본은 Piazza del Plebiscito → Via Chiaia → 숙소 · 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가</li>
   </ul>
   <details class="day-details">
     <summary>운영·예약 확인 더보기</summary>
@@ -124,7 +124,7 @@
       <li>4인 가족 예약은 필수가 아니지만 연말 대기를 줄이기 위해 10:00 줄서기 면제권 권장</li>
       <li>지하 계단이 많고 엘리베이터 없음, 좁은 촛불 통로는 선택 구간</li>
       <li>사용자 제작 My Maps의 코스 1-1과 1-3을 숙소 기준의 동→서 단방향 동선으로 재구성</li>
-      <li>산 엘모성·산 마르티노 박물관의 보메로 코스는 같은 날 합치지 않고 별도 후보로 보류</li>
+      <li>산 엘모성은 같은 날 추가하지 않음 · 전망을 우선할 때 Via Toledo·Castel Nuovo 일부와 교체하는 Plan B로만 사용하고 산 마르티노 박물관은 보류</li>
       <li>성당 내부와 식당은 공식 운영을 검증하지 않은 후보이므로 전례·휴무·대기시간에 따라 생략 가능</li>
     </ul>
     <p><a href="https://www.napolisotterranea.org/en/visiting-hours/" target="_blank" rel="noopener">공식 운영시간</a> · <a href="https://www.google.com/maps/d/u/0/viewer?mid=1gEGfljCgQJs66VO-oX7aHGf-XjN4RGzY" target="_blank" rel="noopener">참고 My Maps</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
