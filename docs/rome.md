@@ -4,7 +4,7 @@
 
 <span class="status confirmed">나보나 숙소 예약 완료</span><span class="status recheck">짐 보관 확인</span>
 
-5박 거점은 [iFlat Luxury Navona Apartment](https://www.airbnb.co.kr/rooms/1574501038020607251){ target="_blank" rel="noopener" }입니다. 나보나 광장 바로 뒤의 [Via di Tor Millina 25](https://www.google.com/maps/search/?api=1&query=Via+di+Tor+Millina+25+Roma){ target="_blank" rel="noopener" }에서 판테온·캄포 데 피오리와 연말 구시가지 동선을 도보로 연결합니다. 도착일 체크인 전과 귀국일 체크아웃 후 짐 보관은 호스트에게 별도로 확인합니다.
+5박 거점은 [iFlat Luxury Navona Apartment](https://www.airbnb.co.kr/rooms/1574501038020607251){ target="_blank" rel="noopener" }입니다. 나보나 광장 바로 뒤의 [Via di Tor Millina 25](https://www.google.com/maps/search/?api=1&query=Via+di+Tor+Millina+25+Roma){ target="_blank" rel="noopener" }에서 판테온·캄포 데 피오리와 연말 구시가지 동선을 도보로 연결합니다. 도착일 체크인 전 짐 보관은 호스트에게 별도로 확인하고, 귀국일은 숙소 보관을 전제로 하지 않고 나보나 인근 외부 짐보관소를 기본안으로 사용합니다.
 
 ## 12월 28일 · 판테온과 구시가지
 
@@ -60,13 +60,17 @@
 
 ## 1월 2일 · 고대 로마와 귀국
 
-<span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span>
+<span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status recheck">짐보관·택시요금 재확인</span>
 
-[Colosseum](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome){ target="_blank" rel="noopener" } → [Roman Forum](https://www.google.com/maps/search/?api=1&query=Roman+Forum+Rome){ target="_blank" rel="noopener" } → Palatine Hill
+10:00 체크아웃 → 나보나 인근 외부 짐보관 → [Colosseum](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome){ target="_blank" rel="noopener" } → [Roman Forum](https://www.google.com/maps/search/?api=1&query=Roman+Forum+Rome){ target="_blank" rel="noopener" } → Palatine Hill → 늦은 점심 → 나보나 짐 수령 → FCO 직행
 
-- 기본 24h 통합권의 09:00 입장을 목표로 합니다.
-- 09:00~10:15 콜로세움, 10:20~12:30 포로·팔라티노를 기준으로 합니다.
+- 아침은 숙소에서 여유 있게 보내고 공개 체크아웃 시각인 10:00에 맞춰 퇴실합니다.
+- 체크아웃 후 숙소 짐 보관은 전제로 하지 않고 Piazza Navona 인근 외부 짐보관소를 기본안으로 사용합니다.
+- 기본 24h 통합권의 **11:00 콜로세움 입장**을 목표로 가족 4명의 같은 시간대를 확보합니다.
+- 11:00~12:15 콜로세움, 12:20~14:30 포로·팔라티노를 기준으로 하고 이후 늦은 점심을 먹습니다.
+- 16:30 전후 나보나로 돌아와 짐을 수령하고 **17:00~17:30경 Roma Capitale 공식 택시로 FCO에 직행**합니다. Termini·Leonardo Express는 귀국일 기본 동선에서 제외합니다.
+- 현재 Roma Capitale 공식 정액은 아우렐리아누스 성벽 내부 ↔ Fiumicino Airport 직행이 **€55**입니다. 4인 가족 기준이며, 여행 직전에 최신 요금과 적용 조건을 다시 확인합니다.
 - 판매는 방문 30일 전에 시작하므로 2026년 12월 3일경 공식 창을 확인합니다.
-- 일정이 밀리면 포로·팔라티노 범위를 줄이고 22:00 항공편을 위한 FCO 이동을 우선합니다.
+- 일정이 밀리면 포로·팔라티노 범위를 줄이고 22:00 항공편을 위한 공항 이동 여유를 우선합니다.
 
-[공식 운영·티켓 안내](https://colosseo.it/en/opening-times-and-tickets/){ target="_blank" rel="noopener" } · [공식 예매처](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" }
+[공식 운영·티켓 안내](https://colosseo.it/en/opening-times-and-tickets/){ target="_blank" rel="noopener" } · [공식 예매처](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } · [Roma Capitale 공식 택시 요금표](https://www.comune.roma.it/web-resources/cms/documents/Taxi_Tariffario_ITA_ENG_SPA.pdf){ target="_blank" rel="noopener" }
