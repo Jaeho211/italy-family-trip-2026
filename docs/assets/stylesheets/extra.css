@@ -24,6 +24,7 @@
 body { color: var(--trip-ink); }
 .md-header { box-shadow: none; border-bottom: 1px solid rgba(255,255,255,.18); }
 .md-main__inner { margin-top: 1rem; }
+.md-sidebar--secondary { display: none !important; }
 .md-typeset h1 { font-weight: 750; letter-spacing: -.035em; }
 .md-typeset h2 { margin-top: 1.8em; padding-bottom: .25em; border-bottom: 1px solid var(--trip-border); }
 .md-typeset a { text-underline-offset: .15em; }

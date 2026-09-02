@@ -27,7 +27,6 @@ theme:
     - navigation.sections
     - navigation.top
     - content.action.edit
-    - toc.follow
 
 nav:
   - 여행 홈: index.md
