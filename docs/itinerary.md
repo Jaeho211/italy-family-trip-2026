@@ -135,11 +135,12 @@
   <h3>12월 28일 월요일 · 로마 이동과 판테온</h3>
   <p class="day-card__meta">6일차 · 로마 1/5박</p>
   <span class="status confirmed">로마 숙소 확정</span><span class="status verified">일반 운영 확인</span><span class="status booking">열차·판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
+  <p class="route">Napoli Centrale → Roma Termini → Navona 숙소 → Pantheon → Piazza Navona → Campo de' Fiori → 숙소</p>
   <ul>
     <li>오전 Napoli Centrale → Roma Termini 고속열차</li>
-    <li>택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전 짐 보관 후 점심</li>
-    <li>14:30 전후 판테온 내부 관람 목표</li>
-    <li>나보나 광장과 캄포 데 피오리 주변을 짧게 산책</li>
+    <li>택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
+    <li><strong>16:00 전후 판테온 내부 관람</strong>을 목표로 열차 지연과 체크인 변수를 흡수</li>
+    <li>판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·티켓 확인 더보기</summary>
@@ -148,7 +149,7 @@
       <li>12월 25일과 1월 1일 휴관이며 12월 28일은 현재 일반 규정상 운영일</li>
       <li>공식 Musei Italiani에서 가족 4명의 같은 시간대와 어린이 무료표를 함께 확보</li>
       <li>종교행사에 따른 시간 변경은 2026년 12월 공지에서 재확인</li>
-      <li>숙소 체크인은 공개 리스팅 기준 15:00 이후이므로 14:30 판테온 예약 전 짐 보관 가능 여부를 호스트에게 확인</li>
+      <li>숙소 체크인은 공개 리스팅 기준 15:00 이후이며, 체크인 전 짐 보관이 불가하면 Navona 인근 외부 짐보관소 사용</li>
     </ul>
     <p><a href="https://direzionemuseiroma.cultura.gov.it/en/pantheon/" target="_blank" rel="noopener">판테온 공식 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pantheon-2026-12-28.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
@@ -158,10 +159,13 @@
   <h3>12월 29일 화요일 · 바티칸과 백조의 호수</h3>
   <p class="day-card__meta">7일차 · 로마 2/5박</p>
   <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span>
+  <p class="route">Vatican Museums → Sistine Chapel → St. Peter's Basilica·Square → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소</p>
   <ul>
     <li>07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
     <li>오전 바티칸 박물관과 시스티나 성당</li>
-    <li>정오 전후 성베드로 대성당과 광장 · 늦은 점심 후 숙소 휴식</li>
+    <li>정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
+    <li>늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
+    <li>산탄젤로성 내부 관람은 넣지 않고 15:30 전후 숙소 복귀·휴식 목표</li>
     <li>아내와 딸은 이른 저녁 후 19:15까지 Teatro Costanzi 도착</li>
     <li>20:00 《백조의 호수》 관람 · 나머지 가족은 자유 일정과 휴식</li>
   </ul>
@@ -171,6 +175,7 @@
       <li>2026년 공식 달력상 12월 29일은 바티칸 박물관 정규 개관일</li>
       <li>08:00 입장권을 우선하고 매진 시 08:30 → 09:00 순으로 확인</li>
       <li>성베드로 대성당 일반 입장과 보안 통제는 2026년 공식 공지 후 재확인</li>
+      <li>박물관에서 성베드로 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않음</li>
       <li>20:00 공연은 Fumi Kaneko와 Vadim Muntagirov 출연 회차</li>
       <li>아내와 딸의 인접 좌석 2석을 공식 판매처에서 확보</li>
     </ul>
@@ -196,27 +201,31 @@
 </div>
 
 <div class="day-card">
-  <h3>12월 31일 목요일 · 로마 구시가지와 새해 전야</h3>
+  <h3>12월 31일 목요일 · 트레비·스페인·핀초와 새해 전야</h3>
   <p class="day-card__meta">9일차 · 로마 4/5박</p>
   <span class="status tentative">잠정</span><span class="status booking">저녁 예약 필요</span><span class="status recheck">공식 행사 발표 대기</span>
+  <p class="route">Navona 숙소 → Trevi Fountain → Spanish Steps → Trinità dei Monti → 점심 → Pincio → Piazza del Popolo → 숙소</p>
   <ul>
-    <li>늦은 오전 시작 · 트레비 분수와 스페인 계단</li>
-    <li>전날까지 못 본 로마 중심부 후보를 한두 곳만 선택</li>
-    <li>오후에는 숙소에서 쉬어 자정 행사 체력 확보</li>
+    <li>10:30 전후 숙소 출발 → 트레비 분수</li>
+    <li>트레비 → 스페인 광장·계단 → Trinità dei Monti를 한 방향으로 연결</li>
+    <li>점심 후 Pincio 전망대 → Piazza del Popolo까지 보고 보르게세 공원 안쪽은 생략</li>
+    <li>15:30~16:00 전후 숙소 복귀 → 오후에는 쉬어 자정 행사 체력 확보</li>
     <li>새해 전야 식사 사전 예약</li>
-    <li>로마시 공식 행사·교통 통제가 발표되면 자정 관람 위치 확정</li>
+    <li>로마시 공식 행사·교통 통제가 발표되면 자정 관람 위치와 어린이 동반 귀가 동선 확정</li>
   </ul>
 </div>
 
 <div class="day-card">
-  <h3>1월 1일 금요일 · 로마 신년행사와 회복</h3>
+  <h3>1월 1일 금요일 · 로마 신년행사와 트라스테베레 백업</h3>
   <p class="day-card__meta">10일차 · 로마 5/5박</p>
   <span class="status tentative">잠정</span><span class="status recheck">공식 프로그램 발표 대기</span>
   <ul>
     <li>전날 귀가 시간에 맞춰 늦게 시작</li>
-    <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사 선택</li>
-    <li>행사가 맞지 않으면 보르게세 공원·짧은 산책·휴식으로 전환</li>
-    <li>신정 휴관을 고려해 유료 핵심 관광지는 넣지 않음</li>
+    <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사를 우선</li>
+    <li>행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
+    <li>Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
+    <li>트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀</li>
+    <li>신정 휴관을 고려해 예약이 필요한 핵심 유료 관광지는 넣지 않음</li>
   </ul>
 </div>
 
