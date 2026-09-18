@@ -6,13 +6,12 @@
 
 <span class="status tentative">잠정</span><span class="status verified">운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
 
-테르미니 숙소에서 나폴리행 고속열차를 타고 이동해 키아이아의 확정 숙소에 체크인한 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
+테르미니 숙소에 짐을 맡기고 점심을 먹은 뒤 나폴리행 고속열차를 타고 이동합니다. 키아이아의 확정 숙소에 15:00 체크인한 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
 
-- Napoli Centrale 11:30~12:00 도착편을 우선합니다.
-- 13:00 이른 체크인이 가능하다고 가정하며 호스트 확인 전에는 확정 사실로 보지 않습니다.
-- 13:50 숙소에서 Piazza Amedeo역으로 이동해 Linea 2로 Piazza Cavour까지 갑니다.
-- 14:30 전후 입장을 목표로 합니다.
-- 17:30 전후 관람을 마치고 Linea 2로 숙소에 돌아와 저녁과 휴식을 우선합니다.
+- Frecciarossa 9583의 Roma Termini 13:00 출발, Napoli Centrale 14:13 도착편을 우선합니다.
+- 중앙역에서 택시로 숙소에 이동해 공식 체크인 시간인 15:00에 맞춥니다.
+- 16:00 전후 입장을 목표로 합니다.
+- 18:30 전후 핵심 관람을 마치고 숙소에 돌아와 저녁과 휴식을 우선합니다.
 - 일반 운영은 09:00~19:30, 마지막 입장 18:30, 화요일 휴관입니다.
 - 12월 25일과 1월 1일 외 공휴일은 현재 규정상 개관합니다.
 - 2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있습니다.
@@ -63,7 +62,7 @@
 
 ## 이동 원칙
 
-- 12월 24일 아침 Roma Termini–Napoli Centrale 고속열차를 이용합니다.
+- 12월 24일 13:00 Roma Termini–Napoli Centrale 고속열차를 우선합니다.
 - 나폴리–로마는 12월 28일 오전 고속열차를 사용합니다.
 - 짐이 있는 Napoli Centrale 이동과 Porta Nolana의 이른 아침 이동은 택시를 우선합니다.
 - 12월 25일 Noleggiare 수령일은 Uber Taxi를 먼저 호출하고, 미배차 시 Piazza Amedeo–Piazza Garibaldi Linea 2를 이용합니다.

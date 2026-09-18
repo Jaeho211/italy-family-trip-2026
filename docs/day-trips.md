@@ -6,14 +6,14 @@
 
 **예정일:** 2026년 12월 25일 금요일
 
-<span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status booking">점심 예약 필요</span><span class="status recheck">성탄절 수령 재확인</span>
+<span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status confirmed">간편식 지참</span><span class="status recheck">성탄절 수령 재확인</span>
 
 <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
 
 ### 우선순위
 
 1. [포지타노](https://www.google.com/maps/search/?api=1&query=Positano+Italy){ target="_blank" rel="noopener" }: 전망과 짧은 산책
-2. [아말피](https://www.google.com/maps/search/?api=1&query=Amalfi+Italy){ target="_blank" rel="noopener" }: 예약 점심과 중심부
+2. [아말피](https://www.google.com/maps/search/?api=1&query=Amalfi+Italy){ target="_blank" rel="noopener" }: 지참한 간편식과 중심부 산책
 3. [라벨로](https://www.google.com/maps/search/?api=1&query=Ravello+Italy){ target="_blank" rel="noopener" }: 날씨·주차·남은 시간이 충분할 때만
 
 ### 렌터카 운영 판단
@@ -27,7 +27,7 @@
 
 1. 08:00 Noleggiare 중앙역점 수령
 2. 10:00~11:15 포지타노 전망·산책
-3. 12:15~15:00 아말피 산책·예약 점심
+3. 12:15~15:00 아말피 산책·간편식 점심
 4. 15:00 이후 라벨로 추가 여부 판단
 5. 일몰 전 SS163 핵심 구간 종료
 6. 살레르노 방향으로 빠져 고속도로로 나폴리 복귀 · 22:00까지 Parkinstation 반납
@@ -38,7 +38,7 @@
 - [x] 08:00 수령·22:00 반납과 Key-box 활성화 확인
 - [ ] 성탄절 08:00 창구 운영과 연료·변경 및 취소 조건 재확인
 - [ ] 포지타노·아말피 주차장과 ZTL 회피 경로
-- [ ] 성탄절 아말피 점심
+- [ ] 12/24 빵·샌드위치 재료·과일·물 준비 · 구매처 영업시간 사전 확인
 - [ ] SS163 도로 통제·공사·낙석 공지
 - [ ] 일몰시각과 라벨로 생략 기준
 

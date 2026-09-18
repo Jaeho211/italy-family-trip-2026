@@ -7,14 +7,14 @@
 | 항목 | 상태 | 목표 시기 | 우선순위 | 비고 |
 |---|---|---|---|---|
 | The RomeHello(더 로마헬로) · 테르미니 1박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/23 체크인·12/24 체크아웃, 상세 예약정보는 비공개로 관리 |
-| Una terrazza a Chiaia · 나폴리 4박 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">이른 체크인 확인</span> | 완료 | — | 12/24 체크인·12/28 체크아웃, 13:00 체크인 가정은 호스트 확인 필요 |
+| Una terrazza a Chiaia · 나폴리 4박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/24 15:00 이후 체크인·12/28 체크아웃 |
 | iFlat Luxury Navona Apartment · 로마 5박 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">짐 보관 확인</span> | 완료 | — | 12/28 체크인·1/2 체크아웃, 체크인 전·체크아웃 후 짐 보관 확인 |
-| FCO → Roma Termini 열차 | <span class="status recheck">겨울 시간 재확인</span> | 12월 13일 이후 시간표 발표 후 | 높음 | 12/23 Leonardo Express 막차와 공사·파업 공지 확인 |
-| Roma Termini → 나폴리 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/24 Napoli Centrale 11:30~12:00 도착편 우선, MANN 14:30 입장 목표 |
+| FCO → Roma Termini 열차 | <span class="status verified">사전 예약 불필요</span><br><span class="status recheck">겨울 시간 재확인</span> | 승차권 당일 구매 · 시간표 발표 후 재확인 | 높음 | 12/23 도착 후 탑승 전 승차권 구매, 막차와 공사·파업 공지 확인 |
+| Roma Termini → 나폴리 열차 | <span class="status waiting">운임 대기</span><br><span class="status booking">예약 필요</span> | 9/20·9/30 확인, 10/1 결정 | 높음 | 12/24 Frecciarossa 9583, 13:00→14:13 우선 · 다른 할인 운임이 없으면 Italo와 최종 비교 |
 | 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/28 판테온 오후 입장이 가능한 오전편 |
-| [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 14:30 전후 목표, 2025년 같은 날 개관 사례 확인 |
+| [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 16:00~18:30 핵심 관람, 2025년 같은 날 개관 사례 확인 |
 | 12/25 나폴리 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status weather">날씨 조건부</span><br><span class="status recheck">성탄절 수령 재확인</span> | 완료 | — | Noleggiare 중앙역점, 08:00 수령·22:00 Key-box 반납, 자동변속 하이브리드 또는 동급 |
-| 12/25 아말피 점심 | <span class="status booking">예약 필요</span> | 일정 확정 후 | 최우선 | 성탄절 실제 영업, 가족 좌석, 주차·취소 조건 확인 |
+| 12/25 아말피 점심 | <span class="status confirmed">간편식 지참 · 예약 제외</span> | 12/24 미리 준비 | 보통 | 빵·샌드위치·과일·물 준비, 식당은 당일 영업·메뉴·가격 확인 후 선택 |
 | [폼페이](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">공휴일 열차 재확인</span> | 출발 1~2주 전 | 높음 | 12/26 09:00 Porta Marina, EAV 08:05 출발·14:53 복귀 후 Garibaldi–Amedeo Linea 2 잠정 |
 | [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 출발 1~2주 전 | 높음 | 12/27 10:00, 이후 대성당–Spaccanapoli–Plebiscito–숙소 단방향 동선 |
 | [판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">종교행사 재확인</span> | 2026년 11월 중순부터 | 높음 | 12/28 14:30 전후, 가족 4인 같은 시간대·어린이 무료표 |
@@ -28,6 +28,8 @@
 | [콜로세움 24h 통합권](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } | <span class="status waiting">30일 전 판매 대기</span><br><span class="status booking">시간대 예약 필요</span> | 2026-12-03경부터 | 높음 | 2027-01-02 09:00, 어린이 무료표 포함 4인 동시 확보 |
 
 </div>
+
+Leonardo Express는 도착 후 공항 매표소·자동발매기에서 승차권을 구매합니다. [Trenitalia 공식 안내](https://www.trenitalia.com/en/services/connections-to-and-from-rome-fiumicino-airport.html){ target="_blank" rel="noopener" } · 확인일: 2026-09-18 · 재확인: 겨울 시간표 발표 후 및 출발 직전.
 
 ## 상태 변경 규칙
 

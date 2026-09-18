@@ -19,13 +19,13 @@
 <div class="day-card">
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
-  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status booking">열차 예약 필요</span><span class="status recheck">13:00 체크인·특별시간 재확인</span>
+  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status waiting">열차 운임 대기</span><span class="status recheck">짐 보관·특별시간 재확인</span>
   <ul>
-    <li>Napoli Centrale 11:30~12:00 도착편을 기준으로 Roma Termini 고속열차 선택</li>
-    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동</li>
-    <li>13:00 이른 체크인 가정 · 짐을 두고 숙소 인근에서 가벼운 점심</li>
-    <li>13:50 Piazza Amedeo역 이동 → Linea 2 → Napoli Piazza Cavour</li>
-    <li>14:30~17:30 나폴리 국립고고학박물관 핵심 관람 후 Linea 2로 숙소 복귀</li>
+    <li>11:00 The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 인근에서 점심</li>
+    <li>12:10 전후 짐 수령 → 12:30까지 Roma Termini 도착</li>
+    <li>13:00 Frecciarossa 9583 출발 → 14:13 Napoli Centrale 도착을 우선 선택</li>
+    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 15:00 체크인</li>
+    <li>16:00~18:30 나폴리 국립고고학박물관 핵심 관람 후 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·이동 확인 더보기</summary>
@@ -34,11 +34,11 @@
       <li>12월 25일과 1월 1일을 제외한 공휴일은 현재 규정상 개관</li>
       <li>2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있음</li>
       <li>2026년 12월 24일은 목요일이므로 현재 기준 방문 가능성이 높음</li>
-      <li>테르미니 숙박으로 FCO 환승을 없애고 나폴리행 고속열차를 바로 이용</li>
-      <li>13:00 체크인은 호스트에게 아직 확인하지 않은 일정 가정이며, 불가하면 짐 보관 방법과 박물관 출발 시각을 다시 조정</li>
-      <li>Trenitalia Linea 2는 Piazza Amedeo와 박물관 인근 Piazza Cavour를 연결</li>
+      <li>13:00 열차는 아직 예약 전이며 9월 20일·30일 운임을 확인하고 10월 1일 예약 여부 결정</li>
+      <li>나폴리 숙소의 공개 체크인 시간은 15:00 이후</li>
+      <li>The RomeHello의 체크아웃 후 짐 보관 가능 여부와 2026년 특별 운영은 재확인 필요</li>
     </ul>
-    <p><strong>재확인:</strong> 2026년 11월 말~12월 초 MANN 특별 운영과 겨울 열차 시간표</p>
+    <p><strong>재확인:</strong> 9월 20일·30일 열차 운임, The RomeHello 짐 보관, 2026년 11월 말~12월 초 MANN 특별 운영</p>
     <p><a href="https://www.museoarcheologiconapoli.it/en/timetables-and-fares/" target="_blank" rel="noopener">MANN 공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
@@ -46,14 +46,14 @@
 <div class="day-card">
   <h3>12월 25일 금요일 · 아말피 해안 드라이브</h3>
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
-  <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status booking">점심 예약 필요</span><span class="status recheck">성탄절 수령 재확인</span>
+  <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status confirmed">간편식 지참</span><span class="status recheck">성탄절 수령 재확인</span>
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
   <ul>
     <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 22:00 같은 지점 반납</li>
     <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
     <li>Trenitalia Linea 2로 Napoli Piazza Garibaldi 이동 후 연결 통로를 따라 Napoli Centrale로 이동</li>
     <li>포지타노 전망과 짧은 산책을 우선</li>
-    <li>아말피에서 예약한 크리스마스 점심과 중심부 산책</li>
+    <li>아말피에서 준비한 간편식 점심과 중심부 산책</li>
     <li>라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
     <li>일몰 전 SS163 핵심 구간을 마치고 살레르노–나폴리 고속도로로 복귀</li>
   </ul>
@@ -65,7 +65,7 @@
       <li>Linea 2는 Piazza Amedeo와 Napoli Piazza Garibaldi를 연결하며, 성탄절 실제 열차 시각은 12월 중순 재확인</li>
       <li>22:00 반납은 Corso Meridionale의 Parkinstation 2층 지정 주차면과 Key-box 이용</li>
       <li>무인 반납 시 차량 외관·휠·실내·연료·주차면·열쇠 투입을 사진과 영상으로 기록</li>
-      <li>성탄절에는 많은 식당과 상점이 쉬므로 아말피 점심을 사전 예약</li>
+      <li>12/24 빵·샌드위치 재료·과일·물을 준비하고, 당일 식당은 영업·메뉴·가격 확인 후 선택</li>
     </ul>
     <p><strong>날씨 판단:</strong> 출발 48시간 전 1차, 전날 저녁 최종 결정. 강한 비·짙은 안개·강풍·도로 통제가 있으면 취소합니다.</p>
     <p><a href="https://www.noleggiare.it/en/car-rental-service-at-napoli-centrale-railway-station/" target="_blank" rel="noopener">Noleggiare 나폴리 중앙역점</a> · <a href="https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/" target="_blank" rel="noopener">Uber Taxi 나폴리</a> · <a href="https://www.trenitalia.com/it/regionale/campania/metro-napoli.html" target="_blank" rel="noopener">Trenitalia Linea 2</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/amalfi-christmas-2026-12-25.md" target="_blank" rel="noopener">상세 조사 보기</a></p>

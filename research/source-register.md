@@ -29,6 +29,8 @@
 | CAR-005 | 로마 렌터카 | Roma Termini | Noleggiare | 공식 지점 안내 | 평일 운영시간·수령·반납 위치 확인 | 2026-09-02 | 2026-12-28 | [원문](https://www.noleggiare.it/en/car-rent/locations/car-rental-roma-termini/) |
 | NTR-001 | 나폴리 택시 호출 | Taxi Napoli | Uber | 운영사 공식 안내 | 24시간 호출 가능·배차 미보장 | 2026-08-23 | 출발 전 | [원문](https://www.uber.com/it/en/r/cities/taxi/napoli-campania-it/) |
 | NTR-002 | 나폴리 Linea 2 | Metropolitana di Napoli linea 2 | Trenitalia | 운영사 공식 안내 | 역 연결 확인·성탄절 시각 미확인 | 2026-08-23 | 2026-12-15 | [원문](https://www.trenitalia.com/it/regionale/campania/metro-napoli.html) |
+| TRN-001 | FrecciaFAMILY 운임 | FrecciaFAMILY | Trenitalia | 운영사 공식 운임 안내 | 대상·할인·구매기한·좌석 제한 확인 | 2026-09-13 | 2026-09-30 | [원문](https://www.trenitalia.com/it/offerte/frecciafamily.html) |
+| TRN-002 | Frecce 상업 운임 | Offerte commerciali | Trenitalia | 운영사 공식 운임 안내 | FrecciaFAMILY 조건 교차 확인 | 2026-09-13 | 2026-09-30 | [원문](https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/offerte-commerciali.html) |
 | AMA-001 | 아말피 성탄절 운영 사례 | Events December 2025 | Visit Amalfi | 공식 관광 일정 | 과거 사례 | 2026-07-30 | 2026-12-01 | [원문](https://www.visitamalfi.info/en/eventi/month/2025-12/) |
 | POM-001 | 폼페이 운영·티켓 | Timetables and tickets | Pompeii Archaeological Park | 공식 안내 | 공식 확인 | 2026-07-30 | 2026-12-01 | [원문](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/) |
 | POM-002 | 폼페이 철도·입구 | How to get there | Pompeii Archaeological Park | 공식 교통 안내 | 공식 확인 | 2026-08-15 | 2026-12-15 | [원문](https://pompeiisites.org/en/visiting-info/how-to-get-there/) |

@@ -190,8 +190,8 @@
         "group": "naples",
         "region": "naples",
         "groups": ["naples"],
-        "dates": ["12/24 14:30 전후"],
-        "note": "Roma Termini에서 나폴리로 이동하고 13:00 체크인을 가정한 오후 관람",
+        "dates": ["12/24 16:00–18:30 목표"],
+        "note": "13:00 Roma Termini 출발 열차와 나폴리 숙소 15:00 체크인 후 핵심 관람",
         "googleQuery": "Museo Archeologico Nazionale di Napoli",
         "sort": 100
       },
@@ -400,8 +400,8 @@
         "group": "amalfi",
         "region": "amalfi",
         "groups": ["amalfi"],
-        "dates": ["12/25 예약 점심 전후"],
-        "note": "아말피는 점심과 두오모 중심",
+        "dates": ["12/25 간편식 점심 전후"],
+        "note": "아말피는 지참한 간편식 점심과 두오모 중심",
         "googleQuery": "Duomo di Amalfi",
         "sort": 190
       },
