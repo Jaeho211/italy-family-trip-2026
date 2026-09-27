@@ -1,0 +1,1397 @@
+[
+  {
+    "city": "rome",
+    "name": "Piccolo Buco (NO PRENOTAZIONI-NO RESERVATIONS)",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4846381,
+      41.9012999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9012999,12.4846381"
+  },
+  {
+    "city": "rome",
+    "name": "Bonci Pizzarium",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4466709,
+      41.9066758
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9066758,12.4466709"
+  },
+  {
+    "city": "rome",
+    "name": "Pizzeria Da Baffetto",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4702938,
+      41.8982758
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8982758,12.4702938"
+  },
+  {
+    "city": "rome",
+    "name": "Alice Pizza Trastevere",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.470986,
+      41.88860329999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.88860329999999,12.470986"
+  },
+  {
+    "city": "rome",
+    "name": "피자 지자",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4565534,
+      41.8997708
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8997708,12.4565534"
+  },
+  {
+    "city": "rome",
+    "name": "La Nuova Piazzetta",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.489191,
+      41.89332460000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89332460000001,12.489191"
+  },
+  {
+    "city": "rome",
+    "name": "Ai Marmi",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4737127,
+      41.888251
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.888251,12.4737127"
+  },
+  {
+    "city": "rome",
+    "name": "Zizzi Pizza - Laboratorio artigianale",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.4974955,
+      41.8952891
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8952891,12.4974955"
+  },
+  {
+    "city": "rome",
+    "name": "Diego Vitagliano Roma - Pizzeria",
+    "category": "피자",
+    "sourceCategory": "피자",
+    "coordinates": [
+      12.5068201,
+      41.9209484
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9209484,12.5068201"
+  },
+  {
+    "city": "rome",
+    "name": "Bull Steak",
+    "category": "식사",
+    "sourceCategory": "스테이크",
+    "coordinates": [
+      12.4861589,
+      41.8761091
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8761091,12.4861589"
+  },
+  {
+    "city": "rome",
+    "name": "일 키안티",
+    "category": "식사",
+    "sourceCategory": "스테이크",
+    "coordinates": [
+      12.4841767,
+      41.9011705
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9011705,12.4841767"
+  },
+  {
+    "city": "rome",
+    "name": "Achille Al Pantheon di Habana",
+    "category": "식사",
+    "sourceCategory": "스테이크",
+    "coordinates": [
+      12.4780556,
+      41.8994444
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8994444,12.4780556"
+  },
+  {
+    "city": "rome",
+    "name": "Ornelli Black Angus Steakhouse",
+    "category": "식사",
+    "sourceCategory": "스테이크",
+    "coordinates": [
+      12.5013203,
+      41.8926805
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8926805,12.5013203"
+  },
+  {
+    "city": "rome",
+    "name": "Mercato Centrale",
+    "category": "간편식",
+    "sourceCategory": "푸드코트",
+    "coordinates": [
+      12.5034472,
+      41.8988083
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8988083,12.5034472"
+  },
+  {
+    "city": "rome",
+    "name": "Tonnarello | Paglia",
+    "category": "식사",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4693004,
+      41.889804
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.889804,12.4693004"
+  },
+  {
+    "city": "rome",
+    "name": "Nannarella",
+    "category": "식사",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4707297,
+      41.8889194
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8889194,12.4707297"
+  },
+  {
+    "city": "rome",
+    "name": "Tonnarello Scala",
+    "category": "식사",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4682918,
+      41.8909113
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8909113,12.4682918"
+  },
+  {
+    "city": "rome",
+    "name": "타짜 도로 커피",
+    "category": "카페·디저트",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.477407,
+      41.899434
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.899434,12.477407"
+  },
+  {
+    "city": "rome",
+    "name": "산트 유스타치오 더 커피",
+    "category": "카페·디저트",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4754254,
+      41.8982749
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8982749,12.4754254"
+  },
+  {
+    "city": "rome",
+    "name": "안티코 카페 그레코",
+    "category": "식사",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4815533,
+      41.9056208
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9056208,12.4815533"
+  },
+  {
+    "city": "rome",
+    "name": "Sciascia Caffè 1919",
+    "category": "카페·디저트",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.461994,
+      41.909859
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.909859,12.461994"
+  },
+  {
+    "city": "rome",
+    "name": "Caffé del Cinque",
+    "category": "카페·디저트",
+    "sourceCategory": "역사와전통",
+    "coordinates": [
+      12.4690694,
+      41.890566
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.890566,12.4690694"
+  },
+  {
+    "city": "rome",
+    "name": "Cantina Belsiana",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4794444,
+      41.90583329999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90583329999999,12.4794444"
+  },
+  {
+    "city": "rome",
+    "name": "Origano Trevi",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4831771,
+      41.9030288
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9030288,12.4831771"
+  },
+  {
+    "city": "rome",
+    "name": "Dal Toscano Restaurant",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4574373,
+      41.907733
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.907733,12.4574373"
+  },
+  {
+    "city": "rome",
+    "name": "카를로 멘타",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4727883,
+      41.8896301
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8896301,12.4727883"
+  },
+  {
+    "city": "rome",
+    "name": "La Locanda Di Bacco",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4961515,
+      41.9064906
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9064906,12.4961515"
+  },
+  {
+    "city": "rome",
+    "name": "That's Amore Restaurant",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4856399,
+      41.90217409999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90217409999999,12.4856399"
+  },
+  {
+    "city": "rome",
+    "name": "433",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4698499,
+      41.8985251
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8985251,12.4698499"
+  },
+  {
+    "city": "rome",
+    "name": "LA BASE",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4900551,
+      41.893716
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.893716,12.4900551"
+  },
+  {
+    "city": "rome",
+    "name": "Mimì e Cocò",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4713916,
+      41.89814179999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89814179999999,12.4713916"
+  },
+  {
+    "city": "rome",
+    "name": "Cantina e Cucina",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4716378,
+      41.89794779999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89794779999999,12.4716378"
+  },
+  {
+    "city": "rome",
+    "name": "Trattoria Vecchia Roma",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.502279,
+      41.8938492
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8938492,12.502279"
+  },
+  {
+    "city": "rome",
+    "name": "Osteria da Fortunata - Rinascimento",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4739066,
+      41.8976934
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8976934,12.4739066"
+  },
+  {
+    "city": "rome",
+    "name": "Nerone",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4968924,
+      41.9010851
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9010851,12.4968924"
+  },
+  {
+    "city": "rome",
+    "name": "Felice a Testaccio",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4774541,
+      41.8785544
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8785544,12.4774541"
+  },
+  {
+    "city": "rome",
+    "name": "Saltimbocca ristorante",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4715803,
+      41.8992423
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8992423,12.4715803"
+  },
+  {
+    "city": "rome",
+    "name": "Hostaria de' Pastini",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4776837,
+      41.89938949999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89938949999999,12.4776837"
+  },
+  {
+    "city": "rome",
+    "name": "아그로돌체 로마 레스토랑",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4819444,
+      41.9008333
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9008333,12.4819444"
+  },
+  {
+    "city": "rome",
+    "name": "Iari The Vino",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.489398,
+      41.89296669999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89296669999999,12.489398"
+  },
+  {
+    "city": "rome",
+    "name": "L'Antica Birreria Peroni",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4824441,
+      41.8987803
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8987803,12.4824441"
+  },
+  {
+    "city": "rome",
+    "name": "Ristorante Luigi, Cantina e Cucina",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.5041965,
+      41.9020273
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9020273,12.5041965"
+  },
+  {
+    "city": "rome",
+    "name": "Pub Cuccagna",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4730418,
+      41.8973317
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8973317,12.4730418"
+  },
+  {
+    "city": "rome",
+    "name": "Otello",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4691832,
+      41.8903949
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8903949,12.4691832"
+  },
+  {
+    "city": "rome",
+    "name": "La Tavernetta 29 da Tony e Andrea",
+    "category": "식사",
+    "sourceCategory": "이탈리안",
+    "coordinates": [
+      12.4704865,
+      41.8904071
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8904071,12.4704865"
+  },
+  {
+    "city": "rome",
+    "name": "Mr.Clood Bistrot",
+    "category": "식사",
+    "sourceCategory": "나폴리맛피아",
+    "coordinates": [
+      12.470718,
+      41.8878793
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8878793,12.470718"
+  },
+  {
+    "city": "rome",
+    "name": "Pastificio Guerra",
+    "category": "식사",
+    "sourceCategory": "육식맨",
+    "coordinates": [
+      12.4809389,
+      41.9064463
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9064463,12.4809389"
+  },
+  {
+    "city": "rome",
+    "name": "LUCIANO Cucina Italiana - Roma",
+    "category": "식사",
+    "sourceCategory": "육식맨",
+    "coordinates": [
+      12.4729245,
+      41.8962393
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8962393,12.4729245"
+  },
+  {
+    "city": "rome",
+    "name": "Trattoria Sapori Di Casa",
+    "category": "식사",
+    "sourceCategory": "육식맨",
+    "coordinates": [
+      12.5083245,
+      41.9033791
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9033791,12.5083245"
+  },
+  {
+    "city": "rome",
+    "name": "Trapizzino | Trastevere",
+    "category": "간편식",
+    "sourceCategory": "수플리",
+    "coordinates": [
+      12.4698437,
+      41.891494
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.891494,12.4698437"
+  },
+  {
+    "city": "rome",
+    "name": "지올리띠",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4772745,
+      41.90106579999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90106579999999,12.4772745"
+  },
+  {
+    "city": "rome",
+    "name": "Gelateria Fassi - Gelato artigianale a Roma dal 1880",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.5080897,
+      41.8935957
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8935957,12.5080897"
+  },
+  {
+    "city": "rome",
+    "name": "올드브릿지",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4563677,
+      41.9064049
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9064049,12.4563677"
+  },
+  {
+    "city": "rome",
+    "name": "Venchi Cioccolato e Gelato, Roma Pantheon",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4772941,
+      41.8995074
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8995074,12.4772941"
+  },
+  {
+    "city": "rome",
+    "name": "Come il Latte",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4960538,
+      41.9070945
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9070945,12.4960538"
+  },
+  {
+    "city": "rome",
+    "name": "Neve di Latte",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4706077,
+      41.9063191
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9063191,12.4706077"
+  },
+  {
+    "city": "rome",
+    "name": "The Gelatist - Via Nazionale 19A - Gelateria artigianale Roma centro",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4938307,
+      41.90087429999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90087429999999,12.4938307"
+  },
+  {
+    "city": "rome",
+    "name": "Gelateria La Romana",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4989518,
+      41.90781149999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90781149999999,12.4989518"
+  },
+  {
+    "city": "rome",
+    "name": "Gelateria Della Palma",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4765307,
+      41.9005382
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9005382,12.4765307"
+  },
+  {
+    "city": "rome",
+    "name": "Fatamorgana Monti",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4932505,
+      41.8956656
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8956656,12.4932505"
+  },
+  {
+    "city": "rome",
+    "name": "Gelateria del Teatro",
+    "category": "카페·디저트",
+    "sourceCategory": "젤라또",
+    "coordinates": [
+      12.4694462,
+      41.90046009999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90046009999999,12.4694462"
+  },
+  {
+    "city": "rome",
+    "name": "Bakery Roscioli Pietro",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.5026697,
+      41.89409149999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89409149999999,12.5026697"
+  },
+  {
+    "city": "rome",
+    "name": "I Dolci di Nonna Vincenza",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.4730667,
+      41.8940972
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8940972,12.4730667"
+  },
+  {
+    "city": "rome",
+    "name": "Antico Forno Roscioli",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.4742778,
+      41.8945667
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8945667,12.4742778"
+  },
+  {
+    "city": "rome",
+    "name": "Antico Forno Serpenti",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.4902668,
+      41.8962461
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8962461,12.4902668"
+  },
+  {
+    "city": "rome",
+    "name": "Forno Monteforte",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.4682316,
+      41.8974078
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8974078,12.4682316"
+  },
+  {
+    "city": "rome",
+    "name": "The Pasticceria Siciliana",
+    "category": "카페·디저트",
+    "sourceCategory": "빵집",
+    "coordinates": [
+      12.4452251,
+      41.9054617
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9054617,12.4452251"
+  },
+  {
+    "city": "rome",
+    "name": "Regoli Pasticceria",
+    "category": "카페·디저트",
+    "sourceCategory": "파브리",
+    "coordinates": [
+      12.5009492,
+      41.8948172
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8948172,12.5009492"
+  },
+  {
+    "city": "rome",
+    "name": "Pompi Tiramisù",
+    "category": "카페·디저트",
+    "sourceCategory": "티라미수",
+    "coordinates": [
+      12.4807949,
+      41.9065524
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9065524,12.4807949"
+  },
+  {
+    "city": "rome",
+    "name": "Two Sizes",
+    "category": "카페·디저트",
+    "sourceCategory": "티라미수",
+    "coordinates": [
+      12.471566,
+      41.89801419999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89801419999999,12.471566"
+  },
+  {
+    "city": "rome",
+    "name": "Mr. 100 Tiramisù",
+    "category": "카페·디저트",
+    "sourceCategory": "티라미수",
+    "coordinates": [
+      12.4746641,
+      41.897867
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.897867,12.4746641"
+  },
+  {
+    "city": "rome",
+    "name": "Grezzo Raw Chocolate",
+    "category": "카페·디저트",
+    "sourceCategory": "초콜렛",
+    "coordinates": [
+      12.4943717,
+      41.8967416
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8967416,12.4943717"
+  },
+  {
+    "city": "rome",
+    "name": "D’Angelo Caffè & Gastronomia - Bar Bistro Caffetteria Napoletana a Roma",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.495645,
+      41.90549900000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90549900000001,12.495645"
+  },
+  {
+    "city": "rome",
+    "name": "Trecaffè - Via dei due Macelli",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.485107,
+      41.9033508
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9033508,12.485107"
+  },
+  {
+    "city": "rome",
+    "name": "Barnum Roma",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.469973,
+      41.89700509999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89700509999999,12.469973"
+  },
+  {
+    "city": "rome",
+    "name": "Faro - Caffè Specialty",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.4984435,
+      41.9101357
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9101357,12.4984435"
+  },
+  {
+    "city": "rome",
+    "name": "Gatsby Cafè",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.5038577,
+      41.8938026
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8938026,12.5038577"
+  },
+  {
+    "city": "rome",
+    "name": "Caffè Delle Commari",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.4540957,
+      41.908024
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.908024,12.4540957"
+  },
+  {
+    "city": "rome",
+    "name": "Caffè Settimiano di Mella Valter e C. S.a.s.",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.4676232,
+      41.8920614
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8920614,12.4676232"
+  },
+  {
+    "city": "rome",
+    "name": "Sensorio Coffee Lab",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.4747216,
+      41.9142793
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9142793,12.4747216"
+  },
+  {
+    "city": "rome",
+    "name": "Caffetteria Italia al Vittoriano",
+    "category": "카페·디저트",
+    "sourceCategory": "카페",
+    "coordinates": [
+      12.4837243,
+      41.8946686
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8946686,12.4837243"
+  },
+  {
+    "city": "rome",
+    "name": "Ghezzi Alessandro",
+    "category": "간편식",
+    "sourceCategory": "파니니",
+    "coordinates": [
+      12.5007706,
+      41.905916
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.905916,12.5007706"
+  },
+  {
+    "city": "rome",
+    "name": "Pane e Salame",
+    "category": "간편식",
+    "sourceCategory": "파니니",
+    "coordinates": [
+      12.481772,
+      41.900629
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.900629,12.481772"
+  },
+  {
+    "city": "rome",
+    "name": "All'Antico Vinaio",
+    "category": "간편식",
+    "sourceCategory": "파니니",
+    "coordinates": [
+      12.4764773,
+      41.89996370000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.89996370000001,12.4764773"
+  },
+  {
+    "city": "rome",
+    "name": "All'Antico Vinaio",
+    "category": "간편식",
+    "sourceCategory": "파니니",
+    "coordinates": [
+      12.477138,
+      41.9085271
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9085271,12.477138"
+  },
+  {
+    "city": "rome",
+    "name": "맘마 꼬레아나",
+    "category": "식사",
+    "sourceCategory": "한식",
+    "coordinates": [
+      12.5010461,
+      41.8970244
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8970244,12.5010461"
+  },
+  {
+    "city": "rome",
+    "name": "가인",
+    "category": "식사",
+    "sourceCategory": "한식",
+    "coordinates": [
+      12.5033291,
+      41.9038116
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9038116,12.5033291"
+  },
+  {
+    "city": "rome",
+    "name": "이조식당",
+    "category": "식사",
+    "sourceCategory": "한식",
+    "coordinates": [
+      12.4691622,
+      41.88693679999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.88693679999999,12.4691622"
+  },
+  {
+    "city": "rome",
+    "name": "Ristorante Phở 1",
+    "category": "식사",
+    "sourceCategory": "베트남",
+    "coordinates": [
+      12.5029984,
+      41.890471
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.890471,12.5029984"
+  },
+  {
+    "city": "rome",
+    "name": "토라 스시",
+    "category": "식사",
+    "sourceCategory": "일식",
+    "coordinates": [
+      12.4737488,
+      41.8995725
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.8995725,12.4737488"
+  },
+  {
+    "city": "rome",
+    "name": "Hamasei",
+    "category": "식사",
+    "sourceCategory": "일식",
+    "coordinates": [
+      12.4825,
+      41.90333330000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90333330000001,12.4825"
+  },
+  {
+    "city": "rome",
+    "name": "MAMACRI Burger Style",
+    "category": "식사",
+    "sourceCategory": "햄버거",
+    "coordinates": [
+      12.4898987,
+      41.9091724
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9091724,12.4898987"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks - Montecitorio",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.4787784,
+      41.90027569999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90027569999999,12.4787784"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks - Roma Cola di Rienzo",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.4692075,
+      41.9091635
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9091635,12.4692075"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks - Roma Flagship San Silvestro",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.4809056,
+      41.90222269999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.90222269999999,12.4809056"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks - Roma Termini KIOSK",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.5022423,
+      41.9014401
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9014401,12.5022423"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks Stazione Termini",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.5009441,
+      41.9008401
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9008401,12.5009441"
+  },
+  {
+    "city": "rome",
+    "name": "Starbucks - Roma Termini Terrazza",
+    "category": "카페·디저트",
+    "sourceCategory": "기타",
+    "coordinates": [
+      12.5001891,
+      41.9006064
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9006064,12.5001891"
+  },
+  {
+    "city": "rome",
+    "name": "Adèle Mixology Lounge",
+    "category": "카페·디저트",
+    "sourceCategory": "전망",
+    "coordinates": [
+      12.4867411,
+      41.9079116
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=41.9079116,12.4867411"
+  },
+  {
+    "city": "naples",
+    "name": "3대피자👍다미켈레 (L'Antica Pizzeria da Michele)",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=L%27Antica%20Pizzeria%20da%20Michele%20Napoli",
+    "sourceNumber": 1
+  },
+  {
+    "city": "naples",
+    "name": "3대피자👍지노 소르빌로 (Gino e Toto Sorbillo)",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gino%20e%20Toto%20Sorbillo%20Napoli",
+    "sourceNumber": 2
+  },
+  {
+    "city": "naples",
+    "name": "3대피자👍디 마테오 (Di Matteo)",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Di%20Matteo%20Napoli",
+    "sourceNumber": 3
+  },
+  {
+    "city": "naples",
+    "name": "마르게리따최초👍피자리아 브론디 (Pizzeria Brandi)",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Brandi%20Napoli",
+    "sourceNumber": 4
+  },
+  {
+    "city": "naples",
+    "name": "100년전통👍피자리아 스타리타 아 마테르데이 (Pizzeria Starita A Materdei)",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Starita%20A%20Materdei%20Napoli",
+    "sourceNumber": 5
+  },
+  {
+    "city": "naples",
+    "name": "나폴리맛피아추천👍Diego Vitagliano Pizzeria - Bagnoli",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Diego%20Vitagliano%20Pizzeria%20-%20Bagnoli%20Napoli",
+    "sourceNumber": 6
+  },
+  {
+    "city": "naples",
+    "name": "육식맨추천👍라 피글리아 델 프레지덴테 (La Figlia del Presidente)",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Figlia%20del%20Presidente%20Napoli",
+    "sourceNumber": 7
+  },
+  {
+    "city": "naples",
+    "name": "튀긴피자👍Antica Pizza Fritta da Zia Esterina Sorbillo",
+    "category": "피자",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Antica%20Pizza%20Fritta%20da%20Zia%20Esterina%20Sorbillo%20Napoli",
+    "sourceNumber": 8
+  },
+  {
+    "city": "naples",
+    "name": "역사와전통👍Gran Caffè Gambrinus",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gran%20Caff%C3%A8%20Gambrinus%20Napoli",
+    "sourceNumber": 9
+  },
+  {
+    "city": "naples",
+    "name": "나폴리맛피아추천👍Scaturchio",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Scaturchio%20Napoli",
+    "sourceNumber": 10
+  },
+  {
+    "city": "naples",
+    "name": "빵집👍Sfogliatelle Attanasio",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Sfogliatelle%20Attanasio%20Napoli",
+    "sourceNumber": 11
+  },
+  {
+    "city": "naples",
+    "name": "일식👍Hachi Ristorante Giapponese",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Hachi%20Ristorante%20Giapponese%20Napoli",
+    "sourceNumber": 12
+  },
+  {
+    "city": "naples",
+    "name": "나폴리맛피아추천👍Osteria Napulion",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Osteria%20Napulion%20Napoli",
+    "sourceNumber": 13
+  },
+  {
+    "city": "naples",
+    "name": "나폴리맛피아추천👍Passione di Sofì",
+    "category": "간편식",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Passione%20di%20Sof%C3%AC%20Napoli",
+    "sourceNumber": 14
+  },
+  {
+    "city": "naples",
+    "name": "나폴리맛피아추천👍Dora's Restaurant",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Dora%27s%20Restaurant%20Napoli",
+    "sourceNumber": 15
+  },
+  {
+    "city": "naples",
+    "name": "Ristorante Acquolina",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante%20Acquolina%20Napoli",
+    "sourceNumber": 16
+  },
+  {
+    "city": "naples",
+    "name": "Osteria da Carmela",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Osteria%20da%20Carmela%20Napoli",
+    "sourceNumber": 17
+  },
+  {
+    "city": "naples",
+    "name": "La Lazzara Trattoria e Pizzeria",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Lazzara%20Trattoria%20e%20Pizzeria%20Napoli",
+    "sourceNumber": 18
+  },
+  {
+    "city": "naples",
+    "name": "Novità Street Food",
+    "category": "간편식",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Novit%C3%A0%20Street%20Food%20Napoli",
+    "sourceNumber": 19
+  },
+  {
+    "city": "naples",
+    "name": "All'Antico Vinaio",
+    "category": "간편식",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=All%27Antico%20Vinaio%20Napoli",
+    "sourceNumber": 20
+  },
+  {
+    "city": "naples",
+    "name": "Aria Restaurant",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Aria%20Restaurant%20Napoli",
+    "sourceNumber": 21
+  },
+  {
+    "city": "naples",
+    "name": "George Restaurant",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=George%20Restaurant%20Napoli",
+    "sourceNumber": 22
+  },
+  {
+    "city": "naples",
+    "name": "Michelasso Ristorante Gourmet a Napoli",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Michelasso%20Ristorante%20Gourmet%20a%20Napoli%20Napoli",
+    "sourceNumber": 23
+  },
+  {
+    "city": "naples",
+    "name": "Veritas Restaurant",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Veritas%20Restaurant%20Napoli",
+    "sourceNumber": 24
+  },
+  {
+    "city": "naples",
+    "name": "La Locanda Gesù Vecchio",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Locanda%20Ges%C3%B9%20Vecchio%20Napoli",
+    "sourceNumber": 25
+  },
+  {
+    "city": "naples",
+    "name": "Coffee Central",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Coffee%20Central%20Napoli",
+    "sourceNumber": 26
+  },
+  {
+    "city": "naples",
+    "name": "Cisterna cafè & bistrot",
+    "category": "식사",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Cisterna%20caf%C3%A8%20%26%20bistrot%20Napoli",
+    "sourceNumber": 27
+  },
+  {
+    "city": "naples",
+    "name": "Diaz Microtorrefazione",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Diaz%20Microtorrefazione%20Napoli",
+    "sourceNumber": 28
+  },
+  {
+    "city": "naples",
+    "name": "Caffè Ciorfito",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Caff%C3%A8%20Ciorfito%20Napoli",
+    "sourceNumber": 29
+  },
+  {
+    "city": "naples",
+    "name": "Casa Infante",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Casa%20Infante%20Napoli",
+    "sourceNumber": 30
+  },
+  {
+    "city": "naples",
+    "name": "Il Gelato Mennella",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "sourceNumber": 31
+  },
+  {
+    "city": "naples",
+    "name": "Il Gelato Mennella",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "sourceNumber": 32
+  },
+  {
+    "city": "naples",
+    "name": "Mennella Il Gelato",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Mennella%20Il%20Gelato%20Napoli",
+    "sourceNumber": 33
+  },
+  {
+    "city": "naples",
+    "name": "Il Gelato Mennella",
+    "category": "카페·디저트",
+    "sourceCategory": "맛집·카페",
+    "coordinates": null,
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "sourceNumber": 34
+  }
+]

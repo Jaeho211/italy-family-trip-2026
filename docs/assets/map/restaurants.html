@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>식당 찾기 | 이탈리아 가족여행</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="./restaurants.css">
+  <script defer src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script defer src="./restaurants.js"></script>
+</head>
+<body>
+  <main class="restaurant-app">
+    <header class="intro">
+      <h1>식당 찾기</h1>
+      <p>맛집 리스트의 미검증 후보입니다. 방문 전 영업·지점을 다시 확인하세요.</p>
+    </header>
+    <form class="filters" role="search" onsubmit="return false">
+      <label>도시
+        <select id="city">
+          <option value="rome">로마</option>
+          <option value="naples">나폴리</option>
+        </select>
+      </label>
+      <label>종류
+        <select id="category">
+          <option value="all">전체</option>
+          <option value="피자">피자</option>
+          <option value="식사">식사</option>
+          <option value="카페·디저트">카페·디저트</option>
+          <option value="간편식">간편식</option>
+        </select>
+      </label>
+      <label class="search-label">이름 검색
+        <input id="search" type="search" placeholder="식당 이름" autocomplete="off">
+      </label>
+    </form>
+    <p id="result-count" class="result-count" role="status" aria-live="polite">후보를 불러오는 중입니다.</p>
+    <div class="content">
+      <section id="map-panel" class="map-panel" aria-label="로마 식당 후보 지도">
+        <div id="map"></div>
+        <p id="map-message" class="map-message" role="status" aria-live="polite">지도를 불러오는 중입니다.</p>
+      </section>
+      <section class="list-panel" aria-label="식당 후보 목록">
+        <p id="list-help" class="list-help">핀을 누르거나 목록에서 Google Maps를 열 수 있습니다.</p>
+        <div id="restaurant-list" class="restaurant-list"></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

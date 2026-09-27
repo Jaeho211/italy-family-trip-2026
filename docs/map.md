@@ -27,3 +27,5 @@
 
 [날짜별 전체 일정 보기](itinerary.md){ .md-button .md-button--primary }
 
+[맛집 후보 찾기](restaurants.md){ .md-button }
+

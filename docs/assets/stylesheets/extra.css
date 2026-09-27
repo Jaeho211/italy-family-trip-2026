@@ -119,7 +119,22 @@ body { color: var(--trip-ink); }
   border-radius: .9rem;
 }
 
+.restaurant-map-frame {
+  display: block;
+  width: 100%;
+  height: clamp(42rem, 85vh, 60rem);
+  margin: 1rem 0;
+  background: var(--trip-cream);
+  border: 1px solid var(--trip-border);
+  border-radius: .9rem;
+}
+
 @media (max-width: 640px) {
+  .restaurant-map-frame {
+    height: 85vh;
+    min-height: 42rem;
+    border-radius: .65rem;
+  }
   .trip-map-frame {
     height: 82vh;
     min-height: 42rem;
