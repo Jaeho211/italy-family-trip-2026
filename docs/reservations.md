@@ -1,43 +1,30 @@
 # 예약 현황
 
-이 표에는 공개 가능한 예약 상태와 이동 시각만 기록합니다. **예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.** 나폴리와 로마 확정 숙소 주소는 사용자의 명시적 공개 요청과 공개 출처 확인에 따라 [숙소 페이지](accommodation.md)에만 표시합니다.
+확인일: **2026-09-27**. 완료 표시는 가족이 예약을 확인한 항목만 뜻합니다. 아래 날짜는 **공식 판매 시작일**과 가족이 정한 **확인·구매 목표일**을 구분했습니다. 예약번호, 승객 이름, 가격·결제정보, 객실·출입정보는 기록하지 않습니다.
 
-<div class="table-scroll" markdown>
+## 예약 완료
 
-| 항목 | 상태 | 목표 시기 | 우선순위 | 비고 |
-|---|---|---|---|---|
-| The RomeHello(더 로마헬로) · 테르미니 1박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/23 체크인·12/24 체크아웃, 상세 예약정보는 비공개로 관리 |
-| Una terrazza a Chiaia · 나폴리 4박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/24 15:00 이후 체크인·12/28 체크아웃 |
-| iFlat Luxury Navona Apartment · 로마 5박 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">짐 보관 확인</span> | 완료 | — | 12/28 체크인·1/2 체크아웃, 체크인 전·체크아웃 후 짐 보관 확인 |
-| FCO → Roma Termini 열차 | <span class="status verified">사전 예약 불필요</span><br><span class="status recheck">겨울 시간 재확인</span> | 승차권 당일 구매 · 시간표 발표 후 재확인 | 높음 | 12/23 도착 후 탑승 전 승차권 구매, 막차와 공사·파업 공지 확인 |
-| Roma Termini → Napoli Centrale 열차 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">운행 변경 재확인</span> | 완료 | — | 12/24 Frecciarossa 9527, 14:00→15:13 · 사용자 예약 확인 2026-09-27 |
-| Napoli Centrale → Roma Termini 열차 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">운행 변경 재확인</span> | 완료 | — | 12/28 Frecciarossa 9532, 10:40→11:55 · 사용자 예약 확인 2026-09-27 |
-| [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 17:00 전후 입장 목표, 2025년 같은 날 개관 사례 확인 |
-| 12/25 나폴리 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status weather">날씨 조건부</span><br><span class="status recheck">성탄절 수령 재확인</span> | 완료 | — | Noleggiare 중앙역점, 08:00 수령·22:00 Key-box 반납, 자동변속 하이브리드 또는 동급 |
-| 12/25 아말피 점심 | <span class="status confirmed">간편식 지참 · 예약 제외</span> | 12/24 미리 준비 | 보통 | 빵·샌드위치·과일·물 준비, 식당은 당일 영업·메뉴·가격 확인 후 선택 |
-| [폼페이](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">공휴일 열차 재확인</span> | 출발 1~2주 전 | 높음 | 12/26 09:00 Porta Marina, EAV 08:05 출발·14:53 복귀 후 Garibaldi–Amedeo Linea 2 잠정 |
-| [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 출발 1~2주 전 | 높음 | 12/27 10:00, 이후 대성당–Spaccanapoli–Plebiscito–숙소 단방향 동선 |
-| [판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">종교행사 재확인</span> | 2026년 11월 중순부터 | 높음 | 12/28 16:00 전후 목표, 가족 4인 같은 시간대·어린이 무료표 |
-| [바티칸 박물관](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" } | <span class="status waiting">판매 대기</span> | 2026-10-29 전후부터 확인 | 최우선 | 12/29 08:00 → 08:30 → 09:00 |
-| 성베드로 대성당 | <span class="status recheck">공식 발표 대기</span> | 11월 말~12월 초 | 높음 | 12/29 전례와 일반 입장·보안 통제 확인 |
-| [《백조의 호수》](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } | <span class="status waiting">10월 8일 판매 시작</span><br><span class="status booking">2석 예매 필요</span> | 2026-10-08 | 최우선 | 12/29 20:00, 아내·딸 인접 좌석, Fumi Kaneko·Vadim Muntagirov 출연 회차 |
-| Noleggiare Roma Termini · 12/30 로마 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">차량·보장 조건 재확인</span> | 완료 | — | 08:00 수령·20:00 반납, 치비타·오르비에토 당일치기 |
-| 12/30 오르비에토 점심 | <span class="status booking">예약 필요</span> | 11월 말 | 보통 | 13:15 전후 영업·가족 좌석 확인 |
-| 12/31 저녁 식사 | <span class="status booking">예약 필요</span> | 공식 행사 발표 후 | 높음 | 나보나 숙소 기준 자정 관람 위치, 고정 메뉴·취소 조건 확인 |
-| 로마시 12/31·1/1 행사 | <span class="status recheck">공식 발표 대기</span> | 11월 말~12월 | 보통 | 자정 행사, 교통 통제, Rome Parade·Capodarte 확인 |
-| [콜로세움 24h 통합권](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } | <span class="status waiting">30일 전 판매 대기</span><br><span class="status booking">시간대 예약 필요</span> | 2026-12-03경부터 | 높음 | 2027-01-02 09:00, 어린이 무료표 포함 4인 동시 확보 |
+- **숙소 3곳:** 12/23 The RomeHello 1박, 12/24 Una terrazza a Chiaia 4박, 12/28 iFlat Luxury Navona Apartment 5박.
+- **고속열차 2편:** 12/24 Frecciarossa 9527 Roma Termini 14:00 → Napoli Centrale 15:13, 12/28 Frecciarossa 9532 Napoli Centrale 10:40 → Roma Termini 11:55. 시각은 가족 예약 확인 기준이며 출발 전 운행 변경을 확인합니다.
+- **렌터카 2건:** 12/25 Noleggiare 나폴리 중앙역점 08:00 수령·22:00 반납, 12/30 Noleggiare Roma Termini 08:00 수령·20:00 반납. 12/25 운전은 날씨 조건부입니다.
 
-</div>
+## 남은 예매 · 날짜순
 
-Leonardo Express는 도착 후 공항 매표소·자동발매기에서 승차권을 구매합니다. [Trenitalia 공식 안내](https://www.trenitalia.com/en/services/connections-to-and-from-rome-fiumicino-airport.html){ target="_blank" rel="noopener" } · 확인일: 2026-09-18 · 재확인: 겨울 시간표 발표 후 및 출발 직전.
+- **10/8 목 · 공식 판매 시작:** [12/29 20:00 《백조의 호수》](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } 아내·딸 인접 좌석 2석 예매. 공연 회차와 출연진을 확인하고 공식 판매처에서 구매합니다. [로마 오페라극장](https://www.operaroma.it/news/il-dolce-suono-mi-colpi-la-stagione-2026-2027-del-teatro-dellopera-di-roma/){ target="_blank" rel="noopener" }이 단일 공연권 판매 시작일을 발표했습니다.
+- **10/15 목 · 가족 목표일:** 12/31 로마 새해 전야 저녁 식당을 정하고 예약 가능 여부를 문의합니다. **11/15 일까지 예약 확보**를 목표로 하되, 식당별 예약창 개방일은 확인되지 않았습니다. 공식 연말 행사·교통 통제가 뒤늦게 발표되면 식사 장소와 귀가 동선을 다시 판단합니다.
+- **10/29 목 · 첫 확인일, 판매일 미확인:** [12/29 바티칸 박물관](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" } 공식 포털에서 08:00 입장권 4인분 판매 여부를 확인하고 **열리면 바로 예매**합니다. 08:00이 없으면 08:30 → 09:00 순서로 확인합니다. 10/29는 가족이 정한 확인일이며 공식 판매 시작일로 검증되지 않았습니다. 열리지 않으면 매일 다시 확인합니다.
+- **11/13 금 · 가족 첫 확인일:** [12/28 판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } 16:00 전후 가족 4인 같은 시간대와 어린이 무료표를 확인하고 판매 중이면 예매합니다. [공식 안내](https://direzionemuseiroma.cultura.gov.it/en/pantheon/){ target="_blank" rel="noopener" }는 방문 전월 **중순** 판매만 명시하므로 11/13은 공식 개시일이 아닙니다. 판매 전이면 매일 다시 확인합니다.
+- **11/30 월 · 가족 목표일:** 12/30 오르비에토 13:15 전후 점심 식당의 영업과 좌석을 확인하고 예약을 시도합니다. 식당을 아직 선정하지 않았으므로 예약 개시일은 미확인입니다.
+- **12/3 목 · 공식 규칙상 판매 예상일:** [2027-01-02 콜로세움 24h 통합권](https://ticketing.colosseo.it/en){ target="_blank" rel="noopener" } **11:00** 시간대를 가족 4명 기준으로 확보합니다. [공식 규칙](https://colosseo.it/en/opening-times-and-tickets/){ target="_blank" rel="noopener" }은 방문 **30일 전** 판매와 시간대 예약 의무를 명시합니다. 어린이 무료표 발급 방식은 구매 화면에서 확인합니다.
+- **12/10 목 · 가족 목표일:** [12/27 Napoli Sotterranea](https://booking.napolisotterranea.org/?action=changelang&lang=english){ target="_blank" rel="noopener" } 10:00 줄서기 면제권을 구매합니다. 4인 가족 사전예약은 필수가 아니며, 연말 투어와 변경·환불 조건을 먼저 확인합니다.
+- **12/12 토 · 가족 목표일:** [12/26 폼페이](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } Pompeii Express 09:00 입장권을 공식 판매처에서 구매합니다. 성탄 특별 운영과 EAV 12/26 운행을 먼저 확인하고, 미발표라면 구매를 보류해 **12/16 수**에 다시 판단합니다. 어린이 무료표 절차도 확인합니다.
+- **12/23 수 · 현장 구매:** FCO 도착 후 [Leonardo Express](https://www.trenitalia.com/en/services/connections-to-and-from-rome-fiumicino-airport.html){ target="_blank" rel="noopener" } 승차권을 구매합니다. 사전 예약 대상이 아니며 겨울 막차는 시간표 발표 후 확인합니다.
 
-## 상태 변경 규칙
+## 예매가 아닌 재확인
 
-- **예약 필요 → 확정:** 가족의 비공개 예약 기록에서 완료를 확인했을 때만 변경
-- **판매 대기 → 예약 필요/확정:** 공식 포털의 실제 판매 여부를 확인한 뒤 변경
-- **공식 발표 대기 → 잠정/확정:** 2026년 공식 행사·입장 통제를 확인한 뒤 변경
-- **날씨 조건부 → 진행/취소:** 출발 48시간 전 예보와 전날 도로 상황을 확인한 뒤 변경
-- 예약을 취소하면 이 표, [전체 일정](itinerary.md), [지도 데이터](assets/map/places.geojson)를 함께 수정
+- **11/30 월:** 12/24 MANN, 12/27 지하도시, 12/29 성베드로 대성당, 12/30 치비타·오르비에토의 연말 특별시간과 12/31·1/1 로마 행사 공지를 확인합니다. 미발표 항목은 12월 중순에 재확인합니다.
+- **12/15 화:** 12/23 Leonardo Express 막차와 12/26 EAV 성탄 시간표를 재확인합니다. 미발표이면 출발 직전까지 확인합니다.
+- **12/23 수:** 12/25 렌터카의 성탄절 08:00 창구 수령과 날씨를 출발 48시간 전에 다시 확인합니다. 12/24에도 도로·날씨를 확인합니다.
+- **방문 전날·당일:** 예약한 고속열차의 운행·승강장, 관광지 특별 공지와 이동편을 확인합니다.
 
-!!! danger "공개 금지"
-    예약번호, QR 코드, 티켓 이미지, 승객 이름, 출입 방법, 결제 영수증은 이 저장소에 커밋하지 않습니다. 나폴리와 로마 확정 숙소 주소는 각각 2026-08-23과 2026-08-31의 명시적 공개 합의에 따른 예외입니다.
+예약 상태는 가족의 비공개 예약 기록으로 완료를 확인한 뒤에만 바꿉니다. 가격은 구매 시점에 다시 확인합니다. 상세 근거와 공식 출처: [예약 시점 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/reservation-timing-2026-09-27.md){ target="_blank" rel="noopener" }.
