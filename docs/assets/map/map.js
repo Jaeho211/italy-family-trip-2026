@@ -164,6 +164,19 @@
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    const geolocateControl = new maplibregl.GeolocateControl({
+      positionOptions: { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 },
+      trackUserLocation: false,
+      showUserLocation: true
+    });
+    geolocateControl.on("geolocate", () => setMessage("현재 위치를 한 번 표시했습니다. 이동 중 자동 추적하지 않습니다."));
+    geolocateControl.on("error", () => setMessage("현재 위치를 확인하지 못했습니다. 위치 권한과 기기 설정을 확인하세요.", "error"));
+    map.addControl(geolocateControl, "top-right");
+    const locationButton = mapElement.querySelector(".maplibregl-ctrl-geolocate");
+    if (locationButton) {
+      locationButton.title = "현재 위치 한 번 표시";
+      locationButton.setAttribute("aria-label", "현재 위치 한 번 표시");
+    }
     map.addControl(new maplibregl.FullscreenControl(), "top-right");
 
     map.on("load", () => {

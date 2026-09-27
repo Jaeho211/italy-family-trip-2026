@@ -123,6 +123,19 @@
       localIdeographFontFamily: "system-ui, sans-serif"
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    const geolocateControl = new maplibregl.GeolocateControl({
+      positionOptions: { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 },
+      trackUserLocation: false,
+      showUserLocation: true
+    });
+    geolocateControl.on("geolocate", () => setMapMessage("현재 위치를 한 번 표시했습니다. 자동 추적하지 않습니다."));
+    geolocateControl.on("error", () => setMapMessage("현재 위치를 확인하지 못했습니다. 위치 권한과 기기 설정을 확인하세요.", "error"));
+    map.addControl(geolocateControl, "top-right");
+    const locationButton = map.getContainer().querySelector(".maplibregl-ctrl-geolocate");
+    if (locationButton) {
+      locationButton.title = "현재 위치 한 번 표시";
+      locationButton.setAttribute("aria-label", "현재 위치 한 번 표시");
+    }
     map.on("load", () => {
       map.addSource("restaurants", {
         type: "geojson",

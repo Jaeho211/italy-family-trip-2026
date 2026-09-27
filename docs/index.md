@@ -14,6 +14,8 @@ hide:
   <a href="map/">여행 지도</a>
   <a href="restaurants/">식당 찾기</a>
   <a href="reservations/">예약 현황</a>
+  <a href="accommodation/">숙소 위치</a>
+  <a href="checklist/">준비 체크리스트</a>
 </nav>
 
 <div class="stat-grid">
@@ -33,49 +35,5 @@ hide:
   <div class="stay-card"><strong>12/24–12/28 · 나폴리 4박</strong><span>키아이아 숙박, 고고학박물관, 아말피, 폼페이, 지하도시</span></div>
   <div class="stay-card"><strong>12/28–1/2 · 로마 5박</strong><span>판테온, 바티칸·발레, 치비타·오르비에토, 연말·신년, 콜로세움</span></div>
 </div>
-
-[전체 일정 보기](itinerary.md){ .md-button .md-button--primary }
-[여행 지도 보기](map.md){ .md-button }
-[숙소 지역 보기](accommodation.md){ .md-button }
-
-## 이번 재구성의 핵심
-
-- 장거리 비행 다음 날인 12월 24일 바티칸 08:00 입장을 없앴습니다.
-- 12월 25일은 성탄절에도 가능한 아말피 해안 드라이브로 사용합니다.
-- 나폴리 4박 동안 박물관·아말피·폼페이·지하도시를 하루씩 나눕니다.
-- 로마를 마지막 5박으로 묶어 판테온, 바티칸·발레, 치비타·오르비에토를 평일에 배치합니다.
-- 12월 31일은 예약 관광을 최소화해 낮에는 쉬고 밤의 공식 행사에 대비합니다.
-
-## 지금 결정할 것
-
-<div class="action-grid">
-  <div class="action-card">
-    <h3>로마 숙소 도착·출발</h3>
-    <p>나보나 광장 뒤 iFlat Luxury Navona Apartment를 예약했습니다. 12월 28일 체크인 전과 1월 2일 체크아웃 후 짐 보관을 확인합니다.</p>
-  </div>
-  <div class="action-card">
-    <h3>12월 25일 렌터카</h3>
-    <p>Noleggiare 나폴리 중앙역점 자동변속 차량을 예약했습니다. 22:00 Key-box 반납 절차와 성탄절 08:00 수령을 출발 전에 재확인합니다.</p>
-  </div>
-  <div class="action-card">
-    <h3>성탄절 아말피 점심</h3>
-    <p>12월 24일 간편식과 물을 준비합니다. 당일 문 연 카페·식당은 메뉴와 가격을 보고 선택합니다.</p>
-  </div>
-  <div class="action-card">
-    <h3>겨울 교통</h3>
-    <p>FCO–테르미니 막차, 예약한 고속열차 2편의 운행 변경, 폼페이행 열차의 연말 운행을 공식 시간표에서 재확인합니다.</p>
-  </div>
-</div>
-
-## 다음 예약 작업
-
-1. 로마 숙소의 체크인 전·체크아웃 후 짐 보관 확인
-2. 12월 25일 렌터카 성탄절 수령 재확인 · 점심은 전날 간편식 준비
-3. FCO–테르미니 겨울 막차와 예약한 고속열차 2편의 운행 변경 확인
-4. 바티칸, 12월 29일 《백조의 호수》 2석, 판테온, 폼페이, Napoli Sotterranea, 콜로세움 판매 일정 확인
-5. 12월 30일 로마 렌터카 차량·보장 조건과 수령·반납 동선 재확인
-
-[예약 현황 열기](reservations.md){ .md-button .md-button--primary }
-[준비 체크리스트](checklist.md){ .md-button }
 
 <p class="note-strip">확정 숙소의 공식 명칭과 공개 위치는 표시하지만 실명, 예약번호, 객실정보, 연락처, 가격·결제정보와 출입정보는 기록하지 않습니다.</p>

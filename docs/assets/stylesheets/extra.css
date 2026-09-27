@@ -79,13 +79,13 @@ body { color: var(--trip-ink); }
 }
 .stay-card span { color: var(--trip-olive); }
 
-.stat-grid, .action-grid {
+.stat-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: .7rem;
   margin: 1rem 0 1.5rem;
 }
-.stat, .action-card, .day-card {
+.stat, .day-card {
   background: var(--trip-card);
   border: 1px solid var(--trip-border);
   border-radius: .85rem;
@@ -93,8 +93,6 @@ body { color: var(--trip-ink); }
 }
 .stat__label { display: block; color: var(--trip-olive); font-size: .75rem; font-weight: 700; }
 .stat__value { display: block; margin-top: .15rem; font-size: 1.02rem; font-weight: 700; line-height: 1.4; }
-.action-card h3 { margin: 0 0 .35rem; }
-.action-card p:last-child { margin-bottom: 0; }
 
 .status {
   display: inline-flex;
@@ -136,7 +134,7 @@ body { color: var(--trip-ink); }
 .table-scroll table { min-width: 37rem; margin: 0; }
 
 @media (max-width: 640px) {
-  .stat-grid, .action-grid { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr; }
   .trip-hero { border-radius: .85rem; }
   .md-typeset h1 { font-size: 1.8rem; }
   .md-typeset table:not([class]) { font-size: .7rem; }

@@ -2,7 +2,9 @@
 
 기존 맛집 리스트에서 **로마 99곳·나폴리 34곳**을 이름과 종류로 찾을 수 있습니다. 모두 사용자 제작 지도에서 가져온 **검토 중 후보**이며, 방문·예약이 확정된 식당이나 검증된 추천 순위가 아닙니다.
 
-<iframe class="restaurant-map-frame" src="../assets/map/restaurants.html" title="로마·나폴리 식당 후보 검색 지도" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+지도 오른쪽 위 위치 버튼을 누르면 현재 위치를 한 번 표시합니다. 사이트에 위치 좌표를 저장하거나 이동 중 자동 추적하지 않습니다.
+
+<iframe class="restaurant-map-frame" src="../assets/map/restaurants.html" title="로마·나폴리 식당 후보 검색 지도" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="geolocation"></iframe>
 
 [식당 지도를 새 화면에서 열기](assets/map/restaurants.html){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
