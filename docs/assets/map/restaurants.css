@@ -28,13 +28,11 @@ body { padding: .7rem; }
 .maplibregl-popup-content h2 { margin: 0 0 .25rem; font-size: .85rem; }
 .maplibregl-popup-content p { margin: .2rem 0; font-size: .73rem; }
 .maplibregl-popup-content a { color: var(--accent); font-size: .73rem; font-weight: 700; }
-.content.naples { display: block; }
-.content.naples .restaurant-list { max-height: 34rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 700px) {
   body { padding: .5rem; }
   .content { display: block; }
   .map-panel { min-height: 20rem; margin-bottom: .5rem; }
   #map { height: 42vh; min-height: 20rem; max-height: 28rem; }
-  .restaurant-list, .content.naples .restaurant-list { max-height: 22rem; grid-template-columns: 1fr; }
+  .restaurant-list { max-height: 22rem; grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }

@@ -1,0 +1,278 @@
+{
+  "sourceUrl": "https://www.google.com/maps/d/u/0/viewer?mid=1gEGfljCgQJs66VO-oX7aHGf-XjN4RGzY",
+  "checkedAt": "2026-09-27",
+  "pins": [
+    {
+      "sourceNumber": 1,
+      "name": "3대피자👍다미켈레 (L'Antica Pizzeria da Michele)",
+      "coordinates": [
+        14.2633002,
+        40.8497563
+      ]
+    },
+    {
+      "sourceNumber": 2,
+      "name": "3대피자👍지노 소르빌로 (Gino e Toto Sorbillo)",
+      "coordinates": [
+        14.2553028,
+        40.8503854
+      ]
+    },
+    {
+      "sourceNumber": 3,
+      "name": "3대피자👍디 마테오 (Di Matteo)",
+      "coordinates": [
+        14.2579677,
+        40.85125120000001
+      ]
+    },
+    {
+      "sourceNumber": 4,
+      "name": "마르게리따최초👍피자리아 브론디 (Pizzeria Brandi)",
+      "coordinates": [
+        14.2468161,
+        40.8367116
+      ]
+    },
+    {
+      "sourceNumber": 5,
+      "name": "100년전통👍피자리아 스타리타 아 마테르데이 (Pizzeria Starita A Materdei)",
+      "coordinates": [
+        14.2463808,
+        40.85592319999999
+      ]
+    },
+    {
+      "sourceNumber": 6,
+      "name": "나폴리맛피아추천👍Diego Vitagliano Pizzeria - Bagnoli",
+      "coordinates": [
+        14.1756869,
+        40.8170977
+      ]
+    },
+    {
+      "sourceNumber": 7,
+      "name": "육식맨추천👍라 피글리아 델 프레지덴테 (La Figlia del Presidente)",
+      "coordinates": [
+        14.2595389,
+        40.8487803
+      ]
+    },
+    {
+      "sourceNumber": 8,
+      "name": "튀긴피자👍Antica Pizza Fritta da Zia Esterina Sorbillo",
+      "coordinates": [
+        14.2482712,
+        40.8374941
+      ]
+    },
+    {
+      "sourceNumber": 9,
+      "name": "역사와전통👍Gran Caffè Gambrinus",
+      "coordinates": [
+        14.2484674,
+        40.83676690000001
+      ]
+    },
+    {
+      "sourceNumber": 10,
+      "name": "나폴리맛피아추천👍Scaturchio",
+      "coordinates": [
+        14.2549272,
+        40.8482509
+      ]
+    },
+    {
+      "sourceNumber": 11,
+      "name": "빵집👍Sfogliatelle Attanasio",
+      "coordinates": [
+        14.2689761,
+        40.8532124
+      ]
+    },
+    {
+      "sourceNumber": 12,
+      "name": "일식👍Hachi Ristorante Giapponese",
+      "coordinates": [
+        14.2281088,
+        40.84329579999999
+      ]
+    },
+    {
+      "sourceNumber": 13,
+      "name": "나폴리맛피아추천👍Osteria Napulion",
+      "coordinates": [
+        14.2431535,
+        40.8380236
+      ]
+    },
+    {
+      "sourceNumber": 14,
+      "name": "나폴리맛피아추천👍Passione di Sofì",
+      "coordinates": [
+        14.2484831,
+        40.8388483
+      ]
+    },
+    {
+      "sourceNumber": 15,
+      "name": "나폴리맛피아추천👍Dora's Restaurant",
+      "coordinates": [
+        14.2299786,
+        40.8344728
+      ]
+    },
+    {
+      "sourceNumber": 16,
+      "name": "Ristorante Acquolina",
+      "coordinates": [
+        14.245885,
+        40.8300754
+      ]
+    },
+    {
+      "sourceNumber": 17,
+      "name": "Osteria da Carmela",
+      "coordinates": [
+        14.2511111,
+        40.8511111
+      ]
+    },
+    {
+      "sourceNumber": 18,
+      "name": "La Lazzara Trattoria e Pizzeria",
+      "coordinates": [
+        14.2543764,
+        40.8403774
+      ]
+    },
+    {
+      "sourceNumber": 19,
+      "name": "Novità Street Food",
+      "coordinates": [
+        14.263739,
+        40.8494106
+      ]
+    },
+    {
+      "sourceNumber": 20,
+      "name": "All'Antico Vinaio",
+      "coordinates": [
+        14.2567846,
+        40.8446913
+      ]
+    },
+    {
+      "sourceNumber": 21,
+      "name": "Aria Restaurant",
+      "coordinates": [
+        14.2540637,
+        40.8432553
+      ]
+    },
+    {
+      "sourceNumber": 22,
+      "name": "George Restaurant",
+      "coordinates": [
+        14.2301047,
+        40.8371804
+      ]
+    },
+    {
+      "sourceNumber": 23,
+      "name": "Michelasso Ristorante Gourmet a Napoli",
+      "coordinates": [
+        14.2493898,
+        40.8392189
+      ]
+    },
+    {
+      "sourceNumber": 24,
+      "name": "Veritas Restaurant",
+      "coordinates": [
+        14.2313759,
+        40.8372389
+      ]
+    },
+    {
+      "sourceNumber": 25,
+      "name": "La Locanda Gesù Vecchio",
+      "coordinates": [
+        14.2571481,
+        40.8472376
+      ]
+    },
+    {
+      "sourceNumber": 26,
+      "name": "Coffee Central",
+      "coordinates": [
+        14.2535628,
+        40.8478679
+      ]
+    },
+    {
+      "sourceNumber": 27,
+      "name": "Cisterna cafè & bistrot",
+      "coordinates": [
+        14.2500765,
+        40.84788119999999
+      ]
+    },
+    {
+      "sourceNumber": 28,
+      "name": "Diaz Microtorrefazione",
+      "coordinates": [
+        14.254866,
+        40.8502064
+      ]
+    },
+    {
+      "sourceNumber": 29,
+      "name": "Caffè Ciorfito",
+      "coordinates": [
+        14.2589936,
+        40.8496237
+      ]
+    },
+    {
+      "sourceNumber": 30,
+      "name": "Casa Infante",
+      "coordinates": [
+        14.2482645,
+        40.8386742
+      ]
+    },
+    {
+      "sourceNumber": 31,
+      "name": "Il Gelato Mennella",
+      "coordinates": [
+        14.2668981,
+        40.8508633
+      ]
+    },
+    {
+      "sourceNumber": 32,
+      "name": "Il Gelato Mennella",
+      "coordinates": [
+        14.2563749,
+        40.8444771
+      ]
+    },
+    {
+      "sourceNumber": 33,
+      "name": "Mennella Il Gelato",
+      "coordinates": [
+        14.2491137,
+        40.8436118
+      ]
+    },
+    {
+      "sourceNumber": 34,
+      "name": "Il Gelato Mennella",
+      "coordinates": [
+        14.2482886,
+        40.8376062
+      ]
+    }
+  ]
+}

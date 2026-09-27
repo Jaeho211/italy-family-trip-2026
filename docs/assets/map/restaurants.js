@@ -7,8 +7,6 @@
   const countElement = document.getElementById("result-count");
   const listElement = document.getElementById("restaurant-list");
   const listHelp = document.getElementById("list-help");
-  const content = document.querySelector(".content");
-  const mapPanel = document.getElementById("map-panel");
   const mapMessage = document.getElementById("map-message");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let candidates = [];
@@ -64,13 +62,8 @@
     const city = cityInput.value;
     const visible = filteredCandidates();
     const cityName = city === "rome" ? "로마" : "나폴리";
-    const hasPins = city === "rome";
-    countElement.textContent = `${cityName} 후보 ${visible.length}곳${hasPins ? " · 지도 핀은 표시용 위치" : " · 위치 미확인: 이름 검색 링크 제공"}`;
-    mapPanel.hidden = !hasPins;
-    content.classList.toggle("naples", !hasPins);
-    listHelp.textContent = hasPins
-      ? "핀을 누르거나 목록에서 Google Maps를 열 수 있습니다."
-      : "나폴리 원본 추출본에는 좌표가 없습니다. 동명 지점은 Google Maps에서 확인하세요.";
+    countElement.textContent = `${cityName} 후보 ${visible.length}곳 · 지도 핀은 표시용 위치`;
+    listHelp.textContent = "핀을 누르거나 목록에서 Google Maps를 열 수 있습니다. 동명 지점은 방문 전에 확인하세요.";
 
     listElement.replaceChildren();
     if (!visible.length) listElement.append(textElement("p", "조건에 맞는 후보가 없습니다."));
@@ -89,7 +82,7 @@
       listElement.append(card);
     });
 
-    if (mapReady && hasPins) {
+    if (mapReady) {
       const features = visible.filter((candidate) => candidate.coordinates).map((candidate) => ({
         type: "Feature",
         geometry: { type: "Point", coordinates: candidate.coordinates },

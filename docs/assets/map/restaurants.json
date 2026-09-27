@@ -1093,8 +1093,11 @@
     "name": "3대피자👍다미켈레 (L'Antica Pizzeria da Michele)",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=L%27Antica%20Pizzeria%20da%20Michele%20Napoli",
+    "coordinates": [
+      14.2633002,
+      40.8497563
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8497563,14.2633002",
     "sourceNumber": 1
   },
   {
@@ -1102,8 +1105,11 @@
     "name": "3대피자👍지노 소르빌로 (Gino e Toto Sorbillo)",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gino%20e%20Toto%20Sorbillo%20Napoli",
+    "coordinates": [
+      14.2553028,
+      40.8503854
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8503854,14.2553028",
     "sourceNumber": 2
   },
   {
@@ -1111,8 +1117,11 @@
     "name": "3대피자👍디 마테오 (Di Matteo)",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Di%20Matteo%20Napoli",
+    "coordinates": [
+      14.2579677,
+      40.85125120000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.85125120000001,14.2579677",
     "sourceNumber": 3
   },
   {
@@ -1120,8 +1129,11 @@
     "name": "마르게리따최초👍피자리아 브론디 (Pizzeria Brandi)",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Brandi%20Napoli",
+    "coordinates": [
+      14.2468161,
+      40.8367116
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8367116,14.2468161",
     "sourceNumber": 4
   },
   {
@@ -1129,8 +1141,11 @@
     "name": "100년전통👍피자리아 스타리타 아 마테르데이 (Pizzeria Starita A Materdei)",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Starita%20A%20Materdei%20Napoli",
+    "coordinates": [
+      14.2463808,
+      40.85592319999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.85592319999999,14.2463808",
     "sourceNumber": 5
   },
   {
@@ -1138,8 +1153,11 @@
     "name": "나폴리맛피아추천👍Diego Vitagliano Pizzeria - Bagnoli",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Diego%20Vitagliano%20Pizzeria%20-%20Bagnoli%20Napoli",
+    "coordinates": [
+      14.1756869,
+      40.8170977
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8170977,14.1756869",
     "sourceNumber": 6
   },
   {
@@ -1147,8 +1165,11 @@
     "name": "육식맨추천👍라 피글리아 델 프레지덴테 (La Figlia del Presidente)",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Figlia%20del%20Presidente%20Napoli",
+    "coordinates": [
+      14.2595389,
+      40.8487803
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8487803,14.2595389",
     "sourceNumber": 7
   },
   {
@@ -1156,8 +1177,11 @@
     "name": "튀긴피자👍Antica Pizza Fritta da Zia Esterina Sorbillo",
     "category": "피자",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Antica%20Pizza%20Fritta%20da%20Zia%20Esterina%20Sorbillo%20Napoli",
+    "coordinates": [
+      14.2482712,
+      40.8374941
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8374941,14.2482712",
     "sourceNumber": 8
   },
   {
@@ -1165,8 +1189,11 @@
     "name": "역사와전통👍Gran Caffè Gambrinus",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gran%20Caff%C3%A8%20Gambrinus%20Napoli",
+    "coordinates": [
+      14.2484674,
+      40.83676690000001
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.83676690000001,14.2484674",
     "sourceNumber": 9
   },
   {
@@ -1174,8 +1201,11 @@
     "name": "나폴리맛피아추천👍Scaturchio",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Scaturchio%20Napoli",
+    "coordinates": [
+      14.2549272,
+      40.8482509
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8482509,14.2549272",
     "sourceNumber": 10
   },
   {
@@ -1183,8 +1213,11 @@
     "name": "빵집👍Sfogliatelle Attanasio",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Sfogliatelle%20Attanasio%20Napoli",
+    "coordinates": [
+      14.2689761,
+      40.8532124
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8532124,14.2689761",
     "sourceNumber": 11
   },
   {
@@ -1192,8 +1225,11 @@
     "name": "일식👍Hachi Ristorante Giapponese",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Hachi%20Ristorante%20Giapponese%20Napoli",
+    "coordinates": [
+      14.2281088,
+      40.84329579999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.84329579999999,14.2281088",
     "sourceNumber": 12
   },
   {
@@ -1201,8 +1237,11 @@
     "name": "나폴리맛피아추천👍Osteria Napulion",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Osteria%20Napulion%20Napoli",
+    "coordinates": [
+      14.2431535,
+      40.8380236
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8380236,14.2431535",
     "sourceNumber": 13
   },
   {
@@ -1210,8 +1249,11 @@
     "name": "나폴리맛피아추천👍Passione di Sofì",
     "category": "간편식",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Passione%20di%20Sof%C3%AC%20Napoli",
+    "coordinates": [
+      14.2484831,
+      40.8388483
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8388483,14.2484831",
     "sourceNumber": 14
   },
   {
@@ -1219,8 +1261,11 @@
     "name": "나폴리맛피아추천👍Dora's Restaurant",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Dora%27s%20Restaurant%20Napoli",
+    "coordinates": [
+      14.2299786,
+      40.8344728
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8344728,14.2299786",
     "sourceNumber": 15
   },
   {
@@ -1228,8 +1273,11 @@
     "name": "Ristorante Acquolina",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante%20Acquolina%20Napoli",
+    "coordinates": [
+      14.245885,
+      40.8300754
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8300754,14.245885",
     "sourceNumber": 16
   },
   {
@@ -1237,8 +1285,11 @@
     "name": "Osteria da Carmela",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Osteria%20da%20Carmela%20Napoli",
+    "coordinates": [
+      14.2511111,
+      40.8511111
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8511111,14.2511111",
     "sourceNumber": 17
   },
   {
@@ -1246,8 +1297,11 @@
     "name": "La Lazzara Trattoria e Pizzeria",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Lazzara%20Trattoria%20e%20Pizzeria%20Napoli",
+    "coordinates": [
+      14.2543764,
+      40.8403774
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8403774,14.2543764",
     "sourceNumber": 18
   },
   {
@@ -1255,8 +1309,11 @@
     "name": "Novità Street Food",
     "category": "간편식",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Novit%C3%A0%20Street%20Food%20Napoli",
+    "coordinates": [
+      14.263739,
+      40.8494106
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8494106,14.263739",
     "sourceNumber": 19
   },
   {
@@ -1264,8 +1321,11 @@
     "name": "All'Antico Vinaio",
     "category": "간편식",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=All%27Antico%20Vinaio%20Napoli",
+    "coordinates": [
+      14.2567846,
+      40.8446913
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8446913,14.2567846",
     "sourceNumber": 20
   },
   {
@@ -1273,8 +1333,11 @@
     "name": "Aria Restaurant",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Aria%20Restaurant%20Napoli",
+    "coordinates": [
+      14.2540637,
+      40.8432553
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8432553,14.2540637",
     "sourceNumber": 21
   },
   {
@@ -1282,8 +1345,11 @@
     "name": "George Restaurant",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=George%20Restaurant%20Napoli",
+    "coordinates": [
+      14.2301047,
+      40.8371804
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8371804,14.2301047",
     "sourceNumber": 22
   },
   {
@@ -1291,8 +1357,11 @@
     "name": "Michelasso Ristorante Gourmet a Napoli",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Michelasso%20Ristorante%20Gourmet%20a%20Napoli%20Napoli",
+    "coordinates": [
+      14.2493898,
+      40.8392189
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8392189,14.2493898",
     "sourceNumber": 23
   },
   {
@@ -1300,8 +1369,11 @@
     "name": "Veritas Restaurant",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Veritas%20Restaurant%20Napoli",
+    "coordinates": [
+      14.2313759,
+      40.8372389
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8372389,14.2313759",
     "sourceNumber": 24
   },
   {
@@ -1309,8 +1381,11 @@
     "name": "La Locanda Gesù Vecchio",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=La%20Locanda%20Ges%C3%B9%20Vecchio%20Napoli",
+    "coordinates": [
+      14.2571481,
+      40.8472376
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8472376,14.2571481",
     "sourceNumber": 25
   },
   {
@@ -1318,8 +1393,11 @@
     "name": "Coffee Central",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Coffee%20Central%20Napoli",
+    "coordinates": [
+      14.2535628,
+      40.8478679
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8478679,14.2535628",
     "sourceNumber": 26
   },
   {
@@ -1327,8 +1405,11 @@
     "name": "Cisterna cafè & bistrot",
     "category": "식사",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Cisterna%20caf%C3%A8%20%26%20bistrot%20Napoli",
+    "coordinates": [
+      14.2500765,
+      40.84788119999999
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.84788119999999,14.2500765",
     "sourceNumber": 27
   },
   {
@@ -1336,8 +1417,11 @@
     "name": "Diaz Microtorrefazione",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Diaz%20Microtorrefazione%20Napoli",
+    "coordinates": [
+      14.254866,
+      40.8502064
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8502064,14.254866",
     "sourceNumber": 28
   },
   {
@@ -1345,8 +1429,11 @@
     "name": "Caffè Ciorfito",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Caff%C3%A8%20Ciorfito%20Napoli",
+    "coordinates": [
+      14.2589936,
+      40.8496237
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8496237,14.2589936",
     "sourceNumber": 29
   },
   {
@@ -1354,8 +1441,11 @@
     "name": "Casa Infante",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Casa%20Infante%20Napoli",
+    "coordinates": [
+      14.2482645,
+      40.8386742
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8386742,14.2482645",
     "sourceNumber": 30
   },
   {
@@ -1363,8 +1453,11 @@
     "name": "Il Gelato Mennella",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "coordinates": [
+      14.2668981,
+      40.8508633
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8508633,14.2668981",
     "sourceNumber": 31
   },
   {
@@ -1372,8 +1465,11 @@
     "name": "Il Gelato Mennella",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "coordinates": [
+      14.2563749,
+      40.8444771
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8444771,14.2563749",
     "sourceNumber": 32
   },
   {
@@ -1381,8 +1477,11 @@
     "name": "Mennella Il Gelato",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Mennella%20Il%20Gelato%20Napoli",
+    "coordinates": [
+      14.2491137,
+      40.8436118
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8436118,14.2491137",
     "sourceNumber": 33
   },
   {
@@ -1390,8 +1489,11 @@
     "name": "Il Gelato Mennella",
     "category": "카페·디저트",
     "sourceCategory": "맛집·카페",
-    "coordinates": null,
-    "googleUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20Mennella%20Napoli",
+    "coordinates": [
+      14.2482886,
+      40.8376062
+    ],
+    "googleUrl": "https://www.google.com/maps/search/?api=1&query=40.8376062,14.2482886",
     "sourceNumber": 34
   }
 ]

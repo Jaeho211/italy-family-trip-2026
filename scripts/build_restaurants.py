@@ -3,7 +3,6 @@
 import json
 import re
 from pathlib import Path
-from urllib.parse import quote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,13 +55,17 @@ if len(entries) != 99:
 
 naples_text = (ROOT / "research/naples-mymaps-places.md").read_text(encoding="utf-8")
 naples_section = naples_text.split("## 맛집·카페 · 34개", 1)[1].split("\n## ", 1)[0]
+naples_pins = json.loads((ROOT / "research/naples-restaurant-pins.json").read_text(encoding="utf-8"))["pins"]
+if len(naples_pins) != 34:
+    raise ValueError("Expected 34 Naples pin coordinates")
 for line in naples_section.splitlines():
     match = re.match(r"(\d+)\. (.+)", line)
     if not match:
         continue
     number, display_name = match.groups()
-    latin_name = re.search(r"\(([^)]+)\)$", display_name)
-    search_name = latin_name.group(1) if latin_name else display_name.split("👍")[-1]
+    pin = naples_pins[int(number) - 1]
+    if pin["sourceNumber"] != int(number) or pin["name"] != display_name:
+        raise ValueError(f"Naples pin {number} does not match the research inventory")
     category = "식사"
     if any(term in display_name.lower() for term in ("pizza", "피자", "sorbillo", "브론디")):
         category = "피자"
@@ -75,8 +78,8 @@ for line in naples_section.splitlines():
         "name": display_name,
         "category": category,
         "sourceCategory": "맛집·카페",
-        "coordinates": None,
-        "googleUrl": "https://www.google.com/maps/search/?api=1&query=" + quote(search_name + " Napoli", safe=""),
+        "coordinates": pin["coordinates"],
+        "googleUrl": f"https://www.google.com/maps/search/?api=1&query={pin['coordinates'][1]},{pin['coordinates'][0]}",
         "sourceNumber": int(number),
     })
 

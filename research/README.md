@@ -35,7 +35,8 @@
 | [`place-candidates.md`](place-candidates.md) | 외부 지도·여행 글에서 발견한 장소 후보 대기 목록 | 후보 입력·검증 후 일정 반영 |
 | [`rome-mymaps-places.md`](rome-mymaps-places.md) | 사용자 제작 로마 My Maps에서 추출한 장소 후보 | 쇼핑·숙소 제외 / 166곳 미검증 |
 | [`naples-mymaps-places.md`](naples-mymaps-places.md) | 사용자 제작 나폴리 My Maps에서 추출한 장소 후보 | 숙소 제외 / 여행지·코스·맛집 미검증 |
-| [`restaurant-map-2026-09-27.md`](restaurant-map-2026-09-27.md) | 맛집 후보 검색 화면의 데이터 범위와 위치 검증 상태 | 로마 좌표 표시 / 나폴리 좌표 미확인 |
+| [`restaurant-map-2026-09-27.md`](restaurant-map-2026-09-27.md) | 맛집 후보 검색 화면의 데이터 범위와 위치 검증 상태 | 로마·나폴리 표시용 좌표 확인 |
+| [`naples-restaurant-pins.json`](naples-restaurant-pins.json) | 나폴리 My Maps 맛집 레이어의 34개 핀 좌표 스냅샷 | 2026-09-27 원본 뷰어 확인 |
 | [`source-register.md`](source-register.md) | 조사에 사용한 공식 출처 대장 | 계속 갱신 |
 
 날짜가 바뀐 기존 조사 문서는 삭제하지 않고 첫머리에 `이전 일정 조사`로 표시해 결정 이력을 보존한다.
