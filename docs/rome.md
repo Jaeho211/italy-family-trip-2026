@@ -14,6 +14,7 @@
 
 나폴리 출발 → 로마 도착·짐 보관/체크인 → 점심 → [Pantheon](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome){ target="_blank" rel="noopener" } → Piazza Navona → Campo de' Fiori → 숙소
 
+- 예약한 Frecciarossa 9532로 Napoli Centrale 10:40 출발, Roma Termini 11:55 도착 예정입니다.
 - 나폴리에서 이동하는 날이므로 판테온을 너무 이르게 고정하지 않고 **16:00 전후 내부 관람**을 목표로 합니다.
 - 일반 운영은 09:00~19:00, 개인 마지막 입장은 18:30입니다.
 - 12월 25일과 1월 1일은 휴관이므로 28일은 현재 규정상 운영일입니다.

@@ -92,7 +92,7 @@
         "group": "rome",
         "region": "rome",
         "groups": ["rome"],
-        "dates": ["12/28 14:30 전후"],
+        "dates": ["12/28 16:00 전후 목표"],
         "note": "나폴리에서 로마로 이동한 오후 내부 관람",
         "googleQuery": "Pantheon Rome",
         "sort": 30
@@ -190,8 +190,8 @@
         "group": "naples",
         "region": "naples",
         "groups": ["naples"],
-        "dates": ["12/24 16:00–18:30 목표"],
-        "note": "13:00 Roma Termini 출발 열차와 나폴리 숙소 15:00 체크인 후 핵심 관람",
+        "dates": ["12/24 17:00 전후 입장 목표"],
+        "note": "Frecciarossa 9527로 15:13 Napoli Centrale 도착, 숙소 체크인 후 핵심 관람",
         "googleQuery": "Museo Archeologico Nazionale di Napoli",
         "sort": 100
       },

@@ -1,6 +1,6 @@
 # 날짜별 전체 일정
 
-항공편 외에는 현재 잠정안입니다. **운영 확인**은 현재 공식 규정 또는 과거 공식 특별 운영을 확인했다는 뜻이며, 2026년 연말 특별 공지는 출발 전에 다시 확인합니다.
+항공편·숙소·12월 24일과 28일 고속열차는 예약 완료했고, 관광 일정은 현재 잠정안입니다. **운영 확인**은 현재 공식 규정 또는 과거 공식 특별 운영을 확인했다는 뜻이며, 2026년 연말 특별 공지는 출발 전에 다시 확인합니다.
 
 [주요 관광지를 지도에서 보기](map.md){ .md-button }
 
@@ -19,13 +19,13 @@
 <div class="day-card">
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
-  <span class="status confirmed">나폴리 숙소 확정</span><span class="status verified">박물관 운영 근거 확인</span><span class="status waiting">열차 운임 대기</span><span class="status recheck">짐 보관·특별시간 재확인</span>
+  <span class="status confirmed">열차·나폴리 숙소 예약 완료</span><span class="status verified">박물관 운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
   <ul>
     <li>11:00 The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 인근에서 점심</li>
-    <li>12:10 전후 짐 수령 → 12:30까지 Roma Termini 도착</li>
-    <li>13:00 Frecciarossa 9583 출발 → 14:13 Napoli Centrale 도착을 우선 선택</li>
-    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 15:00 체크인</li>
-    <li>16:00~18:30 나폴리 국립고고학박물관 핵심 관람 후 숙소 복귀</li>
+    <li>13:10 전후 짐 수령 → 13:30까지 Roma Termini 도착</li>
+    <li>14:00 Frecciarossa 9527 출발 → 15:13 Napoli Centrale 도착 · 예약 완료</li>
+    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 15:00 이후 체크인</li>
+    <li>이동·체크인 후 17:00 전후 나폴리 국립고고학박물관 입장 목표 → 18:30 전후 핵심 관람 마무리</li>
   </ul>
   <details class="day-details">
     <summary>운영·이동 확인 더보기</summary>
@@ -34,11 +34,11 @@
       <li>12월 25일과 1월 1일을 제외한 공휴일은 현재 규정상 개관</li>
       <li>2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있음</li>
       <li>2026년 12월 24일은 목요일이므로 현재 기준 방문 가능성이 높음</li>
-      <li>13:00 열차는 아직 예약 전이며 9월 20일·30일 운임을 확인하고 10월 1일 예약 여부 결정</li>
+      <li>열차 시각은 2026-09-27 사용자 예약 완료 확인 기준 · 출발 전 Trenitalia에서 운행 변경 재확인</li>
       <li>나폴리 숙소의 공개 체크인 시간은 15:00 이후</li>
       <li>The RomeHello의 체크아웃 후 짐 보관 가능 여부와 2026년 특별 운영은 재확인 필요</li>
     </ul>
-    <p><strong>재확인:</strong> 9월 20일·30일 열차 운임, The RomeHello 짐 보관, 2026년 11월 말~12월 초 MANN 특별 운영</p>
+    <p><strong>재확인:</strong> The RomeHello 짐 보관, 열차 운행 변경, 2026년 11월 말~12월 초 MANN 특별 운영</p>
     <p><a href="https://www.museoarcheologiconapoli.it/en/timetables-and-fares/" target="_blank" rel="noopener">MANN 공식 운영시간</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
   </details>
 </div>
@@ -134,10 +134,10 @@
 <div class="day-card">
   <h3>12월 28일 월요일 · 로마 이동과 판테온</h3>
   <p class="day-card__meta">6일차 · 로마 1/5박</p>
-  <span class="status confirmed">로마 숙소 확정</span><span class="status verified">일반 운영 확인</span><span class="status booking">열차·판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
+  <span class="status confirmed">열차·로마 숙소 예약 완료</span><span class="status verified">일반 운영 확인</span><span class="status booking">판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
   <p class="route">Napoli Centrale → Roma Termini → Navona 숙소 → Pantheon → Piazza Navona → Campo de' Fiori → 숙소</p>
   <ul>
-    <li>오전 Napoli Centrale → Roma Termini 고속열차</li>
+    <li>10:40 Napoli Centrale에서 Frecciarossa 9532 출발 → 11:55 Roma Termini 도착 · 예약 완료</li>
     <li>택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
     <li><strong>16:00 전후 판테온 내부 관람</strong>을 목표로 열차 지연과 체크인 변수를 흡수</li>
     <li>판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>

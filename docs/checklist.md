@@ -6,7 +6,7 @@
 - [ ] The RomeHello의 12월 23일 늦은 체크인 방법 재확인
 - [x] Una terrazza a Chiaia 나폴리 4박 예약
 - [x] 나폴리 숙소의 난방, 세탁기·건조기, 엘리베이터 확인
-- [ ] The RomeHello에 12월 24일 11:00 체크아웃 후 12:10 전후까지 짐 보관 가능한지 확인
+- [ ] The RomeHello에 12월 24일 11:00 체크아웃 후 13:10 전후까지 짐 보관 가능한지 확인
 - [ ] 12월 중순 Piazza Amedeo–Piazza Garibaldi Linea 2 성탄절 실제 시각 확인
 - [x] iFlat Luxury Navona Apartment 로마 5박 예약
 - [x] 침실 1개·거실 소파베드·욕실 2개와 난방·세탁기·Wi-Fi 확인
@@ -17,8 +17,9 @@
 ## 열차
 
 - [ ] 12/23 FCO–Roma Termini Leonardo Express 겨울 막차 확인
-- [ ] 9/20·9/30에 12/24 Frecciarossa 9583(13:00→14:13) 운임 재확인 · 10/1 예약 결정
-- [ ] 12/28 Napoli Centrale–Roma Termini 오전편 예약
+- [x] 12/24 Frecciarossa 9527 Roma Termini 14:00 → Napoli Centrale 15:13 예약
+- [x] 12/28 Frecciarossa 9532 Napoli Centrale 10:40 → Roma Termini 11:55 예약
+- [ ] 출발 전 Trenitalia에서 두 고속열차의 운행 변경·출발 승강장 확인
 - [x] Frecciarossa와 Italo의 좌석·수하물·변경 조건 비교
 - [ ] 12/26 EAV 08:05 Porta Nolana 출발·14:53 Pompei Scavi 복귀편과 15:29 예비편 확인
 - [ ] 12/26 Uber 미배차·복귀 시 Piazza Amedeo–Piazza Garibaldi Linea 2 환승 시각 확인
@@ -54,7 +55,7 @@
 
 ## 로마 관광
 
-- [ ] 12월 28일 판테온 14:30 전후 가족 4인 같은 시간대 확보
+- [ ] 12월 28일 판테온 16:00 전후 가족 4인 같은 시간대 확보
 - [ ] 판테온 특별 운영·종교행사 재확인
 - [ ] 12월 29일 바티칸 공식 티켓 포털에서 08:00 우선 확보
 - [ ] 어린이 할인 연령 증빙과 바우처 오프라인 사본 준비

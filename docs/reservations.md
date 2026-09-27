@@ -1,6 +1,6 @@
 # 예약 현황
 
-이 표에는 숙소명과 예약 여부만 기록합니다. **예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.** 나폴리와 로마 확정 숙소 주소는 사용자의 명시적 공개 요청과 공개 출처 확인에 따라 [숙소 페이지](accommodation.md)에만 표시합니다.
+이 표에는 공개 가능한 예약 상태와 이동 시각만 기록합니다. **예약번호, 가격·결제정보, 개인 연락처와 출입정보는 입력하지 않습니다.** 나폴리와 로마 확정 숙소 주소는 사용자의 명시적 공개 요청과 공개 출처 확인에 따라 [숙소 페이지](accommodation.md)에만 표시합니다.
 
 <div class="table-scroll" markdown>
 
@@ -10,14 +10,14 @@
 | Una terrazza a Chiaia · 나폴리 4박 | <span class="status confirmed">예약 완료</span> | 완료 | — | 12/24 15:00 이후 체크인·12/28 체크아웃 |
 | iFlat Luxury Navona Apartment · 로마 5박 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">짐 보관 확인</span> | 완료 | — | 12/28 체크인·1/2 체크아웃, 체크인 전·체크아웃 후 짐 보관 확인 |
 | FCO → Roma Termini 열차 | <span class="status verified">사전 예약 불필요</span><br><span class="status recheck">겨울 시간 재확인</span> | 승차권 당일 구매 · 시간표 발표 후 재확인 | 높음 | 12/23 도착 후 탑승 전 승차권 구매, 막차와 공사·파업 공지 확인 |
-| Roma Termini → 나폴리 열차 | <span class="status waiting">운임 대기</span><br><span class="status booking">예약 필요</span> | 9/20·9/30 확인, 10/1 결정 | 높음 | 12/24 Frecciarossa 9583, 13:00→14:13 우선 · 다른 할인 운임이 없으면 Italo와 최종 비교 |
-| 나폴리 → 로마 열차 | <span class="status booking">예약 필요</span> | 판매 확인 후 | 높음 | 12/28 판테온 오후 입장이 가능한 오전편 |
-| [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 16:00~18:30 핵심 관람, 2025년 같은 날 개관 사례 확인 |
+| Roma Termini → Napoli Centrale 열차 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">운행 변경 재확인</span> | 완료 | — | 12/24 Frecciarossa 9527, 14:00→15:13 · 사용자 예약 확인 2026-09-27 |
+| Napoli Centrale → Roma Termini 열차 | <span class="status confirmed">예약 완료</span><br><span class="status recheck">운행 변경 재확인</span> | 완료 | — | 12/28 Frecciarossa 9532, 10:40→11:55 · 사용자 예약 확인 2026-09-27 |
+| [MANN](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } | <span class="status verified">일반 운영 확인</span><br><span class="status recheck">특별시간 재확인</span> | 11월 말~12월 초 | 높음 | 12/24 17:00 전후 입장 목표, 2025년 같은 날 개관 사례 확인 |
 | 12/25 나폴리 렌터카 | <span class="status confirmed">예약 완료</span><br><span class="status weather">날씨 조건부</span><br><span class="status recheck">성탄절 수령 재확인</span> | 완료 | — | Noleggiare 중앙역점, 08:00 수령·22:00 Key-box 반납, 자동변속 하이브리드 또는 동급 |
 | 12/25 아말피 점심 | <span class="status confirmed">간편식 지참 · 예약 제외</span> | 12/24 미리 준비 | 보통 | 빵·샌드위치·과일·물 준비, 식당은 당일 영업·메뉴·가격 확인 후 선택 |
 | [폼페이](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">공휴일 열차 재확인</span> | 출발 1~2주 전 | 높음 | 12/26 09:00 Porta Marina, EAV 08:05 출발·14:53 복귀 후 Garibaldi–Amedeo Linea 2 잠정 |
 | [Napoli Sotterranea](https://www.napolisotterranea.org/en/visiting-hours/){ target="_blank" rel="noopener" } | <span class="status review">줄서기 면제권 권장</span><br><span class="status recheck">연말 시간 재확인</span> | 출발 1~2주 전 | 높음 | 12/27 10:00, 이후 대성당–Spaccanapoli–Plebiscito–숙소 단방향 동선 |
-| [판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">종교행사 재확인</span> | 2026년 11월 중순부터 | 높음 | 12/28 14:30 전후, 가족 4인 같은 시간대·어린이 무료표 |
+| [판테온](https://portale.museiitaliani.it/){ target="_blank" rel="noopener" } | <span class="status review">사전구매 권장</span><br><span class="status recheck">종교행사 재확인</span> | 2026년 11월 중순부터 | 높음 | 12/28 16:00 전후 목표, 가족 4인 같은 시간대·어린이 무료표 |
 | [바티칸 박물관](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" } | <span class="status waiting">판매 대기</span> | 2026-10-29 전후부터 확인 | 최우선 | 12/29 08:00 → 08:30 → 09:00 |
 | 성베드로 대성당 | <span class="status recheck">공식 발표 대기</span> | 11월 말~12월 초 | 높음 | 12/29 전례와 일반 입장·보안 통제 확인 |
 | [《백조의 호수》](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } | <span class="status waiting">10월 8일 판매 시작</span><br><span class="status booking">2석 예매 필요</span> | 2026-10-08 | 최우선 | 12/29 20:00, 아내·딸 인접 좌석, Fumi Kaneko·Vadim Muntagirov 출연 회차 |
