@@ -158,6 +158,10 @@ body { padding: .75rem; }
   .map-shell { min-height: 24rem; }
   #map { height: 56vh; min-height: 24rem; max-height: 34rem; }
   .place-list { grid-template-columns: 1fr; }
+  .place-card { padding: .8rem; }
+  .place-card h3 { font-size: 1rem; }
+  .place-card p, .place-help { font-size: .86rem; }
+  .place-link, .popup-link { min-height: 2.75rem; align-items: center; font-size: .9rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

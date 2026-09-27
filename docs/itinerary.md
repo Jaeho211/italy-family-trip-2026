@@ -4,7 +4,11 @@
 
 [주요 관광지를 지도에서 보기](map.md){ .md-button }
 
-<div class="day-card">
+<nav class="day-jump" aria-label="날짜별 일정 바로가기">
+  <a href="#day-1223">12/23</a><a href="#day-1224">12/24</a><a href="#day-1225">12/25</a><a href="#day-1226">12/26</a><a href="#day-1227">12/27</a><a href="#day-1228">12/28</a><a href="#day-1229">12/29</a><a href="#day-1230">12/30</a><a href="#day-1231">12/31</a><a href="#day-0101">1/1</a><a href="#day-0102">1/2</a>
+</nav>
+
+<div class="day-card" id="day-1223">
   <h3>12월 23일 수요일 · FCO 도착 후 테르미니 이동</h3>
   <p class="day-card__meta">1일차 · 테르미니 1/1박</p>
   <span class="status confirmed">항공·숙소 확정</span><span class="status recheck">늦은 체크인 재확인</span>
@@ -16,7 +20,7 @@
   </ul>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1224">
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
   <span class="status confirmed">열차·나폴리 숙소 예약 완료</span><span class="status verified">박물관 운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
@@ -43,7 +47,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1225">
   <h3>12월 25일 금요일 · 아말피 해안 드라이브</h3>
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
   <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status confirmed">간편식 지참</span><span class="status recheck">성탄절 수령 재확인</span>
@@ -72,7 +76,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1226">
   <h3>12월 26일 토요일 · 폼페이</h3>
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
@@ -102,7 +106,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1227">
   <h3>12월 27일 일요일 · 나폴리 지하도시와 구시가지</h3>
   <p class="day-card__meta">5일차 · 나폴리 4/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
@@ -131,7 +135,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1228">
   <h3>12월 28일 월요일 · 로마 이동과 판테온</h3>
   <p class="day-card__meta">6일차 · 로마 1/5박</p>
   <span class="status confirmed">열차·로마 숙소 예약 완료</span><span class="status verified">일반 운영 확인</span><span class="status booking">판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
@@ -155,7 +159,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1229">
   <h3>12월 29일 화요일 · 바티칸과 백조의 호수</h3>
   <p class="day-card__meta">7일차 · 로마 2/5박</p>
   <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span>
@@ -183,7 +187,7 @@
   </details>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1230">
   <h3>12월 30일 수요일 · 치비타와 오르비에토</h3>
   <p class="day-card__meta">8일차 · 로마 3/5박</p>
   <span class="status tentative">일정 합의</span><span class="status confirmed">렌터카 예약 완료</span><span class="status recheck">겨울 특별 운영 재확인</span>
@@ -200,7 +204,7 @@
   <p><a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/civita-orvieto-2026-12-30.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-1231">
   <h3>12월 31일 목요일 · 트레비·스페인·핀초와 새해 전야</h3>
   <p class="day-card__meta">9일차 · 로마 4/5박</p>
   <span class="status tentative">잠정</span><span class="status booking">저녁 예약 필요</span><span class="status recheck">공식 행사 발표 대기</span>
@@ -215,7 +219,7 @@
   </ul>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-0101">
   <h3>1월 1일 금요일 · 로마 신년행사와 트라스테베레 백업</h3>
   <p class="day-card__meta">10일차 · 로마 5/5박</p>
   <span class="status tentative">잠정</span><span class="status recheck">공식 프로그램 발표 대기</span>
@@ -229,7 +233,7 @@
   </ul>
 </div>
 
-<div class="day-card">
+<div class="day-card" id="day-0102">
   <h3>1월 2일 토요일 · 콜로세움과 귀국</h3>
   <p class="day-card__meta">11일차 · 기내</p>
   <span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status booking">시간대 예약 필요</span><span class="status recheck">짐보관·택시요금 재확인</span>

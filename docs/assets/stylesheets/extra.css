@@ -41,6 +41,44 @@ body { color: var(--trip-ink); }
 .trip-hero h1 { margin: .25rem 0 .4rem; font-size: clamp(1.8rem, 7vw, 3.15rem); line-height: 1.08; }
 .trip-hero__subtitle { margin: 0; color: var(--trip-olive); font-size: clamp(1rem, 3vw, 1.25rem); }
 
+.trip-shortcuts, .day-jump, .region-jump {
+  display: flex;
+  gap: .5rem;
+  overflow-x: auto;
+  padding: .15rem .1rem .55rem;
+  scrollbar-width: thin;
+}
+.trip-shortcuts a, .day-jump a, .region-jump a {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: .45rem .8rem;
+  color: var(--trip-ink);
+  background: var(--trip-card);
+  border: 1px solid var(--trip-border);
+  border-radius: .65rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.trip-shortcuts a:focus-visible, .day-jump a:focus-visible, .region-jump a:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.trip-shortcuts a { flex: 1 0 auto; }
+.day-jump, .region-jump { margin: .8rem 0 1rem; }
+.stay-grid { display: grid; gap: .6rem; margin: 1rem 0; }
+.stay-card {
+  display: grid;
+  gap: .2rem;
+  padding: .85rem 1rem;
+  background: var(--trip-card);
+  border: 1px solid var(--trip-border);
+  border-radius: .75rem;
+}
+.stay-card span { color: var(--trip-olive); }
+
 .stat-grid, .action-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -80,6 +118,7 @@ body { color: var(--trip-ink); }
 .status.recheck { color: #4c577a; background: #e8ebf7; border-color: #c3cae2; }
 
 .day-card { margin: .8rem 0; border-left: .28rem solid var(--md-primary-fg-color); }
+.day-card, .md-typeset h2[id] { scroll-margin-top: 5.5rem; }
 .day-card h3 { margin: 0 0 .15rem; }
 .day-card__meta { margin: 0 0 .6rem; color: var(--trip-olive); font-size: .82rem; }
 .day-card ul { margin-bottom: .35rem; }
@@ -102,6 +141,14 @@ body { color: var(--trip-ink); }
   .md-typeset h1 { font-size: 1.8rem; }
   .md-typeset table:not([class]) { font-size: .7rem; }
   .day-card { padding: .85rem; }
+  .trip-shortcuts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .trip-shortcuts a { min-width: 0; }
+  .day-jump { position: sticky; top: 2.4rem; z-index: 5; padding: .45rem .2rem; background: var(--md-default-bg-color); border-bottom: 1px solid var(--trip-border); }
+  .day-jump a { min-width: 3.8rem; }
+  .day-card { scroll-margin-top: 7rem; }
+  .status { max-width: 100%; white-space: normal; }
+  .md-typeset .md-button { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; margin: .2rem .2rem .2rem 0; }
+  .day-details summary { min-height: 2.75rem; display: flex; align-items: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -136,8 +183,8 @@ body { color: var(--trip-ink); }
     border-radius: .65rem;
   }
   .trip-map-frame {
-    height: 82vh;
-    min-height: 42rem;
+    height: 72vh;
+    min-height: 28rem;
     border-radius: .65rem;
   }
 }

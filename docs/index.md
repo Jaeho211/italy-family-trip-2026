@@ -9,6 +9,13 @@ hide:
   <p class="trip-hero__subtitle">나폴리 · 아말피 해안 · 로마 · 중부 소도시</p>
 </section>
 
+<nav class="trip-shortcuts" aria-label="여행 중 빠른 이동">
+  <a href="itinerary/">날짜별 일정</a>
+  <a href="map/">여행 지도</a>
+  <a href="restaurants/">식당 찾기</a>
+  <a href="reservations/">예약 현황</a>
+</nav>
+
 <div class="stat-grid">
   <div class="stat"><span class="stat__label">여행 기간</span><span class="stat__value">2026. 12. 23. – 2027. 1. 3.</span></div>
   <div class="stat"><span class="stat__label">여행 인원</span><span class="stat__value">가족 4명</span></div>
@@ -21,11 +28,11 @@ hide:
 
 ## 한눈에 보는 여정
 
-| 구간 | 숙박 | 핵심 계획 |
-|---|---:|---|
-| 12/23–12/24 테르미니 | 1박 | The RomeHello 숙박, 다음 날 나폴리 고속열차 |
-| 12/24–12/28 나폴리 | 4박 | 키아이아 숙박, 고고학박물관, 아말피, 폼페이, 지하도시 |
-| 12/28–1/2 로마 | 5박 | 판테온, 바티칸·발레, 치비타·오르비에토, 연말·신년, 콜로세움 |
+<div class="stay-grid">
+  <div class="stay-card"><strong>12/23–12/24 · 테르미니 1박</strong><span>The RomeHello 숙박, 다음 날 나폴리 고속열차</span></div>
+  <div class="stay-card"><strong>12/24–12/28 · 나폴리 4박</strong><span>키아이아 숙박, 고고학박물관, 아말피, 폼페이, 지하도시</span></div>
+  <div class="stay-card"><strong>12/28–1/2 · 로마 5박</strong><span>판테온, 바티칸·발레, 치비타·오르비에토, 연말·신년, 콜로세움</span></div>
+</div>
 
 [전체 일정 보기](itinerary.md){ .md-button .md-button--primary }
 [여행 지도 보기](map.md){ .md-button }
