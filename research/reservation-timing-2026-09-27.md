@@ -4,7 +4,7 @@
 
 ## 공식 판매 규칙과 일정
 
-- **로마 발레:** 로마 오페라극장의 [2026/27 시즌 발표](https://www.operaroma.it/news/il-dolce-suono-mi-colpi-la-stagione-2026-2027-del-teatro-dellopera-di-roma/)에 따르면 단일 공연권은 **2026-10-08부터** 판매한다. [공연 공식 페이지](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/)는 12/29 20:00 Teatro Costanzi 회차와 Fumi Kaneko·Vadim Muntagirov 출연을 표시한다. 10/8 인접 좌석 2석 확보가 실행 목표다. 실제 재고와 가격·할인 조건은 판매 시 확인한다.
+- **로마 발레:** 로마 오페라극장의 [2026/27 시즌 발표](https://www.operaroma.it/news/il-dolce-suono-mi-colpi-la-stagione-2026-2027-del-teatro-dellopera-di-roma/)에 따르면 단일 공연권은 **2026-10-08부터** 판매한다. [공연 공식 페이지](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/)는 12/29 20:00 Teatro Costanzi 회차와 Fumi Kaneko·Vadim Muntagirov 출연을 표시한다. 당초 10/8 인접 좌석 2석 확보가 실행 목표였으며, 2026-10-10 사용자 확인으로 티켓 2석 예매 완료 상태를 반영했다. 예약 세부정보는 기록하지 않는다.
 - **판테온:** [공식 운영·티켓 안내](https://direzionemuseiroma.cultura.gov.it/en/pantheon/)는 월별 관람 달력을 **전월 중순**에 연다고 명시한다. 12/28 표의 정확한 판매 시작 날짜는 게시되지 않았다. **11/13**은 가족 첫 확인일이며 공식 개시일이 아니다. 판매 중이면 16:00 전후 4인 표를 확보하고, 열리지 않았으면 매일 재확인한다. 종교행사로 입장시간이 바뀔 수 있다.
 - **콜로세움:** [공식 운영·티켓 안내](https://colosseo.it/en/opening-times-and-tickets/)는 방문 **30일 전** 판매와 콜로세움 시간대 예약 의무를 명시한다. 2027-01-02의 30일 전은 **2026-12-03**이다. 판매 개시 시각은 확인되지 않았으므로 당일 공식 포털을 확인한다. 최신 귀국일 계획인 **11:00** 입장과 기본 24h 통합권을 적용한다. 어린이 무료표 절차는 [공식 FAQ](https://colosseo.it/en/faq-tickets/)와 실제 구매 화면을 대조한다.
 - **바티칸 박물관:** [공식 안내](https://www.museivaticani.va/content/museivaticani/en/info.html)는 운영시간과 [유일한 공식 예매 포털](https://tickets.museivaticani.va/)을 표시한다. **12/29 표가 정확히 언제 판매되는지 공식 규칙은 확인하지 못했다.** 기존 문서의 10/29 전후는 판매 확정일로 취급할 수 없다. 10/29를 첫 확인일로 정하고, 판매 중이면 바로 08:00 우선으로 4인 표를 산다. 열리지 않았으면 매일 확인한다.

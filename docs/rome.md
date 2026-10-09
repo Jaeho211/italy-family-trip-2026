@@ -26,7 +26,7 @@
 
 ## 12월 29일 · 바티칸과 백조의 호수
 
-<span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span><span class="status recheck">대성당 시간 재확인</span>
+<span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">바티칸 티켓 판매 대기</span><span class="status verified">발레 2석 예매 완료</span><span class="status recheck">대성당 시간 재확인</span>
 
 [바티칸 박물관](https://www.google.com/maps/search/?api=1&query=Vatican+Museums){ target="_blank" rel="noopener" } → 시스티나 성당 → [성베드로 광장](https://www.google.com/maps/search/?api=1&query=St+Peters+Square+Vatican){ target="_blank" rel="noopener" } → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소
 
@@ -35,7 +35,7 @@
 - 박물관 입장권에는 시스티나 성당이 포함되지만 성베드로 대성당은 별도 보안검색이 필요합니다. 박물관에서 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않습니다.
 - 늦은 점심 후 **Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리**를 따라 나보나 숙소 방향으로 걷습니다. 산탄젤로성 내부 관람은 넣지 않습니다.
 - 15:30 전후 숙소 복귀를 목표로 충분히 쉬고, 아내와 딸은 이른 저녁 후 Teatro Costanzi로 이동합니다.
-- 20:00 《백조의 호수》는 Fumi Kaneko와 Vadim Muntagirov 출연 회차이며 인접 좌석 2석을 확보합니다.
+- 20:00 《백조의 호수》는 Fumi Kaneko와 Vadim Muntagirov 출연 회차이며 아내·딸 티켓 2석 예매를 완료했습니다(2026-10-10 확인). 출발 1주 전 공연 변경을 재확인합니다.
 - 나머지 가족은 공연 시간에 자유 일정과 휴식을 갖습니다.
 
 !!! warning "공식 포털만 사용"

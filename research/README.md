@@ -30,7 +30,7 @@
 | [`rome-accommodation-confirmed-2026-08-31.md`](rome-accommodation-confirmed-2026-08-31.md) | 로마 나보나 5박 숙소 | 예약 완료 / 공개 주소 확인 |
 | [`pantheon-2026-12-28.md`](pantheon-2026-12-28.md) | 12월 28일 판테온 | 일반 운영 확인 / 종교행사 재확인 |
 | [`vatican-2026-12-29.md`](vatican-2026-12-29.md) | 12월 29일 바티칸 | 박물관 운영 확인 / 대성당 시간 재확인 |
-| [`rome-ballet-2026-12-29.md`](rome-ballet-2026-12-29.md) | 12월 29일 로마 《백조의 호수》 | 공연·객원 출연·판매일 확인 / 2석 예매 필요 |
+| [`rome-ballet-2026-12-29.md`](rome-ballet-2026-12-29.md) | 12월 29일 로마 《백조의 호수》 | 공연·객원 출연·판매일 확인 / 2석 예매 완료(2026-10-10) |
 | [`civita-orvieto-2026-12-30.md`](civita-orvieto-2026-12-30.md) | 12월 30일 치비타·오르비에토 | 겨울 특별 운영 재확인 |
 | [`place-candidates.md`](place-candidates.md) | 외부 지도·여행 글에서 발견한 장소 후보 대기 목록 | 후보 입력·검증 후 일정 반영 |
 | [`rome-mymaps-places.md`](rome-mymaps-places.md) | 사용자 제작 로마 My Maps에서 추출한 장소 후보 | 쇼핑·숙소 제외 / 166곳 미검증 |

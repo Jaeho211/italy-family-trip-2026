@@ -162,7 +162,7 @@
 <div class="day-card" id="day-1229">
   <h3>12월 29일 화요일 · 바티칸과 백조의 호수</h3>
   <p class="day-card__meta">7일차 · 로마 2/5박</p>
-  <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">티켓 판매 대기</span><span class="status booking">발레 2석 예매 필요</span>
+  <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">바티칸 티켓 판매 대기</span><span class="status verified">발레 2석 예매 완료</span>
   <p class="route">Vatican Museums → Sistine Chapel → St. Peter's Basilica·Square → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소</p>
   <ul>
     <li>07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
@@ -181,7 +181,7 @@
       <li>성베드로 대성당 일반 입장과 보안 통제는 2026년 공식 공지 후 재확인</li>
       <li>박물관에서 성베드로 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않음</li>
       <li>20:00 공연은 Fumi Kaneko와 Vadim Muntagirov 출연 회차</li>
-      <li>아내와 딸의 인접 좌석 2석을 공식 판매처에서 확보</li>
+      <li>아내와 딸의 티켓 2석 예매 완료 · 2026-10-10 확인, 출발 1주 전 공연 변경 재확인</li>
     </ul>
     <p><a href="https://tickets.museivaticani.va/" target="_blank" rel="noopener">바티칸 공식 티켓 포털</a> · <a href="https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/" target="_blank" rel="noopener">발레 공식 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md" target="_blank" rel="noopener">바티칸 상세 조사</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md" target="_blank" rel="noopener">발레 상세 조사</a></p>
   </details>
