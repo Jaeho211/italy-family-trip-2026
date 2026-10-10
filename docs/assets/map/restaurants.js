@@ -3,10 +3,14 @@
 
   const params = new URLSearchParams(location.search);
   const nearbyInput = document.getElementById("nearby");
+  const radiusInput = document.getElementById("radius");
+  const nearbyContext = document.getElementById("nearby-context");
+  const nearbyTitle = document.getElementById("nearby-title");
+  const filtersPanel = document.getElementById("restaurant-filters");
   let anchor = null;
   let landmarks = [];
   const queryCoordinates = (params.get("near") || "").split(",").map(Number);
-  const validQuery = params.has("near") && queryCoordinates.length === 2 && queryCoordinates.every(Number.isFinite) && Math.abs(queryCoordinates[0]) <= 180 && Math.abs(queryCoordinates[1]) <= 90;
+  const validQuery = params.has("near") && params.get("near").split(",").every((part) => part.trim() !== "") && queryCoordinates.length === 2 && queryCoordinates.every(Number.isFinite) && Math.abs(queryCoordinates[0]) <= 180 && Math.abs(queryCoordinates[1]) <= 90;
   const cityInput = document.getElementById("city");
   const categoryInput = document.getElementById("category");
   const searchInput = document.getElementById("search");
@@ -17,6 +21,7 @@
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (["rome", "naples"].includes(params.get("city"))) cityInput.value = params.get("city");
   if (validQuery) anchor = {coordinates:queryCoordinates, name:params.get("label") || "선택한 장소", city:cityInput.value};
+  filtersPanel.open = !anchor;
   let candidates = [];
 
   function distance(coordinates) {
@@ -41,6 +46,7 @@
   }
   let map = null;
   let mapReady = false;
+  let anchorMarker = null;
 
   function textElement(tag, value) {
     const element = document.createElement(tag);
@@ -77,6 +83,7 @@
     const term = searchInput.value.trim().toLocaleLowerCase();
     return candidates.filter((candidate) =>
       candidate.city === cityInput.value &&
+      (!anchor || radiusInput.value === "all" || distance(candidate.coordinates) <= Number(radiusInput.value)) &&
       (categoryInput.value === "all" || candidate.category === categoryInput.value) &&
       candidate.name.toLocaleLowerCase().includes(term)
     ).sort((a, b) => anchor ? distance(a.coordinates) - distance(b.coordinates) : 0);
@@ -91,11 +98,14 @@
     const city = cityInput.value;
     const visible = filteredCandidates();
     const cityName = city === "rome" ? "로마" : "나폴리";
-    countElement.textContent = `${cityName} 후보 ${visible.length}곳${anchor ? ` · ${anchor.name}에서 가까운 순` : ""} · 미검증 후보`;
+    nearbyContext.hidden = !anchor;
+    document.querySelector('.restaurant-app').classList.toggle('is-nearby', Boolean(anchor));
+    nearbyTitle.textContent = anchor ? `${anchor.name} 주변` : "";
+    countElement.textContent = anchor ? `${radiusInput.value === "all" ? cityName + " 전체" : "직선거리 " + radiusInput.value + "km 이내"} 후보 ${visible.length}곳 · 가까운 순` : `${cityName} 후보 ${visible.length}곳 · 미검증 후보`;
     listHelp.textContent = anchor ? "직선거리 기준이며 실제 도보 거리·영업 여부는 Google Maps에서 확인하세요." : "핀을 누르거나 목록에서 Google Maps를 열 수 있습니다. 동명 지점은 방문 전에 확인하세요.";
 
     listElement.replaceChildren();
-    if (!visible.length) listElement.append(textElement("p", "조건에 맞는 후보가 없습니다."));
+    if (!visible.length) listElement.append(textElement("p", anchor ? "이 범위와 검색 조건에 맞는 후보가 없어요. 표시 범위를 넓히거나 검색 조건을 바꿔보세요." : "조건에 맞는 후보가 없습니다."));
     visible.forEach((candidate) => {
       const card = document.createElement("article");
       card.className = "restaurant-card";
@@ -122,13 +132,23 @@
         properties: { index: candidates.indexOf(candidate) }
       }));
       map.getSource("restaurants").setData({ type: "FeatureCollection", features });
+      anchorMarker?.remove();
+      anchorMarker = null;
+      if (anchor) {
+        const marker = textElement("div", anchor.name);
+        marker.className = "anchor-marker";
+        anchorMarker = new maplibregl.Marker({element:marker, anchor:"bottom"}).setLngLat(anchor.coordinates).addTo(map);
+      }
       map.resize();
       if (features.length) {
         const bounds = new maplibregl.LngLatBounds();
         features.forEach((feature) => bounds.extend(feature.geometry.coordinates));
-        map.fitBounds(bounds, { padding: 45, maxZoom: 14, duration: reducedMotion ? 0 : 500 });
+        if (anchor) bounds.extend(anchor.coordinates);
+        map.fitBounds(bounds, { padding: {top:65, bottom:45, left:45, right:45}, maxZoom: anchor ? 16 : 14, duration: reducedMotion ? 0 : 500 });
+      } else if (anchor) {
+        map.easeTo({center:anchor.coordinates, zoom:15, duration:reducedMotion ? 0 : 500});
       }
-      setMapMessage(features.length ? "핀을 누르면 후보 이름을 볼 수 있습니다." : "조건에 맞는 핀이 없습니다.");
+      setMapMessage(features.length ? (anchor ? "초록 표시는 기준 장소, 갈색 핀은 주변 식당 후보예요." : "핀을 누르면 후보 이름을 볼 수 있습니다.") : "조건에 맞는 핀이 없습니다.");
     }
   }
 
@@ -163,6 +183,7 @@
     });
     geolocateControl.on("geolocate", (event) => {
       anchor = {coordinates:[event.coords.longitude, event.coords.latitude], name:"현재 위치", city:cityInput.value};
+      radiusInput.value = "1";
       renderAnchors(); update();
       setMapMessage("현재 위치에서 가까운 순으로 표시합니다. 위치는 이 화면에만 사용하고 저장하지 않습니다.");
     });
@@ -218,6 +239,7 @@
 
   cityInput.addEventListener("input", () => {anchor = null; renderAnchors(); update();});
   [categoryInput, searchInput].forEach((input) => input.addEventListener("input", update));
+  radiusInput.addEventListener("change", update);
   nearbyInput.addEventListener("change", () => {
     if (nearbyInput.value === "all") anchor = null;
     else if (nearbyInput.value !== "selected") {

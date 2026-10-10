@@ -179,6 +179,8 @@ body { color: var(--trip-ink); background: var(--trip-cream); }
   border: 1px solid var(--trip-border);
   border-radius: .9rem;
 }
+.journey-nearby .restaurant-map-frame { margin-top:.5rem; }
+#restaurant-nearby-summary[hidden], #restaurant-overview[hidden] { display:none; }
 
 @media (max-width: 640px) {
   .restaurant-map-frame {

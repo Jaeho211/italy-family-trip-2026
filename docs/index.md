@@ -20,7 +20,7 @@ hide:
       <div class="hero-arch" aria-hidden="true"><span></span><span></span><span></span></div>
       <div class="hero-copy"><p id="day-city" class="eyebrow"></p><h1 id="today-title">우리의 이탈리아</h1><p id="day-subtitle"></p><span id="day-meta" class="hero-meta"></span></div>
     </div>
-    <div class="journey-actions"><button type="button" data-view="map">오늘 지도 <span aria-hidden="true">↗</span></button><button type="button" id="today-food">주변 식당 <span aria-hidden="true">↗</span></button><a id="home-link" target="_blank" rel="noopener">숙소로 <span aria-hidden="true">↗</span></a></div>
+    <div class="journey-actions"><button type="button" data-view="map">오늘 지도 <span aria-hidden="true">→</span></button><button type="button" id="today-food">주변 식당 <span aria-hidden="true">→</span></button><a id="home-link" target="_blank" rel="noopener">숙소로 <span aria-hidden="true">↗</span></a></div>
     <div class="section-heading"><h2>오늘의 흐름</h2><button class="quiet-button" id="open-day-places" type="button">장소 보기 →</button></div>
     <p class="small-note">계획한 순서예요. 목표·잠정 시각은 현장에서 조정하세요.</p>
     <ol id="day-timeline" class="journey-timeline"></ol>
@@ -32,13 +32,14 @@ hide:
     <div class="section-heading"><h1 id="map-view-title">오늘 지도</h1><button class="quiet-button" type="button" data-view="today">일정 보기 →</button></div>
     <p class="small-note">선택한 날짜의 등록된 관광지와 같은 권역의 숙소를 표시해요. 길찾기는 장소를 눌러 열어주세요.</p>
     <iframe id="journey-map" title="선택한 날짜의 여행 지도" allow="geolocation" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    <a id="full-map" class="text-link" target="_blank" rel="noopener">지도 크게 열기 ↗</a>
+    <a id="full-map" class="text-link">지도 크게 열기 →</a>
     <p class="small-note">배경지도와 길찾기는 인터넷 연결이 필요해요. 오프라인에서도 장소 목록은 볼 수 있어요.</p>
   </section>
   <section id="view-places" class="journey-view" aria-labelledby="places-title" hidden>
-    <div class="section-heading"><h1 id="places-title">오늘 만날 장소</h1></div>
-    <div class="place-tools"><label for="place-scope" class="sr-only">장소 범위</label><select id="place-scope"><option value="day">선택한 날</option><option value="all">여행 전체</option></select><label for="place-search" class="sr-only">장소 검색</label><input id="place-search" type="search" placeholder="장소 이름 검색"></div>
-    <p class="small-note">기본 일정과 선택 구간을 구분했어요. 장소를 누르면 방문 안내가 열립니다.</p>
+    <div class="section-heading"><h1 id="places-title">장소 안내</h1></div>
+    <p id="places-context" class="small-note"></p>
+    <div class="place-tools"><label for="place-search" class="sr-only">선택한 날짜의 장소 검색</label><input id="place-search" type="search" placeholder="이 날짜의 장소 검색"></div>
+    <p class="small-note">관광지와 숙소의 방문 안내·길찾기·주변 식당을 확인하세요.</p>
     <div id="journey-places" class="journey-place-grid"></div>
   </section>
   <section id="view-more" class="journey-view" aria-labelledby="more-title" hidden>
