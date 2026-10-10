@@ -6,6 +6,8 @@
   const url = (path) => new URL(path, base).href;
   const views = ['today', 'map', 'places', 'more'];
   let installPrompt = null;
+  let appInstalled = false;
+  const standaloneMode = window.matchMedia('(display-mode: standalone)');
   let root = null;
   let state = null;
   let data = null;
@@ -69,6 +71,10 @@
   function updateOfflineStatus() {
     const status = document.getElementById('offline-status');
     if (status && offlineReady) status.textContent = '일정과 핵심 안내를 이 기기에 저장했어요. 인터넷 없이도 다시 열 수 있어요.';
+  }
+  function updateInstallButton() {
+    const button = document.getElementById('install-app');
+    if (button) button.hidden = appInstalled || standaloneMode.matches || navigator.standalone === true;
   }
   function foodUrl(day, place) {
     const link = new URL('assets/map/restaurants.html', base);
@@ -308,6 +314,7 @@
     events = new AbortController();
     root = app;
     root.dataset.initialized = 'true';
+    updateInstallButton();
     root.querySelectorAll('.journey-view h1').forEach((heading) => heading.tabIndex = -1);
     try {
       const response = await fetch(url('assets/trip-data.json'));
@@ -338,7 +345,7 @@
           await installPrompt.prompt();
           installPrompt = null;
         } else {
-          root.querySelector('#journey-message').textContent = window.matchMedia('(display-mode: standalone)').matches ? '이미 앱으로 열고 있어요.' : 'Android: 브라우저 메뉴에서 「앱 설치」 또는 「홈 화면에 추가」 · iPhone/iPad: Safari 공유 메뉴에서 「홈 화면에 추가」를 선택하세요.';
+          root.querySelector('#journey-message').textContent = 'Android: 브라우저 메뉴에서 「앱 설치」 또는 「홈 화면에 추가」 · iPhone/iPad: Safari 공유 메뉴에서 「홈 화면에 추가」를 선택하세요.';
         }
       });
       window.addEventListener('popstate', () => {state = readState(); render();}, {signal:events.signal});
@@ -359,6 +366,13 @@
     }
   }
   window.addEventListener('beforeinstallprompt', (event) => {event.preventDefault(); installPrompt = event;});
+  window.addEventListener('appinstalled', () => {
+    appInstalled = true;
+    installPrompt = null;
+    updateInstallButton();
+  });
+  standaloneMode.addEventListener('change', updateInstallButton);
+  window.addEventListener('pageshow', updateInstallButton);
   if (!document.querySelector('link[rel="manifest"]')) {
     const manifest = document.createElement('link');
     manifest.rel = 'manifest'; manifest.href = url('assets/journey/manifest.webmanifest'); document.head.append(manifest);
