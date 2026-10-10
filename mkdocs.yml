@@ -1,5 +1,5 @@
 site_name: 이탈리아 가족여행 2026–2027
-site_description: 가족 4명의 로마·나폴리 중심 겨울 이탈리아 여행 계획
+site_description: 오늘의 일정, 지도와 장소를 함께 보는 이탈리아 가족 여행 앱
 site_author: Family trip planning team
 repo_name: italy-family-trip-2026
 
@@ -57,9 +57,16 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/journey/app.css
 
 extra:
   generator: false
   social: []
 
 copyright: 일정은 잠정안입니다 · 개인정보와 예약번호는 별도로 안전하게 관리하세요
+
+hooks:
+  - scripts/trip_app.py
+
+extra_javascript:
+  - assets/journey/app.js

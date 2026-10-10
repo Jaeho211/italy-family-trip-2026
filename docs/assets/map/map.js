@@ -16,7 +16,10 @@
     "civita": { label: "치비타·오르비에토" }
   };
 
-  const requestedRegion = new URLSearchParams(window.location.search).get("region");
+  const params = new URLSearchParams(window.location.search);
+  const requestedDate = params.get("date");
+  let selectedDay = null;
+  const requestedRegion = params.get("region");
   const regionId = Object.hasOwn(REGIONS, requestedRegion) ? requestedRegion : "rome";
   const region = REGIONS[regionId];
   const mapElement = document.getElementById("map");
@@ -60,7 +63,7 @@
 
   function visibleFeatures() {
     return collection.features
-      .filter((feature) => feature.properties.region === regionId)
+      .filter((feature) => feature.properties.region === regionId && (!selectedDay || selectedDay.places.includes(feature.properties.sort) || selectedDay.lodging === feature.properties.sort))
       .sort((a, b) => a.properties.sort - b.properties.sort);
   }
 
@@ -235,6 +238,18 @@
       const response = await fetch("./places.geojson", { cache: "no-cache" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       collection = await response.json();
+      if (requestedDate) {
+        try {
+          const dayResponse = await fetch("../trip-data.json");
+          if (!dayResponse.ok) throw new Error("date data");
+          const trip = await dayResponse.json();
+          selectedDay = trip.days.find((day) => day.date === requestedDate) || null;
+          if (selectedDay) titleElement.textContent = `${selectedDay.date.slice(5).replace("-", "/")} · ${region.label}`;
+          else setMessage("날짜를 찾지 못해 권역 전체 장소를 표시합니다.");
+        } catch {
+          setMessage("날짜별 정보를 불러오지 못해 권역 전체 장소를 표시합니다.");
+        }
+      }
       renderList(visibleFeatures());
       initializeMap();
     } catch {

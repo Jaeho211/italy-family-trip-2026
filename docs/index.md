@@ -1,39 +1,51 @@
 ---
 hide:
+  - navigation
   - toc
+  - footer
 ---
 
-<section class="trip-hero">
-  <div class="trip-hero__eyebrow">Winter family journey</div>
-  <h1>이탈리아 가족여행<br>2026–2027</h1>
-  <p class="trip-hero__subtitle">나폴리 · 아말피 해안 · 로마 · 중부 소도시</p>
-</section>
-
-<nav class="trip-shortcuts" aria-label="여행 중 빠른 이동">
-  <a href="itinerary/">날짜별 일정</a>
-  <a href="map/">여행 지도</a>
-  <a href="restaurants/">식당 찾기</a>
-  <a href="reservations/">예약 현황</a>
-  <a href="accommodation/">숙소 위치</a>
-  <a href="checklist/">준비 체크리스트</a>
-</nav>
-
-<div class="stat-grid">
-  <div class="stat"><span class="stat__label">여행 기간</span><span class="stat__value">2026. 12. 23. – 2027. 1. 3.</span></div>
-  <div class="stat"><span class="stat__label">여행 인원</span><span class="stat__value">가족 4명</span></div>
-  <div class="stat"><span class="stat__label">숙박 배치</span><span class="stat__value">테르미니 1박 → 나폴리 4박 → 로마 5박</span></div>
-  <div class="stat"><span class="stat__label">현재 단계</span><span class="stat__value">항공·숙소·로마↔나폴리 열차 예약 완료 · 관광 예약 준비</span></div>
+<div id="journey-app" class="journey-app">
+  <header class="journey-header">
+    <a class="journey-brand" href="./" aria-label="이탈리아 여행 홈"><span class="brand-mark" aria-hidden="true">i.</span><span>우리의 이탈리아<small>2026.12.23 — 2027.01.02</small></span></a>
+    <button id="install-app" class="quiet-button" type="button">앱 설치</button>
+  </header>
+  <div class="journey-date-bar">
+    <div><span id="journey-mode" class="eyebrow">여행 미리보기</span><label class="date-label" for="journey-date">여행 날짜 <select id="journey-date" aria-label="여행 날짜"></select></label></div>
+    <button id="go-today" class="quiet-button" type="button">오늘</button>
+  </div>
+  <p id="journey-message" class="journey-message" role="status" aria-live="polite">여행을 불러오고 있어요.</p>
+  <section id="view-today" class="journey-view" aria-labelledby="today-title">
+    <div class="journey-hero">
+      <div class="hero-arch" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="hero-copy"><p id="day-city" class="eyebrow"></p><h1 id="today-title">우리의 이탈리아</h1><p id="day-subtitle"></p><span id="day-meta" class="hero-meta"></span></div>
+    </div>
+    <div class="journey-actions"><button type="button" data-view="map">오늘 지도 <span aria-hidden="true">↗</span></button><button type="button" id="today-food">주변 식당 <span aria-hidden="true">↗</span></button><a id="home-link" target="_blank" rel="noopener">숙소로 <span aria-hidden="true">↗</span></a></div>
+    <div class="section-heading"><h2>오늘의 흐름</h2><button class="quiet-button" id="open-day-places" type="button">장소 보기 →</button></div>
+    <p class="small-note">계획한 순서예요. 목표·잠정 시각은 현장에서 조정하세요.</p>
+    <ol id="day-timeline" class="journey-timeline"></ol>
+    <div class="section-heading"><h2>오늘 챙길 것</h2></div>
+    <div id="day-statuses" class="journey-statuses"></div><div id="day-notes" class="journey-notes"></div><div id="day-details" class="journey-details"></div>
+    <div class="day-navigation"><button type="button" id="previous-day">← 이전 날</button><button type="button" id="next-day">다음 날 →</button></div>
+  </section>
+  <section id="view-map" class="journey-view" aria-labelledby="map-view-title" hidden>
+    <div class="section-heading"><h1 id="map-view-title">오늘 지도</h1><button class="quiet-button" type="button" data-view="today">일정 보기 →</button></div>
+    <p class="small-note">선택한 날짜의 등록된 관광지와 같은 권역의 숙소를 표시해요. 길찾기는 장소를 눌러 열어주세요.</p>
+    <iframe id="journey-map" title="선택한 날짜의 여행 지도" allow="geolocation" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <a id="full-map" class="text-link" target="_blank" rel="noopener">지도 크게 열기 ↗</a>
+    <p class="small-note">배경지도와 길찾기는 인터넷 연결이 필요해요. 오프라인에서도 장소 목록은 볼 수 있어요.</p>
+  </section>
+  <section id="view-places" class="journey-view" aria-labelledby="places-title" hidden>
+    <div class="section-heading"><h1 id="places-title">오늘 만날 장소</h1></div>
+    <div class="place-tools"><label for="place-scope" class="sr-only">장소 범위</label><select id="place-scope"><option value="day">선택한 날</option><option value="all">여행 전체</option></select><label for="place-search" class="sr-only">장소 검색</label><input id="place-search" type="search" placeholder="장소 이름 검색"></div>
+    <div id="journey-places" class="journey-place-grid"></div>
+  </section>
+  <section id="view-more" class="journey-view" aria-labelledby="more-title" hidden>
+    <div class="section-heading"><h1 id="more-title">여행 도구</h1></div>
+    <div class="journey-tool-grid"><a href="itinerary/"><strong>전체 일정</strong><span>여정을 한눈에</span></a><a href="restaurants/"><strong>식당 찾기</strong><span>로마 · 나폴리 후보</span></a><a href="reservations/"><strong>예약 현황</strong><span>완료 · 준비 · 재확인</span></a><a href="accommodation/"><strong>숙소 안내</strong><span>위치와 이동</span></a><a href="checklist/"><strong>체크리스트</strong><span>출발 전 준비</span></a><a href="map/"><strong>권역별 지도</strong><span>지역별 전체 장소</span></a><a href="rome/"><strong>로마</strong><span>도시별 안내</span></a><a href="naples/"><strong>나폴리 · 폼페이</strong><span>도시별 안내</span></a><a href="day-trips/"><strong>근교 여행</strong><span>해안과 소도시</span></a><a href="decisions/"><strong>결정 기록</strong><span>계획의 배경</span></a></div>
+    <div class="offline-card"><strong>여행 중에도 바로 열기</strong><p id="offline-status">인터넷에 연결해서 한 번 열면 일정과 핵심 안내를 오프라인에서도 볼 수 있어요.</p><p class="small-note">지도 배경·외부 길찾기·공식 예매처는 인터넷 연결이 필요해요.</p></div>
+  </section>
+  <nav class="journey-bottom-nav" aria-label="여행 앱 메뉴"><button type="button" data-view="today" aria-current="page"><span aria-hidden="true">◷</span>오늘</button><button type="button" data-view="map"><span aria-hidden="true">⌖</span>지도</button><button type="button" data-view="places"><span aria-hidden="true">▤</span>장소</button><button type="button" data-view="more"><span aria-hidden="true">•••</span>더보기</button></nav>
 </div>
 
-!!! warning "관광 일정은 잠정안입니다"
-    항공편과 테르미니 1박·나폴리 4박·로마 5박 숙소, 12월 24일·28일 고속열차는 예약 완료했습니다. 관광 일정은 조정될 수 있으며, 운영시간·휴관일·교통편은 출발 직전에 공식 출처에서 다시 확인합니다.
-
-## 한눈에 보는 여정
-
-<div class="stay-grid">
-  <div class="stay-card"><strong>12/23–12/24 · 테르미니 1박</strong><span>The RomeHello 숙박, 다음 날 나폴리 고속열차</span></div>
-  <div class="stay-card"><strong>12/24–12/28 · 나폴리 4박</strong><span>키아이아 숙박, 고고학박물관, 아말피, 폼페이, 지하도시</span></div>
-  <div class="stay-card"><strong>12/28–1/2 · 로마 5박</strong><span>판테온, 바티칸·발레, 치비타·오르비에토, 연말·신년, 콜로세움</span></div>
-</div>
-
-<p class="note-strip">확정 숙소의 공식 명칭과 공개 위치는 표시하지만 실명, 예약번호, 객실정보, 연락처, 가격·결제정보와 출입정보는 기록하지 않습니다.</p>
+<noscript>날짜별 여행 앱을 사용하려면 JavaScript를 켜주세요. [전체 일정](itinerary.md), [여행 지도](map.md), [식당 찾기](restaurants.md)는 계속 읽을 수 있습니다.</noscript>

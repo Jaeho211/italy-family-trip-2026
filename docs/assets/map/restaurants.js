@@ -1,6 +1,12 @@
 (() => {
   "use strict";
 
+  const params = new URLSearchParams(location.search);
+  const nearbyInput = document.getElementById("nearby");
+  let anchor = null;
+  let landmarks = [];
+  const queryCoordinates = (params.get("near") || "").split(",").map(Number);
+  const validQuery = params.has("near") && queryCoordinates.length === 2 && queryCoordinates.every(Number.isFinite) && Math.abs(queryCoordinates[0]) <= 180 && Math.abs(queryCoordinates[1]) <= 90;
   const cityInput = document.getElementById("city");
   const categoryInput = document.getElementById("category");
   const searchInput = document.getElementById("search");
@@ -9,7 +15,30 @@
   const listHelp = document.getElementById("list-help");
   const mapMessage = document.getElementById("map-message");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (["rome", "naples"].includes(params.get("city"))) cityInput.value = params.get("city");
+  if (validQuery) anchor = {coordinates:queryCoordinates, name:params.get("label") || "선택한 장소", city:cityInput.value};
   let candidates = [];
+
+  function distance(coordinates) {
+    if (!anchor || !coordinates) return Infinity;
+    const rad = (n) => n * Math.PI / 180;
+    const [lon1, lat1] = anchor.coordinates, [lon2, lat2] = coordinates;
+    const a = Math.sin(rad(lat2 - lat1) / 2) ** 2 + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(rad(lon2 - lon1) / 2) ** 2;
+    return 6371 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(Math.max(0, 1 - a)));
+  }
+
+  function renderAnchors() {
+    nearbyInput.replaceChildren();
+    const all = textElement("option", "시내 전체"); all.value = "all"; nearbyInput.append(all);
+    if (anchor && anchor.city === cityInput.value) {
+      const selected = textElement("option", `${anchor.name} 주변`); selected.value = "selected"; nearbyInput.append(selected);
+    }
+    landmarks.filter((place) => place.properties.region === cityInput.value).forEach((place) => {
+      const option = textElement("option", `${place.properties.name} 주변`);
+      option.value = String(place.properties.sort); nearbyInput.append(option);
+    });
+    nearbyInput.value = anchor && anchor.city === cityInput.value ? "selected" : "all";
+  }
   let map = null;
   let mapReady = false;
 
@@ -50,7 +79,7 @@
       candidate.city === cityInput.value &&
       (categoryInput.value === "all" || candidate.category === categoryInput.value) &&
       candidate.name.toLocaleLowerCase().includes(term)
-    );
+    ).sort((a, b) => anchor ? distance(a.coordinates) - distance(b.coordinates) : 0);
   }
 
   function setMapMessage(message, state = "ready") {
@@ -62,8 +91,8 @@
     const city = cityInput.value;
     const visible = filteredCandidates();
     const cityName = city === "rome" ? "로마" : "나폴리";
-    countElement.textContent = `${cityName} 후보 ${visible.length}곳 · 지도 핀은 표시용 위치`;
-    listHelp.textContent = "핀을 누르거나 목록에서 Google Maps를 열 수 있습니다. 동명 지점은 방문 전에 확인하세요.";
+    countElement.textContent = `${cityName} 후보 ${visible.length}곳${anchor ? ` · ${anchor.name}에서 가까운 순` : ""} · 미검증 후보`;
+    listHelp.textContent = anchor ? "직선거리 기준이며 실제 도보 거리·영업 여부는 Google Maps에서 확인하세요." : "핀을 누르거나 목록에서 Google Maps를 열 수 있습니다. 동명 지점은 방문 전에 확인하세요.";
 
     listElement.replaceChildren();
     if (!visible.length) listElement.append(textElement("p", "조건에 맞는 후보가 없습니다."));
@@ -72,6 +101,10 @@
       card.className = "restaurant-card";
       card.append(textElement("h2", candidate.name));
       card.append(textElement("p", `${candidate.category} · 검토 중`));
+      if (anchor && candidate.coordinates) {
+        const km = distance(candidate.coordinates);
+        card.append(textElement("p", `직선거리 ${km < 1 ? `${Math.round(km * 1000)}m` : `${km.toFixed(1)}km`}`));
+      }
       if (candidate.coordinates) {
         const button = textElement("button", "지도에서 보기");
         button.type = "button";
@@ -128,7 +161,11 @@
       trackUserLocation: false,
       showUserLocation: true
     });
-    geolocateControl.on("geolocate", () => setMapMessage("현재 위치를 한 번 표시했습니다. 자동 추적하지 않습니다."));
+    geolocateControl.on("geolocate", (event) => {
+      anchor = {coordinates:[event.coords.longitude, event.coords.latitude], name:"현재 위치", city:cityInput.value};
+      renderAnchors(); update();
+      setMapMessage("현재 위치에서 가까운 순으로 표시합니다. 위치는 이 화면에만 사용하고 저장하지 않습니다.");
+    });
     geolocateControl.on("error", () => setMapMessage("현재 위치를 확인하지 못했습니다. 위치 권한과 기기 설정을 확인하세요.", "error"));
     map.addControl(geolocateControl, "top-right");
     const locationButton = map.getContainer().querySelector(".maplibregl-ctrl-geolocate");
@@ -179,7 +216,18 @@
     });
   }
 
-  [cityInput, categoryInput, searchInput].forEach((input) => input.addEventListener("input", update));
+  cityInput.addEventListener("input", () => {anchor = null; renderAnchors(); update();});
+  [categoryInput, searchInput].forEach((input) => input.addEventListener("input", update));
+  nearbyInput.addEventListener("change", () => {
+    if (nearbyInput.value === "all") anchor = null;
+    else if (nearbyInput.value !== "selected") {
+      const place = landmarks.find((place) => String(place.properties.sort) === nearbyInput.value);
+      anchor = place ? {coordinates:place.geometry.coordinates, name:place.properties.name, city:cityInput.value} : null;
+    }
+    update();
+  });
+  renderAnchors();
+  fetch("./places.geojson").then((response) => {if (!response.ok) throw new Error("places"); return response.json();}).then((collection) => {landmarks = collection.features; renderAnchors();}).catch(() => {});
   fetch("./restaurants.json", { cache: "no-cache" })
     .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
     .then((data) => { candidates = data; update(); initializeMap(); })
