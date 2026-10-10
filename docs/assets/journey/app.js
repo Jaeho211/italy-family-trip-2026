@@ -113,6 +113,7 @@
     });
   }
   function render() {
+    if (!root?.isConnected) return;
     const day = currentDay();
     const today = italyDate();
     root.querySelectorAll('.journey-tool-grid a').forEach((link) => {
@@ -168,6 +169,7 @@
     const app = document.getElementById('journey-app');
     document.body.classList.toggle('journey-home', Boolean(app));
     if (!app) {
+      events?.abort();
       if (!document.querySelector('.journey-document-nav')) {
         const nav = el('nav', undefined, 'journey-bottom-nav journey-document-nav');
         nav.setAttribute('aria-label', '여행 앱 메뉴');

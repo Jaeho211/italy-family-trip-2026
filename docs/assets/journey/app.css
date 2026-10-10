@@ -4,7 +4,7 @@
 .journey-home .md-main__inner { margin-top:0; }
 .journey-home .md-content { max-width:100%; }
 .journey-home .md-content__inner { margin:0; padding:0; }
-.journey-home .md-typeset { font-size: .84rem; }
+.journey-home .md-typeset { font-size: .84rem; color:#332d28; }
 .journey-app { max-width: 1080px; margin:auto; padding: 0 1.3rem 7rem; --app-card:#fffdf8; --app-border:#e2d7c6; }
 .journey-app button, .journey-app select, .journey-app input { font:inherit; }
 .journey-app button, .journey-app select { cursor:pointer; }
@@ -37,7 +37,7 @@
 .journey-actions button, .journey-actions a { display:flex; justify-content:space-between; gap:.3rem; align-items:center; background:var(--app-card); color:#332d28; border:1px solid var(--app-border); border-radius:.7rem; min-height:2.8rem; padding:.7rem .85rem; font-size:.75rem; font-weight:650; }
 .journey-actions span { color:#8f3f35; }
 .section-heading { display:flex; justify-content:space-between; align-items:center; gap:.7rem; margin:1.6rem 0 .5rem; }
-.journey-app .section-heading h1, .journey-app .section-heading h2 { font-size:1.05rem; letter-spacing:-.035em; border:0; padding:0; margin:0; font-weight:750; }
+.journey-app .section-heading h1, .journey-app .section-heading h2 { font-size:1.05rem; letter-spacing:-.035em; border:0; padding:0; margin:0; font-weight:750; color:#332d28; }
 .journey-app .section-heading h1 { font-size:1.5rem; }
 .journey-app .small-note { color:#74685b; font-size:.68rem; line-height:1.6; margin:.4rem 0 .8rem; }
 .journey-app .journey-timeline { list-style:none; padding:0; margin:.9rem 0 1.5rem; }
@@ -56,7 +56,7 @@
 .place-tools input { flex:1; min-width:0; }
 .journey-place-grid, .journey-tool-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; }
 .journey-place-card { padding:1.2rem; border:1px solid var(--app-border); border-radius:.85rem; background:var(--app-card); }
-.journey-app .journey-place-card h2 { border:0; margin:.4rem 0; padding:0; font-size:1.05rem; }
+.journey-app .journey-place-card h2 { color:#332d28; border:0; margin:.4rem 0; padding:0; font-size:1.05rem; }
 .journey-place-card p { font-size:.77rem; }
 .place-observation { border-left:2px solid #a7ab86; padding:.2rem .7rem; margin:1rem 0 .5rem; background:#f0efe3; }
 .place-observation strong { font-size:.66rem; color:#59613d; }
