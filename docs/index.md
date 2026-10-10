@@ -7,7 +7,7 @@ hide:
 
 <div id="journey-app" class="journey-app">
   <header class="journey-header">
-    <a class="journey-brand" href="./" aria-label="이탈리아 여행 홈"><span class="brand-mark" aria-hidden="true">i.</span><span>우리의 이탈리아<small>2026.12.23 — 2027.01.02</small></span></a>
+    <a class="journey-brand" href="./" aria-label="이탈리아 여행 홈"><span class="brand-mark" aria-hidden="true">i.</span><span>이탈리아 여행수첩<small>2026.12.23 — 2027.01.02</small></span></a>
     <button id="install-app" class="quiet-button" type="button">앱 설치</button>
   </header>
   <div class="journey-date-bar">
@@ -18,7 +18,7 @@ hide:
   <section id="view-today" class="journey-view" aria-labelledby="today-title">
     <div class="journey-hero">
       <div class="hero-arch" aria-hidden="true"><span></span><span></span><span></span></div>
-      <div class="hero-copy"><p id="day-city" class="eyebrow"></p><h1 id="today-title">우리의 이탈리아</h1><p id="day-subtitle"></p><span id="day-meta" class="hero-meta"></span></div>
+      <div class="hero-copy"><p id="day-city" class="eyebrow"></p><h1 id="today-title">이탈리아 여행수첩</h1><p id="day-subtitle"></p><span id="day-meta" class="hero-meta"></span></div>
     </div>
     <div class="journey-actions"><button type="button" data-view="map">오늘 지도 <span aria-hidden="true">→</span></button><button type="button" id="today-food">주변 식당 <span aria-hidden="true">→</span></button><a id="home-link" target="_blank" rel="noopener">숙소로 <span aria-hidden="true">↗</span></a></div>
     <div class="section-heading"><h2>오늘의 흐름</h2><button class="quiet-button" id="open-day-places" type="button">장소 보기 →</button></div>

@@ -294,7 +294,7 @@
     root.querySelector('#today-title').textContent = day.title;
     root.querySelector('#day-subtitle').textContent = day.subtitle;
     root.querySelector('#day-meta').textContent = day.meta;
-    document.title = `${day.city} · ${day.date.slice(5).replace('-', '/')} | 우리의 이탈리아`;
+    document.title = `${day.city} · ${day.date.slice(5).replace('-', '/')} | 이탈리아 여행수첩`;
     root.querySelector('#journey-message').textContent = navigator.onLine ? '' : '오프라인이에요. 저장된 일정과 장소 안내를 보고 있어요.';
     const timeline = root.querySelector('#day-timeline');
     timeline.replaceChildren();
