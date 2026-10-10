@@ -290,7 +290,8 @@
     document.body.classList.toggle('journey-home', Boolean(app));
     if (!app) {
       events?.abort();
-      if (!document.querySelector('.journey-document-nav')) {
+      document.querySelector('.journey-document-nav')?.remove();
+      {
         const nav = el('nav', undefined, 'journey-bottom-nav journey-document-nav');
         nav.setAttribute('aria-label', '여행 앱 메뉴');
         const date = new URLSearchParams(location.search).get('date');
@@ -298,8 +299,12 @@
           const target = new URL(base);
           target.searchParams.set('view', views[i]);
           if (/^202[67]-\d{2}-\d{2}$/.test(date || '')) target.searchParams.set('date', date);
-          const link = el('a', label);
+          const link = el('a');
+          const icon = el('span', ['◷', '⌖', '▤', '•••'][i]);
+          icon.setAttribute('aria-hidden', 'true');
+          link.append(icon, document.createTextNode(label));
           link.href = target.href;
+          if (views[i] === 'more') link.setAttribute('aria-current', 'page');
           nav.append(link);
         });
         document.body.append(nav);
