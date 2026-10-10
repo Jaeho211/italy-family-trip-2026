@@ -2,7 +2,10 @@ const CACHE = 'italy-journey-__VERSION__';
 const PRECACHE = __PRECACHE__;
 const scoped = (path) => new URL(path, self.registration.scope).href;
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(PRECACHE.map(scoped))).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(PRECACHE.map((path) => new Request(scoped(path), {cache:'reload'})))));
+});
+self.addEventListener('message', (event) => {
+  if (event.data?.type === 'SKIP_WAITING') event.waitUntil(self.skipWaiting());
 });
 self.addEventListener('activate', (event) => {
   event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith('italy-journey-') && key !== CACHE).map((key) => caches.delete(key)))).then(() => self.clients.claim()));

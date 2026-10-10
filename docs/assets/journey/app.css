@@ -78,6 +78,10 @@
 @media(prefers-reduced-motion:reduce) { .journey-app * { scroll-behavior:auto; } }
 .journey-document .md-content { padding-bottom:calc(6rem + env(safe-area-inset-bottom)); }
 .journey-document-nav { --app-border:#e2d7c6; }
+.journey-update { position:fixed; left:50%; transform:translateX(-50%); bottom:calc(4.5rem + env(safe-area-inset-bottom)); z-index:30; width:min(28rem,calc(100% - 1.7rem)); display:flex; align-items:center; justify-content:space-between; gap:.7rem; padding:.75rem 1rem; border:1px solid #e2d7c6; border-radius:.85rem; background:#fffdf8; color:#332d28; box-shadow:0 .3rem 1.5rem #332d2825; font-size:.75rem; }
+.journey-update button { flex-shrink:0; padding:.55rem .8rem; min-height:2.3rem; border:0; border-radius:.55rem; background:#8f3f35; color:#fffdf8; font:inherit; font-weight:650; cursor:pointer; }
+.journey-update button:disabled { opacity:.65; cursor:wait; }
+.journey-update button:focus-visible { outline:3px solid #69704c; outline-offset:3px; }
 .timeline-body { flex:1; min-width:0; }
 .timeline-open { display:block; width:100%; text-align:left; padding:.25rem 0; background:transparent; border:0; color:#332d28; font-size:.79rem!important; line-height:1.7; }
 .timeline-hint { display:block; color:#8f3f35; font-size:.66rem; font-weight:650; margin-top:.35rem; }

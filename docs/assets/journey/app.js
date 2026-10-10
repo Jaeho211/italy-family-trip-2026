@@ -14,6 +14,11 @@
   let events = null;
   let offlineReady = false;
   let lastPlaceTrigger = null;
+  let workerRegistration = null;
+  let updateAvailable = false;
+  let updateRequested = false;
+  let lastUpdateCheck = 0;
+  const hadWorker = Boolean(navigator.serviceWorker?.controller);
   const priorityLabels = {main:'기본 일정', optional:'여유 있을 때', choice:'둘 중 한 곳', mixed:'선택 구간 포함', backup:'대안 코스'};
   // Optional family observation prompts; no new operating or historical claims.
   const observations = {};
@@ -75,6 +80,53 @@
   function updateInstallButton() {
     const button = document.getElementById('install-app');
     if (button) button.hidden = appInstalled || standaloneMode.matches || navigator.standalone === true;
+  }
+  function showAppUpdate() {
+    if (!updateAvailable || document.getElementById('journey-update')) return;
+    const banner = el('aside', undefined, 'journey-update');
+    banner.id = 'journey-update';
+    banner.setAttribute('aria-label', '앱 업데이트');
+    const message = el('span', '새 버전이 준비됐어요.');
+    message.setAttribute('role', 'status');
+    const button = el('button', '업데이트');
+    button.type = 'button';
+    button.addEventListener('click', () => {
+      if (updateRequested) return;
+      updateRequested = true;
+      button.disabled = true;
+      button.textContent = '업데이트 중…';
+      if (workerRegistration?.waiting) {
+        workerRegistration.waiting.postMessage({type:'SKIP_WAITING'});
+        // Keep retry available if the worker cannot activate.
+        setTimeout(() => {
+          updateRequested = false;
+          button.disabled = false;
+          button.textContent = '다시 시도';
+          message.textContent = '업데이트를 완료하지 못했어요.';
+        }, 15000);
+      } else {
+        location.reload();
+      }
+    });
+    banner.append(message, button);
+    document.body.append(banner);
+  }
+  function watchWorker(worker) {
+    if (!worker) return;
+    const check = () => {
+      if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+        updateAvailable = true;
+        showAppUpdate();
+      }
+    };
+    worker.addEventListener('statechange', check);
+    check();
+  }
+  function checkAppUpdate() {
+    if (!workerRegistration || !navigator.onLine || document.visibilityState === 'hidden') return;
+    if (Date.now() - lastUpdateCheck < 60000) return;
+    lastUpdateCheck = Date.now();
+    workerRegistration.update().catch(() => {});
   }
   function foodUrl(day, place) {
     const link = new URL('assets/map/restaurants.html', base);
@@ -286,6 +338,7 @@
     updateOfflineStatus();
   }
   async function initialize() {
+    showAppUpdate();
     const app = document.getElementById('journey-app');
     document.body.classList.toggle('journey-home', Boolean(app));
     if (!app) {
@@ -385,10 +438,30 @@
     const icon = document.createElement('link'); icon.rel = 'apple-touch-icon'; icon.href = url('assets/journey/icon-192.png'); document.head.append(icon);
   }
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register(url('sw.js'), {scope:base.pathname}).then(() => navigator.serviceWorker.ready).then(() => {offlineReady = true; updateOfflineStatus();}).catch(() => {
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (updateRequested) location.reload();
+      else if (hadWorker) {
+        updateAvailable = true;
+        showAppUpdate();
+      }
+    });
+    navigator.serviceWorker.register(url('sw.js'), {scope:base.pathname, updateViaCache:'none'}).then((registration) => {
+      workerRegistration = registration;
+      if (registration.waiting) {
+        updateAvailable = true;
+        showAppUpdate();
+      }
+      watchWorker(registration.installing);
+      registration.addEventListener('updatefound', () => watchWorker(registration.installing));
+      checkAppUpdate();
+      return navigator.serviceWorker.ready;
+    }).then(() => {offlineReady = true; updateOfflineStatus();}).catch(() => {
       const status = document.getElementById('offline-status');
       if (status) status.textContent = '오프라인 저장을 완료하지 못했어요. 인터넷 연결 후 다시 열어주세요.';
     });
+    window.addEventListener('focus', checkAppUpdate);
+    window.addEventListener('online', checkAppUpdate);
+    document.addEventListener('visibilitychange', checkAppUpdate);
   }
   initialize();
   if (typeof document$ !== 'undefined') document$.subscribe(initialize);
