@@ -1,5 +1,7 @@
 (() => {
   'use strict';
+  // Embedded maps use the parent app's navigation.
+  if (window.self !== window.top) return;
   const script = document.querySelector('script[src*="assets/journey/app.js"]');
   if (!script) return;
   const base = new URL('../../', script.src);
@@ -11,7 +13,6 @@
   let root = null;
   let state = null;
   let data = null;
-  let events = null;
   let offlineReady = false;
   let lastPlaceTrigger = null;
   let workerRegistration = null;
@@ -38,12 +39,27 @@
     if (cls) node.className = cls;
     return node;
   };
-  function external(label, href, cls) {
+  function linkTo(label, href, cls) {
     const link = el('a', label, cls);
     link.href = href;
-    link.target = '_blank';
-    link.rel = 'noopener';
+    const target = new URL(href, base);
+    if (target.origin !== base.origin || !target.pathname.startsWith(base.pathname)) {
+      link.target = '_blank';
+      link.rel = 'noopener';
+    }
     return link;
+  }
+  function prepareInternalLinks() {
+    const date = new URLSearchParams(location.search).get('date');
+    document.querySelectorAll('a[href]').forEach((link) => {
+      const target = new URL(link.href, base);
+      if (target.origin !== base.origin || !target.pathname.startsWith(base.pathname)) return;
+      link.removeAttribute('target');
+      if (/^202[67]-\d{2}-\d{2}$/.test(date || '') && !target.searchParams.has('date')) {
+        target.searchParams.set('date', date);
+        link.href = target.href;
+      }
+    });
   }
   const directions = (place) => `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.properties.googleQuery || place.properties.name)}`;
   const currentDay = () => data.days.find((day) => day.date === state.date);
@@ -129,7 +145,8 @@
     workerRegistration.update().catch(() => {});
   }
   function foodUrl(day, place) {
-    const link = new URL('assets/map/restaurants.html', base);
+    const link = new URL('restaurants/', base);
+    link.searchParams.set('date', day.date);
     const city = place && ['rome', 'naples'].includes(place.properties.region) ? place.properties.region : (['naples', 'pompeii', 'amalfi'].includes(day.region) ? 'naples' : 'rome');
     link.searchParams.set('city', city);
     // There are no Amalfi/Civita restaurant candidates in the source dataset.
@@ -154,10 +171,14 @@
     target.searchParams.set('date', state.date);
     target.searchParams.set('view', state.view);
     target.searchParams.set('place', id);
-    history.pushState({}, '', target);
+    history.pushState({...history.state, journeyPlace:true}, '', target);
     renderDialog();
   }
   function closePlace() {
+    if (history.state?.journeyPlace) {
+      history.back();
+      return;
+    }
     state.place = null;
     const target = new URL(location.href);
     target.searchParams.delete('place');
@@ -203,16 +224,16 @@
       content.append(observation);
     }
     if (guide) {
-      content.append(external('공식 안내 ↗', guide.source, 'text-link'), el('p', `안내 확인: ${guide.checked} · 재확인: ${guide.recheck}`, 'small-note'));
+      content.append(linkTo('공식 안내 ↗', guide.source, 'text-link'), el('p', `안내 확인: ${guide.checked} · 재확인: ${guide.recheck}`, 'small-note'));
     }
     const actions = root.querySelector('#place-dialog-actions');
-    actions.replaceChildren(external('길찾기 ↗', directions(place), 'text-link'));
-    if (['rome','naples'].includes(p.region)) actions.append(external('주변 식당 ↗', foodUrl(currentDay(),place), 'text-link'));
+    actions.replaceChildren(linkTo('길찾기 ↗', directions(place), 'text-link'));
+    if (['rome','naples'].includes(p.region)) actions.append(linkTo('주변 식당 ↗', foodUrl(currentDay(),place), 'text-link'));
     else actions.append(el('p', '이 권역의 식당 후보는 아직 등록하지 않았어요.', 'small-note'));
     const day = data.days.find((d) => d.date === state.date && (d.places.includes(p.sort) || d.lodging === p.sort)) || data.days.find((d) => d.places.includes(p.sort) || d.lodging === p.sort);
     if (day) {
       const visit = new URL(`itinerary/#day-${day.id}`, base); visit.searchParams.set('date', day.date);
-      actions.append(external('방문일 상세 안내 ↗', visit.href, 'text-link'));
+      actions.append(linkTo('방문일 상세 안내 →', visit.href, 'text-link'));
     }
     if (!dialog.open) {
       if (dialog.showModal) dialog.showModal(); else dialog.setAttribute('open','');
@@ -249,8 +270,8 @@
       const links = el('div', undefined, 'place-links');
       const details = el('button', '관람·방문 안내 →', 'quiet-button');
       details.type = 'button'; details.addEventListener('click', () => openPlace(p.sort, details));
-      links.append(details, external('길찾기 ↗', directions(place), 'text-link'));
-      if (p.region === 'rome' || p.region === 'naples') links.append(external('이 장소 주변 식당 ↗', foodUrl(day, place), 'text-link'));
+      links.append(details, linkTo('길찾기 ↗', directions(place), 'text-link'));
+      if (p.region === 'rome' || p.region === 'naples') links.append(linkTo('이 장소 주변 식당 ↗', foodUrl(day, place), 'text-link'));
       const dayWithPlace = data.days.find((d) => d.places.includes(p.sort) || d.lodging === p.sort);
       if (dayWithPlace) {
         const button = el('button', '방문일 안내 →', 'quiet-button');
@@ -316,6 +337,8 @@
     const homeLink = root.querySelector('#home-link');
     homeLink.href = day.id === '0102' ? url('itinerary/#day-0102') : directions(home);
     homeLink.textContent = day.id === '0102' ? '짐 보관 안내 ↗' : '숙소로 ↗';
+    if (day.id === '0102') homeLink.removeAttribute('target');
+    else homeLink.target = '_blank';
     homeLink.setAttribute('aria-label', day.id === '0102' ? '귀국일 짐 보관과 공항 이동 안내' : `숙소 ${home.properties.name} 길찾기`);
     const index = data.days.indexOf(day);
     root.querySelector('#previous-day').disabled = index === 0;
@@ -336,13 +359,21 @@
     if (state.view === 'places') renderPlaces();
     renderDialog();
     updateOfflineStatus();
+    prepareInternalLinks();
   }
   async function initialize() {
     showAppUpdate();
+    prepareInternalLinks();
+    const restaurantFrame = document.querySelector('.restaurant-map-frame');
+    if (restaurantFrame) {
+      const target = new URL('assets/map/restaurants.html', base);
+      const params = new URLSearchParams(location.search);
+      ['city', 'near', 'label'].forEach((key) => {if (params.has(key)) target.searchParams.set(key, params.get(key));});
+      if (restaurantFrame.src !== target.href) restaurantFrame.src = target.href;
+    }
     const app = document.getElementById('journey-app');
     document.body.classList.toggle('journey-home', Boolean(app));
     if (!app) {
-      events?.abort();
       document.querySelector('.journey-document-nav')?.remove();
       {
         const nav = el('nav', undefined, 'journey-bottom-nav journey-document-nav');
@@ -357,7 +388,8 @@
           icon.setAttribute('aria-hidden', 'true');
           link.append(icon, document.createTextNode(label));
           link.href = target.href;
-          if (views[i] === 'more') link.setAttribute('aria-current', 'page');
+          const mapPage = ['map/', 'assets/map/map.html'].some((path) => location.pathname === new URL(path, base).pathname);
+          if (views[i] === (mapPage ? 'map' : 'more')) link.setAttribute('aria-current', 'page');
           nav.append(link);
         });
         document.body.append(nav);
@@ -367,9 +399,12 @@
     }
     document.body.classList.remove('journey-document');
     document.querySelector('.journey-document-nav')?.remove();
-    if (app.dataset.initialized) return;
-    if (events) events.abort();
-    events = new AbortController();
+    if (app.dataset.initialized && data) {
+      root = app;
+      state = readState();
+      render();
+      return;
+    }
     root = app;
     root.dataset.initialized = 'true';
     updateInstallButton();
@@ -394,7 +429,7 @@
       root.querySelector('#today-food').addEventListener('click', () => {
         const day = currentDay();
         const anchor = day.places.map(findPlace).find((place) => place && ['rome','naples'].includes(place.properties.region)) || findPlace(day.lodging);
-        window.open(foodUrl(day, anchor), '_blank', 'noopener');
+        location.assign(foodUrl(day, anchor));
       });
       root.querySelector('#place-scope').addEventListener('change', renderPlaces);
       root.querySelector('#place-search').addEventListener('input', renderPlaces);
@@ -406,9 +441,6 @@
           root.querySelector('#journey-message').textContent = 'Android: 브라우저 메뉴에서 「앱 설치」 또는 「홈 화면에 추가」 · iPhone/iPad: Safari 공유 메뉴에서 「홈 화면에 추가」를 선택하세요.';
         }
       });
-      window.addEventListener('popstate', () => {state = readState(); render();}, {signal:events.signal});
-      window.addEventListener('online', render, {signal:events.signal});
-      window.addEventListener('offline', render, {signal:events.signal});
       root.querySelector('#close-place-dialog').addEventListener('click', closePlace);
       root.querySelector('#place-dialog').addEventListener('cancel', (event) => {event.preventDefault(); closePlace();});
       root.querySelector('#place-dialog').addEventListener('click', (event) => {
@@ -418,12 +450,18 @@
       render();
     } catch {
       root.querySelector('#journey-message').textContent = '여행 화면을 불러오지 못했어요. 아래 전체 일정에서 계획을 확인할 수 있어요.';
-      root.querySelector('#day-timeline').append(external('전체 일정 열기', url('itinerary/'), 'text-link'));
+      root.querySelector('#day-timeline').append(linkTo('전체 일정 열기', url('itinerary/'), 'text-link'));
       // Keep the document links available when app data cannot be loaded.
       root.querySelector('#view-more').hidden = false;
     }
   }
   window.addEventListener('beforeinstallprompt', (event) => {event.preventDefault(); installPrompt = event;});
+  window.addEventListener('popstate', () => {
+    if (root?.isConnected && data) {state = readState(); render();}
+  });
+  ['online', 'offline'].forEach((event) => window.addEventListener(event, () => {
+    if (root?.isConnected && data) render();
+  }));
   window.addEventListener('appinstalled', () => {
     appInstalled = true;
     installPrompt = null;

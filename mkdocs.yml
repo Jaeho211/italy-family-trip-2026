@@ -7,20 +7,9 @@ theme:
   name: material
   language: ko
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: italy-light
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: 어두운 화면으로 전환
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: 밝은 화면으로 전환
+    scheme: italy-light
+    primary: custom
+    accent: custom
   font: false
   features:
     - navigation.instant

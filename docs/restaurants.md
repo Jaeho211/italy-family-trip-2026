@@ -6,7 +6,7 @@
 
 <iframe class="restaurant-map-frame" src="../assets/map/restaurants.html" title="로마·나폴리 식당 후보 검색 지도" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="geolocation"></iframe>
 
-[식당 지도를 새 화면에서 열기](assets/map/restaurants.html){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[식당 지도 크게 보기](assets/map/restaurants.html){ .md-button .md-button--primary }
 
 로마와 나폴리 핀은 원본 My Maps의 **표시용 좌표**입니다. 같은 이름의 여러 지점은 방문할 지점을 확인하세요. 영업시간·휴무·메뉴·가격·대기시간은 방문 전에 다시 확인합니다. **12월 25일 아말피 점심은 기존 계획대로 간편식을 준비합니다.**
 
