@@ -70,6 +70,9 @@ CONTEXT = {
 
 def build_data(root):
     places = json.loads((root / 'docs/assets/map/places.geojson').read_text())['features']
+    guides = json.loads((root / 'docs/assets/journey/guides.json').read_text())
+    for place in places:
+        place['properties']['guide'] = guides.get(str(place['properties']['sort']))
     days = []
     tree = Tree((root / 'docs/itinerary.md').read_text())
     for card in tree.root.find('div', 'day-card'):
@@ -80,17 +83,33 @@ def build_data(root):
         marker = re.compile(rf'(?<!\d){month}/{day}(?!\d)')
         selected = [p['properties']['sort'] for p in places if p['properties']['group'] != 'lodging' and any(marker.search(d) for d in p['properties']['dates'])]
         title = card.find('h3')[0].text().split(' · ', 1)[-1]
-        items = []
+        steps = []
         for ul in [c for c in card.children if isinstance(c, Element) and c.tag == 'ul']:
-            items.extend(c.text() for c in ul.children if isinstance(c, Element) and c.tag == 'li')
+            for c in ul.children:
+                if isinstance(c, Element) and c.tag == 'li':
+                    place_ids = [int(value) for value in c.attrs.get('data-place-ids', '').split(',') if value]
+                    if not set(place_ids) <= {p['properties']['sort'] for p in places}:
+                        raise ValueError(f'Unknown place reference in {key}: {place_ids}')
+                    steps.append(dict(text=c.text(), places=place_ids, priority=c.attrs.get('data-priority', 'main')))
         # In the source, the car booking summary precedes the morning transfer.
         # Present those existing instructions in their execution order.
         if key == '1225':
-            items = items[1:3] + items[:1] + items[3:]
+            steps = steps[1:3] + steps[:1] + steps[3:]
+        items = [step['text'] for step in steps]
+        place_priorities = {}
+        for place in places:
+            pid = place['properties']['sort']
+            if pid in selected:
+                annotations = ' '.join(place['properties']['dates'])
+                place_priorities[str(pid)] = 'optional' if ('선택' in annotations or '조건부' in annotations) else 'main'
+        if key == '1227':
+            place_priorities.update({'132': 'choice', '134': 'choice', '140': 'main'})
+        if key == '1231':
+            place_priorities['60'] = 'main'
         details = card.find('details')
         direct_notes = [c.text() for c in card.children if isinstance(c, Element) and c.tag == 'p' and not c.attrs.get('class')]
         days.append(dict(id=key, date=date, title=title, subtitle=subtitle, city=city, region=region, lodging=lodging,
-                         meta=card.find('p', 'day-card__meta')[0].text(), places=selected, items=items,
+                         meta=card.find('p', 'day-card__meta')[0].text(), places=selected, items=items, steps=steps, placePriorities=place_priorities,
                          statuses=[dict(kind=s.attrs['class'].split()[-1], text=s.text()) for s in card.find('span', 'status')],
                          details=''.join(d.html() for d in details), notes=direct_notes,
                          route=' '.join(p.text() for p in card.find('p', 'route'))))

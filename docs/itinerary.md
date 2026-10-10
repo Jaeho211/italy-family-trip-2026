@@ -15,7 +15,7 @@
   <ul>
     <li>인천 14:05 출발 → 로마 FCO 19:35 도착</li>
     <li>입국·수하물 수령 후 Leonardo Express로 Roma Termini 이동</li>
-    <li>The RomeHello(더 로마헬로)에 체크인하고 수면과 회복을 우선</li>
+    <li data-place-ids="5">The RomeHello(더 로마헬로)에 체크인하고 수면과 회복을 우선</li>
     <li>2026년 12월 13일 이후 겨울 시간표가 발표되면 12월 23일 막차 재확인</li>
   </ul>
 </div>
@@ -25,11 +25,11 @@
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
   <span class="status confirmed">열차·나폴리 숙소 예약 완료</span><span class="status verified">박물관 운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
   <ul>
-    <li>11:00 The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 인근에서 점심</li>
+    <li data-place-ids="5">11:00 The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 인근에서 점심</li>
     <li>13:10 전후 짐 수령 → 13:30까지 Roma Termini 도착</li>
     <li>14:00 Frecciarossa 9527 출발 → 15:13 Napoli Centrale 도착 · 예약 완료</li>
-    <li>Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 15:00 이후 체크인</li>
-    <li>이동·체크인 후 17:00 전후 나폴리 국립고고학박물관 입장 목표 → 18:30 전후 핵심 관람 마무리</li>
+    <li data-place-ids="6">Uber Taxi로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 15:00 이후 체크인</li>
+    <li data-place-ids="100">이동·체크인 후 17:00 전후 나폴리 국립고고학박물관 입장 목표 → 18:30 전후 핵심 관람 마무리</li>
   </ul>
   <details class="day-details">
     <summary>운영·이동 확인 더보기</summary>
@@ -56,9 +56,9 @@
     <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 22:00 같은 지점 반납</li>
     <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
     <li>Trenitalia Linea 2로 Napoli Piazza Garibaldi 이동 후 연결 통로를 따라 Napoli Centrale로 이동</li>
-    <li>포지타노 전망과 짧은 산책을 우선</li>
-    <li>아말피에서 준비한 간편식 점심과 중심부 산책</li>
-    <li>라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
+    <li data-place-ids="180">포지타노 전망과 짧은 산책을 우선</li>
+    <li data-place-ids="190">아말피에서 준비한 간편식 점심과 중심부 산책</li>
+    <li data-place-ids="200" data-priority="optional">라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
     <li>일몰 전 SS163 핵심 구간을 마치고 살레르노–나폴리 고속도로로 복귀</li>
   </ul>
   <details class="day-details">
@@ -84,9 +84,9 @@
     <li>07:10 키아이아 숙소에서 Uber Taxi 호출 → Napoli Porta Nolana 이동 · 07:20까지 미배차면 Piazza Amedeo역으로 전환</li>
     <li>07:40 Napoli Porta Nolana 도착 목표</li>
     <li>08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정</li>
-    <li>09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>
+    <li data-place-ids="110">09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>
     <li>14:53 출발 → 15:24 Napoli Garibaldi 하차, 지연 시 15:29 예비편</li>
-    <li>Napoli Piazza Garibaldi에서 Linea 2로 Piazza Amedeo 이동 → 16:00 전후 숙소 휴식</li>
+    <li data-place-ids="6">Napoli Piazza Garibaldi에서 Linea 2로 Piazza Amedeo 이동 → 16:00 전후 숙소 휴식</li>
     <li>렌터카 미사용, 에르콜라노 제외</li>
   </ul>
   <details class="day-details">
@@ -113,12 +113,12 @@
   <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Via Duomo 남하 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
   <ul>
     <li>09:00 숙소 출발 → Piazza Amedeo역에서 Linea 2 → Napoli Piazza Cavour</li>
-    <li>09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
-    <li>11:40 나폴리 대성당 · 일요일 전례로 내부 관람이 어렵다면 외관만 확인</li>
+    <li data-place-ids="120">09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
+    <li data-place-ids="122">11:40 나폴리 대성당 · 일요일 전례로 내부 관람이 어렵다면 외관만 확인</li>
     <li>12:15 대성당 이후 Via Duomo를 남하하면서 점심 · 동선에서 크게 벗어나지 않는 후보 중 당일 대기시간을 보고 선택</li>
-    <li>13:15 Via Duomo → Spaccanapoli 서쪽 진행 → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
-    <li>15:15 Via Toledo → Castel Nuovo 외관 → Galleria Umberto I → San Carlo·Plebiscito·왕궁 외관</li>
-    <li>16:30 기본은 Piazza del Plebiscito → Via Chiaia → 숙소 · 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가</li>
+    <li data-place-ids="130,132,134">13:15 Via Duomo → Spaccanapoli 서쪽 진행 → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
+    <li data-place-ids="140,145,150,152,160,162">15:15 Via Toledo → Castel Nuovo 외관 → Galleria Umberto I → San Carlo·Plebiscito·왕궁 외관</li>
+    <li data-place-ids="6,170" data-priority="mixed">16:30 기본은 Piazza del Plebiscito → Via Chiaia → 숙소 · 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가</li>
   </ul>
   <details class="day-details">
     <summary>운영·예약 확인 더보기</summary>
@@ -142,9 +142,9 @@
   <p class="route">Napoli Centrale → Roma Termini → Navona 숙소 → Pantheon → Piazza Navona → Campo de' Fiori → 숙소</p>
   <ul>
     <li>10:40 Napoli Centrale에서 Frecciarossa 9532 출발 → 11:55 Roma Termini 도착 · 예약 완료</li>
-    <li>택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
-    <li><strong>16:00 전후 판테온 내부 관람</strong>을 목표로 열차 지연과 체크인 변수를 흡수</li>
-    <li>판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>
+    <li data-place-ids="7">택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
+    <li data-place-ids="30"><strong>16:00 전후 판테온 내부 관람</strong>을 목표로 열차 지연과 체크인 변수를 흡수</li>
+    <li data-place-ids="30,40,7">판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·티켓 확인 더보기</summary>
@@ -165,13 +165,13 @@
   <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">바티칸 티켓 판매 대기</span><span class="status verified">발레 2석 예매 완료</span>
   <p class="route">Vatican Museums → Sistine Chapel → St. Peter's Basilica·Square → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소</p>
   <ul>
-    <li>07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
-    <li>오전 바티칸 박물관과 시스티나 성당</li>
-    <li>정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
-    <li>늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
-    <li>산탄젤로성 내부 관람은 넣지 않고 15:30 전후 숙소 복귀·휴식 목표</li>
-    <li>아내와 딸은 이른 저녁 후 19:15까지 Teatro Costanzi 도착</li>
-    <li>20:00 《백조의 호수》 관람 · 나머지 가족은 자유 일정과 휴식</li>
+    <li data-place-ids="10">07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
+    <li data-place-ids="10">오전 바티칸 박물관과 시스티나 성당</li>
+    <li data-place-ids="20">정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
+    <li data-place-ids="7">늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
+    <li data-place-ids="7">산탄젤로성 내부 관람은 넣지 않고 15:30 전후 숙소 복귀·휴식 목표</li>
+    <li data-place-ids="25">아내와 딸은 이른 저녁 후 19:15까지 Teatro Costanzi 도착</li>
+    <li data-place-ids="25">20:00 《백조의 호수》 관람 · 나머지 가족은 자유 일정과 휴식</li>
   </ul>
   <details class="day-details">
     <summary>운영·예약 확인 더보기</summary>
@@ -194,10 +194,10 @@
   <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
   <ul>
     <li>07:30 숙소에서 택시 출발 → 08:00 Noleggiare Roma Termini에서 차량 수령</li>
-    <li>차량 확인 후 08:30 출발 → 10:00~10:15 치비타 도착 목표</li>
-    <li>10:15~11:30 치비타 입장과 산책</li>
-    <li>12:30 전후 오르비에토 도착 · 두오모와 점심 우선</li>
-    <li>성 패트릭 우물은 전날 공연 후 가족 체력과 운영시간에 따라 선택</li>
+    <li data-place-ids="70">차량 확인 후 08:30 출발 → 10:00~10:15 치비타 도착 목표</li>
+    <li data-place-ids="70">10:15~11:30 치비타 입장과 산책</li>
+    <li data-place-ids="80">12:30 전후 오르비에토 도착 · 두오모와 점심 우선</li>
+    <li data-place-ids="90" data-priority="optional">성 패트릭 우물은 전날 공연 후 가족 체력과 운영시간에 따라 선택</li>
     <li>16:30 로마로 출발 → 연료 보충 후 20:00까지 Roma Termini 반납</li>
   </ul>
   <p><strong>재확인:</strong> 치비타 매표, 오르비에토 두오모 전례·특별시간, 성 패트릭 우물, 차량 등급·보장·보증금과 식당 영업을 2026년 11월 말에 확인합니다.</p>
@@ -210,10 +210,10 @@
   <span class="status tentative">잠정</span><span class="status booking">저녁 예약 필요</span><span class="status recheck">공식 행사 발표 대기</span>
   <p class="route">Navona 숙소 → Trevi Fountain → Spanish Steps → Trinità dei Monti → 점심 → Pincio → Piazza del Popolo → 숙소</p>
   <ul>
-    <li>10:30 전후 숙소 출발 → 트레비 분수</li>
-    <li>트레비 → 스페인 광장·계단 → Trinità dei Monti를 한 방향으로 연결</li>
+    <li data-place-ids="50">10:30 전후 숙소 출발 → 트레비 분수</li>
+    <li data-place-ids="50,60">트레비 → 스페인 광장·계단 → Trinità dei Monti를 한 방향으로 연결</li>
     <li>점심 후 Pincio 전망대 → Piazza del Popolo까지 보고 보르게세 공원 안쪽은 생략</li>
-    <li>15:30~16:00 전후 숙소 복귀 → 오후에는 쉬어 자정 행사 체력 확보</li>
+    <li data-place-ids="7">15:30~16:00 전후 숙소 복귀 → 오후에는 쉬어 자정 행사 체력 확보</li>
     <li>새해 전야 식사 사전 예약</li>
     <li>로마시 공식 행사·교통 통제가 발표되면 자정 관람 위치와 어린이 동반 귀가 동선 확정</li>
   </ul>
@@ -226,9 +226,9 @@
   <ul>
     <li>전날 귀가 시간에 맞춰 늦게 시작</li>
     <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사를 우선</li>
-    <li>행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
-    <li>Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
-    <li>트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀</li>
+    <li data-priority="backup">행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
+    <li data-place-ids="7" data-priority="backup">Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
+    <li data-place-ids="7" data-priority="backup">트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀</li>
     <li>신정 휴관을 고려해 예약이 필요한 핵심 유료 관광지는 넣지 않음</li>
   </ul>
 </div>
@@ -238,10 +238,10 @@
   <p class="day-card__meta">11일차 · 기내</p>
   <span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status booking">시간대 예약 필요</span><span class="status recheck">짐보관·택시요금 재확인</span>
   <ul>
-    <li>아침은 숙소에서 여유 있게 보내고 10:00 iFlat Luxury Navona Apartment 체크아웃</li>
-    <li>Piazza Navona 인근 외부 짐보관소에 짐을 맡긴 뒤 택시로 콜로세움 이동</li>
-    <li><strong>11:00 콜로세움 입장 목표</strong> · 24h 기본 통합권</li>
-    <li>12:20~14:30 포로 로마노와 팔라티노 언덕 · 이후 늦은 점심</li>
+    <li data-place-ids="7">아침은 숙소에서 여유 있게 보내고 10:00 iFlat Luxury Navona Apartment 체크아웃</li>
+    <li data-place-ids="210">Piazza Navona 인근 외부 짐보관소에 짐을 맡긴 뒤 택시로 콜로세움 이동</li>
+    <li data-place-ids="210"><strong>11:00 콜로세움 입장 목표</strong> · 24h 기본 통합권</li>
+    <li data-place-ids="220,230">12:20~14:30 포로 로마노와 팔라티노 언덕 · 이후 늦은 점심</li>
     <li>16:30 전후 Navona 복귀 → 짐 수령</li>
     <li>17:00~17:30경 Roma Capitale 공식 택시로 FCO 직행 · Termini와 Leonardo Express는 기본 동선에서 제외</li>
     <li>현재 공식 정액은 아우렐리아누스 성벽 내부 ↔ FCO 직행 €55 · 2027년 1월 2일 출발 전 최신 요금 재확인</li>

@@ -11,6 +11,8 @@
   let data = null;
   let events = null;
   let offlineReady = false;
+  let lastPlaceTrigger = null;
+  const priorityLabels = {main:'기본 일정', optional:'여유 있을 때', choice:'둘 중 한 곳', mixed:'선택 구간 포함', backup:'대안 코스'};
   // Optional family observation prompts; no new operating or historical claims.
   const observations = {};
   Object.assign(observations, {
@@ -50,13 +52,15 @@
   }
   function readState() {
     const params = new URLSearchParams(location.search);
-    return {date: data.days.some((day) => day.date === params.get('date')) ? params.get('date') : defaultDate(), view: views.includes(params.get('view')) ? params.get('view') : 'today'};
+    return {date: data.days.some((day) => day.date === params.get('date')) ? params.get('date') : defaultDate(), view: views.includes(params.get('view')) ? params.get('view') : 'today', place: params.has('place') && findPlace(Number(params.get('place'))) ? Number(params.get('place')) : null};
   }
   function navigate(change, replace = false) {
-    state = {...state, ...change};
+    state = {...state, place:null, ...change};
     const next = new URL(location.href);
     next.searchParams.set('date', state.date);
     next.searchParams.set('view', state.view);
+    if (state.place === null) next.searchParams.delete('place');
+    else next.searchParams.set('place', state.place);
     history[replace ? 'replaceState' : 'pushState']({}, '', next);
     render();
     window.scrollTo({top: 0, behavior: 'instant'});
@@ -77,6 +81,86 @@
     }
     return link.href;
   }
+  function placePriority(place) {
+    if (place.properties.group === 'lodging') return 'lodging';
+    const day = currentDay().places.includes(place.properties.sort) ? currentDay() : data.days.find((d) => d.places.includes(place.properties.sort));
+    return day?.placePriorities?.[String(place.properties.sort)] || 'main';
+  }
+  function priorityBadge(kind) {
+    return el('span', kind === 'lodging' ? '숙소' : priorityLabels[kind], `priority-badge priority-${kind}`);
+  }
+  function openPlace(id, trigger) {
+    lastPlaceTrigger = trigger;
+    state.place = id;
+    const target = new URL(location.href);
+    target.searchParams.set('date', state.date);
+    target.searchParams.set('view', state.view);
+    target.searchParams.set('place', id);
+    history.pushState({}, '', target);
+    renderDialog();
+  }
+  function closePlace() {
+    state.place = null;
+    const target = new URL(location.href);
+    target.searchParams.delete('place');
+    history.replaceState({}, '', target);
+    renderDialog();
+  }
+  function renderDialog() {
+    const dialog = root.querySelector('#place-dialog');
+    if (state.place === null) {
+      if (dialog.open) {
+        if (dialog.close) dialog.close(); else dialog.removeAttribute('open');
+        (lastPlaceTrigger?.isConnected ? lastPlaceTrigger : root.querySelector('#today-title'))?.focus({preventScroll:true});
+      }
+      return;
+    }
+    const place = findPlace(state.place), p = place.properties, guide = p.guide;
+    const priority = placePriority(place);
+    const badge = root.querySelector('#place-dialog-priority');
+    badge.className = `priority-badge priority-${priority}`;
+    badge.textContent = priority === 'lodging' ? '숙소' : priorityLabels[priority];
+    root.querySelector('#place-dialog-title').textContent = p.name;
+    root.querySelector('#place-dialog-visit').textContent = p.dates.join(' · ');
+    const content = root.querySelector('#place-dialog-content');
+    content.replaceChildren(el('p', guide?.intro || p.note));
+    const planned = currentDay().steps?.filter((step) => step.places.includes(p.sort)) || [];
+    if (planned.length) {
+      content.append(el('h3', '이번 일정에서'));
+      const schedule = el('ul');
+      planned.forEach((step) => schedule.append(el('li', step.text)));
+      content.append(schedule);
+    }
+    if (guide) {
+      content.append(el('h3', '이렇게 둘러봐요'));
+      const list = el('ul');
+      guide.look.forEach((text) => list.append(el('li', text)));
+      content.append(list, el('h3', '방문할 때'), el('p', guide.tip));
+    } else {
+      content.append(el('p', '아래 방문일 안내에서 이 장소가 포함된 일정과 이동 순서를 확인하세요.', 'small-note'));
+    }
+    if (observations[p.sort]) {
+      const observation = el('div', undefined, 'place-observation');
+      observation.append(el('strong', '함께 둘러보기'), el('p', observations[p.sort]));
+      content.append(observation);
+    }
+    if (guide) {
+      content.append(external('공식 안내 ↗', guide.source, 'text-link'), el('p', `안내 확인: ${guide.checked} · 재확인: ${guide.recheck}`, 'small-note'));
+    }
+    const actions = root.querySelector('#place-dialog-actions');
+    actions.replaceChildren(external('길찾기 ↗', directions(place), 'text-link'));
+    if (['rome','naples'].includes(p.region)) actions.append(external('주변 식당 ↗', foodUrl(currentDay(),place), 'text-link'));
+    else actions.append(el('p', '이 권역의 식당 후보는 아직 등록하지 않았어요.', 'small-note'));
+    const day = data.days.find((d) => d.date === state.date && (d.places.includes(p.sort) || d.lodging === p.sort)) || data.days.find((d) => d.places.includes(p.sort) || d.lodging === p.sort);
+    if (day) {
+      const visit = new URL(`itinerary/#day-${day.id}`, base); visit.searchParams.set('date', day.date);
+      actions.append(external('방문일 상세 안내 ↗', visit.href, 'text-link'));
+    }
+    if (!dialog.open) {
+      if (dialog.showModal) dialog.showModal(); else dialog.setAttribute('open','');
+      root.querySelector('#close-place-dialog').focus();
+    }
+  }
   function renderPlaces() {
     const day = currentDay();
     const grid = root.querySelector('#journey-places');
@@ -91,7 +175,13 @@
       const p = place.properties;
       const card = el('article', undefined, 'journey-place-card');
       card.append(el('span', p.group === 'lodging' ? '숙소' : ({rome:'로마', naples:'나폴리', pompeii:'폼페이', amalfi:'아말피', civita:'치비타 · 오르비에토'}[p.region]), 'eyebrow'));
-      card.append(el('h2', p.name), el('p', p.note));
+      const heading = el('h2');
+      const open = el('button', p.name, 'place-title-button');
+      open.type = 'button'; open.addEventListener('click', () => openPlace(p.sort, open));
+      heading.append(open);
+      const belongs = day.places.includes(p.sort) || day.lodging === p.sort;
+      if (belongs) card.append(priorityBadge(placePriority(place)));
+      card.append(heading, el('p', p.guide?.intro || p.note));
       card.append(el('p', p.dates.join(' · '), 'small-note'));
       if (observations[p.sort]) {
         const prompt = el('div', undefined, 'place-observation');
@@ -99,7 +189,9 @@
         card.append(prompt);
       }
       const links = el('div', undefined, 'place-links');
-      links.append(external('길찾기 ↗', directions(place), 'text-link'));
+      const details = el('button', '관람·방문 안내 →', 'quiet-button');
+      details.type = 'button'; details.addEventListener('click', () => openPlace(p.sort, details));
+      links.append(details, external('길찾기 ↗', directions(place), 'text-link'));
       if (p.region === 'rome' || p.region === 'naples') links.append(external('이 장소 주변 식당 ↗', foodUrl(day, place), 'text-link'));
       const dayWithPlace = data.days.find((d) => d.places.includes(p.sort) || d.lodging === p.sort);
       if (dayWithPlace) {
@@ -131,9 +223,30 @@
     root.querySelector('#journey-message').textContent = navigator.onLine ? '' : '오프라인이에요. 저장된 일정과 장소 안내를 보고 있어요.';
     const timeline = root.querySelector('#day-timeline');
     timeline.replaceChildren();
-    day.items.forEach((text, i) => {
+    (day.steps || day.items.map((text) => ({text, places:[], priority:'main'}))).forEach((step, i) => {
       const row = el('li');
-      row.append(el('span', String(i + 1).padStart(2, '0'), 'timeline-number'), el('p', text));
+      const body = el('div', undefined, 'timeline-body');
+      if (step.priority !== 'main') body.append(priorityBadge(step.priority));
+      if (step.places.length === 1) {
+        const open = el('button', step.text, 'timeline-open');
+        open.type = 'button'; open.addEventListener('click', () => openPlace(step.places[0], open));
+        open.append(el('span', '입구·방문 안내 →', 'timeline-hint'));
+        body.append(open);
+      } else {
+        body.append(el('p', step.text));
+        const links = el('div', undefined, 'timeline-place-links');
+        step.places.forEach((id) => {
+          const place = findPlace(id);
+          const open = el('button', place.properties.name, 'timeline-place-chip');
+          open.type = 'button';
+          const kind = placePriority(place);
+          if (kind === 'optional' || kind === 'choice') open.append(el('span', priorityLabels[kind], 'chip-priority'));
+          open.addEventListener('click', () => openPlace(id, open));
+          links.append(open);
+        });
+        body.append(links);
+      }
+      row.append(el('span', String(i + 1).padStart(2, '0'), 'timeline-number'), body);
       timeline.append(row);
     });
     const statuses = root.querySelector('#day-statuses');
@@ -163,6 +276,7 @@
       root.querySelector('#full-map').href = mapUrl.href;
     }
     if (state.view === 'places') renderPlaces();
+    renderDialog();
     updateOfflineStatus();
   }
   async function initialize() {
@@ -230,6 +344,12 @@
       window.addEventListener('popstate', () => {state = readState(); render();}, {signal:events.signal});
       window.addEventListener('online', render, {signal:events.signal});
       window.addEventListener('offline', render, {signal:events.signal});
+      root.querySelector('#close-place-dialog').addEventListener('click', closePlace);
+      root.querySelector('#place-dialog').addEventListener('cancel', (event) => {event.preventDefault(); closePlace();});
+      root.querySelector('#place-dialog').addEventListener('click', (event) => {
+        const dialog = event.currentTarget, rect = dialog.getBoundingClientRect();
+        if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) closePlace();
+      });
       render();
     } catch {
       root.querySelector('#journey-message').textContent = '여행 화면을 불러오지 못했어요. 아래 전체 일정에서 계획을 확인할 수 있어요.';

@@ -87,3 +87,9 @@ AGENTS.md                   저장소 수정 규칙
 `docs/`는 가족이 휴대전화로 실제로 읽고 실행할 간결한 일정, 예약 상태와 다음 행동을 담습니다. `research/`는 일정 결론의 상세 근거, 공식 출처, 과거 사례, 추론과 미확인 내용을 보존합니다. `research/`는 `mkdocs.yml` navigation에 넣지 않으며 정적 사이트 빌드 대상이 아닙니다.
 
 초기 버전은 외부 이미지, 지도 SDK, JavaScript 프레임워크 없이 구성했습니다. 장소 링크는 가벼운 Google Maps 검색 링크이며, 카드형 일정과 반응형 표는 CSS만 사용합니다. 이렇게 하면 Markdown 중심으로 유지보수하기 쉽고 공개 Pages에서도 개인정보 노출 범위를 단순하게 통제할 수 있습니다.
+
+### 일정 항목과 장소 안내 편집
+
+`docs/itinerary.md`의 실행 항목 `<li>`에 `data-place-ids="120"` 또는 `data-place-ids="132,134"`처럼 기존 GeoJSON의 `sort` ID를 연결합니다. 빌드 시 참조 유효성을 검사하며, 제외·미방문 장소는 연결하지 않습니다. 전체가 선택 구간이면 `data-priority="optional"`, 기본·선택 혼합이면 `mixed`, 대안 코스이면 `backup`을 표시합니다.
+
+짧은 관람 안내는 `docs/assets/journey/guides.json`에서 관리합니다. 공식 출처·확인일·재확인 시점과 관련 `research/` 기록을 유지하고, 방문 목표 시각을 이 파일에 복사하지 않습니다. 앱은 원문의 연결된 일정 항목을 안내창에 함께 표시합니다.

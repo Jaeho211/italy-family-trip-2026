@@ -78,3 +78,22 @@
 .journey-document .md-content { padding-bottom:5rem; }
 .journey-document-nav a { display:grid; place-items:center; min-height:2.7rem; border-radius:.55rem; color:#8f3f35; font-size:.75rem; font-weight:650; text-decoration:none; }
 .journey-document-nav { --app-border:#e2d7c6; }
+.timeline-body { flex:1; min-width:0; }
+.timeline-open { display:block; width:100%; text-align:left; padding:.25rem 0; background:transparent; border:0; color:#332d28; font-size:.79rem!important; line-height:1.7; }
+.timeline-hint { display:block; color:#8f3f35; font-size:.66rem; font-weight:650; margin-top:.35rem; }
+.timeline-place-links { display:flex; gap:.35rem; flex-wrap:wrap; }
+.timeline-place-chip { padding:.4rem .65rem; background:#fffdf8; color:#8f3f35; border:1px solid #e2d7c6; border-radius:2rem; font-size:.65rem!important; min-height:2.2rem; }
+.chip-priority { display:block; font-size:.58rem; color:#74685b; }
+.priority-badge { display:inline-block; font-size:.6rem; font-weight:700; border-radius:2rem; background:#e9ecdc; color:#4e5938; padding:.25rem .55rem; margin:.2rem .3rem .25rem 0; }
+.priority-optional, .priority-backup { background:#f2e8d8; color:#78614c; }
+.priority-choice, .priority-mixed { background:#e8ebf7; color:#4c577a; }
+.priority-lodging { background:#eee9f5; color:#5d526d; }
+.place-title-button { color:#332d28; background:transparent; border:0; text-align:left; padding:.2rem 0; font-size:inherit!important; font-weight:750; min-height:2.3rem; }
+.place-dialog { width:min(36rem,calc(100% - 1.4rem)); max-height:85dvh; overflow-y:auto; border:1px solid #e2d7c6; border-radius:1rem; padding:1.4rem; color:#332d28; background:#fffdf8; box-shadow:0 1rem 4rem #332d2840; }
+.place-dialog::backdrop { background:#332d2875; backdrop-filter:blur(3px); }
+.place-dialog-header { display:flex; justify-content:space-between; align-items:center; }
+.journey-app .place-dialog h2 { margin:.6rem 0; border:0; color:#332d28; font-size:1.35rem; line-height:1.3; }
+.place-dialog h3 { font-size:.87rem; margin:1.25rem 0 .5rem; color:#332d28; }
+.place-dialog p, .place-dialog li { font-size:.78rem; line-height:1.75; }
+.dialog-actions { display:flex; gap:.6rem 1rem; flex-wrap:wrap; border-top:1px solid #e2d7c6; padding-top:.7rem; margin-top:1rem; }
+@media(max-width:600px) { .place-dialog { padding:1rem; max-height:88dvh; } }

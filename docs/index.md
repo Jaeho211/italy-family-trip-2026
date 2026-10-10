@@ -38,6 +38,7 @@ hide:
   <section id="view-places" class="journey-view" aria-labelledby="places-title" hidden>
     <div class="section-heading"><h1 id="places-title">오늘 만날 장소</h1></div>
     <div class="place-tools"><label for="place-scope" class="sr-only">장소 범위</label><select id="place-scope"><option value="day">선택한 날</option><option value="all">여행 전체</option></select><label for="place-search" class="sr-only">장소 검색</label><input id="place-search" type="search" placeholder="장소 이름 검색"></div>
+    <p class="small-note">기본 일정과 선택 구간을 구분했어요. 장소를 누르면 방문 안내가 열립니다.</p>
     <div id="journey-places" class="journey-place-grid"></div>
   </section>
   <section id="view-more" class="journey-view" aria-labelledby="more-title" hidden>
@@ -45,6 +46,11 @@ hide:
     <div class="journey-tool-grid"><a href="itinerary/"><strong>전체 일정</strong><span>여정을 한눈에</span></a><a href="restaurants/"><strong>식당 찾기</strong><span>로마 · 나폴리 후보</span></a><a href="reservations/"><strong>예약 현황</strong><span>완료 · 준비 · 재확인</span></a><a href="accommodation/"><strong>숙소 안내</strong><span>위치와 이동</span></a><a href="checklist/"><strong>체크리스트</strong><span>출발 전 준비</span></a><a href="map/"><strong>권역별 지도</strong><span>지역별 전체 장소</span></a><a href="rome/"><strong>로마</strong><span>도시별 안내</span></a><a href="naples/"><strong>나폴리 · 폼페이</strong><span>도시별 안내</span></a><a href="day-trips/"><strong>근교 여행</strong><span>해안과 소도시</span></a><a href="decisions/"><strong>결정 기록</strong><span>계획의 배경</span></a></div>
     <div class="offline-card"><strong>여행 중에도 바로 열기</strong><p id="offline-status">인터넷에 연결해서 한 번 열면 일정과 핵심 안내를 오프라인에서도 볼 수 있어요.</p><p class="small-note">지도 배경·외부 길찾기·공식 예매처는 인터넷 연결이 필요해요.</p></div>
   </section>
+  <dialog id="place-dialog" class="place-dialog" aria-labelledby="place-dialog-title">
+    <div class="place-dialog-header"><span id="place-dialog-priority" class="priority-badge"></span><button id="close-place-dialog" type="button" class="quiet-button" aria-label="장소 안내 닫기">닫기 ×</button></div>
+    <h2 id="place-dialog-title"></h2><p id="place-dialog-visit" class="small-note"></p>
+    <div id="place-dialog-content"></div><div id="place-dialog-actions" class="dialog-actions"></div>
+  </dialog>
   <nav class="journey-bottom-nav" aria-label="여행 앱 메뉴"><button type="button" data-view="today" aria-current="page"><span aria-hidden="true">◷</span>오늘</button><button type="button" data-view="map"><span aria-hidden="true">⌖</span>지도</button><button type="button" data-view="places"><span aria-hidden="true">▤</span>장소</button><button type="button" data-view="more"><span aria-hidden="true">•••</span>더보기</button></nav>
 </div>
 
