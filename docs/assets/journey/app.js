@@ -324,9 +324,8 @@
       row.append(el('span', String(i + 1).padStart(2, '0'), 'timeline-number'), body);
       timeline.append(row);
     });
-    const statuses = root.querySelector('#day-statuses');
-    statuses.replaceChildren(...day.statuses.map((s) => el('span', s.text, `status ${s.kind}`)));
-    root.querySelector('#day-notes').replaceChildren(...day.notes.map((note) => el('p', note)));
+    root.querySelector('#day-reminders-title').textContent = state.date === today ? '오늘 챙길 것' : '이날 챙길 것';
+    root.querySelector('#day-reminders').replaceChildren(...day.reminders.map((note) => el('li', note)));
     // This HTML is generated at build time only from the repository's itinerary details.
     root.querySelector('#day-details').innerHTML = day.details;
     const home = findPlace(day.lodging);

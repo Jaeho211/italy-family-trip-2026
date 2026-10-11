@@ -24,8 +24,8 @@ hide:
     <div class="section-heading"><h2>오늘의 흐름</h2><button class="quiet-button" id="open-day-places" type="button">장소 보기 →</button></div>
     <p class="small-note">계획한 순서예요. 목표·잠정 시각은 현장에서 조정하세요.</p>
     <ol id="day-timeline" class="journey-timeline"></ol>
-    <div class="section-heading"><h2>오늘 챙길 것</h2></div>
-    <div id="day-statuses" class="journey-statuses"></div><div id="day-notes" class="journey-notes"></div><div id="day-details" class="journey-details"></div>
+    <div class="section-heading"><h2 id="day-reminders-title">이날 챙길 것</h2></div>
+    <ul id="day-reminders" class="journey-reminders"></ul><div id="day-details" class="journey-details"></div>
     <div class="day-navigation"><button type="button" id="previous-day">← 이전 날</button><button type="button" id="next-day">다음 날 →</button></div>
   </section>
   <section id="view-map" class="journey-view" aria-labelledby="map-view-title" hidden>

@@ -12,6 +12,9 @@
   <h3>12월 23일 수요일 · FCO 도착 후 테르미니 이동</h3>
   <p class="day-card__meta">1일차 · 테르미니 1/1박</p>
   <span class="status confirmed">항공·숙소 확정</span><span class="status recheck">늦은 체크인 재확인</span>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>출발 전 · 숙소에 늦은 체크인을 재확인하고 Leonardo Express 겨울 시간표·막차를 확인해요.</li>
+  </ul>
   <ul>
     <li>인천 14:05 출발 → 로마 FCO 19:35 도착</li>
     <li>입국·수하물 수령 후 Leonardo Express로 Roma Termini 이동</li>
@@ -24,6 +27,11 @@
   <h3>12월 24일 목요일 · 나폴리 이동과 고고학박물관</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
   <span class="status confirmed">열차·나폴리 숙소 예약 완료</span><span class="status verified">박물관 운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · The RomeHello 체크아웃 후 짐 보관, 열차 운행 변경, MANN 연말 특별 운영을 확인해요.</li>
+    <li>오늘 · 13:10 전후 짐을 찾고 13:30까지 Roma Termini에 도착해요.</li>
+    <li>오늘 · 내일 아말피에서 먹을 빵·샌드위치 재료·과일·물을 준비해요.</li>
+  </ul>
   <ul>
     <li data-place-ids="5">11:00 The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 인근에서 점심</li>
     <li>13:10 전후 짐 수령 → 13:30까지 Roma Termini 도착</li>
@@ -52,6 +60,12 @@
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
   <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status confirmed">간편식 지참</span><span class="status recheck">성탄절 수령 재확인</span>
   <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>출발 전 · 성탄절 08:00 차량 수령과 Linea 2 시간표를 재확인해요. 차량 수령은 48시간 전에 확인해요.</li>
+    <li>전날 저녁 · 날씨와 도로 통제를 보고 출발 여부를 최종 결정해요.</li>
+    <li>오늘 · 준비한 간편식과 물을 챙겨요.</li>
+    <li>반납할 때 · 차량 상태·연료·주차면·열쇠 투입을 사진과 영상으로 기록해요.</li>
+  </ul>
   <ul>
     <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 22:00 같은 지점 반납</li>
     <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
@@ -80,6 +94,11 @@
   <h3>12월 26일 토요일 · 폼페이</h3>
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 폼페이 입장권을 준비하고 성탄 특별 열차 시간표를 재확인해요.</li>
+    <li>오늘 · 작은 가방·운동화·물과 간식을 챙겨요. 30×30×15cm를 넘는 가방은 반입할 수 없어요.</li>
+    <li>오늘 · 07:20까지 택시가 배차되지 않으면 Piazza Amedeo역으로 이동해요.</li>
+  </ul>
   <ul>
     <li>07:10 키아이아 숙소에서 Uber Taxi 호출 → Napoli Porta Nolana 이동 · 07:20까지 미배차면 Piazza Amedeo역으로 전환</li>
     <li>07:40 Napoli Porta Nolana 도착 목표</li>
@@ -111,6 +130,11 @@
   <p class="day-card__meta">5일차 · 나폴리 4/4박</p>
   <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
   <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Via Duomo 남하 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · Napoli Sotterranea 연말 투어 시간을 재확인하고, 대기를 줄이려면 10:00 줄서기 면제권을 준비해요.</li>
+    <li>오늘 · 09:40까지 Piazza San Gaetano 68의 공식 입구에 도착해요.</li>
+    <li>현장에서 · 성당 전례·식당 대기시간에 따라 생략하고, 해안 산책은 날씨와 체력이 좋을 때만 추가해요.</li>
+  </ul>
   <ul>
     <li>09:00 숙소 출발 → Piazza Amedeo역에서 Linea 2 → Napoli Piazza Cavour</li>
     <li data-place-ids="120">09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
@@ -140,6 +164,10 @@
   <p class="day-card__meta">6일차 · 로마 1/5박</p>
   <span class="status confirmed">열차·로마 숙소 예약 완료</span><span class="status verified">일반 운영 확인</span><span class="status booking">판테온 예매 필요</span><span class="status recheck">짐 보관·종교행사 재확인</span>
   <p class="route">Napoli Centrale → Roma Termini → Navona 숙소 → Pantheon → Piazza Navona → Campo de' Fiori → 숙소</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 판테온 가족 4명의 같은 시간대 입장권과 어린이 무료표를 함께 준비해요. 종교행사에 따른 시간 변경도 확인해요.</li>
+    <li>방문 전 · 숙소 체크인 전 짐 보관을 확인하고, 불가하면 Navona 인근 외부 보관소를 이용해요.</li>
+  </ul>
   <ul>
     <li>10:40 Napoli Centrale에서 Frecciarossa 9532 출발 → 11:55 Roma Termini 도착 · 예약 완료</li>
     <li data-place-ids="7">택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
@@ -164,6 +192,11 @@
   <p class="day-card__meta">7일차 · 로마 2/5박</p>
   <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">바티칸 티켓 판매 대기</span><span class="status verified">발레 2석 예매 완료</span>
   <p class="route">Vatican Museums → Sistine Chapel → St. Peter's Basilica·Square → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 바티칸 08:00 입장권을 우선 확보하고 매진이면 08:30 → 09:00 순으로 확인해요. 대성당 입장·보안 통제도 재확인해요.</li>
+    <li>출발 1주 전 · 발레 공연 변경 여부를 재확인해요.</li>
+    <li>오늘 · 대성당 보안검색 시간을 확보하고, 공연 관람 가족은 이른 저녁 후 19:15까지 Teatro Costanzi에 도착해요.</li>
+  </ul>
   <ul>
     <li data-place-ids="10">07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
     <li data-place-ids="10">오전 바티칸 박물관과 시스티나 성당</li>
@@ -192,6 +225,12 @@
   <p class="day-card__meta">8일차 · 로마 3/5박</p>
   <span class="status tentative">일정 합의</span><span class="status confirmed">렌터카 예약 완료</span><span class="status recheck">겨울 특별 운영 재확인</span>
   <p class="route">로마 → 치비타 디 바뇨레조 → 오르비에토 → 로마</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 치비타·오르비에토 겨울 특별 운영, 차량 등급·보장·보증금과 식당 영업을 확인해요.</li>
+    <li>출발 전 · 비·안개·결빙 우려가 크면 렌터카 일정을 다시 판단해요.</li>
+    <li>오늘 · 전날 공연 후 체력을 보고 성 패트릭 우물 방문을 선택해요.</li>
+    <li>반납 전 · 연료를 보충하고 20:00까지 Roma Termini에 차량을 반납해요.</li>
+  </ul>
   <ul>
     <li>07:30 숙소에서 택시 출발 → 08:00 Noleggiare Roma Termini에서 차량 수령</li>
     <li data-place-ids="70">차량 확인 후 08:30 출발 → 10:00~10:15 치비타 도착 목표</li>
@@ -209,6 +248,11 @@
   <p class="day-card__meta">9일차 · 로마 4/5박</p>
   <span class="status tentative">잠정</span><span class="status booking">저녁 예약 필요</span><span class="status recheck">공식 행사 발표 대기</span>
   <p class="route">Navona 숙소 → Trevi Fountain → Spanish Steps → Trinità dei Monti → 점심 → Pincio → Piazza del Popolo → 숙소</p>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 새해 전야 저녁을 사전 예약해요.</li>
+    <li>방문 전 · 공식 행사·교통 통제 발표를 확인하고 자정 관람 위치와 어린이 동반 귀가 동선을 정해요.</li>
+    <li>오늘 · 15:30~16:00 전후 숙소로 돌아와 자정 행사 전에 쉬어요.</li>
+  </ul>
   <ul>
     <li data-place-ids="50">10:30 전후 숙소 출발 → 트레비 분수</li>
     <li data-place-ids="50,60">트레비 → 스페인 광장·계단 → Trinità dei Monti를 한 방향으로 연결</li>
@@ -223,6 +267,10 @@
   <h3>1월 1일 금요일 · 로마 신년행사와 트라스테베레 백업</h3>
   <p class="day-card__meta">10일차 · 로마 5/5박</p>
   <span class="status tentative">잠정</span><span class="status recheck">공식 프로그램 발표 대기</span>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · Rome Parade·Roma Capodarte 공식 프로그램을 확인하고 가족형 행사를 골라요.</li>
+    <li>오늘 · 전날 귀가 시간에 맞춰 늦게 시작해요. 행사가 맞지 않으면 트라스테베레 백업 코스를 이용해요.</li>
+  </ul>
   <ul>
     <li>전날 귀가 시간에 맞춰 늦게 시작</li>
     <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사를 우선</li>
@@ -237,6 +285,11 @@
   <h3>1월 2일 토요일 · 콜로세움과 귀국</h3>
   <p class="day-card__meta">11일차 · 기내</p>
   <span class="status tentative">잠정</span><span class="status verified">겨울 운영 확인</span><span class="status waiting">30일 전 판매 대기</span><span class="status booking">시간대 예약 필요</span><span class="status recheck">짐보관·택시요금 재확인</span>
+  <ul class="day-reminders" aria-label="준비·확인할 것">
+    <li>방문 전 · 콜로세움 시간대 입장권과 어린이 무료표·연령 증빙 절차를 확인해요. 판매창은 12월 3일경부터 확인해요.</li>
+    <li>방문 전 · Navona 인근 외부 짐보관소 영업시간과 공항 택시 최신 요금을 확인해요.</li>
+    <li>오늘 · 16:30 전후 짐을 찾고 17:00~17:30경 FCO로 출발해요. 일정이 밀리면 포로·팔라티노 관람을 줄여요.</li>
+  </ul>
   <ul>
     <li data-place-ids="7">아침은 숙소에서 여유 있게 보내고 10:00 iFlat Luxury Navona Apartment 체크아웃</li>
     <li data-place-ids="210">Piazza Navona 인근 외부 짐보관소에 짐을 맡긴 뒤 택시로 콜로세움 이동</li>

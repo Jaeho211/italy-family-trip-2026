@@ -84,7 +84,7 @@ def build_data(root):
         selected = [p['properties']['sort'] for p in places if p['properties']['group'] != 'lodging' and any(marker.search(d) for d in p['properties']['dates'])]
         title = card.find('h3')[0].text().split(' · ', 1)[-1]
         steps = []
-        for ul in [c for c in card.children if isinstance(c, Element) and c.tag == 'ul']:
+        for ul in [c for c in card.children if isinstance(c, Element) and c.tag == 'ul' and 'day-reminders' not in c.attrs.get('class', '').split()]:
             for c in ul.children:
                 if isinstance(c, Element) and c.tag == 'li':
                     place_ids = [int(value) for value in c.attrs.get('data-place-ids', '').split(',') if value]
@@ -111,6 +111,7 @@ def build_data(root):
         days.append(dict(id=key, date=date, title=title, subtitle=subtitle, city=city, region=region, lodging=lodging,
                          meta=card.find('p', 'day-card__meta')[0].text(), places=selected, items=items, steps=steps, placePriorities=place_priorities,
                          statuses=[dict(kind=s.attrs['class'].split()[-1], text=s.text()) for s in card.find('span', 'status')],
+                         reminders=[li.text() for group in card.find('ul', 'day-reminders') for li in group.find('li')],
                          details=''.join(d.html() for d in details), notes=direct_notes,
                          route=' '.join(p.text() for p in card.find('p', 'route'))))
     return dict(days=days, places=places)
