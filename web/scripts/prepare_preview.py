@@ -66,7 +66,7 @@ def fetch_photo(key, filename, dst):
     for photo_url in dict.fromkeys(candidates):
         try:
             photo = get_bytes(photo_url, limit=20_000_000)
-            if not photo.startswith(b"\\xff\\xd8") or len(photo) < 8000:
+            if not photo.startswith(b"\xff\xd8") or len(photo) < 8000:
                 raise RuntimeError("non-JPEG/empty response")
             dst.write_bytes(photo)
             print(f"{key}: {len(photo) // 1024} KiB / {filename}")
