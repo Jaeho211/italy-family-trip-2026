@@ -158,19 +158,32 @@ section[id] { scroll-margin-top: 90px; }
 .steps-list { margin: 0; padding: 0; list-style: none; }
 .steps-list li { padding: 17px 0; border-bottom: 1px solid var(--border); display: flex; gap: 17px; }
 .step-number { font-size: 14px; color: var(--accent); font-weight: 700; flex: 0 0 25px; }
+/* Photos belong to the relevant sightseeing step, never to transport-only rows. */
 .step-content { min-width: 0; flex: 1; }
+.step-main { min-width: 0; }
+.step-main.has-thumbnail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 118px;
+  align-items: start;
+  gap: 16px;
+}
+.step-description { min-width: 0; }
 .step-content p { font-size: 16px; }
+.step-thumbnail { margin: 1px 0 0; width: 118px; }
+.step-thumbnail img {
+  display: block;
+  width: 118px;
+  height: 88px;
+  aspect-ratio: 4 / 3;
+  border-radius: 2px;
+  object-fit: cover;
+  background: #e9eae5;
+}
 .secondary-note { color: #8b593a; font-size: 14px; margin-top: 7px; display: inline-block; }
 .step-links { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .step-links a { font-size: 14px; }
 
-.day-places, .day-reference { margin-top: 70px; }
-.day-places .place-grid { margin-top: 7px; }
-.place-article-info { padding-top: 13px; }
-.place-article-info h3 { display: flex; align-items: center; gap: 10px; }
-.place-article-info p { color: var(--muted); font-size: 15px; margin: 7px 0; }
-.place-article-info a { font-size: 15px; }
-.place-article-info .secondary-note { margin: 0; }
+.day-reference { margin-top: 70px; }
 .source-details { color: var(--text); font-size: 16px; }
 .source-details details { border-bottom: 1px solid var(--border); padding: 6px 0 15px; }
 .source-details summary { cursor: pointer; font-size: 16px; font-weight: 650; padding: 12px 0; }
@@ -239,9 +252,17 @@ section[id] { scroll-margin-top: 90px; }
   .content-section { margin-bottom: 40px; }
   .content-section h2 { font-size: 23px; }
   .checks-list li, .step-content p { font-size: 16px; }
-  .day-places, .day-reference { margin-top: 35px; }
+  .step-main.has-thumbnail { grid-template-columns: minmax(0, 1fr) 96px; gap: 11px; }
+  .step-thumbnail, .step-thumbnail img { width: 96px; }
+  .step-thumbnail img { height: 72px; }
+  .day-reference { margin-top: 35px; }
   .day-footer-links button { margin-left: 0; }
   .footer-row { padding: 23px 0; align-items: flex-start; flex-direction: column; }
+}
+@media (max-width: 360px) {
+  .step-main.has-thumbnail { grid-template-columns: minmax(0, 1fr) 82px; gap: 8px; }
+  .step-thumbnail, .step-thumbnail img { width: 82px; }
+  .step-thumbnail img { height: 62px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
