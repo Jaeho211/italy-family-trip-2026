@@ -6,6 +6,7 @@ The source docs/ tree and build outputs used for content generation are unchange
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import shutil
@@ -42,6 +43,9 @@ def check_before_publish() -> None:
         REACT / "data/trip-data.json",
         REACT / "photos/positano.jpg",
         REACT / "sw.js",
+        REACT / "manifest.webmanifest",
+        MKDOCS / "assets/journey/icon-192.png",
+        MKDOCS / "assets/journey/icon-512.png",
     ):
         if not required.is_file() or required.stat().st_size == 0:
             raise SystemExit(f"Pages promotion blocked: missing build output {required}")
@@ -54,6 +58,44 @@ def check_before_publish() -> None:
     html_text = (REACT / "index.html").read_text(encoding="utf-8")
     if '/italy-family-trip-2026/assets/' not in html_text:
         raise SystemExit("Pages promotion blocked: Vite bundle base does not target the project root")
+
+
+def render_pwa_worker() -> None:
+    """Generate an offline shell cache from the exact Vite build output.
+
+    Hashed JS/CSS must be precached on the first installation, because the app
+    loads them before service worker registration. The old MkDocs worker is
+    retained separately under /legacy/, with a different cache namespace.
+    """
+    files = sorted(
+        p for p in REACT.rglob("*")
+        if p.is_file() and p.name != "sw.js"
+    )
+    required_icons = [
+        STAGE / "assets/journey/icon-192.png",
+        STAGE / "assets/journey/icon-512.png",
+    ]
+    for path in required_icons:
+        if not path.is_file() or path.stat().st_size == 0:
+            raise SystemExit(f"Pages promotion blocked: missing PWA icon {path}")
+
+    paths = ["./"] + [p.relative_to(REACT).as_posix() for p in files]
+    paths += ["assets/journey/icon-192.png", "assets/journey/icon-512.png"]
+    digest = hashlib.sha256()
+    for path in [*files, *required_icons]:
+        relative = path.relative_to(REACT) if path.is_relative_to(REACT) else path.relative_to(STAGE)
+        digest.update(relative.as_posix().encode("utf-8"))
+        digest.update(path.read_bytes())
+    version = digest.hexdigest()[:16]
+
+    source = (REACT / "sw.js").read_text(encoding="utf-8")
+    if source.count("__VERSION__") != 1 or source.count("__PRECACHE__") != 1:
+        raise SystemExit("Pages promotion blocked: malformed service-worker template")
+    worker = source.replace("__VERSION__", version).replace(
+        "__PRECACHE__", json.dumps(paths, ensure_ascii=False, separators=(",", ":"))
+    )
+    (STAGE / "sw.js").write_text(worker, encoding="utf-8")
+    print(f"PWA shell: {len(paths)} URLs cached; build version {version}")
 
 
 def publish() -> None:
@@ -80,6 +122,9 @@ def publish() -> None:
                 raise SystemExit(f"Pages promotion blocked: asset collision {relative}")
         else:
             shutil.copy2(source, target)
+
+    # Compile the offline worker only after all root icons and assets exist.
+    render_pwa_worker()
 
     # Redirect old bookmarks for MkDocs content pages to their archived location.
     redirect_count = 0
@@ -108,6 +153,9 @@ def publish() -> None:
         STAGE / "legacy/reservations/index.html",
         STAGE / "legacy/assets/trip-data.json",
         STAGE / "sw.js",
+        STAGE / "manifest.webmanifest",
+        STAGE / "assets/journey/icon-192.png",
+        STAGE / "assets/journey/icon-512.png",
         STAGE / "preview/index.html",
     ):
         if not required.is_file():
