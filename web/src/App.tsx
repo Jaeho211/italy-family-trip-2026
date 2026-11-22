@@ -14,7 +14,7 @@ type TripData = { days: TripDay[]; places: Place[] };
 
 const base = import.meta.env.BASE_URL;
 const image = (filename: string) => base + 'photos/' + filename + '.jpg';
-const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string}>;
+const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string; heading?: string}>;
 const original = '../';
 const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
@@ -193,7 +193,7 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
               </figure>
               <div className="destination-spread-content">
                 <span className="destination-kicker">{number} / {optional ? '선택 방문' : '방문 장소'}</span>
-                <h3>{place?.name ?? '관광지'}</h3>
+                <h3>{preview.heading ?? place?.name ?? '관광지'}</h3>
                 <p>{step.text}</p>
                 {placeLinks(step)}
               </div>
