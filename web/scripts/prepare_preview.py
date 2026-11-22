@@ -76,6 +76,27 @@ def fetch_photo(key, filename, dst):
     raise RuntimeError(f"All Wikimedia image URLs failed for {title}: {errors}")
 
 
+def validate_place_photos(data):
+    """Keep the curated step thumbnails aligned with real travel places and build assets."""
+    index = json.loads((WEB / "src/place-photos.json").read_text(encoding="utf-8"))
+    places = {str(p["properties"]["sort"]): p["properties"] for p in data["places"]}
+    for place_id, entry in index.items():
+        place = places.get(place_id)
+        if place is None:
+            raise SystemExit(f"Photo registry references unknown place ID: {place_id}")
+        if place.get("group") == "lodging":
+            raise SystemExit(f"Photo registry must not attach a tourist photo to lodging: {place_id}")
+        if entry.get("file") not in PHOTOS:
+            raise SystemExit(f"Photo registry references missing local photo: {entry}")
+        if not isinstance(entry.get("alt"), str) or not entry["alt"].strip():
+            raise SystemExit(f"Photo registry missing alt text for place: {place_id}")
+        visits = [step for day in data["days"] for step in day["steps"]
+                  if step["places"] == [int(place_id)]]
+        if not visits:
+            raise SystemExit(f"Photo registry place ID has no standalone visit step: {place_id}")
+    print(f"Validated {len(index)} itinerary photo mappings")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--photos", action="store_true", help="Download CC0 images to web/public/photos")
@@ -90,6 +111,7 @@ def main():
     if len(data.get("days", [])) != 11:
         raise SystemExit("Unexpected day count in source data")
     print(f"Trip data: {len(data['days'])} days; {len(data.get('places', []))} locations")
+    validate_place_photos(data)
     if args.photos:
         out = WEB / "public/photos"
         out.mkdir(parents=True, exist_ok=True)
