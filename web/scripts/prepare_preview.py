@@ -7,6 +7,8 @@ The runtime never hotlinks external photographs.
 import argparse
 import hashlib
 import json
+import markdown
+import re
 import shutil
 import time
 import urllib.parse
@@ -130,6 +132,51 @@ def validate_day_photos(data):
     print(f"Validated {len(index)} date-specific overview photo mappings")
 
 
+def render_reservation_markdown(value):
+    """Render authoritative, repository-maintained Markdown (not user input)."""
+    return markdown.markdown(value.strip(), extensions=["attr_list"]).strip()
+
+
+def build_reservations():
+    """Project the four reservation sections into React without duplicating copy."""
+    source = (ROOT / "docs/reservations.md").read_text(encoding="utf-8")
+    parts = re.split(r"(?m)^##[ \t]+(.+?)\s*$", source)
+    if len(parts) < 3 or (len(parts) - 1) % 2:
+        raise SystemExit("Cannot parse reservation sections from docs/reservations.md")
+    intro = re.sub(r"^# .+\n", "", parts[0], count=1).strip()
+    sections = []
+    for index in range(1, len(parts), 2):
+        title = parts[index].strip()
+        raw_section = parts[index + 1]
+        items = []
+        notes = []
+        current = []
+        for line in raw_section.splitlines():
+            if line.startswith("- "):
+                if current:
+                    items.append(render_reservation_markdown(" ".join(current)))
+                current = [line[2:].strip()]
+            elif not line.strip():
+                if current:
+                    items.append(render_reservation_markdown(" ".join(current)))
+                    current = []
+            elif current:
+                current.append(line.strip())
+            else:
+                notes.append(line.strip())
+        if current:
+            items.append(render_reservation_markdown(" ".join(current)))
+        if not items:
+            raise SystemExit(f"Reservation section has no items: {title}")
+        sections.append({
+            "id": f"reservation-section-{len(sections) + 1}",
+            "title": title,
+            "items": items,
+            "notes": [render_reservation_markdown(note) for note in notes if note],
+        })
+    return {"intro": render_reservation_markdown(intro), "sections": sections}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--photos", action="store_true", help="Download licensed images to web/public/photos")
@@ -146,6 +193,14 @@ def main():
     print(f"Trip data: {len(data['days'])} days; {len(data.get('places', []))} locations")
     validate_place_photos(data)
     validate_day_photos(data)
+    reservations = build_reservations()
+    reservations_target = WEB / "public/data/reservations.json"
+    reservations_target.write_text(
+        json.dumps(reservations, ensure_ascii=False, indent=2) + "
+",
+        encoding="utf-8",
+    )
+    print(f"Reservation data: {sum(len(s['items']) for s in reservations['sections'])} items")
     if args.photos:
         out = WEB / "public/photos"
         out.mkdir(parents=True, exist_ok=True)
