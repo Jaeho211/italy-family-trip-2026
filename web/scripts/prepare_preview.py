@@ -5,6 +5,7 @@ Photos are copied locally from verified CC0 Wikimedia Commons file pages.
 The runtime never hotlinks external photographs.
 """
 import argparse
+import hashlib
 import json
 import shutil
 import time
@@ -41,22 +42,38 @@ def fetch_photo(key, filename, dst):
     query = urllib.parse.urlencode({
         "action": "query", "format": "json", "formatversion": "2",
         "prop": "imageinfo", "iiprop": "url|mime",
-        "iiurlwidth": "1680", "titles": title,
+        "iiurlwidth": "1440", "titles": title,
     })
     endpoint = "https://commons.wikimedia.org/w/api.php?" + query
-    payload = json.loads(get_bytes(endpoint))
-    pages = payload.get("query", {}).get("pages", [])
-    if not pages or not pages[0].get("imageinfo"):
-        raise RuntimeError(f"No Wikimedia Commons imageinfo: {title}")
-    info = pages[0]["imageinfo"][0]
-    if info.get("mime") != "image/jpeg":
-        raise RuntimeError(f"Expected JPEG for {title}, got {info.get('mime')}")
-    photo_url = info.get("thumburl") or info["url"]
-    photo = get_bytes(photo_url)
-    if not photo.startswith(b"\xff\xd8") or len(photo) < 8000:
-        raise RuntimeError(f"Downloaded image failed JPEG validation: {title}")
-    dst.write_bytes(photo)
-    print(f"{key}: {len(photo) // 1024} KiB / {filename}")
+    normalized = filename.replace(" ", "_")
+    digest = hashlib.md5(normalized.encode("utf-8")).hexdigest()
+    quoted = urllib.parse.quote(normalized)
+    original = f"https://upload.wikimedia.org/wikipedia/commons/{digest[0]}/{digest[:2]}/{quoted}"
+    thumb_base = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{digest[0]}/{digest[:2]}/{quoted}"
+    candidates = []
+    try:
+        payload = json.loads(get_bytes(endpoint))
+        pages = payload.get("query", {}).get("pages", [])
+        if pages and pages[0].get("imageinfo"):
+            info = pages[0]["imageinfo"][0]
+            if info.get("mime") == "image/jpeg":
+                candidates.append(info.get("thumburl") or info["url"])
+    except Exception as exc:
+        print(f"{key}: Wikimedia API unavailable ({exc}), trying direct Commons paths")
+    candidates += [f"{thumb_base}/{width}px-{quoted}" for width in (1440, 1024, 720)]
+    candidates.append(original)
+    errors = []
+    for photo_url in dict.fromkeys(candidates):
+        try:
+            photo = get_bytes(photo_url, limit=20_000_000)
+            if not photo.startswith(b"\\xff\\xd8") or len(photo) < 8000:
+                raise RuntimeError("non-JPEG/empty response")
+            dst.write_bytes(photo)
+            print(f"{key}: {len(photo) // 1024} KiB / {filename}")
+            return
+        except Exception as exc:
+            errors.append(str(exc)[:100])
+    raise RuntimeError(f"All Wikimedia image URLs failed for {title}: {errors}")
 
 
 def main():
