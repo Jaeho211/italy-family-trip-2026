@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Prepare a standalone React preview from the MkDocs authoritative build.
 
-Photos are copied locally from verified CC0 Wikimedia Commons file pages.
+Photos are copied locally from verified CC0 or CC BY 4.0 Wikimedia Commons file pages.
 The runtime never hotlinks external photographs.
 """
 import argparse
@@ -17,6 +17,13 @@ ROOT = Path(__file__).resolve().parents[2]
 WEB = ROOT / "web"
 PHOTOS = {
     "rome": "Colosseum, Rome.jpg",
+    "pantheon": "Façade of the Pantheon, Rome, Italy.jpg",
+    "vatican": "Saint Peter Basilica Rome.jpg",
+    "civita": "Civita di Bagnoregio aerial panorama. June 2024.jpg",
+    "trevi": "Trevi Fountain (Unsplash).jpg",
+    "plebiscito": "San Francesco di Paola, Naples, 18 Feb 2018.jpg",
+    "toledo": "Toledo (Metropolitana di Napoli L1).jpg",
+    "trastevere": "Piazza di Santa Maria - Trastevere - Rome, Italy - DSC00438.jpg",
     "positano": "Positano, Italy (Unsplash).jpg",
     "amalfi": "Amalfi Coast, Amalfi, Italy (Unsplash a2-FEzCN84Q).jpg",
     "coast": "Amalfi Coast (247891351).jpeg",
@@ -97,6 +104,25 @@ def validate_place_photos(data):
     print(f"Validated {len(index)} itinerary photo mappings")
 
 
+def validate_day_photos(data):
+    """Verify date-specific overview photos match the actual day and local assets."""
+    index = json.loads((WEB / "src/day-photos.json").read_text(encoding="utf-8"))
+    days = {day["date"]: day for day in data["days"]}
+    for date, entry in index.items():
+        day = days.get(date)
+        if day is None:
+            raise SystemExit(f"Overview photo references unknown itinerary date: {date}")
+        if entry.get("file") not in PHOTOS:
+            raise SystemExit(f"Overview photo references missing local photo: {date}")
+        if not all(isinstance(entry.get(field), str) and entry[field].strip()
+                   for field in ("alt", "caption")):
+            raise SystemExit(f"Overview photo lacks alt/caption: {date}")
+        place_id = entry.get("placeId")
+        if place_id is not None and not any(place_id in step["places"] for step in day["steps"]):
+            raise SystemExit(f"Overview photo place {place_id} is not visited on {date}")
+    print(f"Validated {len(index)} date-specific overview photo mappings")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--photos", action="store_true", help="Download CC0 images to web/public/photos")
@@ -112,6 +138,7 @@ def main():
         raise SystemExit("Unexpected day count in source data")
     print(f"Trip data: {len(data['days'])} days; {len(data.get('places', []))} locations")
     validate_place_photos(data)
+    validate_day_photos(data)
     if args.photos:
         out = WEB / "public/photos"
         out.mkdir(parents=True, exist_ok=True)
