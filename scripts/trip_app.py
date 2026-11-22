@@ -57,8 +57,8 @@ CONTEXT = {
     '1223': ('rome', 5, '로마 도착', '오늘은 이동과 회복에 집중해요.'),
     '1224': ('naples', 6, '나폴리', '열차를 타고 나폴리로. 오후에는 박물관을 둘러봐요.'),
     '1225': ('amalfi', 6, '아말피 해안', '해안 풍경을 만나는 날. 날씨에 따라 쉬어가도 좋아요.'),
-    '1226': ('pompeii', 6, '폼페이', '옛 도시를 걸어보고, 오후에는 숙소에서 쉬어요.'),
-    '1227': ('naples', 6, '나폴리', '지하도시에서 구시가지까지, 걸어서 만나는 나폴리.'),
+    '1226': ('naples', 6, '나폴리', '크리스마스 거리와 피자, 구시가지를 가족 속도로 산책해요.'),
+    '1227': ('pompeii', 6, '폼페이', '옛 도시를 걸어보고, 오후에는 숙소에서 쉬어요.'),
     '1228': ('rome', 7, '로마', '로마로 돌아와 판테온과 광장을 천천히 둘러봐요.'),
     '1229': ('rome', 7, '로마', '바티칸을 둘러보고 쉬었다가, 저녁에는 각자의 시간을 보내요.'),
     '1230': ('civita', 7, '치비타 · 오르비에토', '차를 타고 두 소도시를 만나는 날.'),
@@ -102,7 +102,7 @@ def build_data(root):
             if pid in selected:
                 annotations = ' '.join(place['properties']['dates'])
                 place_priorities[str(pid)] = 'optional' if ('선택' in annotations or '조건부' in annotations) else 'main'
-        if key == '1227':
+        if key == '1226':
             place_priorities.update({'132': 'choice', '134': 'choice', '140': 'main'})
         if key == '1231':
             place_priorities['60'] = 'main'
