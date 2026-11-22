@@ -31,6 +31,13 @@ PHOTOS = {
     "amalfi": "Amalfi Coast, Amalfi, Italy (Unsplash a2-FEzCN84Q).jpg",
     "pompeii": "Composition ruins Pompeii.jpg",
     "ravello": "Villa Rufolo - 01.jpg",
+    "termini": "Roma Termini - Platform 01.jpg",
+    "gregorio": "Via San Gregorio Armeno.jpg",
+    "navona": "Piazza Navona Roma (15528474152).jpg",
+    "vatican-museums": "Museo Chiaramonti - Vatican Museums - DSC00667.jpg",
+    "orvieto-duomo": "Facade of Duomo di Orvieto7474.jpg",
+    "spanish-steps": "Spanish Steps 2014.jpg",
+    "forum": "Forum Romanum (9809573253).jpg",
 }
 
 USER_AGENT = "ItalyFamilyFieldNotes/0.2 (https://github.com/Jaeho211/italy-family-trip-2026)"
@@ -129,6 +136,12 @@ def validate_day_photos(data):
         place_id = entry.get("placeId")
         if place_id is not None and not any(place_id in step["places"] for step in day["steps"]):
             raise SystemExit(f"Overview photo place {place_id} is not visited on {date}")
+        if place_id is not None:
+            place_photo_index = json.loads((WEB / "src/place-photos.json").read_text(encoding="utf-8"))
+            if str(place_id) in place_photo_index:
+                raise SystemExit(
+                    f"Overview photo duplicates a full-size stop photograph on {date}: {place_id}"
+                )
     print(f"Validated {len(index)} date-specific overview photo mappings")
 
 
