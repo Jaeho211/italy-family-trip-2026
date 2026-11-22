@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4f1eb" />
-    <meta name="description" content="이탈리아 가족여행 2026–2027 — 여행을 미리 읽고, 현장에서는 간편하게 확인하는 디지털 여행 매거진." />
-    <title>ITALIA — Family Field Notes</title>
+    <meta name="theme-color" content="#faf9f6" />
+    <meta name="description" content="2026년 12월 23일~2027년 1월 2일 이탈리아 가족여행의 날짜별 일정, 관광지, 이동 경로, 확인사항 안내." />
+    <title>이탈리아 가족여행 · 여행 일정</title>
   </head>
   <body>
+    <!-- Previous MkDocs links used ?view= and ?date=. Preserve those bookmarks. -->
+    <script>
+      const legacyQuery = new URLSearchParams(location.search);
+      if ((legacyQuery.has('view') || legacyQuery.has('date') || legacyQuery.has('place'))
+          && !location.hash.startsWith('#/day/')) {
+        location.replace('./legacy/' + location.search + location.hash);
+      }
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
