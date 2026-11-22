@@ -11,6 +11,7 @@ import shutil
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -26,13 +27,11 @@ PHOTOS = {
     "trastevere": "Piazza di Santa Maria - Trastevere - Rome, Italy - DSC00438.jpg",
     "positano": "Positano, Italy (Unsplash).jpg",
     "amalfi": "Amalfi Coast, Amalfi, Italy (Unsplash a2-FEzCN84Q).jpg",
-    "coast": "Amalfi Coast (247891351).jpeg",
     "pompeii": "Composition ruins Pompeii.jpg",
-    "naples": "Naples Vesuvius.JPG",
     "ravello": "Villa Rufolo - 01.jpg",
 }
 
-USER_AGENT = "ItalyFamilyFieldNotes/0.1 (Wikimedia Commons CC0 attribution; github.com/Jaeho211/italy-family-trip-2026)"
+USER_AGENT = "ItalyFamilyFieldNotes/0.2 (https://github.com/Jaeho211/italy-family-trip-2026)"
 
 
 def get_bytes(url, limit=10_000_000):
@@ -65,9 +64,13 @@ def fetch_photo(key, filename, dst):
             info = pages[0]["imageinfo"][0]
             if info.get("mime") == "image/jpeg":
                 candidates.append(info.get("thumburl") or info["url"])
+    except urllib.error.HTTPError as exc:
+        if exc.code == 429:
+            raise  # Respect rate limiting; do not try more paths immediately.
+        print(f"{key}: Wikimedia API error ({exc}), trying direct Commons paths")
     except Exception as exc:
         print(f"{key}: Wikimedia API unavailable ({exc}), trying direct Commons paths")
-    candidates += [f"{thumb_base}/{width}px-{quoted}" for width in (1440, 1024, 720)]
+    candidates += [f"{thumb_base}/{width}px-{quoted}" for width in (1280, 960, 500)]
     candidates.append(original)
     errors = []
     for photo_url in dict.fromkeys(candidates):
@@ -78,6 +81,10 @@ def fetch_photo(key, filename, dst):
             dst.write_bytes(photo)
             print(f"{key}: {len(photo) // 1024} KiB / {filename}")
             return
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                raise  # Retry later without probing more Wikimedia endpoints.
+            errors.append(str(exc)[:100])
         except Exception as exc:
             errors.append(str(exc)[:100])
     raise RuntimeError(f"All Wikimedia image URLs failed for {title}: {errors}")
@@ -125,7 +132,7 @@ def validate_day_photos(data):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--photos", action="store_true", help="Download CC0 images to web/public/photos")
+    parser.add_argument("--photos", action="store_true", help="Download licensed images to web/public/photos")
     args = parser.parse_args()
     source = ROOT / "site/assets/trip-data.json"
     if not source.is_file():
@@ -153,11 +160,23 @@ def main():
                     fetch_photo(key, filename, dst)
                     error = None
                     break
+                except urllib.error.HTTPError as exc:
+                    error = exc
+                    if exc.code == 429:
+                        retry_after = exc.headers.get("Retry-After", "60")
+                        delay = int(retry_after) if retry_after.isdigit() else 60
+                        print(f"{key}: Wikimedia rate limit; retrying after {delay}s", flush=True)
+                        if attempt < 2:
+                            time.sleep(max(60, min(delay, 180)))
+                    elif attempt < 2:
+                        time.sleep(attempt + 1)
                 except Exception as exc:
                     error = exc
-                    time.sleep(attempt + 1)
+                    if attempt < 2:
+                        time.sleep(attempt + 1)
             if error is not None:
                 raise SystemExit(f"Photo preparation failed for {key}: {error}")
+            time.sleep(3)  # Avoid rapid-fire independent download requests on fresh builds.
 
 
 if __name__ == "__main__":
