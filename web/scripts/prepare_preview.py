@@ -196,8 +196,7 @@ def main():
     reservations = build_reservations()
     reservations_target = WEB / "public/data/reservations.json"
     reservations_target.write_text(
-        json.dumps(reservations, ensure_ascii=False, indent=2) + "
-",
+        json.dumps(reservations, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     print(f"Reservation data: {sum(len(s['items']) for s in reservations['sections'])} items")
