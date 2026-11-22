@@ -804,3 +804,15 @@
 - 한국어 가족 단독 가이드 가능 여부는 미확정이며, 모든 유료 예약은 실제 가능 여부를 확인한 뒤 진행한다.
 
 상세 근거: `research/naples-family-walk-2026-11-22.md`
+
+### 2026-11-22 · 12월 26일 톨레도역 기본·산텔모 성 조건부 방문
+
+<span class="status confirmed">가족 코스 선택</span><span class="status recheck">12/26 특별 운영·교통 재확인</span>
+
+- 나폴리 12월 26일 자유 관광에서 **톨레도 지하철역 내부(Linea 1)를 기본 코스**로 명시한다. 기존 비아 톨레도 거리 산책만으로는 역 내부 관람이 빠질 수 있어 별도 장소·시간을 배정한다.
+- **산텔모 성(Castel Sant'Elmo)을 1순위 선택 코스**로 둔다. 공식 특별 개방·날씨·가족 체력이 모두 맞으면 14:00 전후 Toledo → Vanvitelli(L1)로 이동해 14:30~15:30 전망을 보고, Piazza Fuga → Augusteo(Funicolare Centrale)로 돌아온다.
+- 산텔모 성을 생략하면 **Toledo → Galleria Umberto I → Piazza del Plebiscito → 숙소** 평지 자유 산책으로 전환한다. 산 마르티노 박물관과 영어 가이드는 추가하지 않는다.
+- 2026년 12월 26일은 Santo Stefano 공휴일로 지하철·푸니쿨라 특별 운행 및 산텔모 성 특별 개방은 2026-11-22 현재 미확정이다. 일반 운영시간을 공휴일 확정 시간으로 표시하지 않는다.
+- 기존 12월 27일 폼페이, 기예약 숙소·열차·렌터카는 변경하지 않는다.
+
+근거: `research/toledo-santelmo-2026-11-22.md`
