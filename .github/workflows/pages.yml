@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -41,7 +41,12 @@ jobs:
       - name: Build React preview without replacing the main site
         run: npm --prefix web run build
       - name: Publish separate preview path
-        run: mkdir -p site/preview && cp -a web/dist/. site/preview/
+        run: |
+          test -s web/dist/index.html
+          test -s web/public/data/trip-data.json
+          mkdir -p site/preview
+          cp -a web/dist/. site/preview/
+          test -s site/preview/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
