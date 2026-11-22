@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import placePhotos from './place-photos.json';
+import dayPhotos from './day-photos.json';
 import PwaControls from './PwaControls';
 import './styles.css';
 
@@ -16,6 +17,7 @@ type TripData = { days: TripDay[]; places: Place[] };
 const base = import.meta.env.BASE_URL;
 const image = (filename: string) => base + 'photos/' + filename + '.jpg';
 const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string; heading?: string}>;
+const photosByDate = dayPhotos as Record<string, {file: string; alt: string; caption: string}>;
 // Archived MkDocs pages remain accessible from the new home page.
 const original = base + 'legacy/';
 const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
@@ -125,10 +127,6 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
   </main>;
 }
 
-const regionPhoto: Record<string, string> = {
-  rome:'rome', naples:'naples', pompeii:'pompeii', amalfi:'positano',
-};
-
 function DayNav({ days, current, goDay }: {
   days: TripDay[]; current: TripDay; goDay: (date: string) => void
 }) {
@@ -213,9 +211,12 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
   </section>;
 }
 function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (date: string) => void}) {
-  const containsVisitPhoto = day.steps.some(step =>
+  const hasFeaturedStopPhoto = day.steps.some(step =>
     step.places.length === 1 && Boolean(photosByPlaceId[String(step.places[0])]));
-  const imageName = containsVisitPhoto ? undefined : regionPhoto[day.region];
+  // Never substitute a city-wide landmark for a different day's itinerary.
+  // When a sightseeing stop has its own full-width photo below, omit the
+  // smaller overview image so that the same landmark is not repeated.
+  const overviewPhoto = hasFeaturedStopPhoto ? undefined : photosByDate[day.date];
   const index = data.days.indexOf(day);
   const next = data.days[index + 1];
   return <main className="wrap day-page">
@@ -230,7 +231,7 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
         {day.statuses.map((status, i) => <span className={'status-label ' + status.kind} key={i}>{status.text}</span>)}
       </div>
     </div>
-    <div className={'day-overview' + (imageName ? '' : ' no-photo')}>
+    <div className={'day-overview' + (overviewPhoto ? '' : ' no-photo')}>
       <div className="day-overview-copy">
         <h2>오늘의 일정</h2>
         <p>{day.subtitle}</p>
@@ -241,9 +242,9 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
           <a href={mapUrl(day.date)}>지도 ↗</a>
         </nav>
       </div>
-      {imageName && <figure className="day-photo">
-        <Photo filename={imageName} alt={day.city + ' 지역 풍경'} priority />
-        <figcaption>{day.city} · 참고 사진</figcaption>
+      {overviewPhoto && <figure className="day-photo">
+        <Photo filename={overviewPhoto.file} alt={overviewPhoto.alt} priority />
+        <figcaption>{overviewPhoto.caption}</figcaption>
       </figure>}
     </div>
     <div className="day-information">
