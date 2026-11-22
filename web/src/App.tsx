@@ -15,7 +15,8 @@ type TripData = { days: TripDay[]; places: Place[] };
 const base = import.meta.env.BASE_URL;
 const image = (filename: string) => base + 'photos/' + filename + '.jpg';
 const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string; heading?: string}>;
-const original = '../';
+// Archived MkDocs pages remain accessible from the new home page.
+const original = base + 'legacy/';
 const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
 function dateLabel(value: string) {
