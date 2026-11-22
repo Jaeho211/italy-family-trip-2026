@@ -7,13 +7,24 @@
         "name": "The RomeHello(더 로마헬로)",
         "group": "lodging",
         "region": "rome",
-        "groups": ["lodging", "rome"],
-        "dates": ["12/23–24 확정 숙소"],
+        "groups": [
+          "lodging",
+          "rome"
+        ],
+        "dates": [
+          "12/23–24 확정 숙소"
+        ],
         "note": "도착일 테르미니 1박 · 동선 계획용 공식 공개 위치",
         "googleQuery": "The RomeHello Rome",
         "sort": 5
       },
-      "geometry": { "type": "Point", "coordinates": [12.4942247, 41.9034059] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4942247,
+          41.9034059
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -21,13 +32,24 @@
         "name": "Una terrazza a Chiaia",
         "group": "lodging",
         "region": "naples",
-        "groups": ["lodging", "naples"],
-        "dates": ["12/24–28 확정 숙소"],
+        "groups": [
+          "lodging",
+          "naples"
+        ],
+        "dates": [
+          "12/24–28 확정 숙소"
+        ],
         "note": "키아이아 4박 · 주소 기반 표시용 좌표이며 건물 입구는 도착 전에 재확인",
         "googleQuery": "Via Santa Teresa a Chiaia 39 Napoli",
         "sort": 6
       },
-      "geometry": { "type": "Point", "coordinates": [14.234971, 40.8360233] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.234971,
+          40.8360233
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -35,13 +57,24 @@
         "name": "iFlat Luxury Navona Apartment",
         "group": "lodging",
         "region": "rome",
-        "groups": ["lodging", "rome"],
-        "dates": ["12/28–1/2 확정 숙소"],
+        "groups": [
+          "lodging",
+          "rome"
+        ],
+        "dates": [
+          "12/28–1/2 확정 숙소"
+        ],
         "note": "나보나 광장 인근 5박 · 주소 기반 표시용 좌표이며 건물 입구는 도착 전에 재확인",
         "googleQuery": "Via di Tor Millina 25 Roma",
         "sort": 7
       },
-      "geometry": { "type": "Point", "coordinates": [12.4713288, 41.8992209] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4713288,
+          41.8992209
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -49,13 +82,23 @@
         "name": "바티칸 박물관",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/29 08:00 목표"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/29 08:00 목표"
+        ],
         "note": "바티칸 박물관과 시스티나 성당 관람",
         "googleQuery": "Vatican Museums",
         "sort": 10
       },
-      "geometry": { "type": "Point", "coordinates": [12.45364, 41.90649] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45364,
+          41.90649
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -63,13 +106,23 @@
         "name": "성베드로 대성당·광장",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/29 정오 이후"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/29 정오 이후"
+        ],
         "note": "연말 전례 기간의 보안 통제시간 재확인",
         "googleQuery": "St Peter's Basilica Vatican City",
         "sort": 20
       },
-      "geometry": { "type": "Point", "coordinates": [12.45394, 41.90217] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45394,
+          41.90217
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -77,13 +130,23 @@
         "name": "Teatro Costanzi · 로마 오페라극장",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/29 20:00 · 아내와 딸"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/29 20:00 · 아내와 딸"
+        ],
         "note": "《백조의 호수》 2석 예매 완료(2026-10-10 확인) · 19:15 도착 목표",
         "googleQuery": "Teatro dell'Opera di Roma Teatro Costanzi",
         "sort": 25
       },
-      "geometry": { "type": "Point", "coordinates": [12.49526, 41.90055] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49526,
+          41.90055
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -91,13 +154,23 @@
         "name": "판테온",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/28 16:00 전후 목표"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/28 16:00 전후 목표"
+        ],
         "note": "나폴리에서 로마로 이동한 오후 내부 관람",
         "googleQuery": "Pantheon Rome",
         "sort": 30
       },
-      "geometry": { "type": "Point", "coordinates": [12.47687, 41.89861] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.47687,
+          41.89861
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -105,13 +178,23 @@
         "name": "나보나 광장",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/28 판테온 이후"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/28 판테온 이후"
+        ],
         "note": "판테온과 묶는 구시가지 산책",
         "googleQuery": "Piazza Navona Rome",
         "sort": 40
       },
-      "geometry": { "type": "Point", "coordinates": [12.47307, 41.89916] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.47307,
+          41.89916
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -119,13 +202,23 @@
         "name": "트레비 분수",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/31"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/31"
+        ],
         "note": "새해 전야 늦은 오전 야외 동선",
         "googleQuery": "Trevi Fountain Rome",
         "sort": 50
       },
-      "geometry": { "type": "Point", "coordinates": [12.48331, 41.90093] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48331,
+          41.90093
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -133,13 +226,23 @@
         "name": "스페인 계단",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["12/31"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/31"
+        ],
         "note": "가족 체력에 따라 구시가지 동선에서 생략 가능",
         "googleQuery": "Spanish Steps Rome",
         "sort": 60
       },
-      "geometry": { "type": "Point", "coordinates": [12.48278, 41.90599] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48278,
+          41.90599
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -147,13 +250,23 @@
         "name": "치비타 디 바뇨레조",
         "group": "day-trip",
         "region": "civita",
-        "groups": ["day-trip"],
-        "dates": ["12/30 10:15–11:30 목표"],
+        "groups": [
+          "day-trip"
+        ],
+        "dates": [
+          "12/30 10:15–11:30 목표"
+        ],
         "note": "가족 핵심 희망 일정",
         "googleQuery": "Civita di Bagnoregio Italy",
         "sort": 70
       },
-      "geometry": { "type": "Point", "coordinates": [12.11310, 42.62739] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1131,
+          42.62739
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -161,13 +274,23 @@
         "name": "오르비에토 두오모",
         "group": "day-trip",
         "region": "civita",
-        "groups": ["day-trip"],
-        "dates": ["12/30 12:30 전후"],
+        "groups": [
+          "day-trip"
+        ],
+        "dates": [
+          "12/30 12:30 전후"
+        ],
         "note": "오르비에토 도착 후 우선 관람",
         "googleQuery": "Duomo di Orvieto",
         "sort": 80
       },
-      "geometry": { "type": "Point", "coordinates": [12.11369, 42.71745] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.11369,
+          42.71745
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -175,13 +298,23 @@
         "name": "성 패트릭 우물",
         "group": "day-trip",
         "region": "civita",
-        "groups": ["day-trip"],
-        "dates": ["12/30 15:20 선택"],
+        "groups": [
+          "day-trip"
+        ],
+        "dates": [
+          "12/30 15:20 선택"
+        ],
         "note": "가족 체력과 대기시간에 따라 선택",
         "googleQuery": "Pozzo di San Patrizio Orvieto",
         "sort": 90
       },
-      "geometry": { "type": "Point", "coordinates": [12.12113, 42.72175] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.12113,
+          42.72175
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -189,13 +322,23 @@
         "name": "나폴리 국립고고학박물관",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/24 17:00 전후 입장 목표"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/24 17:00 전후 입장 목표"
+        ],
         "note": "Frecciarossa 9527로 15:13 Napoli Centrale 도착, 숙소 체크인 후 핵심 관람",
         "googleQuery": "Museo Archeologico Nazionale di Napoli",
         "sort": 100
       },
-      "geometry": { "type": "Point", "coordinates": [14.25053, 40.85359] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25053,
+          40.85359
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -203,13 +346,23 @@
         "name": "폼페이 고고학공원",
         "group": "naples",
         "region": "pompeii",
-        "groups": ["naples"],
-        "dates": ["12/26 09:00 입장 목표"],
-        "note": "Porta Nolana에서 기차 당일치기, Porta Marina 입장",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/27 09:00 입장 목표"
+        ],
+        "note": "12/27 일요일 기차 당일치기 · EAV 실제 시간 재확인 · Porta Marina 입장",
         "googleQuery": "Pompeii Archaeological Park Porta Marina",
         "sort": 110
       },
-      "geometry": { "type": "Point", "coordinates": [14.48484, 40.74895] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.48484,
+          40.74895
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -217,13 +370,23 @@
         "name": "Napoli Sotterranea",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 10:00 목표"],
-        "note": "공식 입구 Piazza San Gaetano 68",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "가족 일정에서 제외 (2026-11-22)"
+        ],
+        "note": "영어 정규 가이드 투어 제외 · 예약 대상 아님",
         "googleQuery": "Napoli Sotterranea Piazza San Gaetano 68",
         "sort": 120
       },
-      "geometry": { "type": "Point", "coordinates": [14.25731, 40.85116] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25731,
+          40.85116
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -231,13 +394,47 @@
         "name": "나폴리 대성당",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 11:40 선택"],
-        "note": "일요일 전례를 우선하고 내부 입장이 어렵다면 외관만 확인",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 11:40 선택"
+        ],
+        "note": "12/26 공휴일 전례·내부 운영 미확인 · 외관 선택",
         "googleQuery": "Duomo di Napoli",
         "sort": 122
       },
-      "geometry": { "type": "Point", "coordinates": [14.2598704, 40.8526527] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2598704,
+          40.8526527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "산 그레고리오 아르메노 크리스마스 거리",
+        "group": "naples",
+        "region": "naples",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 11:00 전후 자유 산책"
+        ],
+        "note": "프레세페 미니어처 공방 거리 · 12/26 공휴일 개별 상점 영업 미확인",
+        "googleQuery": "Via San Gregorio Armeno Napoli",
+        "sort": 124
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.257811,
+          40.850104
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -245,13 +442,23 @@
         "name": "스파카나폴리·구시가지",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 점심 이후"],
-        "note": "지하도시 관람 후 가족 속도에 맞춰 산책",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 점심 이후"
+        ],
+        "note": "크리스마스 거리·점심과 연결해 가족 속도로 자유 산책",
         "googleQuery": "Spaccanapoli Naples",
         "sort": 130
       },
-      "geometry": { "type": "Point", "coordinates": [14.25455, 40.84883] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25455,
+          40.84883
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -259,13 +466,23 @@
         "name": "산타 키아라 성당",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 오후 선택"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 오후 선택"
+        ],
         "note": "제수 누오보와 함께 외관을 보고 내부 관람은 한 곳만 선택",
         "googleQuery": "Complesso Monumentale di Santa Chiara Napoli",
         "sort": 132
       },
-      "geometry": { "type": "Point", "coordinates": [14.2529101, 40.8468226] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2529101,
+          40.8468226
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -273,13 +490,23 @@
         "name": "제수 누오보 교회",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 오후 선택"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 오후 선택"
+        ],
         "note": "산타 키아라와 함께 외관을 보고 내부 관람은 한 곳만 선택",
         "googleQuery": "Chiesa del Gesu Nuovo Napoli",
         "sort": 134
       },
-      "geometry": { "type": "Point", "coordinates": [14.2518743, 40.8475578] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2518743,
+          40.8475578
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -287,13 +514,23 @@
         "name": "비아 톨레도",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 선택"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 선택"
+        ],
         "note": "오후 동선은 가족 체력에 따라 축소",
         "googleQuery": "Via Toledo Naples",
         "sort": 140
       },
-      "geometry": { "type": "Point", "coordinates": [14.24867, 40.84294] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.24867,
+          40.84294
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -301,13 +538,23 @@
         "name": "카스텔 누오보",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 15:30 전후"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 15:30 전후"
+        ],
         "note": "Via Toledo에서 플레비시토 광장으로 이동하며 외관 확인",
         "googleQuery": "Castel Nuovo Napoli",
         "sort": 145
       },
-      "geometry": { "type": "Point", "coordinates": [14.2537307, 40.8383171] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2537307,
+          40.8383171
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -315,13 +562,23 @@
         "name": "움베르토 1세 갤러리",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 15:45 전후"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 15:45 전후"
+        ],
         "note": "카스텔 누오보와 플레비시토 광장 사이의 실내 통과 동선",
         "googleQuery": "Galleria Umberto I Naples",
         "sort": 150
       },
-      "geometry": { "type": "Point", "coordinates": [14.24939, 40.83866] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.24939,
+          40.83866
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -329,13 +586,23 @@
         "name": "산카를로 극장",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 오후 외관"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 오후 외관"
+        ],
         "note": "움베르토 1세 갤러리에서 플레비시토 광장으로 이동하며 외관 확인",
         "googleQuery": "Teatro di San Carlo Napoli",
         "sort": 152
       },
-      "geometry": { "type": "Point", "coordinates": [14.2498127, 40.8373743] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2498127,
+          40.8373743
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -343,13 +610,23 @@
         "name": "플레비시토 광장",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 16:00 전후"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 16:00 전후"
+        ],
         "note": "오후 도보 일정의 기본 종료점 · 피로하면 여기서 숙소 복귀",
         "googleQuery": "Piazza del Plebiscito Naples",
         "sort": 160
       },
-      "geometry": { "type": "Point", "coordinates": [14.24899, 40.83578] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.24899,
+          40.83578
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -357,13 +634,23 @@
         "name": "나폴리 왕궁",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 오후 외관"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 오후 외관"
+        ],
         "note": "플레비시토 광장에서 외관 중심으로 확인",
         "googleQuery": "Palazzo Reale di Napoli",
         "sort": 162
       },
-      "geometry": { "type": "Point", "coordinates": [14.2501293, 40.8363844] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2501293,
+          40.8363844
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -371,13 +658,23 @@
         "name": "나폴리 해안·카스텔 델로보",
         "group": "naples",
         "region": "naples",
-        "groups": ["naples"],
-        "dates": ["12/27 늦은 오후 선택"],
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 늦은 오후 선택"
+        ],
         "note": "누적 피로에 따라 생략 가능",
         "googleQuery": "Castel dell'Ovo Naples",
         "sort": 170
       },
-      "geometry": { "type": "Point", "coordinates": [14.24744, 40.82831] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.24744,
+          40.82831
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -385,13 +682,23 @@
         "name": "포지타노",
         "group": "amalfi",
         "region": "amalfi",
-        "groups": ["amalfi"],
-        "dates": ["12/25 핵심"],
+        "groups": [
+          "amalfi"
+        ],
+        "dates": [
+          "12/25 핵심"
+        ],
         "note": "아말피 해안 드라이브의 우선 목적지",
         "googleQuery": "Positano Italy",
         "sort": 180
       },
-      "geometry": { "type": "Point", "coordinates": [14.48490, 40.62805] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4849,
+          40.62805
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -399,13 +706,23 @@
         "name": "아말피 두오모",
         "group": "amalfi",
         "region": "amalfi",
-        "groups": ["amalfi"],
-        "dates": ["12/25 간편식 점심 전후"],
+        "groups": [
+          "amalfi"
+        ],
+        "dates": [
+          "12/25 간편식 점심 전후"
+        ],
         "note": "아말피는 지참한 간편식 점심과 두오모 중심",
         "googleQuery": "Duomo di Amalfi",
         "sort": 190
       },
-      "geometry": { "type": "Point", "coordinates": [14.60264, 40.63400] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.60264,
+          40.634
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -413,13 +730,23 @@
         "name": "라벨로·빌라 루폴로",
         "group": "amalfi",
         "region": "amalfi",
-        "groups": ["amalfi"],
-        "dates": ["12/25 조건부"],
+        "groups": [
+          "amalfi"
+        ],
+        "dates": [
+          "12/25 조건부"
+        ],
         "note": "날씨·주차·남은 시간이 모두 충분할 때만 추가",
         "googleQuery": "Villa Rufolo Ravello",
         "sort": 200
       },
-      "geometry": { "type": "Point", "coordinates": [14.61153, 40.64912] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.61153,
+          40.64912
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -427,13 +754,23 @@
         "name": "콜로세움",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["1/2 09:00 목표"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/2 09:00 목표"
+        ],
         "note": "기본 24시간 통합권, 가족 4인 같은 시간대",
         "googleQuery": "Colosseum Rome",
         "sort": 210
       },
-      "geometry": { "type": "Point", "coordinates": [12.49223, 41.89021] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49223,
+          41.89021
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -441,13 +778,23 @@
         "name": "포로 로마노",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["1/2 10:20 이후"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/2 10:20 이후"
+        ],
         "note": "귀국일 일정에 맞춰 핵심 구역 중심",
         "googleQuery": "Roman Forum Rome",
         "sort": 220
       },
-      "geometry": { "type": "Point", "coordinates": [12.48533, 41.89246] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48533,
+          41.89246
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -455,13 +802,23 @@
         "name": "팔라티노 언덕",
         "group": "rome",
         "region": "rome",
-        "groups": ["rome"],
-        "dates": ["1/2 선택"],
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/2 선택"
+        ],
         "note": "가족 체력과 공항 이동시간에 따라 관람 범위 축소",
         "googleQuery": "Palatine Hill Rome",
         "sort": 230
       },
-      "geometry": { "type": "Point", "coordinates": [12.48750, 41.88931] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4875,
+          41.88931
+        ]
+      }
     }
   ]
 }
