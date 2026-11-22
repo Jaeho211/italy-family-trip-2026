@@ -174,8 +174,11 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
                 <p>{step.text}</p>
                 {step.priority !== 'main' && <span className="secondary-note">선택·대안 포함</span>}
               </div>
-              {preview && <figure className="step-thumbnail">
-                <Photo filename={preview.file} alt={preview.alt} />
+              {preview && <figure className="step-photo">
+                <a href={image(preview.file)} target="_blank" rel="noopener noreferrer"
+                  aria-label={preview.alt + ' 사진 크게 보기'} title="사진 크게 보기">
+                  <Photo filename={preview.file} alt={preview.alt} />
+                </a>
               </figure>}
             </div>
             {step.places.length > 0 && <div className="step-links">
