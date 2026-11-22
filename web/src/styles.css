@@ -235,8 +235,8 @@ section[id] { scroll-margin-top: 90px; }
 }
 /* All stops share the same left edge and reading order. Photography is supporting
    context, not an interactive gallery or an alternating promotional feature. */
-/* Each sightseeing stop reads like an illustrated guide entry, not a photo card.
-   The image spans the full content width directly after its factual description. */
+/* Factual visit entries: number and description first, a generous image
+   immediately below. No floating thumbnail, photo card, or zoom interaction. */
 .journey-feature {
   padding: 37px 7px 42px;
   border-bottom: 1px solid var(--border);
@@ -244,42 +244,46 @@ section[id] { scroll-margin-top: 90px; }
 .destination-spread {
   display: grid;
   grid-template-columns: 64px minmax(0, 1fr);
-  column-gap: 23px;
+  gap: 0 23px;
   align-items: start;
-}
-.destination-spread-content {
-  display: contents;
 }
 .destination-kicker {
   grid-column: 1;
   grid-row: 1;
-  align-self: start;
-  padding-top: 5px;
+  padding-top: 4px;
   font-size: 14px;
   font-weight: 670;
   color: var(--accent);
-  line-height: 1.4;
 }
-.destination-spread-content h3 {
+.destination-spread-content {
   grid-column: 2;
   grid-row: 1;
+  min-width: 0;
+}
+.destination-spread-content h3 {
   margin: 0 0 12px;
   font-size: clamp(23px, 2.2vw, 27px);
   line-height: 1.35;
   font-weight: 720;
   letter-spacing: -.035em;
 }
+.destination-condition {
+  font-size: 14px;
+  margin-left: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #865c42;
+  vertical-align: middle;
+}
 .destination-spread-content p {
-  grid-column: 2;
-  grid-row: 2;
   margin: 0;
+  max-width: 820px;
   font-size: 16px;
   line-height: 1.8;
-  max-width: 820px;
 }
 .destination-spread-image {
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 2;
   margin: 23px 0 0;
   width: 100%;
   min-width: 0;
@@ -298,7 +302,7 @@ section[id] { scroll-margin-top: 90px; }
 }
 .destination-spread > .journey-place-links {
   grid-column: 2;
-  grid-row: 4;
+  grid-row: 3;
   margin-top: 16px;
 }
 /* Keep imagery in the same neutral palette as the surrounding guide page. */
@@ -402,11 +406,13 @@ section[id] { scroll-margin-top: 90px; }
   .destination-spread-content p { font-size: 16px; }
   .destination-spread-image {
     grid-column: 1 / -1;
+    grid-row: 2;
     margin-top: 18px;
   }
   .destination-spread-image img { aspect-ratio: 16 / 10; max-height: none; }
   .destination-spread > .journey-place-links {
     grid-column: 1 / -1;
+    grid-row: 3;
     margin-top: 12px;
   }
   .day-reference { margin-top: 35px; }
