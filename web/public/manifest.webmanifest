@@ -1,0 +1,26 @@
+{
+  "id": "/italy-family-trip-2026/",
+  "name": "이탈리아 가족여행",
+  "short_name": "이탈리아 여행",
+  "description": "2026년 12월 23일~2027년 1월 2일 가족여행 일정, 방문지, 교통 및 확인사항",
+  "lang": "ko",
+  "start_url": "/italy-family-trip-2026/",
+  "scope": "/italy-family-trip-2026/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#265b52",
+  "icons": [
+    {
+      "src": "assets/journey/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/journey/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
