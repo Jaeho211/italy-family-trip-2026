@@ -91,71 +91,64 @@
 </div>
 
 <div class="day-card" id="day-1226">
-  <h3>12월 26일 토요일 · 폼페이</h3>
+  <h3>12월 26일 토요일 · 나폴리 구시가지 자유 관광</h3>
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
-  <span class="status tentative">잠정</span><span class="status verified">공식 개관일 확인</span><span class="status review">사전구매 권장</span><span class="status recheck">열차 재확인</span>
+  <span class="status tentative">가족 자유관광</span><span class="status recheck">공휴일 영업·교통 재확인</span>
+  <p class="route">Piazza Cavour → 나폴리 대성당(선택) → 산 그레고리오 아르메노 거리 → Spaccanapoli → Santa Chiara·Gesù Nuovo(선택) → Via Toledo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
   <ul class="day-reminders" aria-label="준비·확인할 것">
-    <li>방문 전 · 폼페이 입장권을 준비하고 성탄 특별 열차 시간표를 재확인해요.</li>
-    <li>오늘 · 작은 가방·운동화·물과 간식을 챙겨요. 30×30×15cm를 넘는 가방은 반입할 수 없어요.</li>
-    <li>오늘 · 07:20까지 택시가 배차되지 않으면 Piazza Amedeo역으로 이동해요.</li>
+    <li>방문 전 · 12/26 Santo Stefano 공휴일의 식당·상점 영업과 Linea 2 운행을 확인해요. 문 닫은 곳은 현장에서 대체해요.</li>
+    <li>오늘 · 정해진 영어 가이드나 지하도시 투어 없이 가족 속도로 걸어요. 아이들이 지루해하면 피자·간식·휴식을 우선해요.</li>
+    <li>현장에서 · 성당 내부는 선택하고, 해안 산책은 날씨와 체력이 좋을 때만 추가해요.</li>
   </ul>
   <ul>
-    <li>07:10 키아이아 숙소에서 Uber Taxi 호출 → Napoli Porta Nolana 이동 · 07:20까지 미배차면 Piazza Amedeo역으로 전환</li>
-    <li>07:40 Napoli Porta Nolana 도착 목표</li>
-    <li>08:05 출발 → 08:37 Pompei Scavi–Villa dei Misteri 도착 잠정</li>
-    <li data-place-ids="110">09:00 Porta Marina 입장 → Forum·목욕탕·극장 지구 중심 관람</li>
-    <li>14:53 출발 → 15:24 Napoli Garibaldi 하차, 지연 시 15:29 예비편</li>
-    <li data-place-ids="6">Napoli Piazza Garibaldi에서 Linea 2로 Piazza Amedeo 이동 → 16:00 전후 숙소 휴식</li>
-    <li>렌터카 미사용, 에르콜라노 제외</li>
+    <li>09:30~10:00 키아이아 숙소에서 여유 있게 출발 → Piazza Amedeo역에서 Linea 2로 Piazza Cavour 이동 · 공휴일 열차가 맞지 않으면 택시</li>
+    <li data-place-ids="122" data-priority="optional">10:30 전후 나폴리 대성당 외관 · 공휴일 전례와 내부 개방에 따라 생략 가능</li>
+    <li data-place-ids="124">11:00 전후 산 그레고리오 아르메노 거리의 크리스마스 장식·미니어처 공방 구경 · 개별 상점 영업은 미확인</li>
+    <li>12:00 전후 문 연 피자 가게에서 점심 · 대기가 길면 다른 가게 선택</li>
+    <li data-place-ids="130,132,134" data-priority="mixed">13:30 Spaccanapoli 구시가지 산책 · Santa Chiara·Gesù Nuovo는 관심이 생기면 내부 한 곳만 선택</li>
+    <li data-place-ids="140,150,160">15:00 전후 Via Toledo·Galleria Umberto I·Piazza del Plebiscito · 아이들 체력에 맞게 일부 생략</li>
+    <li data-place-ids="6,170" data-priority="mixed">16:30 전후 Via Chiaia를 따라 숙소 복귀 · 해안·Castel dell'Ovo는 날씨가 좋을 때만 선택</li>
   </ul>
   <details class="day-details">
-    <summary>운영·티켓 확인 더보기</summary>
+    <summary>공휴일·자유관광 안내 더보기</summary>
     <ul>
-      <li>겨울 일반 운영 09:00~17:00, 마지막 입장 15:30</li>
-      <li>공식 휴관일은 12월 25일과 1월 1일이므로 12월 26일은 현재 규정상 개관</li>
-      <li>Pompeii Express €20을 기본으로 하고 Villa dei Misteri 관람을 원할 때만 Pompeii+ €25 검토</li>
-      <li>기명식·날짜·시간 지정 티켓이며 변경·환불 조건을 구매 전에 확인</li>
-      <li>30×30×15cm 초과 가방은 반입 금지, 작은 가방·운동화·물과 간식 준비</li>
-      <li>열차 시각은 2026년 3월 28일부터 적용된 현행표 기준 잠정안이며 12월 중순 성탄 특별 시간표 재확인</li>
-      <li>2025년 12월 26일 약 08:00부터 종일 운행한 EAV 공식 사례가 있으나 2026년을 보장하지 않음</li>
-      <li>택시 미배차 시 Linea 2로 Napoli Piazza Garibaldi까지 이동해 같은 EAV 열차에 중간 승차 · 실제 환승 시각 재확인</li>
-      <li>복귀 Linea 2 운행이 맞지 않으면 EAV를 Porta Nolana까지 계속 타고 Uber Taxi 호출</li>
+      <li>12/26은 이탈리아 공휴일(Santo Stefano). 크리스마스 거리 공방과 식당의 개별 영업 여부는 확인되지 않았음</li>
+      <li>Napoli Sotterranea 영어·이탈리아어 정규 가이드 투어는 이번 가족 일정과 예약 대상에서 제외</li>
+      <li>성당 내부는 전례가 우선이며 외관 구경만 해도 됨 · 역사 설명이나 퀴즈를 강요하지 않음</li>
+      <li>Castel Nuovo·San Carlo·왕궁은 동선의 외관 선택 코스 · 산 엘모성은 별도 전망 대안으로만 유지</li>
+      <li>공휴일 교통과 식당 영업은 12월 중순 및 방문 직전 재확인</li>
     </ul>
-    <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/pompeii-2026-12-26.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Via+San+Gregorio+Armeno+Napoli" target="_blank" rel="noopener">크리스마스 거리 지도</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/naples-family-walk-2026-11-22.md" target="_blank" rel="noopener">일정 변경·재확인 기록</a></p>
   </details>
 </div>
 
 <div class="day-card" id="day-1227">
-  <h3>12월 27일 일요일 · 나폴리 지하도시와 구시가지</h3>
+  <h3>12월 27일 일요일 · 폼페이 기차 당일치기</h3>
   <p class="day-card__meta">5일차 · 나폴리 4/4박</p>
-  <span class="status tentative">잠정</span><span class="status verified">일반 투어 확인</span><span class="status review">줄서기 면제권 권장</span><span class="status recheck">연말 시간 재확인</span>
-  <p class="route">Piazza Cavour → Napoli Sotterranea → 나폴리 대성당 → Via Duomo 남하 → Spaccanapoli → Santa Chiara·Gesù Nuovo → Via Toledo → Castel Nuovo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
+  <span class="status tentative">잠정</span><span class="status verified">겨울 일반 개관 기준</span><span class="status review">입장권 사전구매 권장</span><span class="status recheck">일요일 열차 재확인</span>
   <ul class="day-reminders" aria-label="준비·확인할 것">
-    <li>방문 전 · Napoli Sotterranea 연말 투어 시간을 재확인하고, 대기를 줄이려면 10:00 줄서기 면제권을 준비해요.</li>
-    <li>오늘 · 09:40까지 Piazza San Gaetano 68의 공식 입구에 도착해요.</li>
-    <li>현장에서 · 성당 전례·식당 대기시간에 따라 생략하고, 해안 산책은 날씨와 체력이 좋을 때만 추가해요.</li>
+    <li>방문 전 · 폼페이 12/27 입장권을 준비하고 EAV 일요일·연말 열차와 유적지 특별 운영을 재확인해요.</li>
+    <li>오늘 · 작은 가방·운동화·물과 간식을 챙겨요. 30×30×15cm 초과 가방은 반입할 수 없어요.</li>
+    <li>선택 · 한국어 가족 단독 가이드가 27일에 가능할 때만 예약해요. 없으면 자유 관람하고 영어 해설 투어는 넣지 않아요.</li>
   </ul>
   <ul>
-    <li>09:00 숙소 출발 → Piazza Amedeo역에서 Linea 2 → Napoli Piazza Cavour</li>
-    <li data-place-ids="120">09:40 Piazza San Gaetano 68 도착 → 10:00~11:30 Napoli Sotterranea 공식 코스</li>
-    <li data-place-ids="122">11:40 나폴리 대성당 · 일요일 전례로 내부 관람이 어렵다면 외관만 확인</li>
-    <li>12:15 대성당 이후 Via Duomo를 남하하면서 점심 · 동선에서 크게 벗어나지 않는 후보 중 당일 대기시간을 보고 선택</li>
-    <li data-place-ids="130,132,134">13:15 Via Duomo → Spaccanapoli 서쪽 진행 → Santa Chiara → Gesù Nuovo · 두 성당은 내부 한 곳만 선택</li>
-    <li data-place-ids="140,145,150,152,160,162">15:15 Via Toledo → Castel Nuovo 외관 → Galleria Umberto I → San Carlo·Plebiscito·왕궁 외관</li>
-    <li data-place-ids="6,170" data-priority="mixed">16:30 기본은 Piazza del Plebiscito → Via Chiaia → 숙소 · 해안·Castel dell'Ovo는 날씨와 체력이 좋을 때만 추가</li>
+    <li>07:10 전후 숙소 출발 → 택시로 Napoli Porta Nolana 이동 · 미배차면 Piazza Amedeo–Piazza Garibaldi Linea 2 검토</li>
+    <li>08:00 전후 EAV로 Pompei Scavi–Villa dei Misteri 이동 목표 · 12/27 일요일 실제 열차편은 미확정</li>
+    <li data-place-ids="110">09:00 전후 Porta Marina 입장 목표 → Forum·목욕탕·극장 지구 중심 관람 · 한국어 가이드 미확보 시 자유 관람</li>
+    <li>점심·휴식 후 14:30~15:30 전후 EAV로 나폴리 복귀 목표 · 실제 열차는 출발 전 확정</li>
+    <li data-place-ids="6">16:00 전후 숙소 복귀, 다음 날 로마 이동을 위해 휴식</li>
+    <li>렌터카 미사용, 에르콜라노 제외</li>
   </ul>
   <details class="day-details">
-    <summary>운영·예약 확인 더보기</summary>
+    <summary>운영·티켓·교통 확인 더보기</summary>
     <ul>
-      <li>공식 입구는 Piazza San Gaetano 68, 흰색·파란색 깃발 확인</li>
-      <li>영어·이탈리아어 일반 투어는 현재 매일 10:00~18:00 사이 운영</li>
-      <li>4인 가족 예약은 필수가 아니지만 연말 대기를 줄이기 위해 10:00 줄서기 면제권 권장</li>
-      <li>지하 계단이 많고 엘리베이터 없음, 좁은 촛불 통로는 선택 구간</li>
-      <li>사용자 제작 My Maps의 코스 1-1과 1-3을 숙소 기준의 동→서 단방향 동선으로 재구성</li>
-      <li>산 엘모성은 같은 날 추가하지 않음 · 전망을 우선할 때 Via Toledo·Castel Nuovo 일부와 교체하는 Plan B로만 사용하고 산 마르티노 박물관은 보류</li>
-      <li>성당 내부와 식당은 공식 운영을 검증하지 않은 후보이므로 전례·휴무·대기시간에 따라 생략 가능</li>
+      <li>폼페이 겨울 일반 운영 09:00~17:00, 마지막 입장 15:30 · 12/27 특별 운영 여부는 재확인</li>
+      <li>정기 휴관일은 12월 25일과 1월 1일이므로 12월 27일은 일반 개관 대상이나 특별 공지는 별개</li>
+      <li>Pompeii Express 기본, Villa dei Misteri 관람 때만 Pompeii+ 검토 · 어린이 무료표와 환불 규정은 구매 화면에서 확인</li>
+      <li>기존 12/26 토요일용 08:05·14:53 등의 열차 시각을 12/27 일요일에 그대로 적용하지 않음 · EAV 실제 시간표는 12월 중순 확인</li>
+      <li>한국어 가이드는 아직 미예약이며 선택 사항 · 영어 가이드 투어 일정 제외</li>
     </ul>
-    <p><a href="https://www.napolisotterranea.org/en/visiting-hours/" target="_blank" rel="noopener">공식 운영시간</a> · <a href="https://www.google.com/maps/d/u/0/viewer?mid=1gEGfljCgQJs66VO-oX7aHGf-XjN4RGzY" target="_blank" rel="noopener">참고 My Maps</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/napoli-sotterranea-2026-12-27.md" target="_blank" rel="noopener">상세 조사 보기</a></p>
+    <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/naples-family-walk-2026-11-22.md" target="_blank" rel="noopener">일정 변경·재확인 기록</a></p>
   </details>
 </div>
 
