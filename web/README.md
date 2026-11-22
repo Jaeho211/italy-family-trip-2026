@@ -1,6 +1,6 @@
-# ITALIA — Family Field Notes / 디자인 프리뷰
+# ITALIA — 이탈리아 가족여행 메인 사이트
 
-MkDocs를 즉시 제거하지 않고, 같은 저장소의 `web/` 디렉터리에 새 Vite + React + TypeScript 앱을 별도로 구현했습니다. GitHub Pages의 기존 루트는 그대로 유지하며 새 디자인은 `/italy-family-trip-2026/preview/`에서 시험합니다.
+Vite + React + TypeScript 앱을 GitHub Pages **기본 주소** `/italy-family-trip-2026/`에 배포합니다. 이전 MkDocs 여행 수첩과 상세 자료·지도는 **`/italy-family-trip-2026/legacy/`** 아래에 원형 보존합니다. 기존 `/preview/`는 새 기본 주소로 리다이렉트합니다.
 
 ## 로컬 개발
 
@@ -24,16 +24,17 @@ npm run build
 npm run preview
 ```
 
-## 제품 범위 (Phase 1)
+## 메인 사이트 범위
 
 - 홈 화면은 **여행 기간·여행 개요 → 전체 날짜별 일정 → 주요 방문지 사진 → 예약·준비 링크** 순서
 - 날짜 상세 화면은 **날짜·지역·예약/재확인 상태 → 경로와 개요 → 준비·확인 → 관광지 사진이 포함된 이동·방문 순서 → 세부 근거** 순서
 - 전체 11일 날짜 선택과 기존 일정 데이터의 실시간 반영
 - 이동·방문 순서에는 사진이 확보된 관광지(포지타노·아말피·라벨로·폼페이·콜로세움)에만 본문 크기의 사진 섹션 표시. 교통·숙소 항목은 텍스트 유지
 - 12월 25일 아말피 해안은 포지타노·아말피·라벨로(선택) 사진을 일정 항목에 배치하고, 중복된 하단 사진 카드 대신 기존 지도 링크를 활용
-- 외부 이동/지도는 기존 MkDocs 지도 앱 링크로 연결
-- 기존 루트 사이트, 지도, 예약, 오프라인 동작은 변경하지 않음
-- 디자인 승인 전에는 본 사이트 루트를 전환하지 않음
+- 외부 이동/지도는 `/legacy/` 아래의 기존 MkDocs 지도 앱 링크로 연결
+- 이전 MkDocs 페이지·지도·예약·가이드·오프라인 워커는 `/legacy/`로 이동하되 원본 소스는 유지
+- 기존 `/itinerary/`, `/map/` 등 링크는 `/legacy/`로 리다이렉트하고, 이전 직접 지도 링크 `/assets/map/`도 유지
+- React 메인 페이지는 현재 별도의 오프라인 캐시를 등록하지 않으며, 과거 루트 서비스 워커는 종료합니다
 
 ## 콘텐츠·타이포그래피 원칙
 
@@ -69,6 +70,17 @@ npm run preview
 
 `scripts/prepare_preview.py`의 `PHOTOS`에 명시한 Wikimedia Commons 원본 파일만 내려받습니다. 2026-11-22 확인한 사진들은 각 파일 페이지에 CC0로 표시되어 있습니다. 출처와 사진별 원저작자는 앱 하단의 사진 출처와 `PHOTO_CREDITS.md`를 참고합니다. 사진은 실제 여행 시기의 날씨를 보장하지 않습니다.
 
-## 다음 단계
+## 배포 동작과 확인 절차
 
-미리보기 승인 후 원래 문서 링크와 기능을 하나씩 React로 옮기고, 기존 MkDocs 루트 배포 전환을 별도의 작업으로 진행합니다. 여행 일정과 예약 등 사실 데이터는 `docs/` 정본을 계속 사용합니다.
+GitHub Actions는 `mkdocs build --strict`로 원본 여행 데이터와 기존 사이트를 만들고, `web/scripts/prepare_preview.py --photos`로 사진과 `trip-data.json`을 준비한 후 React를 빌드합니다. 마지막에 `web/scripts/publish_site.py`가 기존 MkDocs 사이트를 `site/legacy/`로 옮기고 React 빌드 결과를 `site/` 루트에 배치합니다.
+
+배포 시 아래 경로를 확인해야 합니다.
+
+- `/`: React 메인 페이지와 11일 일정 데이터
+- `/#/day/2026-12-25`: 아말피 여행일 상세
+- `/legacy/`: 이전 MkDocs 홈
+- `/legacy/?view=map&date=2026-12-25`: 기존 지도 앱
+- `/legacy/reservations/`: 원본 예약 현황
+- `/map/`, `/itinerary/`, `/preview/`: 과거 주소 호환 리다이렉트
+
+기존 여행 일정·예약·운영 정보의 정본은 계속 `docs/`입니다. 새 React 메인 페이지의 별도 오프라인 기능이나 기존 MkDocs 상세 도구의 완전 이전은 아직 진행되지 않았습니다.
