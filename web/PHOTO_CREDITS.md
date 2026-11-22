@@ -18,5 +18,12 @@
 | pompeii.jpg | [Composition ruins Pompeii.jpg](https://commons.wikimedia.org/wiki/File:Composition_ruins_Pompeii.jpg) | CC0 1.0 |
 | naples.jpg | [Naples Vesuvius.JPG](https://commons.wikimedia.org/wiki/File:Naples_Vesuvius.JPG) | CC0 1.0 |
 | ravello.jpg | [Villa Rufolo - 01.jpg](https://commons.wikimedia.org/wiki/File:Villa_Rufolo_-_01.jpg) | CC0 1.0 |
+| termini.jpg | [Roma Termini - Platform 01.jpg](https://commons.wikimedia.org/wiki/File:Roma_Termini_-_Platform_01.jpg) — Mint0ri | CC0 1.0 |
+| gregorio.jpg | [Via San Gregorio Armeno.jpg](https://commons.wikimedia.org/wiki/File:Via_San_Gregorio_Armeno.jpg) — Photo2023 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| navona.jpg | [Piazza Navona Roma (15528474152).jpg](https://commons.wikimedia.org/wiki/File:Piazza_Navona_Roma_(15528474152).jpg) — fotokoci | CC0 1.0 |
+| vatican-museums.jpg | [Museo Chiaramonti - Vatican Museums - DSC00667.jpg](https://commons.wikimedia.org/wiki/File:Museo_Chiaramonti_-_Vatican_Museums_-_DSC00667.jpg) — Daderot | CC0 1.0 |
+| orvieto-duomo.jpg | [Facade of Duomo di Orvieto7474.jpg](https://commons.wikimedia.org/wiki/File:Facade_of_Duomo_di_Orvieto7474.jpg) — Cruz.croce | CC0 1.0 |
+| spanish-steps.jpg | [Spanish Steps 2014.jpg](https://commons.wikimedia.org/wiki/File:Spanish_Steps_2014.jpg) — Perituss | CC0 1.0 |
+| forum.jpg | [Forum Romanum (9809573253).jpg](https://commons.wikimedia.org/wiki/File:Forum_Romanum_(9809573253).jpg) — Gary Todd | CC0 1.0 |
 
-모든 이미지는 빌드 시 로컬에 받아 제공하며 외부 이미지를 직접 링크하지 않습니다. CC BY 4.0의 `civita.jpg`는 사이트 레이아웃에 맞게 브라우저에서 자동 크롭(`object-fit: cover`) 및 색감 보정 필터를 적용해 표시합니다. 원본 파일은 변경하지 않습니다.
+모든 이미지는 빌드 시 로컬에 받아 제공하며 외부 이미지를 직접 링크하지 않습니다. CC BY 4.0의 `civita.jpg`, `gregorio.jpg`는 사이트 레이아웃에 맞게 브라우저에서 자동 크롭(`object-fit: cover`) 및 색감 보정 필터를 적용해 표시합니다. 원본 파일은 변경하지 않습니다. 두 파일의 출처와 저작자는 위에 기재했으며 사용 허가는 CC BY 4.0에 따릅니다.
