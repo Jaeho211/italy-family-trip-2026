@@ -182,9 +182,9 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
           const place = lookup.get(placeId!);
           return <li key={index} className="journey-stop journey-feature">
             <article className="destination-spread">
+              <span className="destination-kicker" aria-hidden="true">{number}</span>
               <div className="destination-spread-content">
-                <span className="destination-kicker">{number} / {optional ? '선택 방문' : '방문 장소'}</span>
-                <h3>{preview.heading ?? place?.name ?? '관광지'}</h3>
+                <h3>{preview.heading ?? place?.name ?? '관광지'}{optional && <small className="destination-condition">선택 방문</small>}</h3>
                 <p>{step.text}</p>
               </div>
               <figure className="destination-spread-image">
