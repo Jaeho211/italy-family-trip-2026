@@ -186,12 +186,11 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
                 <span className="destination-kicker">{number} / {optional ? '선택 방문' : '방문 장소'}</span>
                 <h3>{preview.heading ?? place?.name ?? '관광지'}</h3>
                 <p>{step.text}</p>
-                {placeLinks(step)}
               </div>
               <figure className="destination-spread-image">
                 <Photo filename={preview.file} alt={preview.alt} />
-                <figcaption>{preview.alt}</figcaption>
               </figure>
+              {placeLinks(step)}
             </article>
           </li>;
         }
