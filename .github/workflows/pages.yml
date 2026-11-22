@@ -1,4 +1,4 @@
-name: Deploy MkDocs site and editorial preview to Pages
+name: Deploy React travel guide and archived MkDocs to Pages
 
 on:
   push:
@@ -30,23 +30,27 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build existing site and authoritative trip data
         run: mkdocs build --strict
-      - name: Set up Node for isolated editorial preview
+      - name: Set up Node for main React site
         uses: actions/setup-node@v4
         with:
           node-version: "22"
       - name: Prepare photo assets locally from CC0 Wikimedia Commons
         run: python web/scripts/prepare_preview.py --photos
-      - name: Install preview dependencies
+      - name: Install React dependencies
         run: npm install --prefix web --no-audit --no-fund
-      - name: Build React preview without replacing the main site
+      - name: Build main React site
         run: npm --prefix web run build
-      - name: Publish separate preview path
+      - name: Promote React to project root and preserve legacy documents
+        run: python web/scripts/publish_site.py
+      - name: Verify public entry points
         run: |
-          test -s web/dist/index.html
-          test -s web/public/data/trip-data.json
-          mkdir -p site/preview
-          cp -a web/dist/. site/preview/
+          test -s site/index.html
+          test -s site/legacy/index.html
+          test -s site/legacy/reservations/index.html
+          test -s site/legacy/assets/trip-data.json
+          test -s site/assets/map/map.html
           test -s site/preview/index.html
+          test -s site/sw.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
