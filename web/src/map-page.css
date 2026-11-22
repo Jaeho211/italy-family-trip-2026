@@ -1,0 +1,68 @@
+/* The main React map uses the same typography, spacing and accents as the guide. */
+.travel-map-page { padding-top: 29px; padding-bottom: 84px; }
+.travel-map-heading { padding: 37px 0 27px; }
+.travel-map-heading h1 { margin: 8px 0 12px; }
+.travel-map-heading > p:last-child { font-size: 16px; color: var(--muted); max-width: 740px; }
+.travel-map-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 13px 17px; margin: 7px 0 20px; }
+.travel-map-filters > label { font-size: 15px; font-weight: 680; }
+.travel-map-filters > select {
+  min-width: 270px; max-width: 100%; background: white;
+  color: var(--text); border: 1px solid var(--border); padding: 12px 14px;
+  border-radius: 3px; font: inherit; font-size: 15px;
+}
+.travel-map-region-tabs { width: 100%; display: flex; flex-wrap: wrap; gap: 7px; }
+.travel-map-region-tabs button {
+  background: transparent; border: 1px solid var(--border);
+  padding: 8px 12px; font-size: 14px; border-radius: 3px;
+}
+.travel-map-region-tabs button.active { color: #fff; background: var(--accent); border-color: var(--accent); }
+.travel-map-day-selection { width: 100%; display: flex; gap: 12px 24px; flex-wrap: wrap; align-items: center; font-size: 15px; }
+.travel-map-day-selection span { font-weight: 700; }
+.travel-map-day-selection button { background: transparent; border: none; color: var(--accent); padding: 4px 0; font-weight: 670; }
+.travel-map-canvas-shell { position: relative; background: #ecf0ec; border: 1px solid var(--border); }
+.travel-map-canvas { width: 100%; height: clamp(390px, 62vh, 650px); }
+.travel-map-error { position: absolute; left: 15px; bottom: 15px; right: 15px; padding: 12px; color: #812e22; background: #fff7f4; font-size: 14px; border: 1px solid #e5b6a7; }
+.travel-map-pin {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 27px; min-height: 27px; border-radius: 50%; border: 2px solid #fff;
+  background: #265b52; color: white; box-shadow: 0 1px 6px #0005;
+  padding: 2px 4px; font: 700 12px/1 sans-serif; cursor: pointer;
+}
+.travel-map-pin[data-group="lodging"] { background: #796489; }
+.travel-map-pin[data-group="naples"] { background: #315e7b; }
+.travel-map-pin[data-group="rome"] { background: #9e5e51; }
+.travel-map-pin[data-group="amalfi"] { background: #a16d46; }
+.travel-map-pin[data-group="day-trip"] { background: #677d53; }
+.travel-map-pin:focus-visible { outline: 3px solid #163f36; outline-offset: 2px; }
+.travel-map-popup { font-family: inherit; color: #202522; padding: 4px 2px; }
+.travel-map-popup strong { font-size: 15px; }
+.travel-map-popup p { font-size: 13px; margin: 8px 0 10px; line-height: 1.5; }
+.travel-map-popup a { color: #265b52; font-size: 13px; font-weight: 700; }
+.travel-map-list { margin-top: 35px; }
+.travel-map-list-heading { display: flex; align-items: baseline; gap: 13px; border-top: 2px solid var(--strong); padding: 18px 0 10px; }
+.travel-map-list-heading h2 { font-size: 24px; }
+.travel-map-list-heading span { color: var(--muted); font-size: 15px; }
+.travel-map-hint { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+.travel-map-place-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 34px; }
+.travel-map-place { padding: 21px 0 24px; border-bottom: 1px solid var(--border); }
+.travel-map-place-heading { display: flex; gap: 12px; align-items: start; }
+.travel-map-place-number { flex: none; color: var(--accent); font-size: 14px; font-weight: 730; padding-top: 4px; }
+.travel-map-place h3 { font-size: 18px; }
+.travel-map-place p { margin: 8px 0 0 26px; font-size: 15px; line-height: 1.65; }
+.travel-map-place .travel-map-place-date { color: var(--muted); font-size: 14px; }
+.travel-map-place-actions { display: flex; gap: 10px 19px; flex-wrap: wrap; margin: 15px 0 0 26px; }
+.travel-map-place-actions button, .travel-map-place-actions a {
+  padding: 0; border: 0; background: none; color: var(--accent);
+  font-size: 14px; font-weight: 670; text-decoration: underline; text-underline-offset: 4px;
+}
+.travel-map-empty { padding: 15px 0; }
+@media (max-width: 720px) {
+  .travel-map-page { padding-top: 21px; }
+  .travel-map-heading { padding: 28px 0 20px; }
+  .travel-map-heading h1 { font-size: 30px; }
+  .travel-map-filters { align-items: stretch; }
+  .travel-map-filters > select { min-width: 0; width: 100%; }
+  .travel-map-canvas { height: 54vh; min-height: 360px; max-height: 540px; }
+  .travel-map-place-grid { grid-template-columns: 1fr; }
+  .travel-map-hint { font-size: 14px; }
+}
