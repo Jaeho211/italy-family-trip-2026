@@ -518,9 +518,9 @@
           "naples"
         ],
         "dates": [
-          "12/26 선택"
+          "12/26 13:30 기본"
         ],
-        "note": "오후 동선은 가족 체력에 따라 축소",
+        "note": "톨레도 지하철역 내부 관람과 연결, 12/26 기본 코스",
         "googleQuery": "Via Toledo Naples",
         "sort": 140
       },
@@ -529,6 +529,30 @@
         "coordinates": [
           14.24867,
           40.84294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "톨레도 지하철역 (Linea 1)",
+        "group": "naples",
+        "region": "naples",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 13:30 기본 · 역 개방 시"
+        ],
+        "note": "푸른 모자이크와 에스컬레이터 내부 관람 · ANM 12/26 특별 운행 확인 필요",
+        "googleQuery": "Toledo Metro Station Napoli",
+        "sort": 142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2489,
+          40.8425
         ]
       }
     },
@@ -673,6 +697,30 @@
         "coordinates": [
           14.24744,
           40.82831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "산텔모 성 (Castel Sant'Elmo)",
+        "group": "naples",
+        "region": "naples",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/26 14:30 선택 · 공휴일 개방·날씨·가족 체력 조건부"
+        ],
+        "note": "Vanvitelli역 하차 후 도보 · 전망대 45~60분 · 12/26 특별 개방·악천후 통제 재확인",
+        "googleQuery": "Castel Sant'Elmo Via Tito Angelini 20/A Napoli",
+        "sort": 175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.239328,
+          40.843619
         ]
       }
     },
