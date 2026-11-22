@@ -2,22 +2,27 @@
 
 12월 24일부터 28일까지 나폴리 4박을 유지하며, 매일 핵심 일정 하나만 배치합니다.
 
-## 12월 24일 · 이동과 국립고고학박물관
+## 12월 24일 · 나폴리 이동과 크리스마스이브 산책
 
-<span class="status confirmed">열차 예약 완료</span><span class="status verified">운영 근거 확인</span><span class="status recheck">특별시간 재확인</span>
+<span class="status confirmed">열차·숙소 예약 완료</span><span class="status tentative">자유 산책 · 저녁식사 유동적</span><span class="status recheck">이브 운영 재확인</span>
 
-테르미니 숙소에 짐을 맡기고 점심을 먹은 뒤 나폴리행 고속열차를 타고 이동합니다. 키아이아의 확정 숙소에 15:00 체크인한 뒤 [나폴리 국립고고학박물관](https://www.google.com/maps/search/?api=1&query=Naples+National+Archaeological+Museum){ target="_blank" rel="noopener" }을 관람합니다.
+기존 나폴리 국립고고학박물관(MANN) 오후 관람은 **제외**합니다. 15:13 Napoli Centrale 도착 후 키아이아 숙소에서 체크인·휴식을 하고, 아이들과 크리스마스이브 조명이 있는 거리를 가볍게 걷는 날이에요. 저녁은 특별한 식사나 레스토랑 예약을 전제로 하지 않습니다.
 
-- 예약한 Frecciarossa 9527은 Roma Termini 14:00 출발, Napoli Centrale 15:13 도착 예정입니다.
-- 중앙역에서 택시로 숙소에 이동해 15:00 이후 체크인합니다.
-- 이동·체크인 후 17:00 전후 입장을 목표로 합니다.
-- 18:30 전후 핵심 관람을 마치고 숙소에 돌아와 저녁과 휴식을 우선합니다.
-- 일반 운영은 09:00~19:30, 마지막 입장 18:30, 화요일 휴관입니다.
-- 12월 25일과 1월 1일 외 공휴일은 현재 규정상 개관합니다.
-- 2025년 12월 24일에도 09:00~19:30 운영한 공식 사례가 있습니다.
-- 2026년 특별 운영은 11월 말~12월 초에 다시 확인합니다.
+<p class="route">Napoli Centrale → Una terrazza a Chiaia 체크인 → Via Chiaia → Piazza del Plebiscito → Galleria Umberto I(선택) → 숙소</p>
 
-[MANN 공식 운영시간](https://www.museoarcheologiconapoli.it/en/timetables-and-fares/){ target="_blank" rel="noopener" } · [상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/mann-2026-12-24.md){ target="_blank" rel="noopener" }
+1. **11:00** The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 근처에서 점심
+2. **13:10~13:30** 짐 수령 후 Roma Termini 도착
+3. **14:00~15:13** Frecciarossa 9527로 Roma Termini → Napoli Centrale 이동 (**예약 완료**)
+4. **16:00~16:45 전후** 중앙역에서 택시로 [Una terrazza a Chiaia](https://www.google.com/maps/search/?api=1&query=Via+Santa+Teresa+a+Chiaia+39+Napoli){ target="_blank" rel="noopener" } 숙소 이동, 체크인·잠깐 휴식 (도착 시각은 예상)
+5. **17:00~18:00 전후** [Via Chiaia](https://www.google.com/maps/search/?api=1&query=Via+Chiaia+Napoli){ target="_blank" rel="noopener" } 거리와 [Piazza del Plebiscito](https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito+Napoli){ target="_blank" rel="noopener" }를 가볍게 산책, 크리스마스이브 분위기 구경
+6. **18:00 전후 선택** 시간이 남고 접근 가능하면 [Galleria Umberto I](https://www.google.com/maps/search/?api=1&query=Galleria+Umberto+I+Napoli){ target="_blank" rel="noopener" }까지 둘러본 뒤 숙소로
+7. **18:00 이후** 저녁은 **예약 미정**. 영업 중인 식당에서 외식, 피자·간편식 포장, 또는 숙소에서 식사 중 편한 방법 선택
+8. 밤에는 휴식하고 다음 날 렌터카로 떠나는 아말피 해안 일정 준비
+
+- 크리스마스이브에는 식당·슈퍼마켓·상점 영업이 일찍 끝날 수 있으므로, **12/25 아말피용 물·간식은 가능하면 로마에서 열차 탑승 전에 구입**합니다.
+- Via Chiaia·광장 실제 조명·행사, Galleria 내부 접근 및 식당 운영은 **2026년 12월 24일 당일 기준 미확정**으로 둡니다.
+- 이날 관광은 숙소 도착 후 컨디션에 따라 줄이거나 생략할 수 있습니다. 다음 날 피로가 남지 않도록 무리하지 않습니다.
+- 26일에 다시 지나는 Galleria Umberto I와 Piazza del Plebiscito는 중복 관광을 강제하지 않습니다.
 
 ## 12월 25일 · 아말피 해안
 
