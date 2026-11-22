@@ -159,7 +159,6 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
       lastPhotoStep.set(step.places[0], index);
     }
   });
-  const featuredIndices = Array.from(lastPhotoStep.values()).sort((a, b) => a - b);
 
   const placeLinks = (step: TripStep) => <nav className="journey-place-links" aria-label="장소별 지도">
     {step.places.map(id => {
@@ -181,22 +180,18 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
 
         if (preview) {
           const place = lookup.get(placeId!);
-          const alternate = featuredIndices.indexOf(index) % 2 === 1;
-          return <li key={index} className={'journey-stop journey-feature ' + (alternate ? 'image-right' : 'image-left')}>
+          return <li key={index} className="journey-stop journey-feature">
             <article className="destination-spread">
-              <figure className="destination-spread-image">
-                <a href={image(preview.file)} target="_blank" rel="noopener noreferrer"
-                  aria-label={preview.alt + ' 사진 크게 보기'}>
-                  <Photo filename={preview.file} alt={preview.alt} />
-                </a>
-                <figcaption>{preview.alt} · 사진 클릭 시 확대</figcaption>
-              </figure>
               <div className="destination-spread-content">
                 <span className="destination-kicker">{number} / {optional ? '선택 방문' : '방문 장소'}</span>
                 <h3>{preview.heading ?? place?.name ?? '관광지'}</h3>
                 <p>{step.text}</p>
                 {placeLinks(step)}
               </div>
+              <figure className="destination-spread-image">
+                <Photo filename={preview.file} alt={preview.alt} />
+                <figcaption>{preview.alt}</figcaption>
+              </figure>
             </article>
           </li>;
         }
@@ -218,8 +213,7 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
 function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (date: string) => void}) {
   const containsVisitPhoto = day.steps.some(step =>
     step.places.length === 1 && Boolean(photosByPlaceId[String(step.places[0])]));
-  const imageName = day.id === '1225' ? 'coast' :
-    containsVisitPhoto ? undefined : regionPhoto[day.region];
+  const imageName = containsVisitPhoto ? undefined : regionPhoto[day.region];
   const index = data.days.indexOf(day);
   const next = data.days[index + 1];
   return <main className="wrap day-page">
