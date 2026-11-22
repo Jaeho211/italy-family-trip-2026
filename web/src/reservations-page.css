@@ -1,0 +1,43 @@
+/* Reservations keep the field-guide's reading hierarchy, not the legacy theme. */
+.reservation-page { padding: 27px 0 85px; }
+.reservation-header { padding: 38px 0 24px; }
+.reservation-header h1 { margin: 8px 0 12px; }
+.reservation-header > p:last-child { color: var(--muted); font-size: 16px; }
+.reservation-intro { max-width: 900px; padding: 13px 0 24px; color: var(--muted); }
+.reservation-intro p, .reservation-note p { font-size: 15px; line-height: 1.75; }
+.reservation-tabs { display: flex; flex-wrap: wrap; gap: 9px; padding: 0 0 32px; }
+.reservation-tabs button {
+  border: 1px solid var(--border); border-radius: 3px;
+  background: transparent; text-align: left; font-size: 14px; font-weight: 680;
+  padding: 9px 12px;
+}
+.reservation-tabs button:hover { border-color: var(--accent); }
+.reservation-tabs span { margin-left: 8px; color: var(--muted); font-weight: 600; }
+.reservation-section { margin-top: 26px; scroll-margin-top: 100px; }
+.reservation-section-heading {
+  border-top: 2px solid var(--strong); padding: 20px 0 17px;
+  display: flex; gap: 13px; align-items: baseline; justify-content: space-between;
+}
+.reservation-section-heading h2 { font-size: 25px; }
+.reservation-section-heading span { color: var(--muted); font-size: 14px; flex-shrink: 0; }
+.reservation-items { margin: 0; padding: 0; list-style: none; }
+.reservation-item {
+  display: grid; grid-template-columns: 43px minmax(0, 1fr);
+  padding: 19px 4px 21px; gap: 17px; border-bottom: 1px solid var(--border);
+}
+.reservation-number { padding-top: 2px; color: var(--accent); font-size: 14px; font-weight: 720; }
+.reservation-item-content { font-size: 16px; line-height: 1.75; min-width: 0; overflow-wrap: anywhere; }
+.reservation-item-content p, .reservation-item-content li { font-size: 16px; line-height: 1.75; }
+.reservation-item-content strong { color: var(--strong); font-weight: 710; }
+.reservation-item-content a, .reservation-note a { overflow-wrap: anywhere; }
+.reservation-item-content a[target="_blank"] { text-underline-offset: 3px; }
+.reservation-note { padding: 15px 4px; color: var(--muted); }
+.reservation-fallback { margin: 25px 0; padding: 20px; border: 1px solid var(--border); font-size: 15px; }
+@media (max-width: 720px) {
+  .reservation-page { padding-top: 22px; }
+  .reservation-header { padding: 26px 0 21px; }
+  .reservation-header h1 { font-size: 30px; }
+  .reservation-section-heading h2 { font-size: 23px; }
+  .reservation-item { grid-template-columns: 30px minmax(0, 1fr); gap: 12px; }
+  .reservation-item-content, .reservation-item-content p { font-size: 16px; }
+}
