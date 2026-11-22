@@ -406,10 +406,14 @@
     }
     document.body.classList.remove('journey-document');
     document.querySelector('.journey-document-nav')?.remove();
-    if (app.dataset.initialized && data) {
-      root = app;
-      state = readState();
-      render();
+    if (app.dataset.initialized) {
+      if (data) {
+        root = app;
+        state = readState();
+        render();
+      }
+      // The first initialization may still be fetching trip-data.json.
+      // Do not attach another set of date-navigation click handlers.
       return;
     }
     root = app;
@@ -455,6 +459,8 @@
       });
       render();
     } catch {
+      // Allow a later initialization attempt after a failed data load.
+      delete app.dataset.initialized;
       root.querySelector('#journey-message').textContent = '여행 화면을 불러오지 못했어요. 아래 전체 일정에서 계획을 확인할 수 있어요.';
       root.querySelector('#day-timeline').append(linkTo('전체 일정 열기', url('itinerary/'), 'text-link'));
       // Keep the document links available when app data cannot be loaded.
