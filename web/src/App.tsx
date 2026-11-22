@@ -226,7 +226,6 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
       <p className="overline">DAY {index + 1} · {dateLabel(day.date)}</p>
       <h1>{day.title}</h1>
       <p className="day-meta">{day.meta}</p>
-      {day.route && <p className="route-summary"><strong>이동 경로</strong> {day.route}</p>}
       <div className="day-statuses">
         {day.statuses.map((status, i) => <span className={'status-label ' + status.kind} key={i}>{status.text}</span>)}
       </div>
