@@ -2,16 +2,22 @@ import { useEffect, useMemo, useState } from 'react';
 import placePhotos from './place-photos.json';
 import dayPhotos from './day-photos.json';
 import PwaControls from './PwaControls';
+import MapPage from './MapPage';
 import './styles.css';
 
 type TripStep = { text: string; places: number[]; priority: string };
 type TripDay = {
   id: string; date: string; title: string; subtitle: string; city: string;
   region: string; meta: string; route: string; steps: TripStep[];
+  lodging?: number; places?: number[];
   reminders: string[]; details: string;
   statuses: { kind: string; text: string }[];
 };
-type Place = { properties: { sort: number; name: string; googleQuery?: string } };
+type Place = {
+  properties: { sort: number; name: string; region: string; group: string;
+    note?: string; dates?: string[]; googleQuery?: string };
+  geometry: { type: 'Point'; coordinates: [number, number] };
+};
 type TripData = { days: TripDay[]; places: Place[] };
 
 const base = import.meta.env.BASE_URL;
@@ -31,7 +37,11 @@ function routeDate() {
   return match ? match[1] : null;
 }
 function mapUrl(date?: string) {
-  return original + (date ? '?view=map&date=' + encodeURIComponent(date) : '?view=map');
+  return '#/map' + (date ? '/' + encodeURIComponent(date) : '');
+}
+function routeMapDate() {
+  const match = window.location.hash.match(/^#\/map(?:\/(\d{4}-\d{2}-\d{2}))?$/);
+  return match ? (match[1] || '') : null;
 }
 function mapsSearch(query: string) {
   return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
@@ -284,11 +294,13 @@ function Footer() {
 export default function App() {
   const [data, setData] = useState<TripData | null>(null);
   const [route, setRoute] = useState<string | null>(routeDate);
+  const [mapDate, setMapDate] = useState<string | null>(routeMapDate);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const syncRoute = () => {
       setRoute(routeDate());
+      setMapDate(routeMapDate());
       if (window.location.hash === '#/schedule') {
         window.requestAnimationFrame(() => document.getElementById('schedule')?.scrollIntoView());
       } else {
@@ -315,7 +327,10 @@ export default function App() {
     <Header />
     {error && <main className="loading"><h1>데이터를 불러오지 못했어요.</h1><p>{error}</p><a href={original}>기존 여행 수첩 열기 ↗</a></main>}
     {!error && !data && <main className="loading"><h1>여행 일정 불러오는 중…</h1></main>}
-    {data && (current ? <DayView day={current} data={data} goDay={goDay} /> : <Home data={data} goDay={goDay} />)}
+    {data && (mapDate !== null
+      ? <MapPage data={data} date={mapDate} goDay={goDay} />
+      : current ? <DayView day={current} data={data} goDay={goDay} />
+      : <Home data={data} goDay={goDay} />)}
     {data && <Footer />}
   </div>;
 }
