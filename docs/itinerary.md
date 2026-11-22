@@ -91,34 +91,38 @@
 </div>
 
 <div class="day-card" id="day-1226">
-  <h3>12월 26일 토요일 · 나폴리 구시가지 자유 관광</h3>
+  <h3>12월 26일 토요일 · 나폴리 구시가지와 톨레도역</h3>
   <p class="day-card__meta">4일차 · 나폴리 3/4박</p>
-  <span class="status tentative">가족 자유관광</span><span class="status recheck">공휴일 영업·교통 재확인</span>
-  <p class="route">Piazza Cavour → 나폴리 대성당(선택) → 산 그레고리오 아르메노 거리 → Spaccanapoli → Santa Chiara·Gesù Nuovo(선택) → Via Toledo → Galleria Umberto I → Piazza del Plebiscito → Via Chiaia → 숙소</p>
+  <span class="status tentative">가족 자유관광</span><span class="status review">톨레도역 기본 · 산텔모 성 선택</span><span class="status recheck">공휴일 운영·교통 재확인</span>
+  <p class="route">Piazza Cavour → 나폴리 대성당(선택) → 산 그레고리오 아르메노 거리 → Spaccanapoli → Via Toledo → 톨레도 지하철역(기본) → [선택: Linea 1 Vanvitelli → 산텔모 성 → Funicolare Centrale] → Galleria Umberto I → Piazza del Plebiscito → 숙소</p>
   <ul class="day-reminders" aria-label="준비·확인할 것">
-    <li>방문 전 · 12/26 Santo Stefano 공휴일의 식당·상점 영업과 Linea 2 운행을 확인해요. 문 닫은 곳은 현장에서 대체해요.</li>
-    <li>오늘 · 정해진 영어 가이드나 지하도시 투어 없이 가족 속도로 걸어요. 아이들이 지루해하면 피자·간식·휴식을 우선해요.</li>
-    <li>현장에서 · 성당 내부는 선택하고, 해안 산책은 날씨와 체력이 좋을 때만 추가해요.</li>
+    <li>방문 전 · 12/26 Santo Stefano 공휴일의 공방·피자 가게 영업, Linea 2·Linea 1·중앙 푸니쿨라 운행과 산텔모 성 특별 개방을 확인해요.</li>
+    <li>오늘 · 톨레도 지하철역의 푸른 내부를 기본으로 구경해요. 산텔모 성은 날씨가 좋고 개방한 경우에만 추가하며, 아이들이 피곤하면 바로 평지 코스로 전환해요.</li>
+    <li>현장에서 · 영어 가이드 투어는 제외하고 성당 내부는 선택해요. 산텔모 성이 닫거나 비가 오면 Galleria Umberto I·Piazza del Plebiscito에서 여유 있게 쉬어요.</li>
   </ul>
   <ul>
-    <li>09:30~10:00 키아이아 숙소에서 여유 있게 출발 → Piazza Amedeo역에서 Linea 2로 Piazza Cavour 이동 · 공휴일 열차가 맞지 않으면 택시</li>
+    <li>09:30~10:00 키아이아 숙소 출발 → Piazza Amedeo역에서 Linea 2로 Piazza Cavour 이동 · 공휴일 운행이 맞지 않으면 택시</li>
     <li data-place-ids="122" data-priority="optional">10:30 전후 나폴리 대성당 외관 · 공휴일 전례와 내부 개방에 따라 생략 가능</li>
-    <li data-place-ids="124">11:00 전후 산 그레고리오 아르메노 거리의 크리스마스 장식·미니어처 공방 구경 · 개별 상점 영업은 미확인</li>
+    <li data-place-ids="124">11:00 전후 산 그레고리오 아르메노 크리스마스 거리 · 공방 개별 영업 미확인</li>
     <li>12:00 전후 문 연 피자 가게에서 점심 · 대기가 길면 다른 가게 선택</li>
-    <li data-place-ids="130,132,134" data-priority="mixed">13:30 Spaccanapoli 구시가지 산책 · Santa Chiara·Gesù Nuovo는 관심이 생기면 내부 한 곳만 선택</li>
-    <li data-place-ids="140,150,160">15:00 전후 Via Toledo·Galleria Umberto I·Piazza del Plebiscito · 아이들 체력에 맞게 일부 생략</li>
-    <li data-place-ids="6,170" data-priority="mixed">16:30 전후 Via Chiaia를 따라 숙소 복귀 · 해안·Castel dell'Ovo는 날씨가 좋을 때만 선택</li>
+    <li data-place-ids="130,132,134" data-priority="mixed">13:00 전후 Spaccanapoli 구시가지 산책 · Santa Chiara·Gesù Nuovo 내부 관람은 선택</li>
+    <li data-place-ids="140,142">13:30~13:50 Via Toledo와 톨레도 지하철역 내부의 푸른 모자이크·에스컬레이터 감상 · 역 개방 시 기본 코스</li>
+    <li data-place-ids="175" data-priority="optional">선택 A · 14:00 Linea 1 Toledo → Vanvitelli 이동, 언덕길 도보 → 14:30~15:30 산텔모 성 전망 관람 · 12/26 개방·날씨·지하철 운행 확인 시만 진행</li>
+    <li data-priority="optional">선택 A 복귀 · 15:45 전후 Piazza Fuga에서 Funicolare Centrale → Augusteo 하행 · 공휴일 운행 확인, 운행하지 않으면 택시 등으로 변경</li>
+    <li data-place-ids="150,160" data-priority="mixed">16:15 전후 Galleria Umberto I·Piazza del Plebiscito 산책 · 산텔모 성 생략 시 14:00부터 여유 있게 방문</li>
+    <li data-place-ids="6,170" data-priority="mixed">16:30~17:00 Via Chiaia로 숙소 복귀 · 해안 산책은 체력·날씨가 좋을 때만 선택</li>
   </ul>
   <details class="day-details">
-    <summary>공휴일·자유관광 안내 더보기</summary>
+    <summary>공휴일·산텔모 성 선택 기준 더보기</summary>
     <ul>
-      <li>12/26은 이탈리아 공휴일(Santo Stefano). 크리스마스 거리 공방과 식당의 개별 영업 여부는 확인되지 않았음</li>
-      <li>Napoli Sotterranea 영어·이탈리아어 정규 가이드 투어는 이번 가족 일정과 예약 대상에서 제외</li>
-      <li>성당 내부는 전례가 우선이며 외관 구경만 해도 됨 · 역사 설명이나 퀴즈를 강요하지 않음</li>
-      <li>Castel Nuovo·San Carlo·왕궁은 동선의 외관 선택 코스 · 산 엘모성은 별도 전망 대안으로만 유지</li>
-      <li>공휴일 교통과 식당 영업은 12월 중순 및 방문 직전 재확인</li>
+      <li>12월 26일은 이탈리아 공휴일(Santo Stefano)이며 공방·식당·Linea 1·Linea 2·Funicolare Centrale 특별 운영은 미확인</li>
+      <li>톨레도역은 ANM 지하철 Linea 1 역이며 관람 전용 시설이 아닌 실제 운영 역 · 역 출입이나 깊은 구역 방문은 운영·승차권 조건에 따름</li>
+      <li>ANM 공식 노선상 Toledo → Vanvitelli로 이동 가능, 귀로는 Funicolare Centrale의 Piazza Fuga → Augusteo 이용 가능 · 특별 운행 여부는 방문 전 확인</li>
+      <li>이탈리아 문화부의 산텔모 성 일반 운영은 토요일 08:30~18:30, 마지막 입장 17:30 · 12/26 특별 개방과 악천후 통제는 별도로 확인</li>
+      <li>산텔모 성 미개방·악천후·아이들 피로 시 언덕 이동을 생략하고 톨레도역 → Galleria Umberto I → Piazza del Plebiscito → 숙소로 전환</li>
+      <li>Napoli Sotterranea 영어·이탈리아어 투어는 이번 가족 일정에서 제외 · 유료 가이드 예약 없음</li>
     </ul>
-    <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Via+San+Gregorio+Armeno+Napoli" target="_blank" rel="noopener">크리스마스 거리 지도</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/naples-family-walk-2026-11-22.md" target="_blank" rel="noopener">일정 변경·재확인 기록</a></p>
+    <p><a href="https://cultura.gov.it/luogo/castel-sant-elmo-e-museo-del-novecento-a-napoli" target="_blank" rel="noopener">산텔모 성 공식 운영</a> · <a href="https://www.anm.it/s/linea-anm/a0YR200000TerNTMAZ/l1?language=it" target="_blank" rel="noopener">ANM Linea 1</a> · <a href="https://www.anm.it/s/linea-anm/a0Y7Q000007MPl3UAG/funicolare-centrale?language=it" target="_blank" rel="noopener">ANM 중앙 푸니쿨라</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/toledo-santelmo-2026-11-22.md" target="_blank" rel="noopener">변경 근거</a></p>
   </details>
 </div>
 
