@@ -151,34 +151,36 @@ section[id] { scroll-margin-top: 90px; }
 .day-shortcuts { display: flex; flex-wrap: wrap; gap: 16px 25px; margin-top: 24px; }
 .day-shortcuts a { font-size: 15px; font-weight: 650; text-decoration: none; border-bottom: 1px solid; padding-bottom: 4px; }
 .day-photo img { height: 256px; border-radius: 3px; }
-.day-information { display: grid; grid-template-columns: 0.92fr 1.08fr; gap: clamp(28px, 4.5vw, 70px); padding-top: 38px; }
+.day-information { display: grid; grid-template-columns: 0.82fr 1.18fr; gap: clamp(28px, 3.5vw, 50px); padding-top: 38px; }
 .content-section h2 { font-size: 24px; border-bottom: 1px solid var(--border); padding-bottom: 13px; }
 .checks-list { margin: 18px 0 0; padding-left: 20px; }
 .checks-list li { font-size: 16px; padding: 0 0 15px 4px; }
 .steps-list { margin: 0; padding: 0; list-style: none; }
 .steps-list li { padding: 17px 0; border-bottom: 1px solid var(--border); display: flex; gap: 17px; }
 .step-number { font-size: 14px; color: var(--accent); font-weight: 700; flex: 0 0 25px; }
-/* Photos belong to the relevant sightseeing step, never to transport-only rows. */
+/* Tourist photos are large enough to identify the place without sacrificing text. */
 .step-content { min-width: 0; flex: 1; }
 .step-main { min-width: 0; }
 .step-main.has-thumbnail {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 118px;
+  grid-template-columns: minmax(0, 1fr) 230px;
   align-items: start;
-  gap: 16px;
+  gap: 20px;
 }
 .step-description { min-width: 0; }
 .step-content p { font-size: 16px; }
-.step-thumbnail { margin: 1px 0 0; width: 118px; }
-.step-thumbnail img {
+.step-photo { margin: 1px 0 0; width: 100%; min-width: 0; }
+.step-photo a { display: block; cursor: zoom-in; }
+.step-photo img {
   display: block;
-  width: 118px;
-  height: 88px;
-  aspect-ratio: 4 / 3;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
   border-radius: 2px;
   object-fit: cover;
   background: #e9eae5;
 }
+.step-photo a:hover img { filter: brightness(.96); }
 .secondary-note { color: #8b593a; font-size: 14px; margin-top: 7px; display: inline-block; }
 .step-links { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .step-links a { font-size: 14px; }
@@ -200,6 +202,10 @@ section[id] { scroll-margin-top: 90px; }
 .loading { min-height: 60vh; padding: 100px 8vw; }
 .loading p { margin: 20px 0; }
 
+@media (min-width: 721px) and (max-width: 980px) {
+  /* Keep a comfortable text column on narrow tablets. */
+  .day-information { grid-template-columns: 1fr; }
+}
 @media (max-width: 980px) {
   .schedule-row { grid-template-columns: 60px 105px minmax(0,1fr) 150px 20px; gap: 10px; }
   .day-information { gap: 30px; }
@@ -252,17 +258,13 @@ section[id] { scroll-margin-top: 90px; }
   .content-section { margin-bottom: 40px; }
   .content-section h2 { font-size: 23px; }
   .checks-list li, .step-content p { font-size: 16px; }
-  .step-main.has-thumbnail { grid-template-columns: minmax(0, 1fr) 96px; gap: 11px; }
-  .step-thumbnail, .step-thumbnail img { width: 96px; }
-  .step-thumbnail img { height: 72px; }
+  /* On phones the whole image sits below the visit description, never squeezed beside it. */
+  .step-main.has-thumbnail { display: flex; flex-direction: column; gap: 14px; }
+  .step-photo { width: 100%; margin: 0; }
+  .step-photo img { width: 100%; aspect-ratio: 16 / 10; }
   .day-reference { margin-top: 35px; }
   .day-footer-links button { margin-left: 0; }
   .footer-row { padding: 23px 0; align-items: flex-start; flex-direction: column; }
-}
-@media (max-width: 360px) {
-  .step-main.has-thumbnail { grid-template-columns: minmax(0, 1fr) 82px; gap: 8px; }
-  .step-thumbnail, .step-thumbnail img { width: 82px; }
-  .step-thumbnail img { height: 62px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
