@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import placePhotos from './place-photos.json';
+import PwaControls from './PwaControls';
 import './styles.css';
 
 type TripStep = { text: string; places: number[]; priority: string };
@@ -49,6 +50,7 @@ function Header() {
       <a href="#/schedule">전체 일정</a>
       <a href={mapUrl()}>여행 지도</a>
       <a href={original + 'reservations/'}>예약 현황</a>
+      <PwaControls />
     </nav>
   </header>;
 }
