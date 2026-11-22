@@ -51,6 +51,12 @@ jobs:
           test -s site/assets/map/map.html
           test -s site/preview/index.html
           test -s site/sw.js
+          test -s site/manifest.webmanifest
+          test -s site/assets/journey/icon-192.png
+          test -s site/assets/journey/icon-512.png
+          ! grep -q '__VERSION__' site/sw.js
+          ! grep -q '__PRECACHE__' site/sw.js
+          python -c 'import json,pathlib; m=json.loads(pathlib.Path("site/manifest.webmanifest").read_text()); assert m["start_url"]==m["scope"]=="/italy-family-trip-2026/"; assert all(pathlib.Path("site",i["src"]).is_file() for i in m["icons"])'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
