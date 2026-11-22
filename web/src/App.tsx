@@ -228,12 +228,10 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
   </section>;
 }
 function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (date: string) => void}) {
-  const hasFeaturedStopPhoto = day.steps.some(step =>
-    step.places.length === 1 && Boolean(photosByPlaceId[String(step.places[0])]));
-  // Never substitute a city-wide landmark for a different day's itinerary.
-  // When a sightseeing stop has its own full-width photo below, omit the
-  // smaller overview image so that the same landmark is not repeated.
-  const overviewPhoto = hasFeaturedStopPhoto ? undefined : photosByDate[day.date];
+  // Date covers depict a *different* visited place from the larger step
+  // photographs (enforced by the photo registry validator). This lets each
+  // date retain its own representative image without repeating a landmark.
+  const overviewPhoto = photosByDate[day.date];
   const index = data.days.indexOf(day);
   const next = data.days[index + 1];
   return <main className="wrap day-page">
