@@ -39,6 +39,9 @@ function mapsSearch(query: string) {
 function Photo({ filename, alt, priority = false }: {filename: string; alt: string; priority?: boolean}) {
   return <img src={image(filename)} alt={alt} loading={priority ? 'eager' : 'lazy'} decoding="async" />;
 }
+function scrollToSection(id: 'schedule' | 'checks' | 'steps') {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 function SectionHeading({ title, help }: {title: string; help?: string}) {
   return <div className="section-heading">
     <h2>{title}</h2>
@@ -58,7 +61,10 @@ function Header() {
 }
 function QuickLinks({ date }: {date?: string}) {
   return <nav className="quick-links" aria-label="여행 도구">
-    <a href={date ? '#steps' : '#schedule'}>날짜별 일정 <span>→</span></a>
+    <a href={date ? '#steps' : '#schedule'} onClick={event => {
+      event.preventDefault();
+      scrollToSection(date ? 'steps' : 'schedule');
+    }}>날짜별 일정 <span>→</span></a>
     <a href={mapUrl(date)}>여행 지도 <span>↗</span></a>
     <a href={original + 'reservations/'}>예약 현황 <span>↗</span></a>
     <a href={original + 'checklist/'}>준비 체크리스트 <span>↗</span></a>
@@ -236,8 +242,14 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
         <p>{day.subtitle}</p>
         <p>아래에서 이동 순서, 확인할 사항, 관련 지도를 확인할 수 있습니다.</p>
         <nav className="day-shortcuts" aria-label="이날 바로가기">
-          <a href="#checks">확인사항 ↓</a>
-          <a href="#steps">이동 순서 ↓</a>
+          <a href="#checks" onClick={event => {
+            event.preventDefault();
+            scrollToSection('checks');
+          }}>확인사항 ↓</a>
+          <a href="#steps" onClick={event => {
+            event.preventDefault();
+            scrollToSection('steps');
+          }}>이동 순서 ↓</a>
           <a href={mapUrl(day.date)}>지도 ↗</a>
         </nav>
       </div>
