@@ -1,0 +1,6 @@
+node_modules/
+dist/
+public/photos/
+public/data/
+.vite/
+*.tsbuildinfo
