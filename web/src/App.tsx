@@ -3,6 +3,7 @@ import placePhotos from './place-photos.json';
 import dayPhotos from './day-photos.json';
 import PwaControls from './PwaControls';
 import MapPage from './MapPage';
+import ReservationsPage from './ReservationsPage';
 import './styles.css';
 
 type TripStep = { text: string; places: number[]; priority: string };
@@ -64,7 +65,7 @@ function Header() {
     <nav aria-label="주요 메뉴" className="top-nav">
       <a href="#/schedule">전체 일정</a>
       <a href={mapUrl()}>여행 지도</a>
-      <a href={original + 'reservations/'}>예약 현황</a>
+      <a href={'#/reservations'}>예약 현황</a>
       <PwaControls />
     </nav>
   </header>;
@@ -76,7 +77,7 @@ function QuickLinks({ date }: {date?: string}) {
       scrollToSection(date ? 'steps' : 'schedule');
     }}>날짜별 일정 <span>→</span></a>
     <a href={mapUrl(date)}>여행 지도 <span>↗</span></a>
-    <a href={original + 'reservations/'}>예약 현황 <span>↗</span></a>
+    <a href={'#/reservations'}>예약 현황 <span>↗</span></a>
     <a href={original + 'checklist/'}>준비 체크리스트 <span>↗</span></a>
   </nav>;
 }
@@ -135,7 +136,7 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
     <section className="wrap preparation-section">
       <SectionHeading title="여행 준비" />
       <div className="resource-links">
-        <a href={original + 'reservations/'}><strong>예약 현황</strong><span>예약 완료·준비·재확인 항목 확인 →</span></a>
+        <a href={'#/reservations'}><strong>예약 현황</strong><span>예약 완료·준비·재확인 항목 확인 →</span></a>
         <a href={original + 'checklist/'}><strong>출발 전 체크리스트</strong><span>준비물 및 출발 전 점검 →</span></a>
         <a href={original + 'itinerary/'}><strong>상세 일정 문서</strong><span>전체 계획과 공식 출처 확인 →</span></a>
       </div>
@@ -279,7 +280,7 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
     </section>}
     <div className="day-footer-links">
       <a href={original + 'itinerary/#day-' + day.id}>기존 상세 일정 원문 ↗</a>
-      <a href={original + 'reservations/'}>예약 현황 ↗</a>
+      <a href={'#/reservations'}>예약 현황 ↗</a>
       {next && <button type="button" onClick={() => goDay(next.date)}>다음 날: {next.title} →</button>}
     </div>
   </main>;
@@ -294,12 +295,14 @@ function Footer() {
 export default function App() {
   const [data, setData] = useState<TripData | null>(null);
   const [route, setRoute] = useState<string | null>(routeDate);
+  const [reservationsView, setReservationsView] = useState(() => window.location.hash === '#/reservations');
   const [mapDate, setMapDate] = useState<string | null>(routeMapDate);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const syncRoute = () => {
       setRoute(routeDate());
+      setReservationsView(window.location.hash === '#/reservations');
       setMapDate(routeMapDate());
       if (window.location.hash === '#/schedule') {
         window.requestAnimationFrame(() => document.getElementById('schedule')?.scrollIntoView());
@@ -327,8 +330,9 @@ export default function App() {
     <Header />
     {error && <main className="loading"><h1>데이터를 불러오지 못했어요.</h1><p>{error}</p><a href={original}>기존 여행 수첩 열기 ↗</a></main>}
     {!error && !data && <main className="loading"><h1>여행 일정 불러오는 중…</h1></main>}
-    {data && (mapDate !== null
-      ? <MapPage data={data} date={mapDate} goDay={goDay} />
+    {data && (reservationsView
+      ? <ReservationsPage />
+      : mapDate !== null ? <MapPage data={data} date={mapDate} goDay={goDay} />
       : current ? <DayView day={current} data={data} goDay={goDay} />
       : <Home data={data} goDay={goDay} />)}
     {data && <Footer />}
