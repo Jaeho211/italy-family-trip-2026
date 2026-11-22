@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import placePhotos from './place-photos.json';
 import './styles.css';
 
 type TripStep = { text: string; places: number[]; priority: string };
@@ -13,6 +14,7 @@ type TripData = { days: TripDay[]; places: Place[] };
 
 const base = import.meta.env.BASE_URL;
 const image = (filename: string) => base + 'photos/' + filename + '.jpg';
+const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string}>;
 const original = '../';
 const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
@@ -120,12 +122,6 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
   </main>;
 }
 
-const amalfiPlaces = [
-  {name:'포지타노', note:'전망 감상·짧은 산책', image:'positano', query:'Positano Italy'},
-  {name:'아말피', note:'간편식 점심·중심부 산책', image:'amalfi', query:'Amalfi Italy'},
-  {name:'라벨로', note:'날씨·주차·시간이 충분할 때만 방문', image:'ravello', query:'Ravello Italy', optional:true},
-];
-
 const regionPhoto: Record<string, string> = {
   rome:'rome', naples:'naples', pompeii:'pompeii', amalfi:'positano',
 };
@@ -154,23 +150,44 @@ function Checks({ reminders }: {reminders: string[]}) {
 }
 function Steps({ day, data }: {day: TripDay; data: TripData}) {
   const lookup = new Map(data.places.map(place => [place.properties.sort, place.properties]));
+  // One photo per distinct destination: if a place occurs twice, show it on its
+  // final single-place step (e.g. Colosseum visit, not the preceding taxi transfer).
+  // Multi-place and logistical steps remain text-first.
+  const lastPhotoStep = new Map<number, number>();
+  day.steps.forEach((step, index) => {
+    if (step.places.length === 1 && photosByPlaceId[String(step.places[0])]) {
+      lastPhotoStep.set(step.places[0], index);
+    }
+  });
   return <section id="steps" className="content-section">
     <h2>이동·방문 순서</h2>
     <ol className="steps-list">
-      {day.steps.map((step, index) => <li key={index}>
-        <span className="step-number">{String(index + 1).padStart(2, '0')}</span>
-        <div className="step-content">
-          <p>{step.text}</p>
-          {step.priority !== 'main' && <span className="secondary-note">선택·대안 포함</span>}
-          {step.places.length > 0 && <div className="step-links">
-            {step.places.map(id => {
-              const place = lookup.get(id);
-              return place ? <a key={id} target="_blank" rel="noopener noreferrer"
-                href={mapsSearch(place.googleQuery || place.name)}>{place.name} 지도 ↗</a> : null;
-            })}
-          </div>}
-        </div>
-      </li>)}
+      {day.steps.map((step, index) => {
+        const placeId = step.places.length === 1 ? step.places[0] : null;
+        const preview = placeId !== null && lastPhotoStep.get(placeId) === index
+          ? photosByPlaceId[String(placeId)] : undefined;
+        return <li key={index}>
+          <span className="step-number">{String(index + 1).padStart(2, '0')}</span>
+          <div className="step-content">
+            <div className={'step-main' + (preview ? ' has-thumbnail' : '')}>
+              <div className="step-description">
+                <p>{step.text}</p>
+                {step.priority !== 'main' && <span className="secondary-note">선택·대안 포함</span>}
+              </div>
+              {preview && <figure className="step-thumbnail">
+                <Photo filename={preview.file} alt={preview.alt} />
+              </figure>}
+            </div>
+            {step.places.length > 0 && <div className="step-links">
+              {step.places.map(id => {
+                const place = lookup.get(id);
+                return place ? <a key={id} target="_blank" rel="noopener noreferrer"
+                  href={mapsSearch(place.googleQuery || place.name)}>{place.name} 지도 ↗</a> : null;
+              })}
+            </div>}
+          </div>
+        </li>;
+      })}
     </ol>
   </section>;
 }
@@ -210,20 +227,6 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
       <Checks reminders={day.reminders} />
       <Steps day={day} data={data} />
     </div>
-
-    {day.id === '1225' && <section className="day-places">
-      <SectionHeading title="방문 장소" help="라벨로는 기본 일정이 아닌 선택 코스입니다." />
-      <div className="place-grid">
-        {amalfiPlaces.map(place => <article className="place-article" key={place.name}>
-          <div className="place-preview-photo"><Photo filename={place.image} alt={place.name + ' 풍경'} /></div>
-          <div className="place-article-info">
-            <h3>{place.name}{place.optional && <span className="secondary-note">선택</span>}</h3>
-            <p>{place.note}</p>
-            <a target="_blank" rel="noopener noreferrer" href={mapsSearch(place.query)}>Google Maps ↗</a>
-          </div>
-        </article>)}
-      </div>
-    </section>}
 
     {day.details && <section className="day-reference">
       <SectionHeading title="운영·교통 세부사항" help="운영시간과 교통편은 출발 전에 재확인하세요." />
