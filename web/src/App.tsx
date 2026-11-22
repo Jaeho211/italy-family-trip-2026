@@ -150,44 +150,65 @@ function Checks({ reminders }: {reminders: string[]}) {
 }
 function Steps({ day, data }: {day: TripDay; data: TripData}) {
   const lookup = new Map(data.places.map(place => [place.properties.sort, place.properties]));
-  // One photo per distinct destination: if a place occurs twice, show it on its
-  // final single-place step (e.g. Colosseum visit, not the preceding taxi transfer).
-  // Multi-place and logistical steps remain text-first.
+
+  // Feature photography belongs to the actual sightseeing stop, not a preceding
+  // transfer. Only verified, single-place steps receive a photographic spread.
   const lastPhotoStep = new Map<number, number>();
   day.steps.forEach((step, index) => {
     if (step.places.length === 1 && photosByPlaceId[String(step.places[0])]) {
       lastPhotoStep.set(step.places[0], index);
     }
   });
-  return <section id="steps" className="content-section">
-    <h2>이동·방문 순서</h2>
-    <ol className="steps-list">
+  const featuredIndices = Array.from(lastPhotoStep.values()).sort((a, b) => a - b);
+
+  const placeLinks = (step: TripStep) => <nav className="journey-place-links" aria-label="장소별 지도">
+    {step.places.map(id => {
+      const place = lookup.get(id);
+      return place ? <a key={id} href={mapsSearch(place.googleQuery || place.name)}
+        target="_blank" rel="noopener noreferrer">{place.name} 지도 ↗</a> : null;
+    })}
+  </nav>;
+
+  return <section id="steps" className="journey-section">
+    <SectionHeading title="이동·방문 순서" help="관광지는 사진과 함께, 이동·교통은 간결한 목록으로 정리했습니다." />
+    <ol className="journey-sequence">
       {day.steps.map((step, index) => {
         const placeId = step.places.length === 1 ? step.places[0] : null;
         const preview = placeId !== null && lastPhotoStep.get(placeId) === index
           ? photosByPlaceId[String(placeId)] : undefined;
-        return <li key={index}>
-          <span className="step-number">{String(index + 1).padStart(2, '0')}</span>
-          <div className="step-content">
-            <div className={'step-main' + (preview ? ' has-thumbnail' : '')}>
-              <div className="step-description">
-                <p>{step.text}</p>
-                {step.priority !== 'main' && <span className="secondary-note">선택·대안 포함</span>}
-              </div>
-              {preview && <figure className="step-photo">
+        const number = String(index + 1).padStart(2, '0');
+        const optional = step.priority !== 'main';
+
+        if (preview) {
+          const place = lookup.get(placeId!);
+          const alternate = featuredIndices.indexOf(index) % 2 === 1;
+          return <li key={index} className={'journey-stop journey-feature ' + (alternate ? 'image-right' : 'image-left')}>
+            <article className="destination-spread">
+              <figure className="destination-spread-image">
                 <a href={image(preview.file)} target="_blank" rel="noopener noreferrer"
-                  aria-label={preview.alt + ' 사진 크게 보기'} title="사진 크게 보기">
+                  aria-label={preview.alt + ' 사진 크게 보기'}>
                   <Photo filename={preview.file} alt={preview.alt} />
                 </a>
-              </figure>}
+                <figcaption>{preview.alt} · 사진 클릭 시 확대</figcaption>
+              </figure>
+              <div className="destination-spread-content">
+                <span className="destination-kicker">{number} / {optional ? '선택 방문' : '방문 장소'}</span>
+                <h3>{place?.name ?? '관광지'}</h3>
+                <p>{step.text}</p>
+                {placeLinks(step)}
+              </div>
+            </article>
+          </li>;
+        }
+
+        return <li key={index} className="journey-stop journey-logistics">
+          <div className="journey-row">
+            <span className="journey-row-index">{number}</span>
+            <div className="journey-row-copy">
+              <p>{step.text}</p>
+              {optional && <span className="secondary-note">선택·대안 포함</span>}
+              {step.places.length > 0 && placeLinks(step)}
             </div>
-            {step.places.length > 0 && <div className="step-links">
-              {step.places.map(id => {
-                const place = lookup.get(id);
-                return place ? <a key={id} target="_blank" rel="noopener noreferrer"
-                  href={mapsSearch(place.googleQuery || place.name)}>{place.name} 지도 ↗</a> : null;
-              })}
-            </div>}
           </div>
         </li>;
       })}
@@ -195,7 +216,10 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
   </section>;
 }
 function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (date: string) => void}) {
-  const imageName = day.id === '1225' ? 'positano' : regionPhoto[day.region];
+  const containsVisitPhoto = day.steps.some(step =>
+    step.places.length === 1 && Boolean(photosByPlaceId[String(step.places[0])]));
+  const imageName = day.id === '1225' ? 'coast' :
+    containsVisitPhoto ? undefined : regionPhoto[day.region];
   const index = data.days.indexOf(day);
   const next = data.days[index + 1];
   return <main className="wrap day-page">
@@ -210,7 +234,7 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
         {day.statuses.map((status, i) => <span className={'status-label ' + status.kind} key={i}>{status.text}</span>)}
       </div>
     </div>
-    <div className="day-overview">
+    <div className={'day-overview' + (imageName ? '' : ' no-photo')}>
       <div className="day-overview-copy">
         <h2>오늘의 일정</h2>
         <p>{day.subtitle}</p>
@@ -228,8 +252,8 @@ function DayView({ day, data, goDay }: {day: TripDay; data: TripData; goDay: (da
     </div>
     <div className="day-information">
       <Checks reminders={day.reminders} />
-      <Steps day={day} data={data} />
     </div>
+    <Steps day={day} data={data} />
 
     {day.details && <section className="day-reference">
       <SectionHeading title="운영·교통 세부사항" help="운영시간과 교통편은 출발 전에 재확인하세요." />
