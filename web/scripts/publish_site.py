@@ -41,6 +41,7 @@ def check_before_publish() -> None:
         MKDOCS / "sw.js",
         REACT / "index.html",
         REACT / "data/trip-data.json",
+        REACT / "data/reservations.json",
         REACT / "photos/positano.jpg",
         REACT / "sw.js",
         REACT / "manifest.webmanifest",
@@ -54,6 +55,10 @@ def check_before_publish() -> None:
     published = json.loads((REACT / "data/trip-data.json").read_text(encoding="utf-8"))
     if source != published or len(source.get("days", [])) != 11:
         raise SystemExit("Pages promotion blocked: React and MkDocs itinerary data differ")
+
+    reservation_data = json.loads((REACT / "data/reservations.json").read_text(encoding="utf-8"))
+    if not reservation_data.get("intro") or not reservation_data.get("sections"):
+        raise SystemExit("Pages promotion blocked: reservation data missing")
 
     html_text = (REACT / "index.html").read_text(encoding="utf-8")
     if '/italy-family-trip-2026/assets/' not in html_text:
@@ -147,6 +152,7 @@ def publish() -> None:
     for required in (
         STAGE / "index.html",
         STAGE / "data/trip-data.json",
+        STAGE / "data/reservations.json",
         STAGE / "photos/positano.jpg",
         STAGE / "assets/map/map.html",
         STAGE / "legacy/index.html",
