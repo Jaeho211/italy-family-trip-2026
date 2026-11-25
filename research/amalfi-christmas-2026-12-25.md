@@ -131,3 +131,9 @@ Avis가 게시한 2026년 특별 영업시간:
 - [Locauto 렌터카 FAQ](https://www.locautorent.com/en/faq-car-and-van-rental/)
 - [Noleggiare 나폴리 중앙역점](https://www.noleggiare.it/en/car-rental-service-at-napoli-centrale-railway-station/)
 - [Visit Amalfi 2025년 12월 행사](https://www.visitamalfi.info/en/eventi/month/2025-12/)
+
+## 2026-11-25 추가 · 복귀 후 조기 반납과 성탄절 저녁
+
+- 해안 출발을 15:30 전후(늦어도 16:00)로 잡고, 나폴리 도착 즉시 17:30~18:30 전후 Key-box로 조기 반납한 뒤 택시로 숙소에 간다. 예약 22:00보다 이른 반납 허용 여부는 **검증 필요**(12월 초 지점 메일).
+- 25일 저녁거리는 24일에 미리 산다(2025년 성탄절 슈퍼마켓 대부분 휴무 보도 사례).
+- 근거와 미확인 항목: [`evening-gaps-1225-1229-2026-11-25.md`](evening-gaps-1225-1229-2026-11-25.md)

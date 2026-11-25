@@ -31,6 +31,7 @@
   <ul class="day-reminders" aria-label="준비·확인할 것">
     <li>방문 전 · The RomeHello 체크아웃 후 짐 보관과 Frecciarossa 열차 운행 변경을 확인해요.</li>
     <li>오늘 · 13:10 전후 짐을 찾고 13:30까지 Roma Termini에 도착해요. 내일 아말피 여행에서 먹을 간식·물은 가능하면 로마에서 열차 탑승 전에 준비해요.</li>
+    <li>오늘 · 성탄절에는 슈퍼마켓 대부분이 닫을 수 있어요. 체크인 후 숙소 근처에서 내일 저녁거리까지 미리 사 둬요.</li>
     <li>현장에서 · 12/24 크리스마스이브 상점·식당 조기 종료에 대비해 저녁을 산책 전에 먼저 해결해요. 외식·포장·숙소 식사 중 편한 방법으로 정하고, 예약 식사는 필수가 아니에요.</li>
     <li>현장에서 · 키아이아는 이브 낮~저녁에 거리 인파가 많아 2024·2025년에 시 조례로 통제된 사례가 있어요. 택시가 숙소 근처로 못 들어가면 Linea 2 Piazza Amedeo역에서 걸어가요. 2026년 조례는 12월 중순에 확인해요.</li>
   </ul>
@@ -39,6 +40,7 @@
     <li>13:10 전후 짐 수령 → 13:30까지 Roma Termini 도착</li>
     <li>14:00 Frecciarossa 9527 출발 → <strong>15:13 Napoli Centrale 도착</strong> · 예약 완료</li>
     <li data-place-ids="6">15:15 이후 택시로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 16:00~16:45 전후 체크인·휴식 · 교통에 따라 변동 가능</li>
+    <li>17:00 전후 숙소 근처 슈퍼마켓에서 12/25 저녁거리(빵·치즈·과일·간편식 등) 구매 · 이브 조기 종료 대비 · 문을 닫았으면 저녁 식사 때 포장으로 대체</li>
     <li>17:30~18:30 전후 저녁 먼저 해결 · 예약 없이 문 연 식당에서 외식하거나 피자·간단한 음식 포장, 필요하면 숙소에서 식사</li>
     <li data-place-ids="160">19:00~20:00 전후 Via Chiaia 거리·Piazza del Plebiscito에서 크리스마스이브 조명 산책 · 기본 왕복·해안 순환·짧은 코스 후보는 여행 지도에서 확인 · 피곤하면 짧게</li>
     <li data-place-ids="150" data-priority="optional">여유가 있으면 19:30 전후 Galleria Umberto I 외관·통로 구경 · 실내 영업·출입 가능 여부는 미확인</li>
@@ -64,21 +66,24 @@
   <h3>12월 25일 금요일 · 아말피 해안 드라이브</h3>
   <p class="day-card__meta">3일차 · 나폴리 2/4박</p>
   <span class="status weather">날씨 조건부</span><span class="status confirmed">Noleggiare 차량 예약 완료</span><span class="status confirmed">간편식 지참</span><span class="status recheck">성탄절 수령 재확인</span>
-  <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리</p>
+  <p class="route">나폴리 → 포지타노 → 아말피 → 라벨로 선택 → 살레르노 방향 → 나폴리 중앙역 조기 반납 → 숙소 저녁·휴식</p>
   <ul class="day-reminders" aria-label="준비·확인할 것">
     <li>출발 전 · 성탄절 08:00 차량 수령과 Linea 2 시간표를 재확인해요. 차량 수령은 48시간 전에 확인해요.</li>
     <li>전날 저녁 · 날씨와 도로 통제를 보고 출발 여부를 최종 결정해요.</li>
-    <li>오늘 · 준비한 간편식과 물을 챙겨요.</li>
+    <li>오늘 · 준비한 간편식과 물을 챙겨요. 15:30~16:00에는 해안을 출발해 어두워지기 전에 해안도로를 빠져나와요.</li>
     <li>반납할 때 · 차량 상태·연료·주차면·열쇠 투입을 사진과 영상으로 기록해요.</li>
   </ul>
   <ul>
-    <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 22:00 같은 지점 반납</li>
+    <li>08:00 Noleggiare 나폴리 중앙역점에서 자동변속 하이브리드 또는 동급 차량 수령 · 예약 반납은 22:00이지만 돌아오는 즉시 조기 반납 목표</li>
     <li>07:05~07:10 Uber Taxi 호출 · 07:15까지 미배차면 Piazza Amedeo역으로 이동</li>
     <li>Trenitalia Linea 2로 Napoli Piazza Garibaldi 이동 후 연결 통로를 따라 Napoli Centrale로 이동</li>
     <li data-place-ids="180">포지타노 전망과 짧은 산책을 우선</li>
     <li data-place-ids="190">아말피에서 준비한 간편식 점심과 중심부 산책</li>
     <li data-place-ids="200" data-priority="optional">라벨로는 날씨·주차·시간이 충분할 때만 추가</li>
-    <li>일몰 전 SS163 핵심 구간을 마치고 살레르노–나폴리 고속도로로 복귀</li>
+    <li>15:30~16:00 해안 출발 · 일몰(16:40 전후 추정) 전 SS163 핵심 구간을 마치고 살레르노–나폴리 고속도로로 복귀</li>
+    <li>17:30~18:30 전후 Corso Meridionale Parkinstation 2층 지정 주차면·Key-box에 조기 반납 · 차를 키아이아 숙소 쪽으로 가져가지 않음 · 예약 시각 전 반납 가능 여부는 지점 확인 필요</li>
+    <li data-place-ids="6">18:30 전후 택시로 숙소 이동 · 택시가 잡히지 않으면 Linea 2로 Piazza Amedeo까지 이동(성탄절 운행 재확인)</li>
+    <li data-place-ids="6">저녁은 12/24에 사 둔 음식으로 숙소에서 해결하고 휴식 · 문 연 피자집이 보이면 현장 선택(예약 없음) · 다음 날 09:30 출발</li>
   </ul>
   <details class="day-details">
     <summary>렌터카·성탄절 운영 확인 더보기</summary>
@@ -86,7 +91,8 @@
       <li>Noleggiare 중앙역점의 일반 평일 영업시간은 08:00~20:00이며 성탄절 08:00 수령은 출발 48시간 전 재확인</li>
       <li>Uber 앱에서 나폴리의 면허 택시를 24시간 호출할 수 있지만 실제 배차는 보장되지 않음</li>
       <li>Linea 2는 Piazza Amedeo와 Napoli Piazza Garibaldi를 연결하며, 성탄절 실제 열차 시각은 12월 중순 재확인</li>
-      <li>22:00 반납은 Corso Meridionale의 Parkinstation 2층 지정 주차면과 Key-box 이용</li>
+      <li>반납은 Corso Meridionale의 Parkinstation 2층 지정 주차면과 Key-box 이용 · 주차장은 01:00까지 운영(10/11 지점 회신) · 예약 22:00보다 이른 조기 반납 허용 여부는 12월 초 지점 메일로 확인</li>
+      <li>2025년 성탄절에는 이탈리아 주요 슈퍼마켓 체인 대부분이 휴무였고 일부 Conad·Carrefour Express 매장만 영업했다는 보도가 있음 · 25일 저녁거리는 24일에 구매</li>
       <li>무인 반납 시 차량 외관·휠·실내·연료·주차면·열쇠 투입을 사진과 영상으로 기록</li>
       <li>12/24 빵·샌드위치 재료·과일·물을 준비하고, 당일 식당은 영업·메뉴·가격 확인 후 선택</li>
     </ul>
@@ -198,6 +204,7 @@
     <li>방문 전 · 바티칸 08:00 입장권을 우선 확보하고 매진이면 08:30 → 09:00 순으로 확인해요. 대성당 입장·보안 통제도 재확인해요.</li>
     <li>출발 1주 전 · 발레 공연 변경 여부를 재확인해요.</li>
     <li>오늘 · 대성당 보안검색 시간을 확보하고, 공연 관람 가족은 이른 저녁 후 19:15까지 Teatro Costanzi에 도착해요.</li>
+    <li>현장에서 · 공연이 끝나면 060609 또는 Roma Capitale 공식 앱으로 면허 택시를 불러 숙소로 돌아와요.</li>
   </ul>
   <ul>
     <li data-place-ids="10">07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
@@ -205,8 +212,13 @@
     <li data-place-ids="20">정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
     <li data-place-ids="7">늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
     <li data-place-ids="7">산탄젤로성 내부 관람은 넣지 않고 15:30 전후 숙소 복귀·휴식 목표</li>
-    <li data-place-ids="25">아내와 딸은 이른 저녁 후 19:15까지 Teatro Costanzi 도착</li>
-    <li data-place-ids="25">20:00 《백조의 호수》 관람 · 나머지 가족은 자유 일정과 휴식</li>
+    <li>17:30 전후 나보나 근처에서 가족 함께 이른 저녁</li>
+    <li data-place-ids="25">18:30 전후 아내와 딸은 공식 택시로 출발 → 19:15까지 Teatro Costanzi 도착</li>
+    <li data-place-ids="40">19:00~20:30 전후 나머지 가족은 나보나 광장 크리스마스 마켓 구경 · 2026년 개장 일정·운영시간은 미발표</li>
+    <li data-place-ids="30" data-priority="optional">여유가 있으면 나머지 가족은 판테온 광장 야경과 젤라토 · 숙소에서 도보 5분 안팎</li>
+    <li data-place-ids="25">20:00 아내와 딸 《백조의 호수》 관람 · 종료는 22:30 전후 추정</li>
+    <li data-place-ids="7">21:00 전후 나머지 가족 숙소 복귀·휴식 · 다음 날 07:30 출발</li>
+    <li data-place-ids="7">22:30 전후 공연 종료 후 아내와 딸은 공식 택시(060609·Roma Capitale 앱)로 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·예약 확인 더보기</summary>
@@ -217,6 +229,9 @@
       <li>박물관에서 성베드로 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않음</li>
       <li>20:00 공연은 Fumi Kaneko와 Vadim Muntagirov 출연 회차</li>
       <li>아내와 딸의 티켓 2석 예매 완료 · 2026-10-10 확인, 출발 1주 전 공연 변경 재확인</li>
+      <li>공연 종료 22:30 전후는 2024년 같은 프로덕션 러닝타임(휴식 포함 약 2시간 30분) 기준 추정 · 공연 1주 전 공식 러닝타임 재확인</li>
+      <li>로마시 공식 관광 안내상 면허 택시는 060609 또는 Roma Capitale 택시 호출 앱으로 부를 수 있음 · 극장 앞 택시 승강장 위치는 현장 확인</li>
+      <li>나보나 광장 크리스마스 마켓은 로마시 공식 관광 사이트 기준 2025~26년 1월 6일까지 운영 · 2026년 일정과 운영시간은 미발표이며 12월 초 재확인</li>
     </ul>
     <p><a href="https://tickets.museivaticani.va/" target="_blank" rel="noopener">바티칸 공식 티켓 포털</a> · <a href="https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/" target="_blank" rel="noopener">발레 공식 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md" target="_blank" rel="noopener">바티칸 상세 조사</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md" target="_blank" rel="noopener">발레 상세 조사</a></p>
   </details>

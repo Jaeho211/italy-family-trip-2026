@@ -51,3 +51,5 @@
 | ACC-003 | 나폴리 확정 숙소 주소 | Strutture Aperte al 30 Settembre 2025 | Regione Campania | 공개 숙박시설 등록부 | 숙소명·주소 확인 | 2026-08-23 | 숙소 변경 시 | [원문](https://www.regione.campania.it/assets/documents/elenco-delle-strutture-ricettive-della-campania-terzo-trimestre-2025.pdf) |
 | ACC-004 | 로마 확정 숙소 공개 정보 | 나보나 광장에서 몇 걸음 거리에 있는 드림 | Airbnb | 숙소 공개 리스팅 | 등록번호·수용인원·침실·욕실·편의시설 확인 | 2026-08-31 | 숙소 변경 시 | [원문](https://www.airbnb.co.kr/rooms/1574501038020607251) |
 | ACC-005 | 로마 확정 숙소명·주소 | iFlat Luxury Navona Apartment | iFlat Reservation | 운영사 공개 리스팅 | Airbnb와 동일한 등록번호·공개 주소 확인 | 2026-08-31 | 숙소 변경 시 | [원문](https://iflat.kross.travel/iflat-luxury-navona-apartment) |
+| ROM-TAXI-001 | 로마 면허 택시 호출 | Taxi a Roma | Turismo Roma (Roma Capitale) | 공식 관광 안내 | 060609·공식 호출 앱 확인 | 2026-11-25 | 2026-12-20 | [원문](https://turismoroma.it/it/pagina/taxi) |
+| ROM-XMAS-001 | 나보나 광장 크리스마스 마켓 | Mercatini e Villaggi di Natale a Roma 2025-26 | Turismo Roma (Roma Capitale) | 공식 행사 안내 | 2025~26 사례 · 2026 일정 미발표 | 2026-11-25 | 2026-12-01 | [원문](https://turismoroma.it/it/eventi/mercatini-e-villaggi-di-natale-roma-2025-26) |

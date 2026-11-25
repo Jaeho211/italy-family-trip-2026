@@ -34,14 +34,15 @@
 - 오전에 바티칸 박물관과 시스티나 성당을 보고 정오 전후 성베드로 대성당과 광장으로 이동합니다.
 - 박물관 입장권에는 시스티나 성당이 포함되지만 성베드로 대성당은 별도 보안검색이 필요합니다. 박물관에서 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않습니다.
 - 늦은 점심 후 **Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리**를 따라 나보나 숙소 방향으로 걷습니다. 산탄젤로성 내부 관람은 넣지 않습니다.
-- 15:30 전후 숙소 복귀를 목표로 충분히 쉬고, 아내와 딸은 이른 저녁 후 Teatro Costanzi로 이동합니다.
+- 15:30 전후 숙소 복귀를 목표로 충분히 쉬고, **17:30 전후 가족이 함께 나보나 근처에서 이른 저녁**을 먹습니다. 아내와 딸은 18:30 전후 공식 택시로 출발해 19:15까지 Teatro Costanzi에 도착합니다.
 - 20:00 《백조의 호수》는 Fumi Kaneko와 Vadim Muntagirov 출연 회차이며 아내·딸 티켓 2석 예매를 완료했습니다(2026-10-10 확인). 출발 1주 전 공연 변경을 재확인합니다.
-- 나머지 가족은 공연 시간에 자유 일정과 휴식을 갖습니다.
+- **나머지 가족 19:00~21:00 전후:** 숙소 바로 앞 [나보나 광장](https://www.google.com/maps/search/?api=1&query=Piazza+Navona+Rome){ target="_blank" rel="noopener" } 크리스마스 마켓을 구경하고, 여유가 있으면 판테온 광장 야경과 젤라토를 즐긴 뒤 21:00 전후 숙소에서 쉽니다. 로마시 공식 관광 사이트 기준 2025~26년 마켓은 1월 6일까지 열렸으며 **2026년 일정·운영시간은 미발표**입니다(12월 초 재확인).
+- **공연 후 귀가:** 종료는 22:30 전후로 추정합니다(2024년 같은 프로덕션 약 2시간 30분 기준). 극장 앞에서 **060609** 또는 Roma Capitale 공식 택시 호출 앱으로 면허 택시를 불러 숙소로 돌아옵니다. 다음 날 07:30 출발이므로 늦게 머물지 않습니다.
 
 !!! warning "공식 포털만 사용"
     [Vatican Museums 공식 티켓 포털](https://tickets.museivaticani.va/){ target="_blank" rel="noopener" }에서만 구매합니다.
 
-[발레 공식 안내](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } · [바티칸 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md){ target="_blank" rel="noopener" } · [발레 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md){ target="_blank" rel="noopener" }
+[발레 공식 안내](https://www.operaroma.it/spettacoli/il-lago-dei-cigni-7/){ target="_blank" rel="noopener" } · [로마시 공식 택시 안내](https://turismoroma.it/it/pagina/taxi){ target="_blank" rel="noopener" } · [바티칸 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/vatican-2026-12-29.md){ target="_blank" rel="noopener" } · [발레 상세 조사](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/rome-ballet-2026-12-29.md){ target="_blank" rel="noopener" }
 
 ## 12월 30일 · 치비타와 오르비에토
 
