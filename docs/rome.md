@@ -60,13 +60,13 @@
 - 15:30~16:00 전후 숙소 복귀를 목표로 오후를 비워 자정 행사 체력을 확보합니다.
 - 새해 전야 저녁은 사전예약하고, 로마시 공식 행사·교통 통제가 발표되면 자정 관람 위치와 귀가 동선을 확정합니다.
 
-## 1월 1일 · 신년행사와 트라스테베레 백업 코스
+## 1월 1일 · 신년행사 또는 트라스테베레 산책
 
 <span class="status tentative">잠정</span><span class="status recheck">공식 프로그램 발표 대기</span>
 
 - 전날 귀가 시간에 맞춰 늦게 시작하고 **Rome Parade 또는 Roma Capodarte의 가족형 공식 프로그램을 우선**합니다.
-- 공식 행사가 가족 일정과 맞지 않으면 보르게세 공원 대신 오후에 **택시로 Gianicolo 전망대까지 올라간 뒤 내리막 중심으로 걷는 백업 코스**를 사용합니다.
-- 백업 코스는 Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → 나보나 숙소 순서입니다.
+- 공식 행사가 가족 일정과 맞지 않으면 보르게세 공원 대신 오후에 **택시로 Gianicolo 전망대까지 올라간 뒤 내리막 중심으로 걷는 대안 산책**을 합니다.
+- 대안 산책은 Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → 나보나 숙소 순서입니다.
 - 자니콜로는 숙소에서 걸어 올라가지 않고 택시로 정상부에 접근해 아이들의 오르막 부담을 줄입니다.
 - 트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀하는 흐름으로 마무리합니다.
 - 신정 휴관을 고려해 예약이 필요한 핵심 유료 관광지는 넣지 않습니다.

@@ -281,17 +281,17 @@
 </div>
 
 <div class="day-card" id="day-0101">
-  <h3>1월 1일 금요일 · 로마 신년행사와 트라스테베레 백업</h3>
+  <h3>1월 1일 금요일 · 로마 신년행사 또는 트라스테베레 산책</h3>
   <p class="day-card__meta">10일차 · 로마 5/5박</p>
   <span class="status tentative">잠정</span><span class="status recheck">공식 프로그램 발표 대기</span>
   <ul class="day-reminders" aria-label="준비·확인할 것">
     <li>방문 전 · Rome Parade·Roma Capodarte 공식 프로그램을 확인하고 가족형 행사를 골라요.</li>
-    <li>오늘 · 전날 귀가 시간에 맞춰 늦게 시작해요. 행사가 맞지 않으면 트라스테베레 백업 코스를 이용해요.</li>
+    <li>오늘 · 전날 귀가 시간에 맞춰 늦게 시작해요. 행사가 맞지 않으면 대신 트라스테베레 산책을 해요.</li>
   </ul>
   <ul>
     <li>전날 귀가 시간에 맞춰 늦게 시작</li>
     <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사를 우선</li>
-    <li data-place-ids="240" data-priority="backup">행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
+    <li data-place-ids="240" data-priority="backup">행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 대안 산책 시작</li>
     <li data-place-ids="242,244,246,7" data-priority="backup">Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
     <li data-place-ids="7" data-priority="backup">트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀</li>
     <li>신정 휴관을 고려해 예약이 필요한 핵심 유료 관광지는 넣지 않음</li>
