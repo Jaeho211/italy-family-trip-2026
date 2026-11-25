@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Prepare a standalone React preview from the MkDocs authoritative build.
 
-Photos are copied locally from verified CC0 or CC BY 4.0 Wikimedia Commons file pages.
+Photos are copied locally from verified, freely licensed Wikimedia Commons files
+(CC0, CC BY or CC BY-SA; see web/PHOTO_CREDITS.md).
 The runtime never hotlinks external photographs.
 """
 import argparse
@@ -15,6 +16,8 @@ import urllib.parse
 import urllib.request
 import urllib.error
 from pathlib import Path
+
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 WEB = ROOT / "web"
@@ -45,7 +48,36 @@ PHOTOS = {
     "galleria-umberto": "Umberto-1-Roof.jpg",
     "sant-elmo": "Sant'Elmo e San Martino Napoli3.jpg",
     "pozzo-patrizio": "Pozzo san patrizio orvieto.JPG",
+    # 2026-11-25: photographs for multi-place steps and map places.
+    "duomo-napoli": "Cathedral (Naples) - Interior 222.jpg",
+    "spaccanapoli": "View of Spaccanapoli and the Centro Direzionale from Castel Sant'Elmo, Naples, 2010.jpg",
+    "santa-chiara": "Naples - Santa Chiara - Cloitre - Banc.jpg",
+    "gesu-nuovo": "Gesùnuovo.JPG",
+    "via-toledo": "Palazzi di via Toledo.jpg",
+    "toledo-escalator": "Toledo Station Mezzanine 01.jpg",
+    "castel-dell-ovo": "Castel dell'Ovo (Naples) 02.jpg",
+    "costanzi": "Teatro dell'Opera, Roma.jpg",
+    "navona-fountain": "0 Piazza Navone - Fontana dei Fiumi (1).JPG",
+    "campo-fiori": "Piazza Farnese y Campo de' Fiori 36.jpg",
+    "conciliazione": "View along Via della Conciliazione.jpg",
+    "ponte-sant-angelo": "Castel Sant'Angelo, Rome, from the Ponte Sant'Angelo.jpg",
+    "trinita": "0 L'église de la Trinità dei Monti à Rome 2.JPG",
+    "pincio": "Rome (26432070296).jpg",
+    "popolo": "Piazza del Popolo 2023.jpg",
+    "forum-arch": "Forum Romanum through Arch of Septimius Severus Forum Romanum Rome.jpg",
+    "palatine": "Palatine Hill from Circus Maximus Rome.jpg",
+    "gianicolo": "Blick vom Gianicolo 1.jpg",
+    "acqua-paola": "Fontana dell'Acqua Paola, 1608-12. Roma, sul Gianicolo -FG1.jpg",
+    "santa-maria-trastevere": "Santa Maria in Trastevere 14.jpg",
+    "ponte-sisto": "Images from Roma Project 10.jpg",
+    # CC BY-SA (allowed from 2026-11-25 for places without CC0/CC BY photos).
+    "via-chiaia": "Neapol via chiaia przy numerze 56.jpg",
+    "san-carlo": "Napoli - Teatro San CarloFacciata.jpg",
+    "palazzo-reale": "Facciata del Palazzo Reale, Napoli.jpg",
 }
+
+FULL_WIDTH = 1600   # hero/feature photographs
+SMALL_BOX = 640     # thumbnails in step strips, map popups and the place list
 
 USER_AGENT = "ItalyFamilyFieldNotes/0.2 (https://github.com/Jaeho211/italy-family-trip-2026)"
 
@@ -121,9 +153,13 @@ def validate_place_photos(data):
         if not isinstance(entry.get("alt"), str) or not entry["alt"].strip():
             raise SystemExit(f"Photo registry missing alt text for place: {place_id}")
         visits = [step for day in data["days"] for step in day["steps"]
-                  if step["places"] == [int(place_id)]]
+                  if int(place_id) in step["places"]]
         if not visits:
-            raise SystemExit(f"Photo registry place ID has no standalone visit step: {place_id}")
+            raise SystemExit(f"Photo registry place ID is not part of any itinerary step: {place_id}")
+    files = [entry["file"] for entry in index.values()]
+    duplicates = sorted({f for f in files if files.count(f) > 1})
+    if duplicates:
+        raise SystemExit(f"Photo registry reuses one photograph for several places: {duplicates}")
     print(f"Validated {len(index)} itinerary photo mappings")
 
 
@@ -143,12 +179,14 @@ def validate_day_photos(data):
         place_id = entry.get("placeId")
         if place_id is not None and not any(place_id in step["places"] for step in day["steps"]):
             raise SystemExit(f"Overview photo place {place_id} is not visited on {date}")
-        if place_id is not None:
-            place_photo_index = json.loads((WEB / "src/place-photos.json").read_text(encoding="utf-8"))
-            if str(place_id) in place_photo_index:
-                raise SystemExit(
-                    f"Overview photo duplicates a full-size stop photograph on {date}: {place_id}"
-                )
+        # The cover may depict a visited place, but never repeat the very photograph
+        # shown for any stop of the same day (step cards, photo strips).
+        place_photo_index = json.loads((WEB / "src/place-photos.json").read_text(encoding="utf-8"))
+        day_place_ids = {pid for step in day["steps"] for pid in step["places"]}
+        repeated = [pid for pid in day_place_ids
+                    if place_photo_index.get(str(pid), {}).get("file") == entry["file"]]
+        if repeated:
+            raise SystemExit(f"Overview photo repeats a stop photograph on {date}: {repeated}")
     print(f"Validated {len(index)} date-specific overview photo mappings")
 
 
@@ -197,6 +235,18 @@ def build_reservations():
     return {"intro": render_reservation_markdown(intro), "sections": sections}
 
 
+def normalize_photo(full: Path, small: Path):
+    """Keep precached photographs light: cap the full image and derive a thumbnail."""
+    with Image.open(full) as im:
+        im = im.convert("RGB")
+        if im.width > FULL_WIDTH:
+            im = im.resize((FULL_WIDTH, round(im.height * FULL_WIDTH / im.width)), Image.LANCZOS)
+            im.save(full, "JPEG", quality=80, optimize=True, progressive=True)
+        if not small.is_file() or small.stat().st_mtime < full.stat().st_mtime:
+            im.thumbnail((SMALL_BOX, SMALL_BOX), Image.LANCZOS)
+            im.save(small, "JPEG", quality=76, optimize=True, progressive=True)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--photos", action="store_true", help="Download licensed images to web/public/photos")
@@ -222,10 +272,11 @@ def main():
     print(f"Reservation data: {sum(len(s['items']) for s in reservations['sections'])} items")
     if args.photos:
         out = WEB / "public/photos"
-        out.mkdir(parents=True, exist_ok=True)
+        (out / "sm").mkdir(parents=True, exist_ok=True)
         for key, filename in PHOTOS.items():
             dst = out / (key + ".jpg")
             if dst.is_file() and dst.stat().st_size > 8000:
+                normalize_photo(dst, out / "sm" / (key + ".jpg"))
                 print(f"{key}: cached")
                 continue
             error = None
@@ -250,6 +301,7 @@ def main():
                         time.sleep(attempt + 1)
             if error is not None:
                 raise SystemExit(f"Photo preparation failed for {key}: {error}")
+            normalize_photo(dst, out / "sm" / (key + ".jpg"))
             time.sleep(3)  # Avoid rapid-fire independent download requests on fresh builds.
 
 

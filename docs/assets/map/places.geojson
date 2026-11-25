@@ -127,6 +127,54 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "비아 델라 콘칠리아치오네",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/29 늦은 점심 후 도보 이동"
+        ],
+        "note": "성베드로 광장에서 산탄젤로성 방향으로 걷는 큰길",
+        "googleQuery": "Via della Conciliazione Roma",
+        "sort": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.461788,
+          41.902183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "산탄젤로성·성천사의 다리",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/29 오후 외관과 다리 도보 · 성 내부 관람 아님"
+        ],
+        "note": "천사상이 늘어선 다리를 건너 나보나 숙소 방향으로 이동",
+        "googleQuery": "Ponte Sant'Angelo Roma",
+        "sort": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466461,
+          41.901925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Teatro Costanzi · 로마 오페라극장",
         "group": "rome",
         "region": "rome",
@@ -201,6 +249,30 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "캄포 데 피오리",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/28 판테온·나보나 이후 짧은 산책"
+        ],
+        "note": "나보나 숙소 남쪽 광장 · 아침 시장은 저녁에 열리지 않음",
+        "googleQuery": "Campo de' Fiori Roma",
+        "sort": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.472159,
+          41.895577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "트레비 분수",
         "group": "rome",
         "region": "rome",
@@ -243,6 +315,54 @@
         "coordinates": [
           12.48278,
           41.90599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "핀초 언덕 전망대",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/31 점심 후 전망"
+        ],
+        "note": "Piazzale Napoleone I 전망 테라스 · 보르게세 공원 안쪽은 생략",
+        "googleQuery": "Terrazza del Pincio Roma",
+        "sort": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478442,
+          41.911197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "포폴로 광장",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "12/31 핀초 전망 후"
+        ],
+        "note": "핀초 전망대 아래 광장 · 새해 전야 행사 통제는 공식 발표 후 확인",
+        "googleQuery": "Piazza del Popolo Roma",
+        "sort": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476365,
+          41.910748
         ]
       }
     },
@@ -634,6 +754,31 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "비아 키아이아",
+        "group": "naples",
+        "region": "naples",
+        "groups": [
+          "naples"
+        ],
+        "dates": [
+          "12/24 19:00 전후 이브 조명 산책길",
+          "12/26 숙소 복귀길"
+        ],
+        "note": "숙소에서 플레비시토 광장으로 이어지는 보행자 쇼핑 거리 · 이브 인파 통제 가능성은 12월 중순 확인",
+        "googleQuery": "Via Chiaia Napoli",
+        "sort": 158
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.245537,
+          40.836106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "플레비시토 광장",
         "group": "naples",
         "region": "naples",
@@ -869,6 +1014,102 @@
         "coordinates": [
           12.4875,
           41.88931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "자니콜로 언덕 전망대",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/1 백업 코스 선택 · 택시로 정상부 접근"
+        ],
+        "note": "신년 행사가 맞지 않을 때 내리막 산책 시작점",
+        "googleQuery": "Terrazza del Gianicolo Roma",
+        "sort": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.460833,
+          41.891307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "아쿠아 파올라 분수",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/1 백업 코스 선택"
+        ],
+        "note": "자니콜로에서 트라스테베레로 내려가는 길의 대형 분수",
+        "googleQuery": "Fontana dell'Acqua Paola Roma",
+        "sort": 242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.464295,
+          41.888807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "산타 마리아 인 트라스테베레",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/1 백업 코스 선택 · 외관과 광장 중심"
+        ],
+        "note": "트라스테베레 중심 광장과 성당 · 내부는 전례 시간 확인",
+        "googleQuery": "Basilica di Santa Maria in Trastevere",
+        "sort": 244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.469501,
+          41.889423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "시스토 다리",
+        "group": "rome",
+        "region": "rome",
+        "groups": [
+          "rome"
+        ],
+        "dates": [
+          "1/1 백업 코스 선택 · 숙소 방향 도보"
+        ],
+        "note": "트라스테베레에서 테베레 강을 건너 나보나 숙소로 돌아오는 보행자 다리",
+        "googleQuery": "Ponte Sisto Roma",
+        "sort": 246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470748,
+          41.892342
         ]
       }
     }

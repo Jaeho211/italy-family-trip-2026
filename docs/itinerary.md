@@ -120,8 +120,8 @@
     <li data-place-ids="140,142">13:30~13:50 Via Toledo와 톨레도 지하철역 내부의 푸른 모자이크·에스컬레이터 감상 · 역 개방 시 기본 코스</li>
     <li data-place-ids="175" data-priority="optional">선택 A · 14:00 Linea 1 Toledo → Vanvitelli 이동, 언덕길 도보 → 14:30~15:30 산텔모 성 전망 관람 · 12/26 개방·날씨·지하철 운행 확인 시만 진행</li>
     <li data-priority="optional">선택 A 복귀 · 15:45 전후 Piazza Fuga에서 Funicolare Centrale → Augusteo 하행 · 공휴일 운행 확인, 운행하지 않으면 택시 등으로 변경</li>
-    <li data-place-ids="150,160" data-priority="mixed">16:15 전후 Galleria Umberto I·Piazza del Plebiscito 산책 · 산텔모 성 생략 시 14:00부터 여유 있게 방문</li>
-    <li data-place-ids="6,170" data-priority="mixed">16:30~17:00 Via Chiaia로 숙소 복귀 · 해안 산책은 체력·날씨가 좋을 때만 선택</li>
+    <li data-place-ids="150,152,160,162" data-priority="mixed">16:15 전후 Galleria Umberto I·Piazza del Plebiscito 산책(산카를로 극장·왕궁은 외관) · 산텔모 성 생략 시 14:00부터 여유 있게 방문</li>
+    <li data-place-ids="6,158,170" data-priority="mixed">16:30~17:00 Via Chiaia로 숙소 복귀 · 해안 산책은 체력·날씨가 좋을 때만 선택</li>
   </ul>
   <details class="day-details">
     <summary>공휴일·산텔모 성 선택 기준 더보기</summary>
@@ -180,7 +180,7 @@
     <li>10:40 Napoli Centrale에서 Frecciarossa 9532 출발 → 11:55 Roma Termini 도착 · 예약 완료</li>
     <li data-place-ids="7">택시로 iFlat Luxury Navona Apartment 이동 → 체크인 전이면 짐 보관 후 점심</li>
     <li data-place-ids="30"><strong>16:00 전후 판테온 내부 관람</strong>을 목표로 열차 지연과 체크인 변수를 흡수</li>
-    <li data-place-ids="30,40,7">판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>
+    <li data-place-ids="30,40,42,7">판테온 → 나보나 광장 → 캄포 데 피오리를 짧은 도보 루프로 연결하고 숙소 복귀</li>
   </ul>
   <details class="day-details">
     <summary>운영·티켓 확인 더보기</summary>
@@ -210,7 +210,7 @@
     <li data-place-ids="10">07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
     <li data-place-ids="10">오전 바티칸 박물관과 시스티나 성당</li>
     <li data-place-ids="20">정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
-    <li data-place-ids="7">늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
+    <li data-place-ids="22,24,7">늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
     <li data-place-ids="7">산탄젤로성 내부 관람은 넣지 않고 15:30 전후 숙소 복귀·휴식 목표</li>
     <li>17:30 전후 나보나 근처에서 가족 함께 이른 저녁</li>
     <li data-place-ids="25">18:30 전후 아내와 딸은 공식 택시로 출발 → 19:15까지 Teatro Costanzi 도착</li>
@@ -273,7 +273,7 @@
   <ul>
     <li data-place-ids="50">10:30 전후 숙소 출발 → 트레비 분수</li>
     <li data-place-ids="50,60">트레비 → 스페인 광장·계단 → Trinità dei Monti를 한 방향으로 연결</li>
-    <li>점심 후 Pincio 전망대 → Piazza del Popolo까지 보고 보르게세 공원 안쪽은 생략</li>
+    <li data-place-ids="62,64">점심 후 Pincio 전망대 → Piazza del Popolo까지 보고 보르게세 공원 안쪽은 생략</li>
     <li data-place-ids="7">15:30~16:00 전후 숙소 복귀 → 오후에는 쉬어 자정 행사 체력 확보</li>
     <li>새해 전야 식사 사전 예약</li>
     <li>로마시 공식 행사·교통 통제가 발표되면 자정 관람 위치와 어린이 동반 귀가 동선 확정</li>
@@ -291,8 +291,8 @@
   <ul>
     <li>전날 귀가 시간에 맞춰 늦게 시작</li>
     <li>Rome Parade 또는 Roma Capodarte 공식 프로그램 중 가족형 행사를 우선</li>
-    <li data-priority="backup">행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
-    <li data-place-ids="7" data-priority="backup">Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
+    <li data-place-ids="240" data-priority="backup">행사가 맞지 않으면 오후 택시로 Gianicolo 전망대까지 올라가 내리막 중심 백업 코스 시작</li>
+    <li data-place-ids="242,244,246,7" data-priority="backup">Gianicolo → Fontana dell'Acqua Paola → Santa Maria in Trastevere → Piazza Trilussa → Ponte Sisto → Navona 숙소</li>
     <li data-place-ids="7" data-priority="backup">트라스테베레에서 이른 저녁을 먹고 Ponte Sisto를 건너 숙소까지 도보 복귀</li>
     <li>신정 휴관을 고려해 예약이 필요한 핵심 유료 관광지는 넣지 않음</li>
   </ul>

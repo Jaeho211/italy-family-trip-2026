@@ -25,7 +25,7 @@ type TripData = { days: TripDay[]; places: Place[]; walks?: Walk[] };
 type Tab = 'home' | 'schedule' | 'map' | 'reservations';
 
 const base = import.meta.env.BASE_URL;
-const image = (filename: string) => base + 'photos/' + filename + '.jpg';
+const image = (filename: string, small = false) => base + 'photos/' + (small ? 'sm/' : '') + filename + '.jpg';
 const photosByPlaceId = placePhotos as Record<string, {file: string; alt: string; heading?: string}>;
 const photosByDate = dayPhotos as Record<string, {file: string; alt: string; caption: string}>;
 // Archived MkDocs pages remain accessible from the new home page.
@@ -72,9 +72,9 @@ function routeMapDate() {
 function mapsSearch(query: string) {
   return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
 }
-function Photo({ filename, alt, priority = false }: {filename: string; alt: string; priority?: boolean}) {
+function Photo({ filename, alt, priority = false, small = false }: {filename: string; alt: string; priority?: boolean; small?: boolean}) {
   const [loaded, setLoaded] = useState(false);
-  return <img src={image(filename)} alt={alt} loading={priority ? 'eager' : 'lazy'} decoding="async"
+  return <img src={image(filename, small)} alt={alt} loading={priority ? 'eager' : 'lazy'} decoding="async"
     className={'photo' + (loaded ? ' is-loaded' : '')} onLoad={() => setLoaded(true)}
     ref={node => { if (node?.complete && node.naturalWidth) setLoaded(true); }} />;
 }
@@ -82,15 +82,13 @@ function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-/** First sightseeing photo of the day, otherwise the date's own overview photo. */
+/** First main sightseeing photo of the day, otherwise the date's own overview
+ * photo, otherwise any photographed stop (optional or backup). */
 function dayThumbnail(day: TripDay) {
-  for (const step of day.steps) {
-    if (step.places.length === 1) {
-      const photo = photosByPlaceId[String(step.places[0])];
-      if (photo) return photo;
-    }
-  }
-  return photosByDate[day.date];
+  const single = (main: boolean) => day.steps
+    .filter(step => step.places.length === 1 && (!main || step.priority === 'main'))
+    .map(step => photosByPlaceId[String(step.places[0])]).find(Boolean);
+  return single(true) ?? photosByDate[day.date] ?? single(false);
 }
 /** Classify a step for its timeline icon from its own wording. */
 function stepKind(step: TripStep, lodgingId?: number) {
@@ -226,7 +224,7 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
 
     <section className="wrap focus-wrap" aria-label={phase === 'during' ? '오늘 일정' : '첫날 일정'}>
       <button type="button" className={'focus-card region-' + focus.region} onClick={() => goDay(focus.date)}>
-        {focusPhoto && <span className="focus-photo"><Photo filename={focusPhoto.file} alt="" /></span>}
+        {focusPhoto && <span className="focus-photo"><Photo filename={focusPhoto.file} alt="" small /></span>}
         <span className="focus-body">
           <span className="focus-label">{phase === 'during' ? '오늘' : phase === 'before' ? '첫날' : '마지막 날'} · DAY {focusIndex + 1} · {dateLabel(focus.date)}</span>
           <strong>{focus.title}</strong>
@@ -266,7 +264,7 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
             <button type="button" className={'day-card region-' + day.region + (isToday ? ' is-today' : '')}
               onClick={() => goDay(day.date)}>
               <span className="day-card-photo">
-                {photo && <Photo filename={photo.file} alt="" />}
+                {photo && <Photo filename={photo.file} alt="" small />}
                 <span className="day-card-num"><small>DAY</small>{String(index + 1).padStart(2, '0')}</span>
                 {isToday && <span className="today-flag">오늘</span>}
               </span>
@@ -287,7 +285,7 @@ function Home({ data, goDay }: {data: TripData; goDay: (date: string) => void}) 
       <div className="place-rail">
         {featured.map(place => <button key={place.file} type="button"
           className={'place-tile region-' + place.region} onClick={() => goDay(place.date)}>
-          <Photo filename={place.file} alt={place.name + ' 풍경'} />
+          <Photo filename={place.file} alt={place.name + ' 풍경'} small />
           <span className="place-tile-text"><small>{dateLabel(place.date)}</small><strong>{place.name}</strong></span>
         </button>)}
       </div>
@@ -374,13 +372,37 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
     }
   });
 
-  const placeLinks = (step: TripStep) => <div className="step-links">
-    {step.places.map(id => {
+  // Places that have no feature card today get a small photo the first time a
+  // step mentions them, so every named sight can be recognised at a glance.
+  const stripPhotos = new Map<number, number[]>();
+  const shown = new Set<number>(lastPhotoStep.keys());
+  day.steps.forEach((step, index) => {
+    if (step.places.length === 1 && lastPhotoStep.get(step.places[0]) === index) return;
+    const ids = step.places.filter(id => photosByPlaceId[String(id)] && !shown.has(id));
+    ids.forEach(id => shown.add(id));
+    if (ids.length) stripPhotos.set(index, ids);
+  });
+
+  const placeLinks = (ids: number[]) => ids.length ? <div className="step-links">
+    {ids.map(id => {
       const place = lookup.get(id);
       return place ? <a key={id} href={mapsSearch(place.googleQuery || place.name)}
         target="_blank" rel="noopener noreferrer"><Icon name="pin" size={14} />{place.name}</a> : null;
     })}
-  </div>;
+  </div> : null;
+
+  const photoStrip = (ids: number[]) => <ul className="step-photos">
+    {ids.map(id => {
+      const place = lookup.get(id);
+      const photo = photosByPlaceId[String(id)];
+      return <li key={id}>
+        <a href={mapsSearch(place?.googleQuery || place?.name || photo.heading || '')} target="_blank" rel="noopener noreferrer">
+          <span className="step-photo-img"><Photo filename={photo.file} alt={photo.alt} small /></span>
+          <span className="step-photo-name"><Icon name="pin" size={13} />{photo.heading ?? place?.name}</span>
+        </a>
+      </li>;
+    })}
+  </ul>;
 
   return <section className="steps-section" aria-labelledby="steps-title">
     <div id="steps" className="anchor" />
@@ -404,7 +426,7 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
                 <p className="step-index">{String(index + 1).padStart(2, '0')}{time && <span className="time-chip">{time}</span>}{optional && <span className="optional-chip">선택 방문</span>}</p>
                 <h3>{preview.heading ?? place?.name ?? '관광지'}</h3>
                 <p>{rest}</p>
-                {placeLinks(step)}
+                {placeLinks(step.places)}
               </div>
             </article>
           </li>;
@@ -415,7 +437,8 @@ function Steps({ day, data }: {day: TripDay; data: TripData}) {
           <div className="step-card">
             <p className="step-index">{String(index + 1).padStart(2, '0')}{time && <span className="time-chip">{time}</span>}{optional && <span className="optional-chip">선택·대안</span>}</p>
             <p className="step-text">{rest}</p>
-            {step.places.length > 0 && placeLinks(step)}
+            {stripPhotos.has(index) && photoStrip(stripPhotos.get(index)!)}
+            {placeLinks(step.places.filter(id => !stripPhotos.get(index)?.includes(id)))}
           </div>
         </li>;
       })}

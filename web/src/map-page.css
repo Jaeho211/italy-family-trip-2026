@@ -35,6 +35,7 @@
 .travel-map-pin[data-group="day-trip"] { background: var(--civita); }
 .travel-map-pin:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .travel-map-popup { font-family: inherit; color: #202522; padding: 4px 2px; }
+.travel-map-popup-photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; margin-bottom: 9px; background: #e8e3d8; }
 .travel-map-popup strong { font-size: 15px; }
 .travel-map-popup p { font-size: 13px; margin: 8px 0 10px; line-height: 1.5; }
 .travel-map-popup a { color: var(--accent); font-size: 13px; font-weight: 700; }
@@ -45,6 +46,10 @@
 .travel-map-hint { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
 .travel-map-place-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 34px; }
 .travel-map-place { padding: 21px 0 24px; border-bottom: 1px solid var(--border); }
+/* Sights with a photograph: thumbnail on the left, text on the right. */
+.travel-map-place.has-photo { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 16px; align-content: start; }
+.travel-map-place.has-photo > :not(.travel-map-place-photo) { grid-column: 2; }
+.travel-map-place-photo { grid-row: 1 / span 4; width: 112px; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; background: #e8e3d8; }
 .travel-map-place-heading { display: flex; gap: 12px; align-items: start; }
 .travel-map-place-number { flex: none; color: var(--accent); font-size: 14px; font-weight: 730; padding-top: 4px; }
 .travel-map-place h3 { font-size: 18px; }

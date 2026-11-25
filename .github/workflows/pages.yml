@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Prepare photo assets locally from CC0 Wikimedia Commons
+      - name: Prepare photo assets locally from freely licensed Wikimedia Commons files
         run: python web/scripts/prepare_preview.py --photos
       - name: Install React dependencies
         run: npm install --prefix web --no-audit --no-fund

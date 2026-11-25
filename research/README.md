@@ -34,6 +34,7 @@
 | [`civita-orvieto-2026-12-30.md`](civita-orvieto-2026-12-30.md) | 12월 30일 치비타·오르비에토 | 겨울 특별 운영 재확인 |
 | [`naples-christmas-eve-walk-2026-11-25.md`](naples-christmas-eve-walk-2026-11-25.md) | 12월 24일 나폴리 이브 저녁 식사 후 산책 코스 | 코스 표시용 / 12월 중순 조례 재확인 |
 | [`evening-gaps-1225-1229-2026-11-25.md`](evening-gaps-1225-1229-2026-11-25.md) | 12/25 렌터카 조기 반납·성탄절 저녁, 12/29 공연 시간 저녁·귀가 | 조기 반납 허용·2026 나보나 마켓 확인 필요 |
+| [`photo-places-2026-11-25.md`](photo-places-2026-11-25.md) | 일정·지도 사진 보강, 로마 공개 명소 9곳 지도 등록 근거 | 좌표 표시용 / 사진 라이선스 확인 |
 | [`place-candidates.md`](place-candidates.md) | 외부 지도·여행 글에서 발견한 장소 후보 대기 목록 | 후보 입력·검증 후 일정 반영 |
 | [`rome-mymaps-places.md`](rome-mymaps-places.md) | 사용자 제작 로마 My Maps에서 추출한 장소 후보 | 쇼핑·숙소 제외 / 166곳 미검증 |
 | [`naples-mymaps-places.md`](naples-mymaps-places.md) | 사용자 제작 나폴리 My Maps에서 추출한 장소 후보 | 숙소 제외 / 여행지·코스·맛집 미검증 |

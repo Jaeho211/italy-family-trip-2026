@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './map-page.css';
+import placePhotos from './place-photos.json';
 
 type Place = {
   properties: {
@@ -59,6 +60,13 @@ const regions = [
   { id: 'civita', name: '치비타·오르비에토' }
 ];
 
+const photoIndex = placePhotos as Record<string, {file: string; alt: string; heading?: string}>;
+/** Locally stored thumbnail of a visited sight (lodging never has one). */
+function placePhoto(place: Place) {
+  const photo = photoIndex[String(place.properties.sort)];
+  return photo ? {src: import.meta.env.BASE_URL + 'photos/sm/' + photo.file + '.jpg', alt: photo.alt} : null;
+}
+
 function mapsSearch(place: Place) {
   const query = place.properties.googleQuery || place.properties.name + ', Italy';
   return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
@@ -67,6 +75,17 @@ function mapsSearch(place: Place) {
 function makePopup(place: Place) {
   const content = document.createElement('div');
   content.className = 'travel-map-popup';
+  const photo = placePhoto(place);
+  if (photo) {
+    // The image URL is only assigned when the popup opens (see marker setup),
+    // so opening the map does not download every thumbnail at once.
+    const img = document.createElement('img');
+    img.className = 'travel-map-popup-photo';
+    img.alt = photo.alt;
+    img.dataset.src = photo.src;
+    img.decoding = 'async';
+    content.append(img);
+  }
   const title = document.createElement('strong');
   title.textContent = place.properties.name;
   content.append(title);
@@ -181,10 +200,15 @@ export default function MapPage({data, date, goDay}: {
       button.textContent = selectedDay ? String(index + 1) : '•';
       button.title = place.properties.name;
       button.setAttribute('aria-label', place.properties.name);
+      const content = makePopup(place);
+      const popup = new maplibregl.Popup({offset: 15, maxWidth: '280px'}).setDOMContent(content);
+      popup.on('open', () => {
+        const img = content.querySelector<HTMLImageElement>('img[data-src]');
+        if (img && !img.src) img.src = img.dataset.src!;
+      });
       const marker = new maplibregl.Marker({element: button, anchor: 'center'})
         .setLngLat(place.geometry.coordinates)
-        .setPopup(new maplibregl.Popup({offset: 15, maxWidth: '280px'})
-          .setDOMContent(makePopup(place)))
+        .setPopup(popup)
         .addTo(map);
       markers.set(place.properties.sort, marker);
       bounds.extend(place.geometry.coordinates);
@@ -351,7 +375,10 @@ export default function MapPage({data, date, goDay}: {
       </div>
       <p className="travel-map-hint">지도를 두 손가락으로 이동할 수 있습니다. 현재 위치는 지도 오른쪽 위 버튼을 눌렀을 때만 한 번 표시하며 자동 추적하지 않습니다.</p>
       {places.length ? <div className="travel-map-place-grid">
-        {places.map((place, index) => <article className="travel-map-place" key={place.properties.sort}>
+        {places.map((place, index) => {
+          const photo = placePhoto(place);
+          return <article className={'travel-map-place' + (photo ? ' has-photo' : '')} key={place.properties.sort}>
+          {photo && <img className="travel-map-place-photo" src={photo.src} alt={photo.alt} loading="lazy" decoding="async" />}
           <div className="travel-map-place-heading">
             <span className="travel-map-place-number">{index + 1}</span>
             <h3>{place.properties.name}</h3>
@@ -362,7 +389,8 @@ export default function MapPage({data, date, goDay}: {
             {ready && <button type="button" onClick={() => focusPlace(place)}>지도에서 보기</button>}
             <a href={mapsSearch(place)} target="_blank" rel="noopener noreferrer">Google Maps ↗</a>
           </div>
-        </article>)}
+        </article>;
+        })}
       </div> : <p className="travel-map-empty">해당 날짜에 연결된 장소가 없습니다. 전체 날짜 또는 다른 지역을 선택해 주세요.</p>}
     </section>
   </main>;
