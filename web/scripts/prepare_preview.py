@@ -38,6 +38,13 @@ PHOTOS = {
     "orvieto-duomo": "Facade of Duomo di Orvieto7474.jpg",
     "spanish-steps": "Spanish Steps 2014.jpg",
     "forum": "Forum Romanum (9809573253).jpg",
+    "napoli-centrale": "Napoli Centrale Station Entrance 01.jpg",
+    "praiano": "View of Praiano from the sea, 2010.jpg",
+    "sant-angelo": "Castel Sant'Angelo at dusk, Rome, Italy.jpg",
+    "orvieto": "Another aerial perspective of Orvieto to reveal its flat summit on a large butte of volcanic tuff.jpg",
+    "galleria-umberto": "Umberto-1-Roof.jpg",
+    "sant-elmo": "Sant'Elmo e San Martino Napoli3.jpg",
+    "pozzo-patrizio": "Pozzo san patrizio orvieto.JPG",
 }
 
 USER_AGENT = "ItalyFamilyFieldNotes/0.2 (https://github.com/Jaeho211/italy-family-trip-2026)"
