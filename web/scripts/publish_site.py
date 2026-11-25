@@ -74,7 +74,9 @@ def render_pwa_worker() -> None:
     """
     files = sorted(
         p for p in REACT.rglob("*")
-        if p.is_file() and p.name != "sw.js"
+        # Web-font subsets are cached at runtime on first use (only the subsets a
+        # page needs), instead of precaching every Korean unicode-range file.
+        if p.is_file() and p.name != "sw.js" and p.suffix != ".woff2"
     )
     required_icons = [
         STAGE / "assets/journey/icon-192.png",

@@ -27,21 +27,22 @@
   <h3>12월 24일 목요일 · 나폴리 이동과 크리스마스이브 산책</h3>
   <p class="day-card__meta">2일차 · 나폴리 1/4박</p>
   <span class="status confirmed">열차·나폴리 숙소 예약 완료</span><span class="status tentative">저녁 자유 산책·식사 유동적</span><span class="status recheck">이브 영업·교통 재확인</span>
-  <p class="route">Roma Termini → Napoli Centrale → 키아이아 숙소 → Via Chiaia → Piazza del Plebiscito → Galleria Umberto I(선택) → 저녁 자유롭게 → 숙소</p>
+  <p class="route">Roma Termini → Napoli Centrale → 키아이아 숙소 → 저녁 식사 → Via Chiaia → Piazza del Plebiscito → Galleria Umberto I(선택) → 숙소</p>
   <ul class="day-reminders" aria-label="준비·확인할 것">
     <li>방문 전 · The RomeHello 체크아웃 후 짐 보관과 Frecciarossa 열차 운행 변경을 확인해요.</li>
     <li>오늘 · 13:10 전후 짐을 찾고 13:30까지 Roma Termini에 도착해요. 내일 아말피 여행에서 먹을 간식·물은 가능하면 로마에서 열차 탑승 전에 준비해요.</li>
-    <li>현장에서 · 12/24 크리스마스이브 상점·식당 조기 종료에 대비해 식사는 외식·포장·숙소 식사 중 편한 방법으로 정해요. 예약 식사는 필수가 아니에요.</li>
+    <li>현장에서 · 12/24 크리스마스이브 상점·식당 조기 종료에 대비해 저녁을 산책 전에 먼저 해결해요. 외식·포장·숙소 식사 중 편한 방법으로 정하고, 예약 식사는 필수가 아니에요.</li>
+    <li>현장에서 · 키아이아는 이브 낮~저녁에 거리 인파가 많아 2024·2025년에 시 조례로 통제된 사례가 있어요. 택시가 숙소 근처로 못 들어가면 Linea 2 Piazza Amedeo역에서 걸어가요. 2026년 조례는 12월 중순에 확인해요.</li>
   </ul>
   <ul>
     <li data-place-ids="5">11:00 The RomeHello 체크아웃 → 가능하면 짐 보관 후 테르미니 근처에서 점심</li>
     <li>13:10 전후 짐 수령 → 13:30까지 Roma Termini 도착</li>
     <li>14:00 Frecciarossa 9527 출발 → <strong>15:13 Napoli Centrale 도착</strong> · 예약 완료</li>
     <li data-place-ids="6">15:15 이후 택시로 Una terrazza a Chiaia(Via Santa Teresa a Chiaia 39) 이동 → 16:00~16:45 전후 체크인·휴식 · 교통에 따라 변동 가능</li>
-    <li data-place-ids="160">17:00~18:00 전후 Via Chiaia 거리·Piazza del Plebiscito에서 크리스마스이브 조명과 광장 분위기 산책 · 피곤하면 짧게</li>
-    <li data-place-ids="150" data-priority="optional">여유가 있으면 18:00 전후 Galleria Umberto I 외관·통로 구경 · 실내 영업·출입 가능 여부는 미확인</li>
-    <li>18:00 이후 저녁은 예약 없이 유동적으로 해결 · 문 연 식당에서 외식하거나 피자·간단한 음식 포장, 필요하면 숙소에서 식사</li>
-    <li data-place-ids="6">저녁에는 숙소에서 휴식 · 12/25 아말피 렌터카 여행 준비</li>
+    <li>17:30~18:30 전후 저녁 먼저 해결 · 예약 없이 문 연 식당에서 외식하거나 피자·간단한 음식 포장, 필요하면 숙소에서 식사</li>
+    <li data-place-ids="160">19:00~20:00 전후 Via Chiaia 거리·Piazza del Plebiscito에서 크리스마스이브 조명 산책 · 기본 왕복·해안 순환·짧은 코스 후보는 여행 지도에서 확인 · 피곤하면 짧게</li>
+    <li data-place-ids="150" data-priority="optional">여유가 있으면 19:30 전후 Galleria Umberto I 외관·통로 구경 · 실내 영업·출입 가능 여부는 미확인</li>
+    <li data-place-ids="6">20:30 전후 숙소 복귀 · 12/25 아말피 렌터카 여행 준비(다음 날 07:05 출발)</li>
   </ul>
   <details class="day-details">
     <summary>이동·크리스마스이브 안내 더보기</summary>
@@ -52,6 +53,8 @@
       <li>12/24 크리스마스이브에 Via Chiaia·Piazza del Plebiscito의 장식·조명을 산책하는 계획 · 실제 점등·행사·상점 운영은 미확정</li>
       <li>Galleria Umberto I는 시간이 남을 때만 방문하며 영업이나 내부 통로 개방을 보장하지 않음</li>
       <li>식당 예약은 하지 않아도 되며 외식·포장·숙소 식사 중 선택 · 내일 간식·물은 로마에서 미리 구매하면 편리</li>
+      <li>저녁 산책 코스 후보 · 기본: 숙소 ↔ 플레비시토 광장 왕복 약 3.3km / 해안: 델로보 성 야경 순환 약 4.4km(체력 여유 시) / 짧게: Piazza dei Martiri 왕복 약 1.6km · 거리는 OpenStreetMap 기반 표시용 추정이며 소요시간은 아이 걸음 기준 추정</li>
+      <li>2024·2025년 이브에 나폴리시가 키아이아·보메로·구시가지 등의 병·캔 음료 판매 금지와 인파 통제 조례를 시행했다는 보도가 있음 · 공식 원문 미확인 · 2026년 조례는 12월 중순 재확인</li>
       <li>The RomeHello의 체크아웃 후 짐 보관 가능 여부를 사전에 재확인</li>
     </ul>
   </details>

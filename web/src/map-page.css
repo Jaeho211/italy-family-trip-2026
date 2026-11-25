@@ -25,19 +25,19 @@
 .travel-map-pin {
   display: flex; align-items: center; justify-content: center;
   min-width: 27px; min-height: 27px; border-radius: 50%; border: 2px solid #fff;
-  background: #265b52; color: white; box-shadow: 0 1px 6px #0005;
+  background: var(--accent); color: white; box-shadow: 0 1px 6px #0005;
   padding: 2px 4px; font: 700 12px/1 sans-serif; cursor: pointer;
 }
 .travel-map-pin[data-group="lodging"] { background: #796489; }
-.travel-map-pin[data-group="naples"] { background: #315e7b; }
-.travel-map-pin[data-group="rome"] { background: #9e5e51; }
-.travel-map-pin[data-group="amalfi"] { background: #a16d46; }
-.travel-map-pin[data-group="day-trip"] { background: #677d53; }
-.travel-map-pin:focus-visible { outline: 3px solid #163f36; outline-offset: 2px; }
+.travel-map-pin[data-group="naples"] { background: var(--naples); }
+.travel-map-pin[data-group="rome"] { background: var(--rome); }
+.travel-map-pin[data-group="amalfi"] { background: var(--amalfi); }
+.travel-map-pin[data-group="day-trip"] { background: var(--civita); }
+.travel-map-pin:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .travel-map-popup { font-family: inherit; color: #202522; padding: 4px 2px; }
 .travel-map-popup strong { font-size: 15px; }
 .travel-map-popup p { font-size: 13px; margin: 8px 0 10px; line-height: 1.5; }
-.travel-map-popup a { color: #265b52; font-size: 13px; font-weight: 700; }
+.travel-map-popup a { color: var(--accent); font-size: 13px; font-weight: 700; }
 .travel-map-list { margin-top: 35px; }
 .travel-map-list-heading { display: flex; align-items: baseline; gap: 13px; border-top: 2px solid var(--strong); padding: 18px 0 10px; }
 .travel-map-list-heading h2 { font-size: 24px; }
@@ -65,4 +65,34 @@
   .travel-map-canvas { height: 54vh; min-height: 360px; max-height: 540px; }
   .travel-map-place-grid { grid-template-columns: 1fr; }
   .travel-map-hint { font-size: 14px; }
+}
+
+/* Walking-route candidates */
+.walk-panel { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 24px; margin-bottom: 18px; }
+.walk-panel-head h2 { font-size: 21px; }
+.walk-panel-head p { font-size: 14px; color: var(--muted); margin-top: 4px; }
+.walk-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; margin-top: 16px; }
+.walk-tabs button {
+  position: relative; display: grid; grid-template-columns: 14px 1fr; column-gap: 10px; row-gap: 2px; align-items: center;
+  text-align: left; padding: 12px 14px; border-radius: var(--radius-sm); background: var(--bg);
+  border: 2px solid transparent; transition: border-color .2s, background .2s;
+}
+.walk-tabs button[aria-selected="true"] { border-color: var(--walk); background: color-mix(in srgb, var(--walk) 8%, var(--surface)); }
+.walk-swatch { width: 14px; height: 14px; border-radius: 50%; background: var(--walk); grid-row: span 2; }
+.walk-tab-name { font-size: 15px; font-weight: 750; letter-spacing: -.02em; padding-right: 36px; }
+.walk-tab-meta { font-size: 13px; color: var(--muted); font-weight: 600; }
+.walk-tab-badge { position: absolute; top: 10px; right: 10px; font-size: 11px; font-weight: 800; color: #fff; background: var(--walk); padding: 2px 7px; border-radius: 999px; }
+.walk-detail { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.walk-detail-summary { font-size: 16px; line-height: 1.65; }
+.walk-stops { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 6px 4px; }
+.walk-stops li { font-size: 13px; font-weight: 650; }
+.walk-stops li:not(:last-child)::after { content: "→"; margin-left: 4px; color: var(--walk); font-weight: 800; }
+.walk-facts { list-style: none; padding: 0; margin: 14px 0 0; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; color: var(--muted); }
+.walk-facts strong { font-family: var(--display); font-size: 20px; font-weight: 600; color: var(--ink); margin-right: 6px; }
+.walk-facts .walk-option { flex-basis: 100%; font-size: 13px; }
+.walk-directions { display: inline-flex; margin-top: 14px; padding: 9px 16px; border-radius: 999px; background: var(--walk); color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; }
+.walk-directions:hover { filter: brightness(1.08); }
+@media (max-width: 720px) {
+  .walk-panel { padding: 18px 16px; }
+  .walk-tabs { grid-template-columns: 1fr; }
 }

@@ -8,19 +8,28 @@
 
 기존 나폴리 국립고고학박물관(MANN) 오후 관람은 **제외**합니다. 15:13 Napoli Centrale 도착 후 키아이아 숙소에서 체크인·휴식을 하고, 아이들과 크리스마스이브 조명이 있는 거리를 가볍게 걷는 날이에요. 저녁은 특별한 식사나 레스토랑 예약을 전제로 하지 않습니다.
 
-<p class="route">Napoli Centrale → Una terrazza a Chiaia 체크인 → Via Chiaia → Piazza del Plebiscito → Galleria Umberto I(선택) → 숙소</p>
+<p class="route">Napoli Centrale → Una terrazza a Chiaia 체크인 → 저녁 식사 → Via Chiaia → Piazza del Plebiscito → Galleria Umberto I(선택) → 숙소</p>
 
 1. **11:00** The RomeHello 체크아웃 → 짐 보관이 가능하면 테르미니 근처에서 점심
 2. **13:10~13:30** 짐 수령 후 Roma Termini 도착
 3. **14:00~15:13** Frecciarossa 9527로 Roma Termini → Napoli Centrale 이동 (**예약 완료**)
 4. **16:00~16:45 전후** 중앙역에서 택시로 [Una terrazza a Chiaia](https://www.google.com/maps/search/?api=1&query=Via+Santa+Teresa+a+Chiaia+39+Napoli){ target="_blank" rel="noopener" } 숙소 이동, 체크인·잠깐 휴식 (도착 시각은 예상)
-5. **17:00~18:00 전후** [Via Chiaia](https://www.google.com/maps/search/?api=1&query=Via+Chiaia+Napoli){ target="_blank" rel="noopener" } 거리와 [Piazza del Plebiscito](https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito+Napoli){ target="_blank" rel="noopener" }를 가볍게 산책, 크리스마스이브 분위기 구경
-6. **18:00 전후 선택** 시간이 남고 접근 가능하면 [Galleria Umberto I](https://www.google.com/maps/search/?api=1&query=Galleria+Umberto+I+Napoli){ target="_blank" rel="noopener" }까지 둘러본 뒤 숙소로
-7. **18:00 이후** 저녁은 **예약 미정**. 영업 중인 식당에서 외식, 피자·간편식 포장, 또는 숙소에서 식사 중 편한 방법 선택
-8. 밤에는 휴식하고 다음 날 렌터카로 떠나는 아말피 해안 일정 준비
+5. **17:30~18:30 전후** 저녁 먼저 해결. **예약 미정**이며 영업 중인 식당에서 외식, 피자·간편식 포장, 또는 숙소에서 식사 중 편한 방법 선택
+6. **19:00~20:00 전후** [Via Chiaia](https://www.google.com/maps/search/?api=1&query=Via+Chiaia+Napoli){ target="_blank" rel="noopener" } 거리와 [Piazza del Plebiscito](https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito+Napoli){ target="_blank" rel="noopener" }를 가볍게 산책, 크리스마스이브 조명 구경
+7. **19:30 전후 선택** 시간이 남고 접근 가능하면 [Galleria Umberto I](https://www.google.com/maps/search/?api=1&query=Galleria+Umberto+I+Napoli){ target="_blank" rel="noopener" }까지 둘러본 뒤 숙소로
+8. **20:30 전후** 숙소 복귀, 다음 날 07:05 출발하는 아말피 해안 렌터카 일정 준비
+
+### 저녁 산책 코스 후보
+
+여행 앱의 [12/24 지도](https://jaeho211.github.io/italy-family-trip-2026/#/map/2026-12-24){ target="_blank" rel="noopener" }에서 세 코스를 선으로 확인할 수 있어요. 거리는 OpenStreetMap 기반 표시용 추정, 소요시간은 아이 걸음 기준 추정입니다.
+
+- **기본 · 플레비시토 광장 왕복** 약 3.3km, 60~75분 · 숙소 → Piazza dei Martiri → Via Chiaia → Piazza Trieste e Trento → Piazza del Plebiscito → 같은 길로 복귀
+- **해안 · 델로보 성 야경 순환** 약 4.4km, 80~95분 · 플레비시토 광장 → Via Partenope → Piazza Vittoria → Riviera di Chiaia → 숙소. 체력이 남을 때만
+- **짧게 · Piazza dei Martiri 왕복** 약 1.6km, 25~35분 · 피곤할 때 Via Chiaia 입구 조명만 보고 복귀
 
 - 크리스마스이브에는 식당·슈퍼마켓·상점 영업이 일찍 끝날 수 있으므로, **12/25 아말피용 물·간식은 가능하면 로마에서 열차 탑승 전에 구입**합니다.
 - Via Chiaia·광장 실제 조명·행사, Galleria 내부 접근 및 식당 운영은 **2026년 12월 24일 당일 기준 미확정**으로 둡니다.
+- 키아이아는 이브 낮~저녁 거리 인파로 2024·2025년 시 조례 통제 사례가 보도됐습니다(공식 원문 미확인). 택시가 숙소 근처로 못 들어가면 Linea 2 Piazza Amedeo역에서 걸어갑니다. 2026년 조례는 12월 중순에 재확인합니다.
 - 이날 관광은 숙소 도착 후 컨디션에 따라 줄이거나 생략할 수 있습니다. 다음 날 피로가 남지 않도록 무리하지 않습니다.
 - 26일에 다시 지나는 Galleria Umberto I와 Piazza del Plebiscito는 중복 관광을 강제하지 않습니다.
 

@@ -55,7 +55,7 @@ class Tree(HTMLParser):
 # Presentation metadata only. Times, statuses and instructions come from itinerary.md.
 CONTEXT = {
     '1223': ('rome', 5, '로마 도착', '오늘은 이동과 회복에 집중해요.'),
-    '1224': ('naples', 6, '나폴리', '15:13 도착 후 키아이아에서 크리스마스이브 산책. 저녁은 자유롭게 정해요.'),
+    '1224': ('naples', 6, '나폴리', '15:13 도착 후 숙소에서 쉬고, 저녁을 먹은 뒤 19시쯤 크리스마스이브 조명을 걸어요.'),
     '1225': ('amalfi', 6, '아말피 해안', '해안 풍경을 만나는 날. 날씨에 따라 쉬어가도 좋아요.'),
     '1226': ('naples', 6, '나폴리', '크리스마스 거리와 피자, 구시가지를 가족 속도로 산책해요.'),
     '1227': ('pompeii', 6, '폼페이', '옛 도시를 걸어보고, 오후에는 숙소에서 쉬어요.'),
@@ -114,7 +114,14 @@ def build_data(root):
                          reminders=[li.text() for group in card.find('ul', 'day-reminders') for li in group.find('li')],
                          details=''.join(d.html() for d in details), notes=direct_notes,
                          route=' '.join(p.text() for p in card.find('p', 'route'))))
-    return dict(days=days, places=places)
+    # Optional evening/day walking-route candidates (public streets only).
+    walks_path = root / 'docs/assets/map/walks.geojson'
+    walks = json.loads(walks_path.read_text())['features'] if walks_path.exists() else []
+    dates = {day['date'] for day in days}
+    for walk in walks:
+        if walk['properties']['date'] not in dates:
+            raise ValueError(f"Walk route {walk['properties']['id']} has unknown date")
+    return dict(days=days, places=places, walks=walks)
 
 
 def on_post_build(config, **kwargs):

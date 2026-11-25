@@ -22,7 +22,33 @@ type Day = {
   places?: number[];
   steps: { places: number[] }[];
 };
-type TripData = { days: Day[]; places: Place[] };
+export type Walk = {
+  properties: {
+    id: string; parent?: string; date: string; order: number; color: string; name: string;
+    recommended?: boolean; optionalSegment?: boolean; summary?: string; stops?: string[];
+    distanceKm: number; oneWayKm?: number; minutes?: string; kind?: string; option?: string;
+    waypoints?: [number, number][]; returnSame?: boolean;
+  };
+  geometry: { type: 'LineString'; coordinates: [number, number][] };
+};
+type TripData = { days: Day[]; places: Place[]; walks?: Walk[] };
+
+function walkDirections(walk: Walk) {
+  const coords = walk.geometry.coordinates;
+  const latLng = ([lng, lat]: [number, number]) => lat + ',' + lng;
+  const points = walk.properties.waypoints || [];
+  const origin = coords[0];
+  // Out-and-back routes open the outbound leg; loops return to the start.
+  const destination = walk.properties.returnSame ? points[points.length - 1] ?? coords[coords.length - 1] : origin;
+  const via = walk.properties.returnSame ? points.slice(0, -1) : points;
+  const params = new URLSearchParams({ api: '1', origin: latLng(origin), destination: latLng(destination), travelmode: 'walking' });
+  if (via.length) params.set('waypoints', via.map(latLng).join('|'));
+  return 'https://www.google.com/maps/dir/?' + params.toString();
+}
+function initialWalk() {
+  const match = window.location.hash.match(/\/walk\/([A-Za-z-]+)$/);
+  return match ? match[1] : '';
+}
 
 const regions = [
   { id: 'all', name: '전체' },
@@ -69,6 +95,16 @@ export default function MapPage({data, date, goDay}: {
   const markersRef = useRef<Map<number, maplibregl.Marker>>(new Map());
 
   const selectedDay = useMemo(() => data.days.find(day => day.date === date), [data, date]);
+  const dayWalks = useMemo(() => (data.walks || []).filter(walk => walk.properties.date === date)
+    .sort((a, b) => a.properties.order - b.properties.order), [data, date]);
+  const walkChoices = useMemo(() => dayWalks.filter(walk => !walk.properties.parent), [dayWalks]);
+  const [activeWalk, setActiveWalk] = useState(initialWalk);
+  const currentWalk = walkChoices.find(walk => walk.properties.id === activeWalk)
+    ?? walkChoices.find(walk => walk.properties.recommended) ?? walkChoices[0];
+  const chooseWalk = (id: string) => {
+    setActiveWalk(id);
+    if (date) history.replaceState(null, '', '#/map/' + date + '/walk/' + id);
+  };
   const places = useMemo(() => {
     if (selectedDay) {
       // Include actual visits and both ends of an intercity transfer, not just
@@ -153,6 +189,9 @@ export default function MapPage({data, date, goDay}: {
       markers.set(place.properties.sort, marker);
       bounds.extend(place.geometry.coordinates);
     });
+    if (currentWalk) {
+      currentWalk.geometry.coordinates.forEach(point => bounds.extend(point));
+    }
     if (places.length) {
       map.fitBounds(bounds, {
         padding: {top: 65, right: 60, bottom: 65, left: 60},
@@ -164,7 +203,65 @@ export default function MapPage({data, date, goDay}: {
       markers.forEach(marker => marker.remove());
       markers.clear();
     };
-  }, [places, ready, selectedDay]);
+  }, [places, ready, selectedDay]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Walking-route candidates: drawn as lines under the place pins.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready) return;
+    const activeId = currentWalk?.properties.id;
+    const collection = {
+      type: 'FeatureCollection' as const,
+      features: dayWalks.map(walk => ({
+        type: 'Feature' as const,
+        geometry: walk.geometry,
+        properties: { ...walk.properties, active: walk.properties.id === activeId || walk.properties.parent === activeId },
+      })),
+    };
+    const source = map.getSource('walks') as maplibregl.GeoJSONSource | undefined;
+    if (source) {
+      source.setData(collection as GeoJSON.FeatureCollection);
+    } else {
+      map.addSource('walks', { type: 'geojson', data: collection as GeoJSON.FeatureCollection });
+      map.addLayer({ id: 'walks-casing', type: 'line', source: 'walks',
+        filter: ['==', ['get', 'active'], true],
+        layout: { 'line-join': 'round', 'line-cap': 'round' },
+        paint: { 'line-color': '#ffffff', 'line-width': 9, 'line-opacity': .9 } });
+      map.addLayer({ id: 'walks-line', type: 'line', source: 'walks',
+        filter: ['!=', ['get', 'optionalSegment'], true],
+        layout: { 'line-join': 'round', 'line-cap': 'round' },
+        paint: {
+          'line-color': ['get', 'color'],
+          'line-width': ['case', ['get', 'active'], 5, 3],
+          'line-opacity': ['case', ['get', 'active'], 1, .3],
+        } });
+      map.addLayer({ id: 'walks-optional', type: 'line', source: 'walks',
+        filter: ['==', ['get', 'optionalSegment'], true],
+        layout: { 'line-join': 'round', 'line-cap': 'butt' },
+        paint: {
+          'line-color': ['get', 'color'],
+          'line-width': ['case', ['get', 'active'], 4, 2],
+          'line-opacity': ['case', ['get', 'active'], .95, .3],
+          'line-dasharray': [1.2, 1.2],
+        } });
+      map.on('click', 'walks-line', event => {
+        const props = event.features?.[0]?.properties as {id?: string; parent?: string} | undefined;
+        const id = props?.parent || props?.id;
+        if (id) chooseWalkRef.current(id);
+      });
+      map.on('mouseenter', 'walks-line', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'walks-line', () => { map.getCanvas().style.cursor = ''; });
+    }
+    if (currentWalk) {
+      // Frame the chosen course together with its optional spur (e.g. the gallery).
+      const bounds = new maplibregl.LngLatBounds();
+      dayWalks.filter(walk => walk.properties.id === activeId || walk.properties.parent === activeId)
+        .forEach(walk => walk.geometry.coordinates.forEach(point => bounds.extend(point)));
+      map.fitBounds(bounds, { padding: {top: 50, right: 56, bottom: 50, left: 50}, maxZoom: 15.5, duration: 400 });
+    }
+  }, [dayWalks, currentWalk, ready]); // eslint-disable-line react-hooks/exhaustive-deps
+  const chooseWalkRef = useRef(chooseWalk);
+  chooseWalkRef.current = chooseWalk;
 
   const focusPlace = (place: Place) => {
     const map = mapRef.current;
@@ -209,6 +306,38 @@ export default function MapPage({data, date, goDay}: {
             onClick={() => setRegion(item.id)}>{item.name}</button>)}
         </div>}
     </section>
+
+    {walkChoices.length > 0 && currentWalk && <section className="walk-panel" aria-labelledby="walk-panel-title">
+      <div className="walk-panel-head">
+        <h2 id="walk-panel-title">산책 코스 후보</h2>
+        <p>지도에서 선을 누르거나 아래에서 골라 보세요. 거리·시간은 표시용 추정이에요.</p>
+      </div>
+      <div className="walk-tabs" role="tablist" aria-label="산책 코스 선택">
+        {walkChoices.map(walk => <button key={walk.properties.id} type="button" role="tab"
+          aria-selected={walk.properties.id === currentWalk.properties.id}
+          style={{'--walk': walk.properties.color} as React.CSSProperties}
+          onClick={() => chooseWalk(walk.properties.id)}>
+          <span className="walk-swatch" aria-hidden="true" />
+          <span className="walk-tab-name">{walk.properties.name}</span>
+          <span className="walk-tab-meta">{walk.properties.distanceKm}km · {walk.properties.minutes}분</span>
+          {walk.properties.recommended && <span className="walk-tab-badge">추천</span>}
+        </button>)}
+      </div>
+      <article className="walk-detail" style={{'--walk': currentWalk.properties.color} as React.CSSProperties} role="tabpanel">
+        <p className="walk-detail-summary">{currentWalk.properties.summary}</p>
+        {currentWalk.properties.stops && <ol className="walk-stops">
+          {currentWalk.properties.stops.map((stop, i) => <li key={i}>{stop}</li>)}
+        </ol>}
+        <ul className="walk-facts">
+          <li><strong>{currentWalk.properties.distanceKm}km</strong>{currentWalk.properties.kind}{currentWalk.properties.oneWayKm ? ' · 편도 ' + currentWalk.properties.oneWayKm + 'km' : ''}</li>
+          <li><strong>{currentWalk.properties.minutes}분</strong>아이 걸음 기준</li>
+          {currentWalk.properties.option && <li className="walk-option">{currentWalk.properties.option} (점선)</li>}
+        </ul>
+        <a className="walk-directions" href={walkDirections(currentWalk)} target="_blank" rel="noopener noreferrer">
+          Google Maps 도보 길찾기{currentWalk.properties.returnSame ? ' (가는 길)' : ''} ↗
+        </a>
+      </article>
+    </section>}
 
     <div className="travel-map-canvas-shell">
       <div className="travel-map-canvas" ref={mapElement} aria-label="여행지 위치 지도" />
