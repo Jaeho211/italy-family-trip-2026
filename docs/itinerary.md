@@ -144,12 +144,12 @@
   <ul class="day-reminders" aria-label="준비·확인할 것">
     <li>방문 전 · 폼페이 12/27 입장권을 준비하고 EAV 일요일·연말 열차와 유적지 특별 운영을 재확인해요.</li>
     <li>오늘 · 작은 가방·운동화·물과 간식을 챙겨요. 30×30×15cm 초과 가방은 반입할 수 없어요.</li>
-    <li>선택 · 한국어 가족 단독 가이드가 27일에 가능할 때만 예약해요. 없으면 자유 관람하고 영어 해설 투어는 넣지 않아요.</li>
+    <li>부오나투어 한국어 가이드는 예약 확정 대기예요. 확정 안내에서 집합 시각·장소와 입장권 준비 방법을 확인해요.</li>
   </ul>
   <ul>
     <li>07:10 전후 숙소 출발 → 택시로 Napoli Porta Nolana 이동 · 미배차면 Piazza Amedeo–Piazza Garibaldi Linea 2 검토</li>
     <li>08:00 전후 EAV로 Pompei Scavi–Villa dei Misteri 이동 목표 · 12/27 일요일 실제 열차편은 미확정</li>
-    <li data-place-ids="110">09:00 전후 Porta Marina 입장 목표 → Forum·목욕탕·극장 지구 중심 관람 · 한국어 가이드 미확보 시 자유 관람</li>
+    <li data-place-ids="110">Porta Marina에서 부오나투어 한국어 해설 약 2시간 계획 · 예약 확정 대기, 집합·입장 시각은 확정 안내에 맞춰 조정 → 이후 자유 관람</li>
     <li>점심·휴식 후 14:30~15:30 전후 EAV로 나폴리 복귀 목표 · 실제 열차는 출발 전 확정</li>
     <li data-place-ids="6">16:00 전후 숙소 복귀, 다음 날 로마 이동을 위해 휴식</li>
     <li>렌터카 미사용, 에르콜라노 제외</li>
@@ -161,7 +161,7 @@
       <li>정기 휴관일은 12월 25일과 1월 1일이므로 12월 27일은 일반 개관 대상이나 특별 공지는 별개</li>
       <li>Pompeii Express 기본, Villa dei Misteri 관람 때만 Pompeii+ 검토 · 어린이 무료표와 환불 규정은 구매 화면에서 확인</li>
       <li>기존 12/26 토요일용 08:05·14:53 등의 열차 시각을 12/27 일요일에 그대로 적용하지 않음 · EAV 실제 시간표는 12월 중순 확인</li>
-      <li>한국어 가이드는 아직 미예약이며 선택 사항 · 영어 가이드 투어 일정 제외</li>
+      <li>부오나투어 예약 확정 대기(2026-11-28 사용자 확인) · 조인/단독 여부와 입장권 대행 확인 전 중복 구매 금지 · 미확정 시 자유 관람</li>
     </ul>
     <p><a href="https://pompeiisites.org/en/visiting-info/timetables-and-tickets/" target="_blank" rel="noopener">폼페이 공식 운영·티켓 안내</a> · <a href="https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/naples-family-walk-2026-11-22.md" target="_blank" rel="noopener">일정 변경·재확인 기록</a></p>
   </details>
@@ -201,13 +201,13 @@
   <span class="status tentative">일정 합의</span><span class="status verified">박물관·공연 확인</span><span class="status waiting">바티칸 티켓 판매 대기</span><span class="status verified">발레 2석 예매 완료</span>
   <p class="route">Vatican Museums → Sistine Chapel → St. Peter's Basilica·Square → Via della Conciliazione → Castel Sant'Angelo 외관 → Ponte Sant'Angelo → 숙소</p>
   <ul class="day-reminders" aria-label="준비·확인할 것">
-    <li>방문 전 · 바티칸 08:00 입장권을 우선 확보하고 매진이면 08:30 → 09:00 순으로 확인해요. 대성당 입장·보안 통제도 재확인해요.</li>
+    <li>바티칸 09:00 일반투어는 예약 확정 대기예요. 확정 안내에서 집합 시각·입장권과 어린이 요금을 확인해요.</li>
     <li>출발 1주 전 · 발레 공연 변경 여부를 재확인해요.</li>
     <li>오늘 · 대성당 보안검색 시간을 확보하고, 공연 관람 가족은 이른 저녁 후 19:15까지 Teatro Costanzi에 도착해요.</li>
     <li>현장에서 · 공연이 끝나면 060609 또는 Roma Capitale 공식 앱으로 면허 택시를 불러 숙소로 돌아와요.</li>
   </ul>
   <ul>
-    <li data-place-ids="10">07:30 도착 · 08:00 바티칸 박물관 입장 목표</li>
+    <li data-place-ids="10">투어 확정 안내에 맞춰 집합 · 바티칸 일반투어 09:00 시작 예약 확정 대기</li>
     <li data-place-ids="10">오전 바티칸 박물관과 시스티나 성당</li>
     <li data-place-ids="20">정오 전후 성베드로 대성당과 광장 · 별도 보안검색 시간을 충분히 확보</li>
     <li data-place-ids="22,24,7">늦은 점심 후 Via della Conciliazione → 산탄젤로성 외관 → 성천사의 다리를 따라 Navona 숙소 방향으로 이동</li>
@@ -224,7 +224,7 @@
     <summary>운영·예약 확인 더보기</summary>
     <ul>
       <li>2026년 공식 달력상 12월 29일은 바티칸 박물관 정규 개관일</li>
-      <li>08:00 입장권을 우선하고 매진 시 08:30 → 09:00 순으로 확인</li>
+      <li>일반투어 09:00 예약 확정 대기 · 투어 전용 입장권 조건과 어린이 요금 확인</li>
       <li>성베드로 대성당 일반 입장과 보안 통제는 2026년 공식 공지 후 재확인</li>
       <li>박물관에서 성베드로 대성당으로 바로 빠지는 전용 동선을 일정 전제로 두지 않음</li>
       <li>20:00 공연은 Fumi Kaneko와 Vadim Muntagirov 출연 회차</li>

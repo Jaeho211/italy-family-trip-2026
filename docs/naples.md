@@ -73,8 +73,8 @@
 
 1. 07:10 전후 키아이아 숙소에서 택시로 Napoli Porta Nolana 이동 · 미배차면 Piazza Amedeo–Piazza Garibaldi Linea 2 검토
 2. 08:00 전후 EAV로 Pompei Scavi–Villa dei Misteri 이동 목표 · **12/27 일요일 열차편은 미확정**
-3. 09:00 전후 Porta Marina에서 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park+Porta+Marina){ target="_blank" rel="noopener" } 입장
-4. Forum·목욕탕·극장 지구 중심 관람 · 가족 자유 관람, 한국어 단독 가이드는 27일 가능하면 선택
+3. 투어 확정 안내의 집합·입장 시각에 맞춰 Porta Marina에서 [폼페이 유적](https://www.google.com/maps/search/?api=1&query=Pompeii+Archaeological+Park+Porta+Marina){ target="_blank" rel="noopener" } 입장
+4. 부오나투어 한국어 해설 약 2시간 계획 · 예약 확정 대기, 이후 자유 관람
 5. 14:30~15:30 전후 EAV로 나폴리 복귀 목표 · 실제 편은 출발 전에 확정
 6. 16:00 전후 숙소에서 휴식하며 다음 날 로마 이동 준비
 
@@ -82,7 +82,7 @@
 - Pompeii Express 기본표를 검토하고 어린이 무료표와 변경·환불 규정을 구매 시 확인합니다.
 - 기존 26일 토요일 기준 08:05·14:53 등 EAV 열차 시각을 27일 일요일에 그대로 적용하지 않습니다. 일요일·연말 편을 12월 중순 재확인합니다.
 - 렌터카를 사용하지 않으며 에르콜라노는 제외합니다.
-- 영어 해설 투어는 예약하지 않습니다. 한국어 가족 단독 가이드는 선택 사항으로 아직 미예약입니다.
+- 영어 해설 투어는 예약하지 않습니다. 부오나투어 한국어 가이드는 예약 확정 대기입니다(2026-11-28 사용자 확인). 집합 시각·장소·조인/단독 여부·입장권 대행과 어린이 무료표 수령 절차를 확정 안내에서 확인하며 입장권 중복 구매를 피합니다. 미확정 시 자유 관람합니다.
 
 [폼페이 공식 안내](https://pompeiisites.org/en/visiting-info/timetables-and-tickets/){ target="_blank" rel="noopener" } · [변경·재확인 기록](https://github.com/Jaeho211/italy-family-trip-2026/blob/main/research/naples-family-walk-2026-11-22.md){ target="_blank" rel="noopener" }
 
